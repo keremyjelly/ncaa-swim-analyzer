@@ -19,7 +19,7 @@ This project reads real life data collected from the 2026 Men’s NCAA Swimming 
 - Hash Tables
     - I used dictionaries and nested dictionaries in order to store and access data via O(1) lookups. The nested dicts are essentially just hash tables that store more hash tables as their values.
 - 2D arrays
-    - In my research, I found that NumPy uses contiguous memory to give the abstraction of a 2D array while really using arithmetic to search and perform arithmetic, such as finding the mean of each column as in get_100_split_place_correlation(). This isn’t really a data structure, but it is relevant
+    - In my research, I found that NumPy uses contiguous memory to give the abstraction of a 2D array while really using arithmetic to search and perform arithmetic, such as finding the mean of each column as in get_200_pacing(). This isn’t really a data structure, but it is relevant
 - Pandas Dataframe
     - Last and probably most importantly, I used a pandas dataframe to operate on the data. My best understanding of a dataframe under the hood is a dictionary of pandas series, which are effectively NumPy arrays, giving O(1) access to the arrays themselves.
 
@@ -45,7 +45,7 @@ The most striking difference between the winner of the Men's 1650 Yard Freestyle
 Here we observe that backstrokers had the most evenly split race across their field, with appx. 48.5% of the race being the front half. IM having the slowest backhalf is trivial, given breastroke's position as the 3rd 50. What I'm most interested in here is how these pacing strategies have changed over the years. This result itself, while insightful, does not do much without context of how swimmers raced in the past, so I intend to explore this question further. 
 ### Indicators of Success across legs of the 100 yard events
 ![Correlation between 25 split and final place](images/corr_100_plot.png)
-Using the Pearson Coefficient, we can observe that for Freestyle, Backstroke, and Butterfly, the third 25 has the strongest correlation with final place. Essentially, this suggests that a strong 3rd 25 could have the largest impact on your final place and thus is more important. These correlations are not mutually exlcusive, however, as we observe the 4th 25 has the second highest across these events as well, suggesting that it is more generally a strong backhalf that differentiates a good race from a great one. Breaststroke is an interesting result here, with the second 25 having the highest correlation. I'd like the cross check this with past years' results to see if this is a sampling circumstance or if there is truly a trend of importance in the 2nd 25 of the 100 Yard Breaststroke.
+Using the Pearson Coefficient, we can observe that for Freestyle, Backstroke, and Butterfly, the third 25 has the strongest correlation with final place. Essentially, this suggests that a strong 3rd 25 could have the largest impact on your final place and thus is more important. These correlations are not mutually exclusive, however, as we observe the 4th 25 has the second highest across these events as well, suggesting that it is more generally a strong backhalf that differentiates a good race from a great one. Breaststroke is an interesting result here, with the second 25 having the highest correlation. I'd like the cross check this with past years' results to see if this is a sampling circumstance or if there is truly a trend of importance in the 2nd 25 of the 100 Yard Breaststroke.
 
 ### Does Reaction Time Matter?
 ![Correlation between reaction time and final place](images/corr_reaction_plot.png)
@@ -53,7 +53,7 @@ Short answer: no! This was a surprising result. There is little to no correlatio
 
 ### What leg was the difference maker in the 400 IM?
 ![Standard Deviation of each 100 split in the 400 IM](images/stdev_4im_plot.png)
-Freestyle emerges as the most contested leg in the 400 IM at this year's championships, with backstroke standing at the runner up. I find this result somewhat unsuspected, as breastroke tends to be the conversation point around race strategy for the IM events. However this year we saw that the ability to bring it home brought it home. Again, I'd like to stack this up against results from prior years to determine if it's a trend or an outlier.
+Freestyle emerges as the most contested leg in the 400 IM at this year's championships, with backstroke standing at the runner up. I find this result somewhat unexpected, as breastroke tends to be the conversation point around race strategy for the IM events. However this year we saw that the ability to bring it home brought it home. Again, I'd like to stack this up against results from prior years to determine if it's a trend or an outlier.
 
 ## Performance
 
@@ -61,7 +61,7 @@ Freestyle emerges as the most contested leg in the 400 IM at this year's champio
 
 For all 5 functions, I observe O(N) runtime and execution. This does not line up with timing.py, which is best explained by the relatively small dataset I am using. Most of the runtime is spent setting up the pandas and numpy objects, which enables fast access and operations after construction. For a larger dataset, we would see a runtime that more closely aligns to the expected O(N).
 
-- get_mile_split_comparision()
+- get_1650_split_comparision()
     - O(N) runtime for the boolean flags passed in filtering down to the 1650, where N is the number of rows
 - get_200_pacing()
     - O(N) runtime for the boolean flags passed in filtering down to the desired events, where N is the number of rows
@@ -84,7 +84,7 @@ The other issue I had was gathering the information across multiple lines of tex
 
 ## Improvements
 
-I see a lot of potential in this project, and there are 2 main additions I’d like to make. First, I’d like to add women’s results to the meet. I’ve already built the regex filtering to accomodate this, so it should just be a matter of finding the data like I did with the men. Secondly, I’d like to add NCAA championships results from prior years. This would enable me to see how these trends change over time rather than one datapoint on the timeline. This implementation would shake up the structure, however. Firstly, I’ll need to employ stricter filtering. I’ve already added a ‘YEAR’ column to enable this future filtering, but I’ll have to adjust how the menu works and how the data is presented if someone wants to view 200 pacing trends over a set number of years or compare mens’ racing splits to womens’ racing splits. I think these additions would both be worthwhile.
+I see a lot of potential in this project, and there are 2 main additions I’d like to make. First, I’d like to add women’s results to the meet. I’ve already built the regex filtering to accommodate this, so it should just be a matter of finding the data like I did with the men. Secondly, I’d like to add NCAA championships results from prior years. This would enable me to see how these trends change over time rather than one datapoint on the timeline. This implementation would shake up the structure, however. Firstly, I’ll need to employ stricter filtering. I’ve already added a ‘YEAR’ column to enable this future filtering, but I’ll have to adjust how the menu works and how the data is presented if someone wants to view 200 pacing trends over a set number of years or compare mens’ racing splits to womens’ racing splits. I think these additions would both be worthwhile.
 
 ## Learning
 
@@ -92,7 +92,7 @@ I gained some really solid experience with the re, pandas, matplotlib, and numpy
 
 ## Real-World Relevance
 
-This project has modern relevance within the sport of swimming. I’ve had a number of conversations with teammates and coaches about statistical topics of interest such as the pacing trends of the 200s and the weakest 25 legs in the 100s, and this project will allow me to engage in dialogue with my coaches about how we can best optimize our training program to accomodate these rising trends in the sport. Given that I’m able to find NCAA meet results of the same format that go back to 2012, there are at least 14 years of use cases in order to gain historical insight and trend analysis.
+This project has modern relevance within the sport of swimming. I’ve had a number of conversations with teammates and coaches about statistical topics of interest such as the pacing trends of the 200s and the weakest 25 legs in the 100s, and this project will allow me to engage in dialogue with my coaches about how we can best optimize our training program to accommodate these rising trends in the sport. Given that I’m able to find NCAA meet results of the same format that go back to 2012, there are at least 14 years of use cases in order to gain historical insight and trend analysis.
 
 ## Use of AI Tools
 
