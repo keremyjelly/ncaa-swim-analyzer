@@ -38,21 +38,21 @@ There is one special case. if the user passes “-d” or “--demo” as the on
 ## Findings
 
 ### Men's 1650 Yard Freestyle Splits Comparison
-![Men's 1650 Yard Freestyle Splits Comparison](/images/mile_plot.png)
+![Men's 1650 Yard Freestyle Splits Comparison](images/mile_plot.png)
 The most striking difference between the winner of the Men's 1650 Yard Freestyle and the second place finisher is glaringly the final 50. The winner outsplit the silver medalist by over 2 seconds, leaving the tight contest they had engaged in for a commanding victory. 
 ### 200 Pacing Strategies
-![200 Pacing Strategies](/images/pace_200_plot.png)
+![200 Pacing Strategies](images/pace_200_plot.png)
 Here we observe that backstrokers had the most evenly split race across their field, with appx. 48.5% of the race being the front half. IM having the slowest backhalf is trivial, given breastroke's position as the 3rd 50. What I'm most interested in here is how these pacing strategies have changed over the years. This result itself, while insightful, does not do much without context of how swimmers raced in the past, so I intend to explore this question further. 
 ### Indicators of Success across legs of the 100 yard events
-![Correlation between 25 split and final place](/images/corr_100_plot.png)
+![Correlation between 25 split and final place](images/corr_100_plot.png)
 Using the Pearson Coefficient, we can observe that for Freestyle, Backstroke, and Butterfly, the third 25 has the strongest correlation with final place. Essentially, this suggests that a strong 3rd 25 could have the largest impact on your final place and thus is more important. These correlations are not mutually exlcusive, however, as we observe the 4th 25 has the second highest across these events as well, suggesting that it is more generally a strong backhalf that differentiates a good race from a great one. Breaststroke is an interesting result here, with the second 25 having the highest correlation. I'd like the cross check this with past years' results to see if this is a sampling circumstance or if there is truly a trend of importance in the 2nd 25 of the 100 Yard Breaststroke.
 
 ### Does Reaction Time Matter?
-![Correlation between reaction time and final place](/images/corr_reaction_plot.png)
+![Correlation between reaction time and final place](images/corr_reaction_plot.png)
 Short answer: no! This was a surprising result. There is little to no correlation between a swimmer's reaction time and his final result across freestyle all events. In fact, in the 500 yard freestyle we even see a (slight) indication that a quick reaction time suggests a negative performance, perhaps due to the inability to relax ahead of a long distance race. I would've expected to see some correlation in an event like the 50 yard freestyle, so I'll have to crosscheck these results with past years to see if they are consistent or if this was a matter of sampling.
 
 ### What leg was the difference maker in the 400 IM?
-![Standard Deviation of each 100 split in the 400 IM](/images/stdev_4im_plot.png)
+![Standard Deviation of each 100 split in the 400 IM](images/stdev_4im_plot.png)
 Freestyle emerges as the most contested leg in the 400 IM at this year's championships, with backstroke standing at the runner up. I find this result somewhat unsuspected, as breastroke tends to be the conversation point around race strategy for the IM events. However this year we saw that the ability to bring it home brought it home. Again, I'd like to stack this up against results from prior years to determine if it's a trend or an outlier.
 
 ## Performance
