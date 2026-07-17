@@ -35,10 +35,13 @@ def read_file(filepath):
     return data
 
 def parse_filename(filepath):
+      """Return the event number encoded in the filename, or None if the filename
+      doesn't follow the '..._eNN_...' convention (e.g. 'ncaa24_400_free_relay_m.rtf')."""
       filename = os.path.basename(filepath)
       parts = filename.split('_')
-      event_num = int(parts[1][1:])
-      return event_num
+      if len(parts) < 2 or not re.match(r'^e\d+$', parts[1]):
+          return None
+      return int(parts[1][1:])
 
 def parse_year(lines):
     """Return the meet year from the file header lines."""
@@ -102,9 +105,15 @@ def _extract_reaction_and_splits(split_lines):
     return reaction, splits_50
 
 def parse_swimmers(lines):
-        """Return (results, skipped_count) of individual swimmer info dicts from the file lines."""
+        """Return (results, skipped_count, deduped_count) of individual swimmer info dicts
+        from the file lines. Some source files have been observed to have an entire results
+        block pasted in twice (copy-paste error at data-collection time); deduped_count
+        tracks how many exact-repeat rows (same section/place/name/school/final time) were
+        dropped as a result."""
         results = []
         skipped = 0
+        deduped = 0
+        seen = set()
         i = 0
         section = 'finals'
         while i < len(lines):
@@ -134,6 +143,15 @@ def parse_swimmers(lines):
             split_lines, j = _collect_split_lines(lines, i + 1)
             reaction, splits_50 = _extract_reaction_and_splits(split_lines)
 
+            # skip exact repeats of a row we've already recorded in this section
+            # (source file had the same block pasted in more than once)
+            key = (section, place, name, school, final_time)
+            if key in seen:
+                deduped += 1
+                i = j
+                continue
+            seen.add(key)
+
             # build a dict with everything
             results.append({
                 'PLACE': place,
@@ -151,12 +169,15 @@ def parse_swimmers(lines):
             # append the dict to results
             i = j
 
-        return results, skipped
+        return results, skipped, deduped
 
 def parse_relay_teams(lines):
-        """Return (results, skipped_count) of relay team info dicts from the file lines."""
+        """Return (results, skipped_count, deduped_count) of relay team info dicts from the
+        file lines. See parse_swimmers() for why deduped_count exists."""
         results = []
         skipped = 0
+        deduped = 0
+        seen = set()
         i = 0
         section = 'finals'
         while i < len(lines):
@@ -187,6 +208,13 @@ def parse_relay_teams(lines):
                 roster.extend(ROSTER_SWIMMER.findall(sl))
             relay_swimmers = '|'.join(f'{name.strip()} ({cls})' for name, cls in roster)
 
+            key = (section, place, school, final_time)
+            if key in seen:
+                deduped += 1
+                i = j
+                continue
+            seen.add(key)
+
             results.append({
                 'PLACE': place,
                 'NAME': school,
@@ -203,7 +231,7 @@ def parse_relay_teams(lines):
 
             i = j
 
-        return results, skipped
+        return results, skipped, deduped
 
 def parse_event_name(event_name):
     m = re.match(r'(Men|Women)\s+(\d+)\s+(Yard|Meter)\s+(.+)', event_name)
@@ -231,19 +259,22 @@ def main():
     for filepath in txt_files:
         lines = read_file(filepath)
         header_event_num, event_name = parse_event_header(lines)
-        event_num = header_event_num if header_event_num is not None else parse_filename(filepath)
-        if header_event_num is not None and header_event_num != parse_filename(filepath):
-            print(f"Warning: {filepath} is named event {parse_filename(filepath)} but its header says Event {header_event_num}; using {header_event_num}")
+        filename_event_num = parse_filename(filepath)
+        event_num = header_event_num if header_event_num is not None else filename_event_num
+        if header_event_num is not None and filename_event_num is not None and header_event_num != filename_event_num:
+            print(f"Warning: {filepath} is named event {filename_event_num} but its header says Event {header_event_num}; using {header_event_num}")
         meet_year = parse_year(lines)
         # relay events are detected from the event name itself (the header text),
         # not the filename, since filenames aren't consistent (e.g. "..._mr_m.txt")
         is_relay = bool(event_name) and 'relay' in event_name.lower()
         if is_relay:
-            swimmers, skipped = parse_relay_teams(lines)
+            swimmers, skipped, deduped = parse_relay_teams(lines)
         else:
-            swimmers, skipped = parse_swimmers(lines)
+            swimmers, skipped, deduped = parse_swimmers(lines)
         if skipped:
             print(f"Warning: skipped {skipped} unrecognized result line(s) in {filepath}")
+        if deduped:
+            print(f"Warning: deduped {deduped} repeated result line(s) in {filepath}")
         event_gender, event_distance, event_course, event_stroke = parse_event_name(event_name)
         for s in swimmers:
             s['EVENT_NUM'] = event_num

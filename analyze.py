@@ -217,25 +217,49 @@ def plot_400_im_breakdown(im_data):
 
 def main():
     # parse cmdline args
+    argv = sys.argv[1:]
+    year = None
+    if '--year' in argv:
+        idx = argv.index('--year')
+        try:
+            year = int(argv[idx + 1])
+        except (IndexError, ValueError):
+            print('Error: --year requires a numeric year argument, e.g. --year 2025')
+            sys.exit(1)
+        del argv[idx:idx + 2]
+
     file_name = None
     demo = False
-    if len(sys.argv) > 2:
+    if len(argv) > 1:
         print('Error: Too many arguments provided')
         sys.exit(1)
-    elif len(sys.argv) == 1:
+    elif len(argv) == 0:
         print('Error: Must provide a csv file to analyze')
         sys.exit(1)
     else:
-        if sys.argv[1] in ['-d', '--demo']:
+        if argv[0] in ['-d', '--demo']:
             demo = True
             file_name = 'ncaa_2026_results.csv'
-        elif not os.path.exists(sys.argv[1]):
+        elif not os.path.exists(argv[0]):
             print('Error: file does not exist')
             sys.exit(1)
         else:
-            file_name = sys.argv[1]
+            file_name = argv[0]
 
     df, gender = load_data(file_name)
+
+    # the get_* analysis functions filter only by EVENT_NAME, so df must be
+    # scoped to a single meet year here, before it reaches them, or results
+    # silently mix/misattribute across years (e.g. picking a prior year's
+    # PLACE==1 winner for an event that shares a name across years)
+    available_years = sorted(int(y) for y in df['MEET_YEAR'].dropna().unique())
+    if year is None:
+        year = available_years[-1]
+    elif year not in available_years:
+        print(f'Error: no data for year {year}. Available years: {available_years}')
+        sys.exit(1)
+    df = df[df['MEET_YEAR'] == year]
+    print(f'Analyzing {gender} {year} results (available years: {available_years}; pass --year YYYY to pick another)')
 
     menu = {
         '1': ('1650 Free split comparison (1st vs 2nd vs 16th)', lambda: plot_mile_splits(get_1650_split_comparison(df, gender))),
