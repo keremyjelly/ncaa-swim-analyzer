@@ -1,1 +1,6 @@
 __pycache__/
+.DS_Store
+.vscode/
+saveimages/
+ncaa_2026_results.csv
+results_data.csv
