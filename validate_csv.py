@@ -22,8 +22,10 @@ REQUIRED_COLUMNS = [
     'EVENT_DISTANCE', 'EVENT_COURSE', 'EVENT_STROKE', 'IS_RELAY', 'MEET_YEAR',
 ]
 
-# columns that are allowed to be blank/NaN under normal circumstances
-NULLABLE = {'FINAL_TIME', 'REACTION', 'RELAY_SWIMMERS', 'YEAR'}
+# columns that are allowed to be blank/NaN under normal circumstances.
+# PLACE and SPLITS_50 are blank for a disqualified/scratched ('--') result that
+# never started the race (e.g. a declared false start has no splits to record).
+NULLABLE = {'FINAL_TIME', 'REACTION', 'RELAY_SWIMMERS', 'YEAR', 'PLACE', 'SPLITS_50'}
 
 
 def check_schema(df):
@@ -66,31 +68,105 @@ def check_duplicate_results(df):
 
 
 def check_place_sequence(df):
-    """Finals results for an event/year should have no gaps between 1 and the max place."""
+    """Places must form a valid competition sequence: after k swimmers tie at
+    place p, the next place is p + k. A naive 1..max check misreads ties (which
+    legitimately skip places) as gaps. A disqualified/scratched result ('--' in
+    the source, PLACE is null here) also legitimately consumes a place number
+    without appearing in the numbering, so a gap is allowed for each one on
+    record - but no more than that, so a genuinely missing row still gets caught."""
     errors = []
     finals = df[df['SECTION'] == 'finals']
     for (event, year), g in finals.groupby(['EVENT_NAME', 'MEET_YEAR']):
-        places = set(g['PLACE'])
-        max_place = max(places)
-        missing = sorted(set(range(1, max_place + 1)) - places)
-        if missing:
-            errors.append(f"{event} ({year}): missing place(s) {missing} (max place {max_place})")
+        unplaced = g['PLACE'].isna().sum()
+        counts = g['PLACE'].value_counts().sort_index()
+        expected = 1
+        for place, k in counts.items():
+            if place != expected:
+                gap = place - expected
+                if 0 < gap <= unplaced:
+                    unplaced -= gap
+                else:
+                    errors.append(f"{event} ({year}): expected place {expected}, found {place}")
+                    break
+            expected = place + k
     return errors
 
 
+# A split interval is always 25 or 50 yards. Which one varies by meet year and
+# event - the 2023 meet reported 50s for the 100s, 2024 onward reported 25s -
+# so a fixed expected count produces false positives across years.
+VALID_INTERVALS = {25.0, 50.0}
+RELAY_LEGS = 4
+SPLIT_SUM_TOLERANCE = 0.15
+
+
+def _split_values(raw):
+    """SPLITS_50 as a list of seconds."""
+    if pd.isna(raw) or not str(raw).strip():
+        return []
+    out = []
+    for token in str(raw).split('|'):
+        try:
+            out.append(parse_time(token))
+        except (ValueError, IndexError):
+            return []
+    return out
+
+
+def _to_intervals(values, is_relay):
+    """Individual splits are already per-interval. Relay splits are cumulative
+    within each leg and reset at every exchange, so de-cumulate leg by leg."""
+    if not is_relay:
+        return values
+    if not values or len(values) % RELAY_LEGS:
+        return None
+    per_leg = len(values) // RELAY_LEGS
+    out = []
+    for leg in range(RELAY_LEGS):
+        prev = 0.0
+        for v in values[leg * per_leg:(leg + 1) * per_leg]:
+            out.append(v - prev)
+            prev = v
+    return out
+
+
 def check_split_counts(df):
-    """Each row's split count should match the typical count for its event distance/type."""
+    """Split granularity varies legitimately by year, so don't assume a fixed
+    count. Require instead that the implied interval is a real one, that it's
+    consistent within an event/year/section, and that intervals sum to the time."""
     errors = []
-    counts = df['SPLITS_50'].str.split('|').apply(len)
-    for (distance, is_relay), g in df.groupby(['EVENT_DISTANCE', 'IS_RELAY']):
-        expected = counts[g.index].mode().iloc[0]
-        off = g[counts[g.index] != expected]
-        for _, row in off.iterrows():
-            n = len(str(row['SPLITS_50']).split('|'))
+    n_splits = df['SPLITS_50'].apply(lambda s: len(_split_values(s)))
+
+    for idx, row in df.iterrows():
+        n = n_splits[idx]
+        if n == 0:
+            continue
+        interval = row['EVENT_DISTANCE'] / n
+        if interval not in VALID_INTERVALS:
             errors.append(
                 f"{row['EVENT_NAME']} ({row['MEET_YEAR']}), {row['NAME']}: "
-                f"{n} splits, expected {expected}"
+                f"{n} splits over {row['EVENT_DISTANCE']}y = {interval:.1f}y interval"
             )
+            continue
+
+        swum = row['FINAL_TIME'] if pd.notna(row['FINAL_TIME']) else row['PRELIM_TIME']
+        intervals = _to_intervals(_split_values(row['SPLITS_50']), row['IS_RELAY'])
+        if pd.isna(swum) or intervals is None:
+            continue
+        try:
+            swum_sec = parse_time(swum)
+        except (ValueError, IndexError):
+            continue
+        if abs(sum(intervals) - swum_sec) > SPLIT_SUM_TOLERANCE:
+            errors.append(
+                f"{row['EVENT_NAME']} ({row['MEET_YEAR']}), {row['NAME']}: "
+                f"splits sum {sum(intervals):.2f} vs time {swum_sec:.2f}"
+            )
+
+    for (event, year, section), g in df.groupby(['EVENT_NAME', 'MEET_YEAR', 'SECTION']):
+        seen = sorted(set(n_splits[g.index]) - {0})
+        if len(seen) > 1:
+            errors.append(f"{event} ({year}, {section}): mixed split counts {seen}")
     return errors
 
 

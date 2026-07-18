@@ -61,9 +61,10 @@ def parse_event_header(lines):
               return int(m.group(1)), m.group(2).strip()
       return None, None
 
-# A ranked result line always starts with a 1-4 digit place followed by whitespace
-# and more content (as opposed to a deeply-indented split line or divider).
-CANDIDATE_RESULT_LINE = re.compile(r'^\s{1,4}\d+\s+\S')
+# A ranked result line always starts with a 1-4 digit place (or '--' for a
+# disqualified/scratched swimmer) followed by whitespace and more content (as
+# opposed to a deeply-indented split line or divider).
+CANDIDATE_RESULT_LINE = re.compile(r'^\s{1,4}(?:\d+|--)\s+\S')
 
 ROSTER_SWIMMER = re.compile(r'\d\)\s+(?:r:[+\-]?[\d.]+\s+)?([A-Za-z][\w ,.\-\']*?)\s+(FR|SO|JR|SR|5Y|GR)')
 
@@ -85,14 +86,27 @@ def _collect_split_lines(lines, start):
     return split_lines, j
 
 def _extract_reaction_and_splits(split_lines):
-    """Return (reaction, splits_50) parsed out of the lines following a result row."""
+    """Return (reaction, splits_50) parsed out of the lines following a result row.
+
+    The line carrying the opening 50 looks like either
+      'r:+0.65  21.83        45.79 (45.79)'   (reaction time recorded)
+    or
+      '20.95        44.24 (23.29)'            (no reaction time recorded)
+    The reaction-time prefix is optional; the opening split itself (the first
+    bare, non-parenthesized number) is not, so it must be captured either way.
+    """
+    # The split value itself always has 2+ decimal digits (e.g. '24.58'); requiring
+    # that excludes unrelated trailing document text that can get swept into a
+    # DQ'd/scratched swimmer's split_lines (e.g. a '1. Arizona St ... 369' team-
+    # rankings line), which would otherwise falsely match as a bare '1.' split.
     reaction = None
     first_split = None
     for sl in split_lines:
-        rt = re.search(r'r:[+\-]?([\d.]+)\s+([\d.]+)', sl)
-        if rt:
-            reaction = float(rt.group(1))
-            first_split = rt.group(2)
+        m = re.match(r'^(?:r:[+\-]?([\d.]+)\s+)?(\d+\.\d{2,})\s', sl)
+        if m:
+            if m.group(1):
+                reaction = float(m.group(1))
+            first_split = m.group(2)
             break
 
     splits_50 = []
@@ -122,8 +136,9 @@ def parse_swimmers(lines):
                 section = 'prelims'
             elif '=== Championship Final ===' in lines[i]:
                 section = 'finals'
-            # try to match lines[i] to a swimmer name and school
-            m = re.match(r'^\s{1,4}(\d+)\s+([\w ,.\-\']+?)\s{2,}(FR|SO|JR|SR|5Y|GR)\s+([\w .()\-\']+?)\s{2,}([\d:.]+|NT)\s*([\d:]*\d+\.\d{2,}\w?|NT|DQ)?\s*(\d*\.?\d*)', lines[i])
+            # try to match lines[i] to a swimmer name and school. Place is normally
+            # a number, but a disqualified/scratched swimmer is shown as '--' instead.
+            m = re.match(r'^\s{1,4}(\d+|--)\s+([\w ,.\-\']+?)\s{2,}(FR|SO|JR|SR|5Y|GR)\s+([\w .()\-\']+?)\s{2,}([\d:.]+|NT)\s*([\d:]*\d+\.\d{2,}\w?|NT|DQ)?\s*(\d*\.?\d*)', lines[i])
             # if no match, increment i and continue
             if not m:
                 if CANDIDATE_RESULT_LINE.match(lines[i]):
@@ -131,7 +146,7 @@ def parse_swimmers(lines):
                 i += 1
                 continue
             # extract all the fields from the match
-            place = int(m.group(1))
+            place = int(m.group(1)) if m.group(1) != '--' else None
             name = m.group(2).strip()
             year = m.group(3)
             school = m.group(4)
@@ -186,14 +201,15 @@ def parse_relay_teams(lines):
                 section = 'prelims'
             elif '=== Championship Final ===' in lines[i]:
                 section = 'finals'
-            # try to match lines[i] to a relay team row: place, school, seed, final, points
-            m = re.match(r'^\s{1,4}(\d+)\s+([A-Za-z][\w &.()\-\']*?)\s{2,}([\d:.]+|NT)\s*([\d:]*\d+\.\d{2,}\w?|NT|DQ)?\s*(\d*\.?\d*)', lines[i])
+            # try to match lines[i] to a relay team row: place, school, seed, final, points.
+            # Place is normally a number, but a disqualified relay is shown as '--'.
+            m = re.match(r'^\s{1,4}(\d+|--)\s+([A-Za-z][\w &.()\-\']*?)\s{2,}([\d:.]+|NT)\s*([\d:]*\d+\.\d{2,}\w?|NT|DQ)?\s*(\d*\.?\d*)', lines[i])
             if not m:
                 if CANDIDATE_RESULT_LINE.match(lines[i]):
                     skipped += 1
                 i += 1
                 continue
-            place = int(m.group(1))
+            place = int(m.group(1)) if m.group(1) != '--' else None
             school = m.group(2).strip()
             prelim_time = m.group(3)
             final_time = m.group(4) if m.group(4) else ''
