@@ -131,11 +131,20 @@ def get_event_trend(event_name: str) -> dict:
 # ---------------------------------------------------------------------------
 
 
-def get_swimmers() -> list[dict]:
-    """One entry per swimmer (individual events only), for the picker."""
+def get_swimmers(gender: str | None = None) -> list[dict]:
+    """One entry per swimmer (individual events only), for the picker.
+
+    Scoped by gender so a men's and women's swimmer who share a name aren't
+    merged into one identity.
+    """
+    where = "WHERE IS_RELAY = 0 AND NAME IS NOT NULL"
+    params: list = []
+    if gender:
+        where += " AND EVENT_GENDER = ?"
+        params.append(gender)
     with _connect() as conn:
         rows = conn.execute(
-            """
+            f"""
             SELECT NAME AS name,
                    COUNT(*)                 AS swims,
                    COUNT(DISTINCT MEET_YEAR) AS years,
@@ -143,10 +152,11 @@ def get_swimmers() -> list[dict]:
                    MAX(MEET_YEAR)           AS last_year,
                    GROUP_CONCAT(DISTINCT SCHOOL) AS schools
             FROM results
-            WHERE IS_RELAY = 0 AND NAME IS NOT NULL
+            {where}
             GROUP BY NAME
             ORDER BY NAME COLLATE NOCASE
-            """
+            """,
+            params,
         ).fetchall()
     return [
         {
@@ -161,7 +171,7 @@ def get_swimmers() -> list[dict]:
     ]
 
 
-def get_swimmer_trend(name: str) -> dict:
+def get_swimmer_trend(name: str, gender: str | None = None) -> dict:
     """
     A swimmer's championship trajectory, grouped by event.
 
@@ -171,16 +181,21 @@ def get_swimmer_trend(name: str) -> dict:
       {"name": ..., "schools": [...],
        "events": [ {"event": ..., "points": [ {year, time_sec, place, section}, ... ]}, ... ]}
     """
+    where = "WHERE NAME = ? AND IS_RELAY = 0 AND FINAL_TIME_SEC IS NOT NULL"
+    params: list = [name]
+    if gender:
+        where += " AND EVENT_GENDER = ?"
+        params.append(gender)
     with _connect() as conn:
         rows = conn.execute(
-            """
+            f"""
             SELECT MEET_YEAR, EVENT_NAME, SECTION, PLACE, SCHOOL,
                    FINAL_TIME_SEC, POINTS, REACTION, SPLITS_50
             FROM results
-            WHERE NAME = ? AND IS_RELAY = 0 AND FINAL_TIME_SEC IS NOT NULL
+            {where}
             ORDER BY EVENT_NAME, MEET_YEAR
             """,
-            (name,),
+            params,
         ).fetchall()
 
     schools = sorted({r["SCHOOL"] for r in rows if r["SCHOOL"]})

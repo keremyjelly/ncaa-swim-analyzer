@@ -11,11 +11,11 @@ async function get(path, params) {
 
 export const fetchEvents = () => get("/api/events").then((d) => d.events);
 export const fetchTrend = (event) => get("/api/events/trend", { event });
-export const fetchSwimmers = () => get("/api/swimmers").then((d) => d.swimmers);
-export const fetchSwimmerTrend = (name) => get("/api/swimmers/trend", { name });
+export const fetchSwimmers = (gender) => get("/api/swimmers", gender ? { gender } : undefined).then((d) => d.swimmers);
+export const fetchSwimmerTrend = (name, gender) => get("/api/swimmers/trend", gender ? { name, gender } : { name });
 export const fetchMeta = () => get("/api/meta");
 export const fetchAnalysisEvent = (kind, event) => get(`/api/analysis/${kind}`, { event });
-export const fetchReaction = () => get("/api/analysis/reaction");
+export const fetchReaction = (gender) => get("/api/analysis/reaction", gender ? { gender } : undefined);
 
 // "Men 200 Yard Backstroke" -> "200 Backstroke" for compact chart labels.
 export const shortEvent = (name) =>

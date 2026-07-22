@@ -9,14 +9,26 @@ const TABS = [
   { id: "analysis", label: "Race Analysis" },
 ];
 
+const GENDERS = ["Men", "Women"];
+
 export default function App() {
   const [tab, setTab] = useState("race");
+  const [gender, setGender] = useState("Men");
 
   return (
     <div className="page">
-      <header>
-        <h1>NCAA Swim Analyzer</h1>
-        <p className="sub">Men's Championships, 2021&ndash;2026</p>
+      <header className="app-header">
+        <div>
+          <h1>NCAA Swim Analyzer</h1>
+          <p className="sub">{gender}'s Championships, 2021&ndash;2026</p>
+        </div>
+        <div className="gender-switch">
+          {GENDERS.map((g) => (
+            <button key={g} className={gender === g ? "gbtn active" : "gbtn"} onClick={() => setGender(g)}>
+              {g}
+            </button>
+          ))}
+        </div>
       </header>
 
       <nav className="tabs">
@@ -31,9 +43,9 @@ export default function App() {
         ))}
       </nav>
 
-      {tab === "race" && <RaceTrends />}
-      {tab === "swimmer" && <SwimmerTrends />}
-      {tab === "analysis" && <RaceAnalysis />}
+      {tab === "race" && <RaceTrends gender={gender} />}
+      {tab === "swimmer" && <SwimmerTrends gender={gender} />}
+      {tab === "analysis" && <RaceAnalysis gender={gender} />}
 
       <footer>Data: swim.db via FastAPI.</footer>
     </div>

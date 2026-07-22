@@ -23,11 +23,12 @@ STROKE_ORDER = {"Freestyle": 0, "Backstroke": 1, "Breaststroke": 2, "Butterfly":
 STROKE_ABBR = {"Freestyle": "Free", "Backstroke": "Back", "Breaststroke": "Breast", "Butterfly": "Fly", "IM": "IM"}
 
 
-def _reaction_events(conn):
-    """All individual events (no relays), ordered by stroke then distance, with short labels."""
+def _reaction_events(conn, gender="Men"):
+    """Individual events for one gender, ordered by stroke then distance, with short labels."""
     rows = conn.execute(
         "SELECT DISTINCT EVENT_NAME, EVENT_DISTANCE, EVENT_STROKE FROM results "
-        "WHERE IS_RELAY = 0 AND EVENT_NAME IS NOT NULL"
+        "WHERE IS_RELAY = 0 AND EVENT_NAME IS NOT NULL AND EVENT_GENDER = ?",
+        (gender,),
     ).fetchall()
     evs = []
     for r in rows:
@@ -178,15 +179,17 @@ def split_place(event):
     return {"event": event, "distance": distance, "marks": marks, "years": years}
 
 
-def reaction():
+def reaction(gender="Men"):
     """Reaction-time vs place correlation for every year x individual event."""
     with _connect() as conn:
-        events = _reaction_events(conn)
+        events = _reaction_events(conn, gender)
         labels = [lbl for lbl, _ in events]
         years = [
             int(r["MEET_YEAR"])
             for r in conn.execute(
-                "SELECT DISTINCT MEET_YEAR FROM results WHERE MEET_YEAR IS NOT NULL ORDER BY MEET_YEAR"
+                "SELECT DISTINCT MEET_YEAR FROM results "
+                "WHERE MEET_YEAR IS NOT NULL AND EVENT_GENDER = ? ORDER BY MEET_YEAR",
+                (gender,),
             ).fetchall()
         ]
         rows = []

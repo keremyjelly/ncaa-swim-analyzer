@@ -61,18 +61,21 @@ def event_trend(event: str = Query(..., description="Exact EVENT_NAME, e.g. 'Men
 
 
 @app.get("/api/swimmers")
-def swimmers():
-    """All individual swimmers (name-keyed) for the picker."""
-    return {"swimmers": db.get_swimmers()}
+def swimmers(gender: str | None = None):
+    """Individual swimmers (name-keyed) for the picker, optionally by gender."""
+    return {"swimmers": db.get_swimmers(gender)}
 
 
 @app.get("/api/swimmers/trend")
-def swimmer_trend(name: str = Query(..., description="Exact swimmer NAME, e.g. 'Lasco, Destin'")):
+def swimmer_trend(
+    name: str = Query(..., description="Exact swimmer NAME, e.g. 'Lasco, Destin'"),
+    gender: str | None = None,
+):
     """One swimmer's fastest time per event per year, across meets."""
-    valid = {s["name"] for s in db.get_swimmers()}
+    valid = {s["name"] for s in db.get_swimmers(gender)}
     if name not in valid:
         raise HTTPException(status_code=404, detail=f"Unknown swimmer: {name!r}")
-    return db.get_swimmer_trend(name)
+    return db.get_swimmer_trend(name, gender)
 
 
 # --- race analyses -----------------------------------------------------------
@@ -97,6 +100,6 @@ def analysis_split_place(event: str = Query(..., description="Exact EVENT_NAME")
 
 
 @app.get("/api/analysis/reaction")
-def analysis_reaction():
-    """Reaction-time vs place correlation for every year x freestyle event."""
-    return analysis.reaction()
+def analysis_reaction(gender: str = "Men"):
+    """Reaction-time vs place correlation for every year x event, one gender."""
+    return analysis.reaction(gender)

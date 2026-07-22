@@ -6,29 +6,35 @@ import { fetchSwimmers, fetchSwimmerTrend, formatTime, shortEvent } from "./api"
 
 // Swimmer trends: pick a swimmer, then one event at a time. Click any swim
 // (chart or table row) to see its splits and race detail.
-export default function SwimmerTrends() {
+export default function SwimmerTrends({ gender }) {
   const [swimmers, setSwimmers] = useState([]);
-  const [query, setQuery] = useState("Lasco, Destin");
-  const [name, setName] = useState("Lasco, Destin");
+  const [query, setQuery] = useState("");
+  const [name, setName] = useState(null);
   const [trend, setTrend] = useState(null);
   const [error, setError] = useState(null);
 
   const [eventName, setEventName] = useState(null);
   const [swim, setSwim] = useState(null); // selected point for the detail panel
 
+  // Reload the swimmer list when gender changes, and pick a busy default swimmer.
   useEffect(() => {
-    fetchSwimmers()
-      .then(setSwimmers)
+    setName(null); setQuery(""); setTrend(null);
+    fetchSwimmers(gender)
+      .then((sw) => {
+        setSwimmers(sw);
+        const featured = [...sw].sort((a, b) => b.years - a.years || b.swims - a.swims)[0];
+        if (featured) { setName(featured.name); setQuery(featured.name); }
+      })
       .catch((e) => setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`));
-  }, []);
+  }, [gender]);
 
   useEffect(() => {
     if (!name) return;
     setTrend(null);
     setEventName(null);
     setSwim(null);
-    fetchSwimmerTrend(name).then(setTrend).catch((e) => setError(e.message));
-  }, [name]);
+    fetchSwimmerTrend(name, gender).then(setTrend).catch((e) => setError(e.message));
+  }, [name, gender]);
 
   const known = useMemo(() => new Set(swimmers.map((s) => s.name)), [swimmers]);
   function onQueryChange(v) {

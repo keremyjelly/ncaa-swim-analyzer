@@ -62,11 +62,17 @@ The database path defaults to `swim.db` at the repo root; override with the
 | `GET /api/meta` | `{ years: [...] }` |
 | `GET /api/events` | all events with metadata (individual events first) |
 | `GET /api/events/trend?event=<EVENT_NAME>` | winner + top-16 avg final time per year |
-| `GET /api/swimmers` | all individual swimmers (name-keyed) with schools + year span |
-| `GET /api/swimmers/trend?name=<NAME>` | one swimmer's fastest time per event per year |
+| `GET /api/swimmers?gender=` | individual swimmers (name-keyed) with schools + year span |
+| `GET /api/swimmers/trend?name=<NAME>&gender=` | one swimmer's fastest time per event per year |
 | `GET /api/analysis/split-distribution?event=` | pacing shape of one event, year over year (% vs the year's avg split) |
 | `GET /api/analysis/split-place?event=` | correlation of each split with place, per year, for one event |
-| `GET /api/analysis/reaction` | reaction ↔ place correlation, year × freestyle event matrix |
+| `GET /api/analysis/reaction?gender=` | reaction ↔ place correlation, year × event matrix |
+
+Everything is split by gender. A Men/Women toggle in the app header scopes
+every view; the split/event endpoints are gender-specific via the event name,
+while swimmers and reaction take a `gender` param. Swimmer identity is keyed on
+name **within a gender**, so a men's and women's swimmer sharing a name stay
+separate.
 
 The analysis endpoints live in `web/backend/analysis.py`, computed with
 pure-python stats (no numpy), finals swims only. Splits are indexed by

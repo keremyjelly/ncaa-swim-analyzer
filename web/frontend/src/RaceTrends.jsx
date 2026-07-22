@@ -5,9 +5,9 @@ import {
 import { fetchEvents, fetchTrend, formatTime } from "./api";
 
 // Race trends: winner + top-16 average final time by year for one event.
-export default function RaceTrends() {
+export default function RaceTrends({ gender }) {
   const [events, setEvents] = useState([]);
-  const [selected, setSelected] = useState("Men 100 Yard Freestyle");
+  const [selected, setSelected] = useState(null);
   const [trend, setTrend] = useState(null);
   const [error, setError] = useState(null);
 
@@ -16,6 +16,17 @@ export default function RaceTrends() {
       .then(setEvents)
       .catch((e) => setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`));
   }, []);
+
+  const genderEvents = useMemo(() => events.filter((e) => e.gender === gender), [events, gender]);
+
+  // Keep the selected event valid for the current gender.
+  useEffect(() => {
+    if (!genderEvents.length) return;
+    if (!genderEvents.some((e) => e.name === selected)) {
+      const pref = genderEvents.find((e) => e.name === `${gender} 100 Yard Freestyle`);
+      setSelected((pref ?? genderEvents[0]).name);
+    }
+  }, [genderEvents, gender, selected]);
 
   useEffect(() => {
     if (!selected) return;
@@ -38,8 +49,8 @@ export default function RaceTrends() {
 
       <div className="controls">
         <label htmlFor="event">Event</label>
-        <select id="event" value={selected} onChange={(e) => setSelected(e.target.value)}>
-          {events.map((ev) => (
+        <select id="event" value={selected ?? ""} onChange={(e) => setSelected(e.target.value)}>
+          {genderEvents.map((ev) => (
             <option key={ev.name} value={ev.name}>{ev.name}</option>
           ))}
         </select>

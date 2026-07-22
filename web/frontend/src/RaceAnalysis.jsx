@@ -27,9 +27,9 @@ const ANALYSES = [
 
 const fmtPct = (v) => (v == null ? "—" : `${v > 0 ? "+" : ""}${v.toFixed(1)}%`);
 
-export default function RaceAnalysis() {
-  const [events, setEvents] = useState([]);
-  const [event, setEvent] = useState("Men 200 Yard Freestyle");
+export default function RaceAnalysis({ gender }) {
+  const [allEvents, setAllEvents] = useState([]);
+  const [event, setEvent] = useState(null);
   const [kind, setKind] = useState("split-distribution");
   const [data, setData] = useState(null); // { forKind, payload }
   const [error, setError] = useState(null);
@@ -38,18 +38,29 @@ export default function RaceAnalysis() {
 
   useEffect(() => {
     fetchEvents()
-      .then((evs) => setEvents(evs.filter((e) => !e.is_relay && e.distance >= 100)))
+      .then((evs) => setAllEvents(evs.filter((e) => !e.is_relay && e.distance >= 100)))
       .catch((e) => setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`));
   }, []);
+
+  const events = useMemo(() => allEvents.filter((e) => e.gender === gender), [allEvents, gender]);
+
+  // Keep the selected event valid for the current gender.
+  useEffect(() => {
+    if (!events.length) return;
+    if (!events.some((e) => e.name === event)) {
+      const pref = events.find((e) => e.name === `${gender} 200 Yard Freestyle`);
+      setEvent((pref ?? events[0]).name);
+    }
+  }, [events, gender, event]);
 
   useEffect(() => {
     setData(null);
     const forKind = kind;
     const req = meta.control === "event"
-      ? (event ? fetchAnalysisEvent(kind, event) : null)
-      : fetchReaction();
+      ? (event && event.startsWith(gender) ? fetchAnalysisEvent(kind, event) : null)
+      : fetchReaction(gender);
     if (req) req.then((r) => setData({ forKind, payload: r })).catch((e) => setError(e.message));
-  }, [kind, event]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [kind, event, gender]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const ready = data && data.forKind === kind;
 
@@ -68,7 +79,7 @@ export default function RaceAnalysis() {
         {meta.control === "event" && (
           <div className="field">
             <label htmlFor="an-event">Event</label>
-            <select id="an-event" value={event} onChange={(e) => setEvent(e.target.value)}>
+            <select id="an-event" value={event ?? ""} onChange={(e) => setEvent(e.target.value)}>
               {events.map((e) => <option key={e.name} value={e.name}>{shortEvent(e.name)}</option>)}
             </select>
           </div>
