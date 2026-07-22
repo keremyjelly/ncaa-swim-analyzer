@@ -1,0 +1,106 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                        2025 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 16  Men 200 Yard Backstroke
+=========================================================================
+         NCAA: N 1:34.21  3/29/2025 Hubert Kos, Texas
+         Meet: M 1:34.21  3/29/2025 Hubert Kos, Texas
+     American: A 1:35.37  3/30/2024 Destin Lasco, California
+   U. S. Open: O 1:34.21  3/29/2025 Hubert Kos, Texas
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Kos, Hubert            JR Texas             1:36.08    1:34.21N  20  
+    r:+0.74  22.04        46.22 (24.18)
+        1:10.21 (23.99)     1:34.21 (24.00)
+  2 Lasco, Destin          5Y California        1:36.40    1:36.41   17  
+    r:+0.73  22.80        47.35 (24.55)
+        1:12.12 (24.77)     1:36.41 (24.29)
+  3 Jett, Gabriel          SR California        1:36.69    1:36.76   16  
+    r:+0.74  23.44        47.82 (24.38)
+        1:12.24 (24.42)     1:36.76 (24.52)
+  4 Tomac, Mewen           5Y California        1:37.26    1:36.90   15  
+    r:+0.55  22.59        47.06 (24.47)
+        1:12.22 (25.16)     1:36.90 (24.68)
+  5 Marshall, Jonny        SO Florida           1:38.07    1:37.00   14  
+    r:+0.85  21.96        46.28 (24.32)
+        1:11.35 (25.07)     1:37.00 (25.65)
+  6 McDonald, Owen         JR Indiana           1:37.67    1:37.59   13  
+    r:+0.55  22.72        47.13 (24.41)
+        1:12.48 (25.35)     1:37.59 (25.11)
+  7 Van Renen, Ruard       JR Georgia           1:37.08    1:38.11   12  
+    r:+0.57  23.21        48.60 (25.39)
+        1:13.54 (24.94)     1:38.11 (24.57)
+  8 Modglin, Will          SO Texas             1:38.04    1:39.53   11  
+    r:+0.75  22.96        47.87 (24.91)
+        1:13.22 (25.35)     1:39.53 (26.31)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Jones, Keaton          SO California        1:39.25    1:38.29    9  
+    r:+0.81  23.69        48.56 (24.87)
+        1:13.64 (25.08)     1:38.29 (24.65)
+ 10 Van Westering, Kai     JR Indiana           1:38.62    1:38.37    7  
+    r:+0.82  22.81        47.57 (24.76)
+        1:12.78 (25.21)     1:38.37 (25.59)
+ 11 Ubertalli, Pietro      JR Cornell           1:39.36    1:39.22    6  
+    r:+0.67  23.75        48.91 (25.16)
+        1:14.03 (25.12)     1:39.22 (25.19)
+ 12 Hagar, Tommy           SO Alabama           1:39.43    1:39.47    5  
+    r:+0.79  23.51        49.07 (25.56)
+        1:14.17 (25.10)     1:39.47 (25.30)
+ 13 Najera, Humberto       SO California        1:39.30    1:39.54    4  
+    r:+0.63  23.61        48.72 (25.11)
+        1:14.13 (25.41)     1:39.54 (25.41)
+ 14 Diehl, Daniel          SO NC State          1:39.39    1:40.07    3  
+    r:+0.74  23.43        48.83 (25.40)
+        1:14.68 (25.85)     1:40.07 (25.39)
+ 15 Sequeira, Aaron        SR Stanford          1:39.14    1:40.25    2  
+    r:+0.68  22.93        47.92 (24.99)
+        1:13.45 (25.53)     1:40.25 (26.80)
+ 16 Zuchowski, Josh        JR Stanford          1:39.61    1:40.46    1  
+    r:+0.80  23.83        49.60 (25.77)
+        1:15.61 (26.01)     1:40.46 (24.85)
+ 
+                 Men - Team Rankings - Through Event 16                  
+ 
+  1. Texas                             428   2. California                      389.5
+  3. Indiana                           344   4. Florida                           256
+  5. Georgia                         194.5   6. Arizona St                        179
+  7. Stanford                          166   8. Tennessee                       162.5
+  9. NC State                          152  10. Michigan                           83
+ 11. Alabama                            73  12. Ohio St                            70
+ 13. Virginia Tech                      63  14. Texas A&M                        57.5
+ 15. Southern Cal                       55  16. Louisville                         53
+ 17. Florida St                         48  18. Purdue                             33
+ 19. Kentucky                           30  19. Yale                               30
+ 21. Wisconsin                          28  22. Lsu                                26
+ 23. Georgia Tech                       24  24. UNC                                21
+ 25. Army                               15  25. University of Utah                 15
+ 27. Auburn                             14  28. Pittsburgh                         13
+ 29. Smu                                12  29. Virginia                           12
+ 31. Brown                              11  31. Miami (Fl)                         11
+ 33. Cornell                             6  33. Minnesota                           6
+ 33. Missouri                            6  36. Arizona                             1
+
+
+
+

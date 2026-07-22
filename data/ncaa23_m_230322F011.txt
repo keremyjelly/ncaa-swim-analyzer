@@ -1,0 +1,89 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet                      3/25/2023 - 9:08 PM
+                        2023 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 11  Men 100 Yard Breaststroke
+=========================================================================
+         NCAA: N 49.69  3/23/2018 Ian Finnerty, Indiana
+         Meet: M 49.69  3/23/2018 Ian Finnerty, Indiana
+     American: A 49.69  3/23/2018 Ian Finnerty, Indiana
+   U. S. Open: O 49.69  3/23/2018 Ian Finnerty, Indiana
+         Pool: P 49.69  3/24/2018 Ian Finnerty, Indiana
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 McHugh, Max            5Y Minnesota           50.26      50.00   20  
+    r:+0.66  23.37        50.00 (26.63)
+  2 Mathias, Van           5Y Indiana             50.57      50.60   17  
+    r:+0.66  23.39        50.60 (27.21)
+  3 Petrashov, Denis       SR Louisville          51.12      50.78   16  
+    r:+0.68  23.83        50.78 (26.95)
+  4 Corbeau, Caspar        SR Texas               50.82      50.79   15  
+    r:+0.67  23.72        50.79 (27.07)
+  5 Hillis, Dillon         5Y Florida             50.88      50.80   14  
+    r:+0.64  23.74        50.80 (27.06)
+  6 Bell, Liam             SR California          50.76      50.88   13  
+    r:+0.62  23.87        50.88 (27.01)
+  7 Whitley, Reece         5Y California          51.00      51.04   12  
+    r:+0.69  23.74        51.04 (27.30)
+  8 Maas, Derek            SR Alabama             51.05      51.23   11  
+    r:+0.65  24.14        51.23 (27.09)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Matheny, Josh          SO Indiana             51.17      50.99    9  
+    r:+0.61  24.02        50.99 (26.97)
+ 10 Mikuta, Reid           JR Auburn              51.66      51.06    7  
+    r:+0.63  23.98        51.06 (27.08)
+ 11 Patton, Ben            SR Missouri            51.43      51.41    5.5
+    r:+0.61  23.93        51.41 (27.48)
+ 11 Polonsky, Ron          SO Stanford            51.14      51.41    5.5
+    r:+0.67  24.03        51.41 (27.38)
+ 13 Savickas, Aleksas      FR Florida             51.14      51.44    4  
+    r:+0.66  23.69        51.44 (27.75)
+ 14 Smith, Julian          SO Florida             51.34      51.45    3  
+    r:+0.61  24.14        51.45 (27.31)
+ 15 Benzing, Brian         JR Towson              51.30      51.48    2  
+    r:+0.59  23.69        51.48 (27.79)
+ 16 Van Der Laan, Cooper   SR Pittsburgh          51.32      51.72    1  
+    r:+0.60  24.07        51.72 (27.65)
+ 
+                 Men - Team Rankings - Through Event 11                  
+ 
+  1. California                        264   2. Texas                             250
+  3. Arizona St                        245   4. Florida                           196
+  5. NC State                        193.5   6. Indiana                           154
+  7. Tennessee                         103   8. Stanford                        100.5
+  9. Virginia Tech                      72  10. Louisville                         71
+ 11. Auburn                             64  12. Texas A&M                          53
+ 12. Virginia                           53  14. Georgia                            49
+ 15. Alabama                            38  16. Lsu                                37
+ 17. Ohio St                          34.5  18. Missouri                         32.5
+ 19. Notre Dame                         31  20. Wisconsin                          23
+ 21. Minnesota                          20  22. Michigan                           18
+ 22. UNC                                18  24. Southern California                14
+ 25. Arizona                            10  26. Miami                               9
+ 27. Penn St                             4  27. Princeton                           4
+ 29. Georgia Tech                        3  30. Towson                              2
+ 30. Pittsburgh                          2  30. Air Force                           2
+
+
+
+

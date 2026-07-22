@@ -1,0 +1,230 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+ NCAA Division I Championship Meet 
+                        2024 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 7  Men 200 Yard Freestyle Relay
+==================================================================================
+         NCAA: N 1:13.35  3/23/2023 Florida
+                          J Liendo, A Chaney, E Friese, M McDuff
+         Meet: M 1:13.35  3/23/2023 Florida
+                          J Liendo, A Chaney, E Friese, M McDuff
+     American: A 1:14.13  3/28/2024 NC State
+                          N Henderson, L Miller, J Fox, Q McCarty
+   U. S. Open: O 1:13.35  3/23/2023 Florida
+                          J Liendo, A Chaney, E Friese, M McDuff
+         Pool: P 1:13.49  3/28/2024 Florida
+                          J Liendo, A Chaney, J Smith, M McDuff
+    School                                 Seed     Finals Points 
+==================================================================================
+  1 Florida                             1:14.36    1:13.49P  40  
+     1) Liendo, Josh SO               2) r:0.23 Chaney, Adam SR       
+     3) r:0.20 Smith, Julian JR       4) r:0.08 McDuff, Macguire JR   
+     r:+0.59  8.83        18.25 (18.25)
+           26.91 (8.66)       36.54 (18.29)
+           45.21 (8.67)       55.05 (18.51)
+         1:03.60 (8.55)     1:13.49 (18.44)
+  2 California                          1:15.55    1:13.86   34  
+     1) Alexy, Jack JR                2) r:0.34 Seeliger, Bjorn SR    
+     3) r:0.05 Bell, Liam 5Y          4) r:0.15 Lasco, Destin SR      
+     r:+0.66  8.86        18.40 (18.40)
+           26.92 (8.52)       36.83 (18.43)
+           45.39 (8.56)       55.29 (18.46)
+         1:03.99 (8.70)     1:13.86 (18.57)
+  3 ASU                                 1:14.59    1:13.95   32  
+     1) Dolan, Jack 5Y                2) r:0.31 Kharun, Ilya FR       
+     3) r:+0.09 Peel, Cam 5Y          4) r:0.06 Kulow, Jonny SO       
+     r:+0.70  8.97        18.80 (18.80)
+           27.53 (8.73)       37.28 (18.48)
+           45.85 (8.57)       55.84 (18.56)
+         1:04.28 (8.44)     1:13.95 (18.11)
+  4 NC State                            1:14.44    1:14.13A  30  
+     1) Henderson, Noah 5Y            2) r:0.23 Miller, Luke SR       
+     3) r:0.15 Fox, Jerry FR          4) r:0.15 McCarty, Quintin FR   
+     r:+0.62  8.98        18.93 (18.93)
+           27.32 (8.39)       37.16 (18.23)
+           45.84 (8.68)       55.60 (18.44)
+         1:04.30 (8.70)     1:14.13 (18.53)
+  5 Tennessee                           1:14.81    1:14.38   28  
+     1) Crooks, Jordan JR             2) r:0.24 Santos, Guilherme SO  
+     3) r:0.07 Chambers, Micah SR     4) r:0.32 Blackman, Nikoli FR   
+     r:+0.57  8.73        18.14 (18.14)
+           26.61 (8.47)       36.36 (18.22)
+           44.94 (8.58)       55.06 (18.70)
+         1:04.29 (9.23)     1:14.38 (19.32)
+  6 Auburn                              1:15.91    1:15.05   26  
+     1) Tirheimer, Logan SR           2) r:0.12 Makinen, Kalle SO     
+     3) r:0.02 Stoffle, Aidan 5Y      4) r:0.00 Stoffle, Nate JR      
+     r:+0.65  9.15        18.79 (18.79)
+           27.51 (8.72)       37.43 (18.64)
+           46.13 (8.70)       56.31 (18.88)
+         1:04.91 (8.60)     1:15.05 (18.74)
+  7 VT                                  1:15.47    1:15.32   24  
+     1) Ramadan, Youssef SR           2) r:0.17 Whitfield, Brendan FR 
+     3) r:0.16 Dominguez CalonLuis JR 4) r:0.11 Molla Yanes, Mario JR 
+     r:+0.58  9.06        18.74 (18.74)
+           27.49 (8.75)       37.35 (18.61)
+           46.19 (8.84)       56.26 (18.91)
+         1:05.13 (8.87)     1:15.32 (19.06)
+  8 Notre Dame                          1:15.59    1:15.42   22  
+     1) Elaraby, Abdelrahman 5Y       2) r:0.14 Guiliano, Chris JR    
+     3) r:0.35 Filion, Tanner 5Y      4) r:0.17 Bacon, Tate SO        
+     r:+0.63  9.26        19.16 (19.16)
+           27.49 (8.33)       37.10 (17.94)
+           46.04 (8.94)       56.15 (19.05)
+         1:04.98 (8.83)     1:15.42 (19.27)
+  9 Stanford                            1:15.68    1:15.57   18  
+     1) Minakov, Andrei JR            2) r:0.13 Gu, Rafael SO         
+     3) r:0.14 Maurer, Luke SR        4) r:0.09 Voss, Avery JR        
+     r:+0.59  9.17        19.15 (19.15)
+           27.80 (8.65)       37.75 (18.60)
+           46.80 (9.05)       56.86 (19.11)
+         1:05.63 (8.77)     1:15.57 (18.71)
+ 10 Michigan                            1:16.15    1:15.80   14  
+     1) Szabados, Bence SR            2) r:0.12 Cohen Groumi, Gal JR  
+     3) r:0.04 Ray, Tyler SO          4) r:0.20 Wilkening, Jack SO    
+     r:+0.62  9.10        19.04 (19.04)
+           27.90 (8.86)       38.06 (19.02)
+           46.84 (8.78)       56.95 (18.89)
+         1:05.86 (8.91)     1:15.80 (18.85)
+ 11 Indiana                             1:16.19    1:16.05   12  
+     1) Miroslaw, Rafael JR           2) r:0.16 Lee, Mikkel FR        
+     3) r:0.04 Wight, Gavin SR        4) r:0.16 Frankel, Tomer SR     
+     r:+0.61  9.14        19.08 (19.08)
+           27.98 (8.90)       38.08 (19.00)
+           46.98 (8.90)       57.08 (19.00)
+         1:06.08 (9.00)     1:16.05 (18.97)
+ 12 FSU                                 1:15.81    1:16.07   10  
+     1) Varjasi, Peter 5Y             2) r:0.12 Herbet, Mason SR      
+     3) r:0.25 Wilson, Max SO         4) r:0.28 Keblys, Jokubas JR    
+     r:+0.62  9.34        19.37 (19.37)
+           28.13 (8.76)       38.37 (19.00)
+           47.13 (8.76)       57.17 (18.80)
+         1:06.21 (9.04)     1:16.07 (18.90)
+ 13 Virginia                            1:15.20    1:16.13    8  
+     1) Brownstead, Matt SR           2) r:0.15 Lamb, August 5Y       
+     3) r:0.18 Boyle, Connor JR       4) r:-0.02 Lins, Simon FR       
+     r:+0.63  9.04        19.05 (19.05)
+           27.85 (8.80)       37.91 (18.86)
+           46.62 (8.71)       56.81 (18.90)
+         1:05.58 (8.77)     1:16.13 (19.32)
+ 14 Louisville                          1:16.96    1:16.15    6  
+     1) Lowe, Dalton SR               2) r:0.06 Santiso, Matias FR    
+     3) r:0.08 Brooks, Guy SO         4) r:0.31 Dubinin, Vlad 5Y      
+     r:+0.61  9.22        19.29 (19.29)
+           28.13 (8.84)       38.42 (19.13)
+           47.14 (8.72)       57.26 (18.84)
+         1:06.12 (8.86)     1:16.15 (18.89)
+ 15 Georgia                             1:16.18    1:16.16    4  
+     1) Downing, Dillon 5Y            2) r:0.02 Simon, Miles 5Y       
+     3) r:0.18 Branzell, Reese JR     4) r:0.19 Dunham, Bradley 5Y    
+     r:+0.65  9.14        19.03 (19.03)
+           27.90 (8.87)       38.15 (19.12)
+           47.06 (8.91)       56.94 (18.79)
+         1:05.94 (9.00)     1:16.16 (19.22)
+ 16 TAMU                                1:16.59    1:16.21    2  
+     1) Foote, Connor SO              2) r:0.14 Scholl, Ben FR        
+     3) r:0.19 Fuchs, Collin SR       4) r:0.16 Reno, Seth SO         
+     r:+0.63  9.08        18.87 (18.87)
+           27.88 (9.01)       38.04 (19.17)
+           47.17 (9.13)       57.31 (19.27)
+         1:06.03 (8.72)     1:16.21 (18.90)
+ 17 Hawaii                              1:16.75    1:16.23  
+     1) Ostrowski, Karol JR           2) r:0.15 Ksiazek, Jakub 5Y     
+     3) r:-0.03 Meacham, Jordan JR    4) r:0.25 Stoddard, Edward JR   
+     r:+0.61  9.11        18.89 (18.89)
+           27.88 (8.99)       38.04 (19.15)
+           46.84 (8.80)       57.15 (19.11)
+         1:05.97 (8.82)     1:16.23 (19.08)
+ 18 Wisconsin                           1:15.35    1:16.46  
+     1) Torepe-Ormsby, Taiko SO       2) r:0.11 Benson, Andrew SR     
+     3) r:0.07 Wiegand, Ben JR        4) r:0.27 Morris, Chris JR      
+     r:+0.61  9.07        18.88 (18.88)
+           27.57 (8.69)       37.90 (19.02)
+           46.81 (8.91)       57.02 (19.12)
+         1:06.24 (9.22)     1:16.46 (19.44)
+ 19 Texas                               1:17.02    1:16.58  
+     1) Modglin, Will FR              2) r:0.18 Germonprez, Nate FR   
+     3) r:0.21 Crane, Sterling 5Y     4) r:0.17 Taylor, Camden FR     
+     r:+0.61  9.38        19.54 (19.54)
+           28.43 (8.89)       38.37 (18.83)
+           47.34 (8.97)       57.45 (19.08)
+         1:06.38 (8.93)     1:16.58 (19.13)
+ 20 LSU                                 1:16.81    1:16.86  
+     1) Garon, Andrew SO              2) r:0.25 Hribar, Jere FR       
+     3) r:0.24 Curtis, Griffin JR     4) r:0.07 Uryniuk, Pawel SO     
+     r:+0.62  9.65        19.85 (19.85)
+           28.64 (8.79)       38.36 (18.51)
+           47.19 (8.83)       57.56 (19.20)
+         1:06.50 (8.94)     1:16.86 (19.30)
+ 21 Arizona                             1:15.97    1:16.89  
+     1) Palmer, Tommy SO              2) r:0.10 Miller, Seth SR       
+     3) r:0.17 Daleiden Ciuferalph SO 4) r:0.00 Nabor, Jadan SR       
+     r:+0.61  9.16        19.21 (19.21)
+           28.03 (8.82)       38.64 (19.43)
+           47.59 (8.95)       57.83 (19.19)
+         1:06.75 (8.92)     1:16.89 (19.06)
+ 22 UNC                                 1:16.76    1:17.04  
+     1) Davis, Walker JR              2) r:0.16 Hussey, Patrick SR    
+     3) r:0.15 Dramm, Louis SO        4) r:0.12 Poelke, Boyd SR       
+     r:+0.54  9.44        19.62 (19.62)
+           28.49 (8.87)       38.60 (18.98)
+           47.45 (8.85)       57.62 (19.02)
+         1:06.63 (9.01)     1:17.04 (19.42)
+ 23 OSU                                 1:17.32    1:17.09  
+     1) Baltes, Daniel JR             2) r:0.14 McDonald, Mario 5Y    
+     3) r:0.20 Krusinski, Pete SR     4) r:0.29 Fentress, Evan SO     
+     r:+0.57  9.31        19.51 (19.51)
+           28.30 (8.79)       38.39 (18.88)
+           47.35 (8.96)       57.83 (19.44)
+         1:06.95 (9.12)     1:17.09 (19.26)
+ 24 Missouri                            1:17.04    1:17.41  
+     1) Wilson, Daniel SR             2) r:0.08 Bochenski, Grant JR   
+     3) r:0.14 Rindshoej, Frederik SR 4) r:0.22 Tate, Dardine FR      
+     r:+0.64  9.55        19.97 (19.97)
+           28.84 (8.87)       38.90 (18.93)
+           47.94 (9.04)       58.10 (19.20)
+         1:07.18 (9.08)     1:17.41 (19.31)
+ 25 Penn St                             1:17.24    1:18.17  
+     1) Lazzerini, Mariano SO         2) r:0.07 Morley, Cooper SO     
+     3) r:0.00 Hurley, Thomas SR      4) r:0.18 Byrne, Lachlan 5Y     
+     r:+0.62  9.49        19.87 (19.87)
+           28.94 (9.07)       39.28 (19.41)
+           48.27 (8.99)       58.60 (19.32)
+         1:07.75 (9.15)     1:18.17 (19.57)
+ 
+                      Men - Team Rankings - Through Event 7                       
+ 
+  1. Arizona St                        201   2. California                        169
+  3. Florida                           161   4. Indiana                           107
+  5. Texas                             106   6. NC State                           98
+  7. Tennessee                          86   8. Stanford                           84
+  9. Auburn                             67  10. Virginia Tech                      61
+ 11. Georgia                            57  12. Michigan                           48
+ 13. Ohio St                            42  14. Notre Dame                         39
+ 15. Louisville                         30  16. Smu                                26
+ 16. Alabama                            26  18. Texas A&M                          21
+ 19. Florida St                         20  20. Missouri                           19
+ 21. Minnesota                          17  22. Arizona                            15
+ 22. Miami (Fl)                         15  24. Virginia                           12
+ 25. Wisconsin                           7  26. Lsu                                 6
+ 27. Purdue                              5  28. Brigham Young                       3
+ 29. UNC                                 2                                           
+
+
+
+

@@ -1,0 +1,180 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2021 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 5  Women 50 Yard Freestyle
+=========================================================================
+         NCAA: N 20.90  12/5/2019 Abbey Weitzeil, California
+         Meet: M 21.02  3/21/2019 Abbey Weitzeil, California
+     American: A 20.90  12/5/2019 Abbey Weitzeil, California
+      US Open: O 20.90  12/5/2019 Abbey Weitzeil, California
+         Pool: P 21.09  3/18/2021 Kate Douglass, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Douglass, Kate         SO Virginia            21.21      21.13   20  
+    r:+0.65  10.33        21.13 (10.80)
+  2 MacNeil, Maggie        JR Michigan            21.58      21.17   17  
+    r:+0.65  10.43        21.17 (10.74)
+  3 Thompson, Sarah        SR Missouri            21.61      21.42   16  
+    r:+0.67  10.32        21.42 (11.10)
+  4 Alons, Kylee           JR NC State            21.50      21.51   15  
+    r:+0.61  10.35        21.51 (11.16)
+  5 Countie, Grace         JR UNC                 21.92      21.60   14  
+    r:+0.69  10.32        21.60 (11.28)
+  6 Antoniou, Kalia        JR Alabama             21.73      21.85   13  
+    r:+0.68  10.77        21.85 (11.08)
+  7 Smith, Maddie          SR Northwestern        22.03      21.92   12  
+    r:+0.63  10.49        21.92 (11.43)
+  8 Berkoff, Katharine     SO NC State            21.98      21.96   11  
+    r:+0.70  10.76        21.96 (11.20)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Keil, Megan            JR Missouri            22.14      21.87    9  
+    r:+0.62  10.52        21.87 (11.35)
+ 10 Gantriis, Emily        FR California          22.18      21.90    7  
+    r:+0.65  10.70        21.90 (11.20)
+ 11 Dobler, Kaitlyn        FR USC                 22.11      21.92    6  
+    r:+0.63  10.60        21.92 (11.32)
+ 12 Parker, Maxine         FR Georgia             22.17      21.96    5  
+    r:+0.73  10.79        21.96 (11.17)
+ 13 Wheal, Emma            SO Stanford            22.15      21.97    4  
+    r:+0.69  10.70        21.97 (11.27)
+ 14 Albiero, Gabi          FR Louisville          22.22      22.27    3  
+    r:+0.64  10.80        22.27 (11.47)
+ 15 Mack, Katie            SO Florida             22.22      22.35    1.5
+    r:+0.68  10.59        22.35 (11.76)
+ 15 Petrak, Taylor         SR Ohio St             22.22      22.35    1.5
+    r:+0.64  10.71        22.35 (11.64)
+ 
+                          === Preliminaries ===                          
+ 
+ 17 Turak, Ashley          SO Indiana             22.23             
+     r:0.67  10.87        22.23 (11.36)
+ 18 Scott, Morgan          JR Alabama             22.28             
+     r:0.66  10.66        22.28 (11.62)
+ 19 Grinter, Bailey        SR Tennessee           22.29             
+     r:0.74  10.81        22.29 (11.48)
+ 19 McSharry, Mona         FR Tennessee           22.29             
+     r:0.66  10.62        22.29 (11.67)
+ 21 Bates, Talia           SO Florida             22.31             
+     r:0.67  10.66        22.31 (11.65)
+ 22 Garcia, Elise          JR California          22.32             
+     r:0.71  10.90        22.32 (11.42)
+ 23 Barclay, Emily         JR Arkansas            22.33             
+     r:0.62  10.83        22.33 (11.50)
+ 24 Dupre, Cora            SO Alabama             22.35             
+     r:0.62  10.91        22.35 (11.44)
+ 25 Larson, Chloe          SR Washington St.      22.37             
+     r:0.70  10.82        22.37 (11.55)
+ 26 Thormalm, Klara        SR San Diego St        22.38             
+     r:0.73  10.79        22.38 (11.59)
+ 26 Cuomo, Lexi            SO Virginia            22.38             
+     r:0.74  10.90        22.38 (11.48)
+ 28 Nocentini, Jasmine     SO Florida Int'l       22.39             
+     r:0.64  10.76        22.39 (11.63)
+ 29 Regenauer, Christiana  SO Louisville          22.40             
+     r:0.72  10.90        22.40 (11.50)
+ 30 Fa'Amausili, Gabi      SR Georgia             22.41             
+     r:0.67  10.95        22.41 (11.46)
+ 31 Stepanek, Chloe        FR Texas A&M           22.44             
+     r:0.74  11.01        22.44 (11.43)
+ 32 Grover, Claire         JR UCLA                22.46             
+     r:0.70  10.76        22.46 (11.70)
+ 32 Fackenthal, Amalie     JR Stanford            22.46             
+     r:0.62  10.83        22.46 (11.63)
+ 34 Goeders, Anya          JR Stanford            22.47             
+     r:0.72  10.79        22.47 (11.68)
+ 34 Riley, Eloise          SO California          22.47             
+     r:0.67  10.95        22.47 (11.52)
+ 34 Zenick, Katherine      FR Ohio St             22.47             
+     r:0.65  10.59        22.47 (11.88)
+ 37 Sticklen, Emma         FR Texas               22.59             
+     r:0.64  10.90        22.59 (11.69)
+ 38 Ungaretti, Natalie     SO Tennessee           22.60             
+     r:0.60  10.79        22.60 (11.81)
+ 38 Melton, Kobie          JR Arkansas            22.60             
+     r:0.58  10.87        22.60 (11.73)
+ 38 Shackelford, Sarah     SO Virginia Tech       22.60             
+     r:0.67  10.89        22.60 (11.71)
+ 41 Wenger, Alexis         JR Virginia            22.61             
+     r:0.60  10.93        22.61 (11.68)
+ 41 Fulmer, Amy            SO Ohio St             22.61             
+     r:0.75  10.98        22.61 (11.63)
+ 43 Schlicht, Jemma        SR USC                 22.64             
+     r:0.70  11.03        22.64 (11.61)
+ 43 Leehy, Mykenzie        SR Houston             22.64             
+     r:0.71  10.89        22.64 (11.75)
+ 45 Smith, Janie           SO South Carolina      22.68             
+     r:0.65  11.04        22.68 (11.64)
+ 45 Ozbilen, Selen         FR Northwestern        22.68             
+     r:0.68  11.17        22.68 (11.51)
+ 47 Naccarella, Toni       JR Buffalo             22.70             
+     r:0.67  11.17        22.70 (11.53)
+ 48 Crane, Emily           JR Ohio St             22.78             
+     r:0.68  10.85        22.78 (11.93)
+ 49 Milutinovich, Katarin  SO LSU                 22.80             
+     r:0.64  10.87        22.80 (11.93)
+ 50 Hollander, Shayna      JR Duke                22.81             
+     r:0.70  10.87        22.81 (11.94)
+ 51 Halden, Jenny          FR Florida St          22.85             
+     r:0.71  10.99        22.85 (11.86)
+ 51 Valls, Kyla            SR Virginia            22.85             
+     r:0.65  11.13        22.85 (11.72)
+ 51 Molnar, Flora          SR Alabama             22.85             
+     r:0.64  11.15        22.85 (11.70)
+ 54 Russo, Catherine       FR Ohio St             22.90             
+     r:0.63  11.13        22.90 (11.77)
+ 55 Gmelich, Caroline      SR Virginia            22.91             
+     r:0.70  11.15        22.91 (11.76)
+ 56 Dang, Gabby            SO UCLA                22.92             
+     r:0.67  11.10        22.92 (11.82)
+ 57 Terebo, Emma           SR Florida St          22.98             
+     r:0.61  11.15        22.98 (11.83)
+ 58 Sansores De La Fuent,  JR Arkansas            23.02             
+     r:0.70  11.23        23.02 (11.79)
+ 59 Crisera, Alex          SO Stanford            23.04             
+     r:0.60  11.12        23.04 (11.92)
+ 60 Larson, Abby           JR Virginia Tech       23.05             
+     r:0.63  11.18        23.05 (11.87)
+ 61 Smith, Tatum           JR Georgia             23.11             
+     r:0.71  11.32        23.11 (11.79)
+ 62 Quaglieri, Tania       SO Florida St          23.17             
+     r:0.59  11.14        23.17 (12.03)
+ 
+                 Women - Team Rankings - Through Event 5                 
+ 
+  1. Virginia                          150   2. California                        114
+  3. NC State                           84   4. Ohio St                          76.5
+  5. Georgia                            73   5. Texas                              73
+  7. Alabama                            72   8. Stanford                           62
+  9. Missouri                           55  10. Michigan                           48
+ 11. Kentucky                           45  12. Florida                          44.5
+ 13. UNC                                38  14. Louisville                         36
+ 15. Wisconsin                          23  15. Tennessee                          23
+ 17. Northwestern                       18  18. Indiana                            12
+ 19. Virginia Tech                      11  20. Southern California                10
+ 20. Texas A&M                          10  22. Nebraska                            3
+ 22. Akron                               3  24. Houston                             1
+
+
+
+

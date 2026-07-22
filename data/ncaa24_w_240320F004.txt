@@ -1,0 +1,100 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+ NCAA Division I Championship Meet                      3/23/2024 - 8:08 PM
+                       2024 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 4  Women 200 Yard IM
+=========================================================================
+         NCAA: N 1:48.37  3/16/2023 Kate Douglass, Virginia
+         Meet: M 1:48.37  3/16/2023 Kate Douglass, Virginia
+     American: A 1:48.37  3/16/2023 Kate Douglass, Virginia
+      US Open: O 1:48.37  3/16/2023 Kate Douglass, Virginia
+         Pool: P 1:49.20  3/21/2024 Alex Walsh, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Alex            SR Virginia          1:51.95    1:49.20P  20  
+    r:+0.75  23.80        51.10 (27.30)
+        1:22.30 (31.20)     1:49.20 (26.90)
+  2 Ivey, Isabel           5Y Florida           1:53.63    1:51.96   17  
+    r:+0.77  24.23        52.02 (27.79)
+        1:25.39 (33.37)     1:51.96 (26.57)
+  3 Fuller, Josephine      JR Tennessee         1:52.95    1:52.04   16  
+    r:+0.67  24.59        52.01 (27.42)
+        1:25.09 (33.08)     1:52.04 (26.95)
+  4 Bell, Lucy             SO Stanford          1:53.50    1:52.64   15  
+    r:+0.67  25.04        54.70 (29.66)
+        1:25.70 (31.00)     1:52.64 (26.94)
+  5 Bacon, Phoebe          SR Wisconsin         1:53.53    1:53.16   14  
+    r:+0.68  24.51        53.02 (28.51)
+        1:25.83 (32.81)     1:53.16 (27.33)
+  6 Pash, Kelly            5Y Texas             1:53.37    1:53.64   13  
+    r:+0.75  24.47        52.72 (28.25)
+        1:26.29 (33.57)     1:53.64 (27.35)
+  7 Nelson, Ella           5Y Virginia          1:53.05    1:53.65   12  
+    r:+0.68  25.72        54.42 (28.70)
+        1:26.71 (32.29)     1:53.65 (26.94)
+  8 Dixon, Zoe             SO Florida           1:53.73    1:54.27   11  
+    r:+0.65  24.63        53.32 (28.69)
+        1:26.50 (33.18)     1:54.27 (27.77)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Noble, Kennedy         SO NC State          1:54.62    1:53.72    9  
+    r:+0.64  24.89        52.72 (27.83)
+        1:26.11 (33.39)     1:53.72 (27.61)
+ 10 Bricker, Caroline      FR Stanford          1:54.32    1:53.87    7  
+    r:+0.68  25.01        54.35 (29.34)
+        1:26.69 (32.34)     1:53.87 (27.18)
+ 11 Sticklen, Emma         SR Texas             1:55.12    1:54.19    6  
+    r:+0.65  24.64        53.02 (28.38)
+        1:27.13 (34.11)     1:54.19 (27.06)
+ 12 Hartman, Zoie          5Y Georgia           1:53.79    1:54.50    5  
+    r:+0.75  25.56        53.83 (28.27)
+        1:26.74 (32.91)     1:54.50 (27.76)
+ 13 Foley, Sarah           SR Duke              1:55.18    1:54.70    4  
+    r:+0.62  25.09        54.43 (29.34)
+        1:27.02 (32.59)     1:54.70 (27.68)
+ 14 Gomes Celidonio, Fern  JR Louisville        1:55.21    1:55.11    3  
+    r:+0.73  25.20        53.73 (28.53)
+        1:27.27 (33.54)     1:55.11 (27.84)
+ 15 Polonsky, Lea          JR California        1:54.34    1:55.27    2  
+    r:+0.67  25.44        54.35 (28.91)
+        1:27.31 (32.96)     1:55.27 (27.96)
+ 16 Daniel, Abby           JR Akron             1:55.45    1:55.90    1  
+    r:+0.65  25.20        53.98 (28.78)
+        1:27.76 (33.78)     1:55.90 (28.14)
+ 
+                 Women - Team Rankings - Through Event 4                 
+ 
+  1. Florida                           137   2. Virginia                          116
+  3. Stanford                           91   4. Tennessee                          78
+  5. Texas                              69   6. Georgia                            67
+  7. California                         58   8. Indiana                            52
+  9. Southern California                42  10. Michigan                           41
+ 11. Ohio St                            36  11. Wisconsin                          36
+ 13. Louisville                         23  14. Duke                               22
+ 15. UNC                                14  16. Arizona St                         11
+ 16. Texas A&M                          11  18. NC State                            9
+ 19. Virginia Tech                       6  20. Auburn                              4
+ 20. Northwestern                        4  22. Alabama                             2
+ 23. Akron                               1                                           
+
+
+
+

@@ -1,0 +1,86 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2022 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 5  Women 50 Yard Freestyle
+=========================================================================
+         NCAA: N 20.84  3/17/2022 Kate Douglass, Virginia
+         Meet: M 20.84  3/17/2022 Kate Douglass, Virginia
+     American: A 20.84  3/17/2022 Kate Douglass, Virginia
+      US Open: O 20.84  3/17/2022 Kate Douglass, Virginia
+         Pool: P 20.84  3/17/2022 Kate Douglass, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Douglass, Kate         JR Virginia            20.87      20.84N  20  
+    r:+0.61  10.09        20.84 (10.75)
+  2 Walsh, Gretchen        FR Virginia            21.09      20.95   17  
+    r:+0.71  10.14        20.95 (10.81)
+  3 MacNeil, Maggie        SR Michigan            21.53      21.38   16  
+    r:+0.61  10.28        21.38 (11.10)
+  4 Scott, Morgan          SR Alabama             21.72      21.43   15  
+    r:+0.66  10.32        21.43 (11.11)
+  5 Dupre, Cora            JR Alabama             21.47      21.47   14  
+    r:+0.60  10.40        21.47 (11.07)
+  6 Countie, Grace         SR UNC                 21.53      21.54   13  
+    r:+0.69  10.26        21.54 (11.28)
+  7 Berkoff, Katharine     JR NCSU                21.56      21.55   12  
+    r:+0.66  10.44        21.55 (11.11)
+  8 Alons, Kylee           SR NCSU                21.62      21.68   11  
+    r:+0.64  10.45        21.68 (11.23)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Albiero, Gabi          SO Louisville          21.81      21.69    9  
+    r:+0.61  10.45        21.69 (11.24)
+ 10 Antoniou, Kalia        SR Alabama             21.90      21.73    7  
+    r:+0.64  10.59        21.73 (11.14)
+ 11 Fulmer, Amy            JR Ohio St             21.88      21.88    6  
+    r:+0.68  10.75        21.88 (11.13)
+ 12 Kutsch, AJ             JR Tennessee           21.82      21.95    5  
+    r:+0.68  10.60        21.95 (11.35)
+ 13 Grover, Claire         SR UCLA                21.82      22.01    4  
+    r:+0.66  10.43        22.01 (11.58)
+ 14 Cuomo, Lexi            JR Virginia            21.80      22.03    3  
+    r:+0.67  10.66        22.03 (11.37)
+ 15 Keil, Megan            SR Missouri            21.99      22.09    2  
+    r:+0.60  10.70        22.09 (11.39)
+ 16 Henig, Iszac           JR Yale                21.94      22.18    1  
+    r:+0.65  10.60        22.18 (11.58)
+ 
+                 Women - Team Rankings - Through Event 5                 
+ 
+  1. Virginia                          170   2. Texas                             102
+  3. Stanford                           97   4. Alabama                            86
+  5. California                         77   6. NC State                           67
+  6. Louisville                         67   8. Georgia                            55
+  9. Ohio St                            53  10. Tennessee                          49
+ 11. Michigan                           42  12. Wisconsin                          34
+ 13. Florida                            32  14. UNC                                23
+ 14. Kentucky                           23  16. Penn                               20
+ 17. Arizona St                         19  18. Southern California                18
+ 19. Northwestern                       15  20. Duke                               13
+ 21. Indiana                            12  22. UCLA                                4
+ 23. Virginia Tech                       2  23. Arizona                             2
+ 23. Missouri                            2  26. Yale                                1
+
+
+
+

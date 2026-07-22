@@ -1,0 +1,100 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+ NCAA Division I Championship Meet 
+                        2024 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 4  Men 200 Yard IM
+=========================================================================
+         NCAA: N 1:36.34  3/23/2023 Leon Marchand, ASU
+         Meet: M 1:36.34  3/23/2023 Leon Marchand, ASU
+     American: A 1:37.91  3/28/2024 Destin Lasco, California
+   U. S. Open: O 1:36.34  3/23/2023 Leon Marchand, ASU
+         Pool: P 1:37.91  3/28/2024 Destin Lasco, California
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Lasco, Destin          SR California        1:39.34    1:37.91A  20  
+    r:+0.64  21.42        45.60 (24.18)
+        1:14.35 (28.75)     1:37.91 (23.56)
+  2 McDonald, Owen         SO ASU               1:41.24    1:39.23   17  
+    r:+0.57  21.23        45.59 (24.36)
+        1:15.19 (29.60)     1:39.23 (24.04)
+  3 Kos, Hubert            SO ASU               1:40.40    1:39.66   16  
+    r:+0.57  20.84        44.97 (24.13)
+        1:15.07 (30.10)     1:39.66 (24.59)
+  4 Bustos, Arsenio        JR NC State          1:40.82    1:39.83   15  
+    r:+0.66  21.30        46.14 (24.84)
+        1:14.82 (28.68)     1:39.83 (25.01)
+  5 Cohen Groumi, Gal      JR Michigan          1:40.54    1:39.87   14  
+    r:+0.55  21.49        46.45 (24.96)
+        1:15.66 (29.21)     1:39.87 (24.21)
+  6 Schlicht, David        SR ASU               1:40.82    1:40.17   13  
+    r:+0.62  21.75        47.18 (25.43)
+        1:15.83 (28.65)     1:40.17 (24.34)
+  7 Germonprez, Nate       FR Texas             1:41.35    1:40.89   12  
+    r:+0.66  21.94        47.35 (25.41)
+        1:16.45 (29.10)     1:40.89 (24.44)
+  8 Nelson, Baylor         SO TAMU              1:41.23    1:41.54   11  
+    r:+0.62  22.06        46.80 (24.74)
+        1:16.14 (29.34)     1:41.54 (25.40)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Kovac, Danny           5Y SMU               1:42.03    1:41.41    9  
+    r:+0.61  21.95        47.48 (25.53)
+        1:16.31 (28.83)     1:41.41 (25.10)
+ 10 Barr, Luke             JR Indiana           1:41.97    1:42.00    7  
+    r:+0.66  22.29        47.53 (25.24)
+        1:16.98 (29.45)     1:42.00 (25.02)
+ 11 Smith, Julian          JR Florida           1:41.87    1:42.22    6  
+    r:+0.64  21.22        47.25 (26.03)
+        1:17.48 (30.23)     1:42.22 (24.74)
+ 12 Polonsky, Ron          JR Stanford          1:41.44    1:42.28    5  
+    r:+0.68  22.15        47.31 (25.16)
+        1:17.10 (29.79)     1:42.28 (25.18)
+ 13 Connery, Tim           JR Virginia          1:41.70    1:42.60    4  
+    r:+0.64  21.89        47.89 (26.00)
+        1:17.88 (29.99)     1:42.60 (24.72)
+ 14 Tiffany, Jordan        FR Brigham Young     1:42.07    1:42.62    3  
+    r:+0.62  21.49        46.64 (25.15)
+        1:17.27 (30.63)     1:42.62 (25.35)
+ 15 Ben-Shitrit, Eitan     SO Michigan          1:41.66    1:42.95    2  
+    r:+0.62  21.96        47.40 (25.44)
+        1:17.52 (30.12)     1:42.95 (25.43)
+ 16 Diehl, Daniel          FR NC State          1:41.84    1:43.60    1  
+    r:+0.66  22.32        48.07 (25.75)
+        1:18.08 (30.01)     1:43.60 (25.52)
+ 
+                  Men - Team Rankings - Through Event 4                  
+ 
+  1. Arizona St                        141   2. California                        105
+  3. Florida                            92   4. Texas                              91
+  5. NC State                           67   6. Indiana                            62
+  7. Stanford                           51   8. Georgia                            50
+  9. Auburn                             41  10. Michigan                           34
+ 11. Tennessee                          28  11. Virginia Tech                      28
+ 13. Smu                                26  13. Alabama                            26
+ 15. Louisville                         24  16. Texas A&M                          15
+ 17. Missouri                           12  18. Ohio St                            10
+ 18. Florida St                         10  20. Minnesota                           6
+ 21. Virginia                            4  22. Brigham Young                       3
+ 23. Arizona                             2  23. UNC                                 2
+
+
+
+

@@ -1,0 +1,177 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet^ 
+                        2026 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 4  Men 100 Yard Butterfly
+=========================================================================
+         NCAA: N 42.49  3/26/2026 Josh Liendo, Florida
+         Meet: M 42.49  3/26/2026 Josh Liendo, Florida
+     American: A 42.80  3/23/2018 Caeleb Dressel, Florida
+   U. S. Open: O 42.49  3/26/2026 Josh Liendo, Florida
+         Pool: P 42.49  3/26/2026 Josh Liendo, Florida
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Liendo, Josh           SR Florida             42.54      42.49N  20  
+     r:+0.65  9.02        19.84 (10.82)
+          31.05 (11.21)       42.49 (11.44)
+  2 Kos, Hubert            SR Texas               42.97      42.54   17  
+     r:+0.59  8.86        19.56 (10.70)
+          30.73 (11.17)       42.54 (11.81)
+  3 Kharun, Ilya           JR ASU                 43.54      42.92   16  
+     r:+0.65  9.11        20.19 (11.08)
+          31.49 (11.30)       42.92 (11.43)
+  4 Heilman, Thomas        FR Virginia            44.07      43.58   15  
+     r:+0.65  9.26        20.31 (11.05)
+          31.73 (11.42)       43.58 (11.85)
+  5 Ray, Tyler             SR Michigan            43.32      43.62   14  
+     r:+0.64  9.18        20.12 (10.94)
+          31.69 (11.57)       43.62 (11.93)
+  6 Buff, Scotty           JR Florida             44.10      43.67   13  
+     r:+0.61  9.17        20.29 (11.12)
+          31.59 (11.30)       43.67 (12.08)
+  7 Hayes, Aiden           5Y NC State            44.04      43.85   12  
+     r:+0.64  9.21        20.46 (11.25)
+          31.93 (11.47)       43.85 (11.92)
+  8 Koch, Julian           SO Pittsburgh          43.85      44.28   11  
+     r:+0.65  9.14        20.53 (11.39)
+          32.06 (11.53)       44.28 (12.22)
+ 
+                          === Preliminaries ===                          
+ 
+  9 Finch, Nicholas        SO Yale                44.19               9  
+      r:0.60  9.09        20.44 (11.35)
+          31.97 (11.53)       44.19 (12.22)
+ 10 Chmielewski, Michal    JR USC                 44.42               7  
+      r:0.59  9.69        21.21 (11.52)
+          32.58 (11.37)       44.42 (11.84)
+ 11 Caribe, Gui            SR Tennessee           44.55               6  
+      r:0.60  9.16        20.52 (11.36)
+          32.27 (11.75)       44.55 (12.28)
+ 12 Youssef, Abdalla       FR Auburn              44.65               5  
+      r:0.69  9.68        20.87 (11.19)
+          32.54 (11.67)       44.65 (12.11)
+ 13 Bustos, Arsenio        5Y NC State            44.67               4  
+      r:0.61  9.55        20.89 (11.34)
+          32.56 (11.67)       44.67 (12.11)
+ 14 Van Renen, Ruard       SR Georgia             44.78               3  
+      r:0.69  9.29        20.92 (11.63)
+          32.46 (11.54)       44.78 (12.32)
+ 15 Seymour, Stuart        JR Northwestern        44.80               2  
+      r:0.62  9.32        20.94 (11.62)
+          32.47 (11.53)       44.80 (12.33)
+ 16 Peck, Kyle             SO Texas               44.95               1  
+      r:0.70  9.69        20.66 (10.97)
+          32.52 (11.86)       44.95 (12.43)
+ 17 Niewold, Sean          SR Alabama             44.98             
+      r:0.66  9.27        20.70 (11.43)
+          32.77 (12.07)       44.98 (12.21)
+ 18 Gentry, Landon         SR VT                  44.99             
+      r:0.64  9.54        20.61 (11.07)
+          32.52 (11.91)       44.99 (12.47)
+ 19 Naughton, Haakon       SR Arizona             45.11             
+      r:0.64  9.50        20.93 (11.43)
+          32.70 (11.77)       45.11 (12.41)
+ 20 Nicholas, Spencer      SO Virginia            45.14             
+      r:0.57  9.51        20.94 (11.43)
+          32.88 (11.94)       45.14 (12.26)
+ 21 Bellotti, Hayden       JR Virginia            45.18             
+      r:0.57  9.55        21.01 (11.46)
+          32.82 (11.81)       45.18 (12.36)
+ 22 Eidam, Ole             SO Michigan            45.21             
+      r:0.61  9.37        20.70 (11.33)
+          32.57 (11.87)       45.21 (12.64)
+ 23 Reyes-Gentry, Marcus   JR Notre Dame          45.23             
+      r:0.63  9.45        20.79 (11.34)
+          32.69 (11.90)       45.23 (12.54)
+ 23 Geer, Colin            JR Michigan            45.23             
+      r:0.62  9.49        21.00 (11.51)
+          32.91 (11.91)       45.23 (12.32)
+ 25 Puggaard, Casper       FR California          45.26             
+      r:0.65  9.36        20.77 (11.41)
+          32.77 (12.00)       45.26 (12.49)
+ 26 Klinge, Matthew        SO OSU                 45.35             
+      r:0.75  9.39        20.66 (11.27)
+          32.90 (12.24)       45.35 (12.45)
+ 27 Johnson, Jacob         SO Minnesota           45.37             
+      r:0.61  9.39        20.81 (11.42)
+          32.87 (12.06)       45.37 (12.50)
+ 27 Jedbratt, Felix        SR La Salle            45.37             
+      r:0.65  9.13        20.33 (11.20)
+          32.42 (12.09)       45.37 (12.95)
+ 29 Battaglini, Lucca      SO California          45.43             
+      r:0.63  9.51        20.99 (11.48)
+          32.93 (11.94)       45.43 (12.50)
+ 30 Lunak, Seb             JR UNC                 45.49             
+      r:0.63  9.46        20.98 (11.52)
+          32.76 (11.78)       45.49 (12.73)
+ 31 Noel, Raekwon          SO Indiana             45.55             
+      r:0.71  9.63        21.51 (11.88)
+          33.31 (11.80)       45.55 (12.24)
+ 32 Holmes, Gibson         JR Stanford            45.59             
+      r:0.66  9.88        21.20 (11.32)
+          33.13 (11.93)       45.59 (12.46)
+ 33 Abdelghany, Yassin     JR IU Indianapolis     45.69             
+      r:0.57  9.57        21.14 (11.57)
+          33.13 (11.99)       45.69 (12.56)
+ 34 Smith, Sebastian       SR Drexel              45.76             
+      r:0.67  9.39        20.87 (11.48)
+          33.00 (12.13)       45.76 (12.76)
+ 35 Gu, Rafael             SR Stanford            45.98             
+      r:0.64  9.62        21.04 (11.42)
+          33.32 (12.28)       45.98 (12.66)
+ 36 Sivec, Vili            SR CSUB                46.01             
+      r:0.67  9.84        21.31 (11.47)
+          33.53 (12.22)       46.01 (12.48)
+ 37 Irwin, Ben             JR U.S. Navy           46.35             
+      r:0.63  9.62        21.15 (11.53)
+          33.47 (12.32)       46.35 (12.88)
+ 38 Winterfield, James     SR Air Force           46.36             
+      r:0.64  9.80        21.33 (11.53)
+          33.53 (12.20)       46.36 (12.83)
+ 39 VanBrocklin, Evan      SR Utah                46.40             
+      r:0.58  9.67        21.12 (11.45)
+          33.47 (12.35)       46.40 (12.93)
+ 40 Arkhangelskiy, Michel  SO FSU                 46.41             
+      r:0.60  9.47        21.02 (11.55)
+          33.25 (12.23)       46.41 (13.16)
+ -- Young, Tolu            SO ASU                  DFS              
+ -- Palmer, Tommy          SR ASU                  DFS              
+ 
+                  Men - Team Rankings - Through Event 4                  
+ 
+  1. Florida                           119   2. Texas                              90
+  3. Indiana                            86   4. Arizona St                         78
+  5. NC State                           77   6. Michigan                           62
+  7. Kentucky                           49   8. Stanford                           46
+  9. Virginia                           45   9. California                         45
+ 11. Ohio St                            32  12. Auburn                             27
+ 13. Tennessee                          26  14. Wisconsin                          18
+ 15. Pittsburgh                         17  16. Southern California                15
+ 17. Princeton                          14  17. Lsu                                14
+ 19. Georgia                            13  20. Louisville                         12
+ 21. Yale                               10  22. Harvard                             9
+ 23. Alabama                             8  23. Virginia Tech                       8
+ 25. Florida St                          4  25. Smu                                 4
+ 27. Northwestern                        2                                           
+
+
+
+

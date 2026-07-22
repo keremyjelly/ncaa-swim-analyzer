@@ -1,0 +1,162 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet^ 
+                        2026 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 18  Men 200 Yard Butterfly
+=========================================================================
+         NCAA: N 1:36.41  11/25/2025Luca Urlando, Georgia
+         Meet: M 1:36.43  3/29/2025 Luca Urlando, Georgia
+     American: A 1:36.41  11/25/2025Luca Urlando, Georgia
+   U. S. Open: O 1:36.41  11/25/2025Luca Urlando, Georgia
+         Pool: P 1:37.66  3/28/2026 Ilya Kharun, ASU
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Kharun, Ilya           JR ASU               1:38.49    1:37.66P  20  
+    r:+0.71  22.16        47.23 (25.07)
+        1:12.71 (25.48)     1:37.66 (24.95)
+  2 Heilman, Thomas        FR Virginia          1:39.26    1:38.16   17  
+    r:+0.66  22.19        47.38 (25.19)
+        1:12.87 (25.49)     1:38.16 (25.29)
+  3 Ray, Tyler             SR Michigan          1:38.55    1:38.47   16  
+    r:+0.68  21.82        47.48 (25.66)
+        1:13.31 (25.83)     1:38.47 (25.16)
+  4 Johnson, Jacob         SO Minnesota         1:39.54    1:39.20   15  
+    r:+0.59  22.14        47.35 (25.21)
+        1:12.93 (25.58)     1:39.20 (26.27)
+  5 Robinson, Logan        SO FSU               1:39.48    1:39.44   14  
+    r:+0.59  21.73        46.98 (25.25)
+        1:13.29 (26.31)     1:39.44 (26.15)
+  6 Noel, Raekwon          SO Indiana           1:39.55    1:39.54   13  
+    r:+0.73  22.25        47.34 (25.09)
+        1:13.15 (25.81)     1:39.54 (26.39)
+  7 Schott, Mitchell       SR Princeton         1:39.71    1:40.67   12  
+    r:+0.71  22.13        47.52 (25.39)
+        1:13.63 (26.11)     1:40.67 (27.04)
+  8 Youssef, Abdalla       FR Auburn            1:39.59    1:40.68   11  
+    r:+0.68  22.74        48.04 (25.30)
+        1:13.69 (25.65)     1:40.68 (26.99)
+ 
+                          === Preliminaries ===                          
+ 
+  9 Naughton, Haakon       SR Arizona           1:39.85               9  
+     r:0.63  22.12        47.45 (25.33)
+        1:13.43 (25.98)     1:39.85 (26.42)
+ 10 Lunak, Seb             JR UNC               1:39.92               6.5
+     r:0.64  22.10        47.20 (25.10)
+        1:13.18 (25.98)     1:39.92 (26.74)
+ 10 Zubik, Jan             SR Missouri          1:39.92               6.5
+     r:0.67  22.14        47.28 (25.14)
+        1:13.11 (25.83)     1:39.92 (26.81)
+ 12 Chmielewski, Michal    JR USC               1:39.93               5  
+     r:0.63  22.10        46.82 (24.72)
+        1:12.90 (26.08)     1:39.93 (27.03)
+ 13 Peck, Kyle             SO Texas             1:39.94               4  
+     r:0.62  21.88        47.21 (25.33)
+        1:12.63 (25.42)     1:39.94 (27.31)
+ 14 Lucas, Cooper          SO Texas             1:40.11               3  
+     r:0.68  22.39        47.82 (25.43)
+        1:13.62 (25.80)     1:40.11 (26.49)
+ 15 Holmes, Gibson         JR Stanford          1:40.27               2  
+     r:0.69  22.40        47.67 (25.27)
+        1:13.88 (26.21)     1:40.27 (26.39)
+ 16 Puggaard, Casper       FR California        1:40.35               1  
+     r:0.64  22.33        47.80 (25.47)
+        1:13.68 (25.88)     1:40.35 (26.67)
+ 17 Hitchcock, Drew        SO Georgia           1:40.43             
+     r:0.66  22.11        48.03 (25.92)
+        1:14.29 (26.26)     1:40.43 (26.14)
+ 18 Mark Torok, Dominik    SR Wisconsin         1:40.96             
+     r:0.64  22.68        48.20 (25.52)
+        1:14.09 (25.89)     1:40.96 (26.87)
+ 19 Solitario, Enzo        FR Wisconsin         1:40.97             
+     r:0.68  22.18        47.67 (25.49)
+        1:13.90 (26.23)     1:40.97 (27.07)
+ 20 Gentry, Landon         SR VT                1:41.21             
+     r:0.66  22.17        47.56 (25.39)
+        1:13.76 (26.20)     1:41.21 (27.45)
+ 21 Jedbratt, Felix        SR La Salle          1:41.26             
+     r:0.68  21.15        46.46 (25.31)
+        1:13.20 (26.74)     1:41.26 (28.06)
+ 22 Espernberger, Martin   SR Tennessee         1:41.34             
+     r:0.68  22.52        48.20 (25.68)
+        1:14.14 (25.94)     1:41.34 (27.20)
+ 23 Bellotti, Hayden       JR Virginia          1:41.35             
+     r:0.62  22.11        47.64 (25.53)
+        1:13.59 (25.95)     1:41.35 (27.76)
+ 24 Hayes, Aiden           5Y NC State          1:41.44             
+     r:0.71  22.44        48.30 (25.86)
+        1:14.59 (26.29)     1:41.44 (26.85)
+ 25 Bried, Tommy           SR Louisville        1:41.93             
+     r:0.64  22.64        48.42 (25.78)
+        1:14.54 (26.12)     1:41.93 (27.39)
+ 26 McFadden, Henry        JR Stanford          1:42.39             
+     r:0.70  22.51        47.95 (25.44)
+        1:14.22 (26.27)     1:42.39 (28.17)
+ 27 Shackell, Aaron        JR Indiana           1:42.47             
+     r:0.66  22.45        48.21 (25.76)
+        1:14.98 (26.77)     1:42.47 (27.49)
+ 28 Sivec, Vili            SR CSUB              1:43.26             
+     r:0.68  22.92        49.09 (26.17)
+        1:15.90 (26.81)     1:43.26 (27.36)
+ 29 Jones, Dean            SO U.S. Navy         1:43.56             
+     r:0.65  22.30        48.45 (26.15)
+        1:15.51 (27.06)     1:43.56 (28.05)
+ 30 Belflower, Ian         SR UNLV              1:43.62             
+     r:0.69  23.11        49.47 (26.36)
+        1:16.21 (26.74)     1:43.62 (27.41)
+ 31 Vilchez, Jordi         SO OSU               1:43.74             
+     r:0.71  23.08        49.39 (26.31)
+        1:16.32 (26.93)     1:43.74 (27.42)
+ 32 Wimberly, Jacob        SO Texas             1:43.89             
+     r:0.64  23.10        49.34 (26.24)
+        1:16.10 (26.76)     1:43.89 (27.79)
+ 33 Busic, Joseph          SO UNC Wilmington    1:43.97             
+     r:0.61  23.55        49.84 (26.29)
+        1:16.57 (26.73)     1:43.97 (27.40)
+ -- Geer, Colin            JR Michigan             DFS              
+ 
+                 Men - Team Rankings - Through Event 18                  
+ 
+  1. Texas                           393.5   2. Florida                           351
+  3. Indiana                           308   4. Arizona St                        288
+  5. NC State                        224.5   6. Tennessee                         219
+  7. Michigan                          192   8. California                        187
+  9. Virginia                          147  10. Stanford                           97
+ 11. Louisville                         78  11. Virginia Tech                      78
+ 13. Ohio St                            68  14. Southern California                57
+ 15. Auburn                             55  16. Kentucky                           52
+ 17. Georgia                          50.5  18. Miami (Fl)                         46
+ 18. Lsu                                46  20. Princeton                          43
+ 21. UNC                              41.5  22. Smu                                41
+ 23. Florida St                         39  24. Pittsburgh                         34
+ 25. Northwestern                       29  26. Alabama                            27
+ 27. Missouri                         26.5  28. Arizona                            23
+ 29. Wisconsin                          19  30. Army                             17.5
+ 31. Georgia Tech                       17  31. Utah                               17
+ 31. Yale                               17  34. Notre Dame                         16
+ 35. Minnesota                          15  36. Delaware                           12
+ 37. Purdue                             10  38. Harvard                             9
+ 39. Texas A&M                           8  40. IU Indianapolis                     6
+ 41. Penn St                             5                                           
+
+
+
+

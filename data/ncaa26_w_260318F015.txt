@@ -1,0 +1,225 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet^ 
+                       2026 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 15  Women 400 Yard Medley Relay
+==================================================================================
+         NCAA: N 3:19.58  2/21/2025 Virginia
+                          C Curzan, A Walsh, G Walsh, A Moesch
+         Meet: M 3:20.20  3/21/2025 Virginia
+                          C Curzan, A Walsh, G Walsh, A Moesch
+     American: A 3:19.58  2/21/2025 Virginia
+                          C Curzan, A Walsh, G Walsh, A Moesch
+      US Open: O 3:19.58  2/21/2025 Virginia
+                          C Curzan, A Walsh, G Walsh, A Moesch
+         Pool: P 3:20.42  2/20/2026 Virginia
+                          S Curtis, A Canny, C Curzan, A Moesch
+    School                                 Seed     Finals Points 
+==================================================================================
+  1 Virginia                            3:20.42    3:20.66   40  
+     1) Curtis, Sara FR               2) r:0.42 Canny, Aimee SR       
+     3) r:0.39 Curzan, Claire JR      4) r:0.18 Moesch, Anna SO       
+    r:+0.69  24.02        49.47 (49.47)
+        1:15.83 (26.36)     1:46.10 (56.63)
+        2:08.41 (22.31)     2:34.92 (48.82)
+        2:56.67 (21.75)     3:20.66 (45.74)
+  2 Tennessee                           3:24.58    3:23.79   34  
+     1) Crooks, Jillian SO            2) r:0.15 Siroky, McKenzie SO   
+     3) r:0.33 Hirai, Mizuki FR       4) r:0.23 Spink, Camille JR     
+    r:+0.53  24.26        50.94 (50.94)
+        1:17.31 (26.37)     1:47.91 (56.97)
+        2:11.19 (23.28)     2:38.01 (50.10)
+        2:59.57 (21.56)     3:23.79 (45.78)
+  3 Michigan                            3:24.08    3:24.44   32  
+     1) Sims, Bella JR                2) r:0.31 Sim, Letitia SR       
+     3) r:0.27 Kendall, Brady SR      4) r:0.10 Balduccini, Steanie JR
+    r:+0.57  24.13        49.79 (49.79)
+        1:16.52 (26.73)     1:47.37 (57.58)
+        2:10.60 (23.23)     2:37.60 (50.23)
+        2:59.74 (22.14)     3:24.44 (46.84)
+  4 NC State                            3:24.65    3:24.49   30  
+     1) Shackley, Leah SO             2) r:0.28 Jefimova, Eneli FR    
+     3) r:0.25 Pelaez, Erika SO       4) r:0.07 Nel, Olivia SR        
+    r:+0.65  24.38        50.47 (50.47)
+        1:16.76 (26.29)     1:47.16 (56.69)
+        2:10.83 (23.67)     2:37.84 (50.68)
+        2:59.96 (22.12)     3:24.49 (46.65)
+  5 Texas                               3:26.37    3:24.64   28  
+     1) Kern, Emma JR                 2) r:0.14 Enge, Piper SO        
+     3) r:0.32 Stoll, Campbell JR     4) r:0.14 Okaro, Eva FR         
+    r:+0.52  24.35        51.37 (51.37)
+        1:17.93 (26.56)     1:48.61 (57.24)
+        2:11.68 (23.07)     2:38.64 (50.03)
+        3:00.46 (21.82)     3:24.64 (46.00)
+  6 California                          3:25.76    3:25.09   26  
+     1) Moluh, Mary-Ambre SO          2) r:0.35 Scott, Elle FR        
+     3) r:0.07 Jia, Annie FR          4) r:0.19 O'Dell, Teagan FR     
+    r:+0.64  24.18        49.76 (49.76)
+        1:16.82 (27.06)     1:48.28 (58.52)
+        2:11.60 (23.32)     2:38.04 (49.76)
+        3:00.32 (22.28)     3:25.09 (47.05)
+  7 Indiana                             3:26.15    3:25.17   24  
+     1) Grana, Miranda JR             2) r:0.19 Laegreid, Jonette SO  
+     3) r:0.09 Shackell, Alex FR      4) r:0.18 Clark, Liberty FR     
+    r:+0.60  24.17        50.20 (50.20)
+        1:17.94 (27.74)     1:49.82 (59.62)
+        2:12.20 (22.38)     2:39.50 (49.68)
+        3:01.00 (21.50)     3:25.17 (45.67)
+  8 Louisville                          3:25.16    3:25.58   22  
+     1) Murray, Camille SO            2) r:0.05 Gorbenko, Anastasia SO
+     3) r:0.11 Welch, Ella SR         4) r:0.21 Dennis, Julia SR      
+    r:+0.66  24.55        51.76 (51.76)
+        1:17.98 (26.22)     1:48.39 (56.63)
+        2:11.57 (23.18)     2:38.78 (50.39)
+        3:00.80 (22.02)     3:25.58 (46.80)
+  9 Stanford                            3:25.93    3:25.59   18  
+     1) Sim, Levenia SO               2) r:0.15 Bell, Lucy SR         
+     3) r:0.17 Johnson, Gigi SR       4) r:0.22 Olasewere, Annam FR   
+    r:+0.48  24.75        51.97 (51.97)
+        1:18.44 (26.47)     1:48.44 (56.47)
+        2:11.42 (22.98)     2:38.81 (50.37)
+        3:00.81 (22.00)     3:25.59 (46.78)
+ 10 Alabama                             3:27.13    3:27.22   14  
+     1) Jones, Emily SR               2) r:0.20 Rosendale, Charotte SR
+     3) r:0.14 Giele, Tessa SR        4) r:0.33 Vincent, Cadence JR   
+    r:+0.70  24.62        50.94 (50.94)
+        1:17.92 (26.98)     1:50.09 (59.15)
+        2:13.02 (22.93)     2:40.42 (50.33)
+        3:02.78 (22.36)     3:27.22 (46.80)
+ 11 Florida                             3:27.69    3:28.28   12  
+     1) Choate, Catie JR              2) r:0.16 Bottazzo, Anita SO    
+     3) r:0.45 Bezerra, Beatriz FR    4) r:0.06 Kruger, Lainy JR      
+    r:+0.69  24.92        52.04 (52.04)
+        1:17.72 (25.68)     1:48.14 (56.10)
+        2:11.77 (23.63)     2:39.99 (51.85)
+        3:02.81 (22.82)     3:28.28 (48.29)
+ 12 Wisconsin                           3:29.19    3:29.45   10  
+     1) Wanezek, Maggie SO            2) r:0.24 Corrigan, Brooke FR   
+     3) r:0.29 Delmas, Lucie FR       4) r:0.16 Wanezek, Abby SR      
+    r:+0.57  24.23        50.27 (50.27)
+        1:17.70 (27.43)     1:49.12 (58.85)
+        2:13.27 (24.15)     2:41.25 (52.13)
+        3:03.79 (22.54)     3:29.45 (48.20)
+ 13 Duke                                3:28.17    3:29.59    8  
+     1) Pfaff, Ali JR                 2) r:0.10 Gridley, Kaelyn SR    
+     3) r:0.12 Wall, Tatum SR         4) r:0.16 White, Heather FR     
+    r:+0.72  25.19        52.17 (52.17)
+        1:19.04 (26.87)     1:49.99 (57.82)
+        2:13.75 (23.76)     2:41.66 (51.67)
+        3:04.30 (22.64)     3:29.59 (47.93)
+ 14 UNC                                 3:30.83    3:30.17    6  
+     1) Frei, Sophia JR               2) r:0.12 Armand, Samantha JR   
+     3) r:0.15 Macaulay, Mary JR      4) r:0.04 Meskill, Kamryn FR    
+    r:+0.63  24.89        51.55 (51.55)
+        1:19.01 (27.46)     1:50.44 (58.89)
+        2:14.08 (23.64)     2:42.29 (51.85)
+        3:04.76 (22.47)     3:30.17 (47.88)
+ 15 USC                                 3:30.24    3:31.00    4  
+     1) Abraham, Minna JR             2) r:0.32 Brito, Bella FR       
+     3) r:0.31 Kozan, Justina SR      4) r:0.43 Maier, Nicole 5Y      
+    r:+0.75  24.94        51.02 (51.02)
+        1:19.05 (28.03)   1:51.42 (1:00.40)
+        2:15.79 (24.37)     2:43.56 (52.14)
+        3:06.14 (22.58)     3:31.00 (47.44)
+ 16 Arizona                             3:30.96    3:31.08    2  
+     1) Lillie, Lila SO               2) r:0.23 Gewalt, Eleni SR      
+     3) r:0.23 Sheikhalizadehkryam JR 4) r:0.01 Wozniak, Julia SR     
+    r:+0.65  25.34        52.62 (52.62)
+        1:19.84 (27.22)     1:51.14 (58.52)
+        2:15.15 (24.01)     2:43.68 (52.54)
+        3:06.12 (22.44)     3:31.08 (47.40)
+ 17 TAMU                                3:32.17    3:31.21  
+     1) Owens, Kaitlyn SR             2) r:0.38 Gass, Claire 5Y       
+     3) r:0.18 Whitaker, Ava JR       4) r:0.15 McQuinn, Ella SO      
+    r:+0.66  24.71        51.23 (51.23)
+        1:19.27 (28.04)   1:52.00 (1:00.77)
+        2:15.95 (23.95)     2:43.63 (51.63)
+        3:05.90 (22.27)     3:31.21 (47.58)
+ 18 Pittsburgh                          3:30.83    3:31.44  
+     1) Jansen, Claire SR             2) r:0.34 Messina, Angelina SR  
+     3) r:-0.01 Gring, Sydney JR      4) r:0.27 Kudlac, Avery JR      
+    r:+0.61  24.87        51.52 (51.52)
+        1:19.96 (28.44)   1:52.24 (1:00.72)
+        2:15.89 (23.65)     2:43.06 (50.82)
+        3:05.84 (22.78)     3:31.44 (48.38)
+ 19 UCLA                                3:29.97    3:32.15  
+     1) Yovanovich, Claudia SO        2) r:0.26 Bennetts, Sarah JR    
+     3) r:0.09 Duncan, Jada FR        4) r:0.05 Wetteland, Anna SO    
+    r:+0.65  25.48        52.19 (52.19)
+        1:19.60 (27.41)     1:51.19 (59.00)
+        2:15.21 (24.02)     2:43.45 (52.26)
+        3:06.21 (22.76)     3:32.15 (48.70)
+ 20 OSU                                 3:29.30    3:32.25  
+     1) LeBlanc, KK FR                2) r:0.29 Ramos Najji, Maria SO 
+     3) r:0.11 Furbee, Carrie FR      4) r:0.35 Angove, Sienna SO     
+    r:+0.61  25.52        52.67 (52.67)
+        1:19.91 (27.24)     1:51.48 (58.81)
+        2:15.73 (24.25)     2:43.86 (52.38)
+        3:07.02 (23.16)     3:32.25 (48.39)
+ 21 LSU                                 3:30.39    3:32.32  
+     1) Carlos-Broc, Zoe SO           2) r:0.15 Bukvic, Martina FR    
+     3) r:0.21 Sartori, Sofia SR      4) r:0.20 De Villiers, Miaela SR
+    r:+0.64  25.24        52.47 (52.47)
+        1:20.59 (28.12)   1:52.66 (1:00.19)
+        2:16.97 (24.31)     2:44.70 (52.04)
+        3:07.45 (22.75)     3:32.32 (47.62)
+ 22 ASU                                 3:30.68    3:32.93  
+     1) Sheehan, Miriam JR            2) r:0.14 McMahon, Ginger SR    
+     3) r:0.14 Ullmann, Julia SO      4) r:0.29 Cachot, Albane FR     
+    r:+0.78  25.40        52.09 (52.09)
+        1:20.20 (28.11)   1:52.38 (1:00.29)
+        2:16.05 (23.67)     2:44.58 (52.20)
+        3:07.91 (23.33)     3:32.93 (48.35)
+ 23 Auburn                              3:30.92    3:32.96  
+     1) Komoroczy, Lora SO            2) r:0.21 Zeller, Zoey JR       
+     3) r:0.20 Iwasyk, Izzy SO        4) r:0.19 Klevanovich, Elveta 5Y
+    r:+0.51  24.27        51.45 (51.45)
+        1:19.84 (28.39)   1:51.73 (1:00.28)
+        2:16.03 (24.30)     2:44.42 (52.69)
+        3:07.55 (23.13)     3:32.96 (48.54)
+ 
+                     Women - Team Rankings - Through Event 15                     
+ 
+  1. Virginia                        437.5   2. Texas                             272
+  3. Stanford                        242.5   4. Tennessee                       240.5
+  5. Michigan                          228   6. California                        199
+  7. Indiana                           176   8. Louisville                      144.5
+  9. NC State                        141.5  10. Florida                         113.5
+ 11. Alabama                          74.5  12. Ohio St                            65
+ 13. Georgia                            54  14. Southern California                53
+ 15. Miami (Fl)                         48  16. Wisconsin                        47.5
+ 17. South Carolina                     41  18. Minnesota                          40
+ 19. Duke                               35  20. Pittsburgh                         31
+ 21. Lsu                                26  22. University of Kansas               25
+ 23. Nebraska                           24  24. Arizona                            21
+ 25. Arkansas                         18.5  26. Purdue                             18
+ 27. Texas A&M                        16.5  28. UCLA                               16
+ 29. Auburn                             13  30. Cincinnati                         11
+ 30. UNC                                11  32. Nevada                              9
+ 32. Akron                               9  34. Northwestern                        8
+ 35. Penn                                6  35. Virginia Tech                       6
+ 35. Arizona St                          6  38. Siu                                 4
+ 39. Rutgers                             3  40. Notre Dame                          2
+ 40. Indiana State                       2  40. Fresno State                        2
+ 40. Washington St.                      2  44. University of North Texas           1
+ 44. Ucsd                                1                                           
+
+
+
+

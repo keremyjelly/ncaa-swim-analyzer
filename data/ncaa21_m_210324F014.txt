@@ -1,0 +1,172 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                        2021 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 14  Men 200 Yard Medley Relay
+==================================================================================
+         NCAA: N 1:21.54  3/24/2017 Texas
+                          J Shebat, W Licon, J Schooling, B Ringgold
+         Meet: M 1:21.54  3/24/2017 Texas
+                          J Shebat, W Licon, J Schooling, B Ringgold
+     American: A 1:21.88  3/23/2018 California
+                          D Carr, C Hoppe, J Lynch, R Hoffer
+   U. S. Open: O 1:21.54  3/24/2017 Texas
+                          J Shebat, W Licon, J Schooling, B Ringgold
+         Pool: P 1:22.11  3/26/2021 Louisville
+                          M Whyte, E Somov, N Albiero, A Sameh
+    School                                 Seed     Finals Points 
+==================================================================================
+  1 Louisville                          1:22.71    1:22.11P  40  
+     1) Whyte, Mitchell JR            2) r:0.10 Somov, Evgenii SR     
+     3) r:0.13 Albiero, Nicolas SR    4) r:0.20 Sameh, Haridi SO      
+    r:+0.67  20.72        43.59 (22.87)
+        1:03.66 (20.07)     1:22.11 (18.45)
+  2 Florida                             1:23.17    1:22.41   34  
+     1) Chaney, Adam FR               2) r:0.39 Hillis, Dillon JR     
+     3) r:0.09 Friese, Eric SO        4) r:0.13 Davis, Will JR        
+    r:+0.99  20.55        43.88 (23.33)
+        1:03.75 (19.87)     1:22.41 (18.66)
+  3 California                          1:22.74    1:22.43   32  
+     1) Carr, Daniel SR               2) r:0.16 Whitley, Reece JR     
+     3) r:0.20 Hoffer, Ryan SR        4) r:0.20 Seeliger, Bjorn FR    
+    r:+0.59  20.79        44.36 (23.57)
+        1:04.06 (19.70)     1:22.43 (18.37)
+  4 Ohio St                             1:23.27    1:22.49   30  
+     1) Armstrong, Hunter SO          2) r:0.02 McDaniel, Hudson JR   
+     3) r:0.14 Fleagle, Justin FR     4) r:0.23 Andreis, Sem JR       
+    r:+0.69  20.75        43.45 (22.70)
+        1:03.82 (20.37)     1:22.49 (18.67)
+  5 Texas                               1:23.21    1:22.56   28  
+     1) Staka, Chris SR               2) r:0.27 Corbeau, Caspar SO    
+     3) r:0.23 Jiang, Alvin SR        4) r:0.28 Krueger, Daniel JR    
+    r:+0.64  20.98        44.08 (23.10)
+        1:03.92 (19.84)     1:22.56 (18.64)
+  6 Michigan                            1:22.35    1:22.81   26  
+     1) Davis, Wyatt FR               2) r:0.17 Chan, Will JR         
+     3) r:0.30 Wright, River SO       4) r:0.17 Borges, Gus SR        
+    r:+0.53  21.45        44.16 (22.71)
+        1:04.32 (20.16)     1:22.81 (18.49)
+  7 Georgia                             1:23.60    1:23.07   24  
+     1) Urlando, Luca FR              2) r:0.24 Acevedo, Javi SR      
+     3) r:0.23 Murphy, Camden SR      4) r:0.23 Downing, Dillon SO    
+    r:+0.67  21.07        44.47 (23.40)
+        1:04.44 (19.97)     1:23.07 (18.63)
+  8 Virginia                            1:23.86    1:23.26   22  
+     1) Brownstead, Matt FR           2) r:0.10 Barnum, Keefer SR     
+     3) r:0.00 Edwards, Max SO        4) r:-0.02 Lamb, August SO      
+    r:+0.73  21.33        44.44 (23.11)
+        1:04.63 (20.19)     1:23.26 (18.63)
+  9 TAMU                                1:23.28    1:23.45   18  
+     1) Casas, Shaine JR              2) r:0.16 Olson, Tanner SR      
+     3) r:0.18 Brown, Jace SO         4) r:0.18 Theall, Mark SR       
+    r:+0.64  20.67        44.03 (23.36)
+        1:04.52 (20.49)     1:23.45 (18.93)
+ 10 NC State                            1:24.14    1:23.57   14  
+     1) Stokowski, Kacper SO          2) r:0.37 Kusto, Rafal JR       
+     3) r:0.12 Sobolewski, Luke SR    4) r:0.01 Izzo, Giovanni JR     
+    r:+0.60  20.61        44.51 (23.90)
+        1:04.80 (20.29)     1:23.57 (18.77)
+ 11 Indiana                             1:23.35    1:23.68   12  
+     1) Burns, Brendan SO             2) r:0.20 Backes, Zane JR       
+     3) r:0.11 Frankel, Tomer FR      4) r:0.29 Franzman, Jack JR     
+    r:+0.66  21.15        44.26 (23.11)
+        1:04.41 (20.15)     1:23.68 (19.27)
+ 12 Alabama                             1:23.28    1:23.75   10  
+     1) Menke, Matthew SO             2) r:0.10 Maas, Derek SO        
+     3) r:0.09 Stogner, Colton JR     4) r:0.26 King, Matt FR         
+             20.98        44.77 (23.79)
+        1:04.81 (20.04)     1:23.75 (18.94)
+ 13 VT                                  1:23.91    1:23.89    8  
+     1) Webb, Forest SO               2) r:0.24 Coll Marti, Carles FR 
+     3) r:0.21 Ivanov, Antani JR      4) r:0.09 Hallock, Thomas SR    
+    r:+0.65  21.48        44.98 (23.50)
+        1:04.84 (19.86)     1:23.89 (19.05)
+ 14 Florida St                          1:23.91    1:23.91    6  
+     1) Herbet, Mason FR              2) r:0.28 Bastian, Izaak JR     
+     3) r:0.13 McCusker, Max JR       4) r:0.28 Varjasi, Peter SO     
+    r:+0.64  21.30        44.59 (23.29)
+        1:04.91 (20.32)     1:23.91 (19.00)
+ 15 Utah                                1:24.23    1:24.15    4  
+     1) Ungur, Andrei JR              2) r:0.18 Britton, Andrew JR    
+     3) r:0.30 Deryk, Cooper JR       4) r:0.03 O'Haimhirgin, Finn SO 
+    r:+0.66  21.49        44.84 (23.35)
+        1:05.02 (20.18)     1:24.15 (19.13)
+ 16 Tennessee                           1:24.03    1:24.19    2  
+     1) Chambers, Micah FR            2) r:0.16 Houlie, Michael JR    
+     3) r:0.12 Mota, Kayky SR         4) r:0.10 Scanlon, Scott SO     
+             21.76        44.82 (23.06)
+        1:05.36 (20.54)     1:24.19 (18.83)
+ 17 GT                                  1:23.41    1:24.35  
+     1) Barone, Kyle JR               2) r:0.30 Pumputis, Caio SR     
+     3) r:0.16 Ferraro, Christian SR  4) r:0.13 Daniel, Austin SR     
+    r:+0.65  21.33        44.95 (23.62)
+        1:05.08 (20.13)     1:24.35 (19.27)
+ 18 UNC                                 1:24.46    1:24.46  
+     1) Burhans, Tucker JR            2) r:0.35 Abaliksta, Valdas SR  
+     3) r:0.01 Poelke, Boyd FR        4) r:0.25 Messenger, Jack SR    
+    r:+0.64  21.43        45.12 (23.69)
+        1:05.34 (20.22)     1:24.46 (19.12)
+ 19 Missouri                            1:24.42    1:24.56  
+     1) Dahlgren, Jack JR             2) r:0.37 Patton, Ben SO        
+     3) r:0.21 Kovac, Danny JR        4) r:0.26 Leach, Kyle JR        
+             21.39        45.08 (23.69)
+        1:05.14 (20.06)     1:24.56 (19.42)
+ 20 Pittsburgh                          1:24.20    1:24.65  
+     1) Hopta, Stephen JR             2) r:0.37 Van Der Laan, Coper JR
+     3) r:0.21 Vera, Blaise SR        4) r:0.31 Pytlarczyk, Szymon SO 
+    r:+0.56  21.79        45.30 (23.51)
+        1:04.82 (19.52)     1:24.65 (19.83)
+ 21 Purdue                              1:23.82    1:24.80  
+     1) Juengel, Michael SO           2) r:0.12 Pellini, Trent SR     
+     3) r:0.14 Hrosik, Ryan JR        4) r:0.17 Acin, Nikola JR       
+             22.07        45.30 (23.23)
+        1:06.19 (20.89)     1:24.80 (18.61)
+ 22 Arizona                             1:24.64    1:25.02  
+     1) Maric, Ogi SO                 2) r:0.07 Foote, Ryan SO        
+     3) r:0.11 Reid, Noah SR          4) r:0.31 Ercegovic, Marin JR   
+    r:+0.57  21.45        45.26 (23.81)
+        1:05.87 (20.61)     1:25.02 (19.15)
+ 23 Penn St                             1:24.86    1:25.22  
+     1) Roberson, Will SR             2) r:0.15 Raisanen, Daniel SO   
+     3) r:0.24 Houck, Jake FR         4) r:0.09 Castano, Gabe SR      
+    r:+0.71  21.55        45.64 (24.09)
+        1:06.25 (20.61)     1:25.22 (18.97)
+ 
+                      Men - Team Rankings - Through Event 14                      
+ 
+  1. Texas                             414   2. California                        372
+  3. Florida                           282   4. Georgia                           198
+  5. Indiana                           158   6. Louisville                        150
+  7. Texas A&M                         127   8. NC State                          120
+  9. Ohio St                           108  10. Virginia                          102
+ 11. Michigan                          100  12. Missouri                           67
+ 13. Arizona                            66  14. Virginia Tech                      60
+ 15. Stanford                           58  16. Alabama                            53
+ 17. Lsu                                52  18. Tennessee                          38
+ 18. University of Miami                38  20. UNC                                31
+ 20. Purdue                             31  22. Georgia Tech                       29
+ 23. Florida St                       24.5  24. Pittsburgh                         23
+ 25. Minnesota                          20  26. Notre Dame                         15
+ 26. Southern California                15  28. Penn St                            13
+ 29. Wisconsin                          10  30. Kentucky                            9
+ 31. Utah                              6.5                                           
+
+
+
+

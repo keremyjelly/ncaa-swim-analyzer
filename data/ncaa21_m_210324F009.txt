@@ -1,0 +1,145 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                        2021 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 9  Men 100 Yard Butterfly
+=========================================================================
+         NCAA: N 42.80  3/23/2018 Caeleb Dressel, Florida
+         Meet: M 42.80  3/23/2018 Caeleb Dressel, Florida
+     American: A 42.80  3/23/2018 Caeleb Dressel, Florida
+   U. S. Open: O 42.80  3/23/2018 Caeleb Dressel, Florida
+         Pool: P 44.24  3/26/2021 Ryan Hoffer, California
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Hoffer, Ryan           SR California          44.24      44.25   20  
+    r:+0.65  20.52        44.25 (23.73)
+  2 Albiero, Nicolas       SR Louisville          44.82      44.32   17  
+    r:+0.61  20.78        44.32 (23.54)
+  3 Murphy, Camden         SR Georgia             44.69      44.42   16  
+    r:+0.61  20.75        44.42 (23.67)
+  4 Jiang, Alvin           SR Texas               44.85      44.50   15  
+    r:+0.66  20.95        44.50 (23.55)
+  5 Kovac, Danny           JR Missouri            45.00      44.66   14  
+    r:+0.63  20.62        44.66 (24.04)
+  6 Ivanov, Antani         JR VT                  44.54      44.67   13  
+    r:+0.63  20.83        44.67 (23.84)
+  7 Friese, Eric           SO Florida             44.98      44.79   12  
+    r:+0.66  20.63        44.79 (24.16)
+  8 Urlando, Luca          FR Georgia             45.10      44.99   11  
+    r:+0.70  20.99        44.99 (24.00)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Frankel, Tomer         FR Indiana             45.20      45.23    9  
+    r:+0.61  21.40        45.23 (23.83)
+ 10 Pomajevich, Sam        SR Texas               45.41      45.26    7  
+    r:+0.62  21.12        45.26 (24.14)
+ 11 Ferraro, Christian     SR GT                  45.56      45.34    6  
+    r:+0.63  21.10        45.34 (24.24)
+ 12 Hu, Ethan              FR Stanford            45.58      45.46    5  
+    r:+0.66  21.58        45.46 (23.88)
+ 13 Burns, Brendan         SO Indiana             45.39      45.53    4  
+    r:+0.66  21.33        45.53 (24.20)
+ 14 Miljenic, Nikola       SR USC                 45.64      45.63    3  
+    r:+0.62  21.29        45.63 (24.34)
+ 15 Wright, River          SO Michigan            45.64      45.88    2  
+    r:+0.65  21.33        45.88 (24.55)
+ 16 Mota, Kayky            SR Tennessee           45.50      45.92    1  
+    r:+0.66  21.00        45.92 (24.92)
+ 
+                          === Preliminaries ===                          
+ 
+ 17 Manoff, Blake          JR VT                  45.66             
+     r:0.64  21.14        45.66 (24.52)
+ 18 Henderson, Noah        SO NC State            45.83             
+     r:0.63  21.38        45.83 (24.45)
+ 19 Reid, Noah             SR Arizona             46.04             
+     r:0.69  21.55        46.04 (24.49)
+ 20 McCusker, Max          JR Florida St          46.06             
+     r:0.61  21.41        46.06 (24.65)
+ 21 Eichberg, Dylan        JR VT                  46.15             
+     r:0.61  21.36        46.15 (24.79)
+ 22 Lowe, Dalton           FR Louisville          46.18             
+     r:0.66  21.21        46.18 (24.97)
+ 23 Poelke, Boyd           FR UNC                 46.33             
+     r:0.69  21.65        46.33 (24.68)
+ 24 Edwards, Max           SO Virginia            46.35             
+     r:0.67  21.46        46.35 (24.89)
+ 25 Vera, Blaise           SR Pittsburgh          46.42             
+     r:0.63  21.23        46.42 (25.19)
+ 26 Jekel, Wes             SO Wisconsin           46.47             
+     r:0.67  21.64        46.47 (24.83)
+ 27 Affeld, Jonny          FR Stanford            46.48             
+     r:0.61  21.63        46.48 (24.85)
+ 28 Sobolewski, Luke       SR NC State            46.56             
+     r:0.64  21.46        46.56 (25.10)
+ 29 Gambardella, Corey     SR Indiana             46.61             
+     r:0.71  21.69        46.61 (24.92)
+ 30 Eberly, Nik            SO Auburn              46.63             
+     r:0.55  21.12        46.63 (25.51)
+ 31 Wilson, Daniel         FR Missouri            46.68             
+     r:0.70  21.42        46.68 (25.26)
+ 32 Dixon, David           SR West Virginia       46.72             
+     r:0.73  21.96        46.72 (24.76)
+ 33 Brown, Zach            JR NC State            46.79             
+     r:0.67  22.09        46.79 (24.70)
+ 34 Deryk, Cooper          JR Utah                46.83             
+     r:0.67  21.16        46.83 (25.67)
+ 34 Smith, Zachary         JR Notre Dame          46.83             
+     r:0.65  21.72        46.83 (25.11)
+ 36 Rose, Dare             FR California          46.85             
+     r:0.63  21.73        46.85 (25.12)
+ 37 Whelan, Matthew        JR Duke                46.91             
+     r:0.63  21.69        46.91 (25.22)
+ 38 Mathias, Van           JR Indiana             47.03             
+     r:0.72  21.65        47.03 (25.38)
+ 39 Houck, Jake            FR Penn St             47.23             
+     r:0.64  21.82        47.23 (25.41)
+ 40 Messenger, Jack        SR UNC                 47.24             
+     r:0.69  21.88        47.24 (25.36)
+ 41 Taner, Brooks          SO Arizona             47.35             
+     r:0.67  22.27        47.35 (25.08)
+ -- Ramadan, Youssef       FR VT                    DQ              
+     r:0.66  20.76           DQ (24.78)
+ -- Sameh, Haridi          SO Louisville           DFS              
+ -- King, Matt             FR Alabama              DFS              
+ 
+                  Men - Team Rankings - Through Event 9                  
+ 
+  1. Texas                             280   2. California                        275
+  3. Florida                           193   4. Georgia                           157
+  5. Indiana                            97   6. Texas A&M                          88
+  7. NC State                           87   8. Louisville                         81
+  9. Michigan                           66   9. Arizona                            66
+ 11. Virginia                           63  12. Missouri                           56
+ 13. Virginia Tech                      52  14. Stanford                           51
+ 15. Alabama                            38  16. Ohio St                            28
+ 16. Purdue                             28  18. Lsu                                23
+ 19. Georgia Tech                       20  20. University of Miami                19
+ 21. Florida St                       18.5  22. Notre Dame                         15
+ 23. Penn St                            13  24. Pittsburgh                         12
+ 25. Kentucky                            9  26. Wisconsin                           8
+ 27. Tennessee                           7  28. UNC                                 4
+ 29. Southern California                 3  30. Utah                              2.5
+
+
+
+

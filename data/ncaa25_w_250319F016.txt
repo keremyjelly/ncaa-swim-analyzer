@@ -1,0 +1,108 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2025 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 16  Women 200 Yard Backstroke
+=========================================================================
+         NCAA: N 1:46.82  3/22/2025 Claire Curzan, Virginia
+         Meet: M 1:46.82  3/22/2025 Claire Curzan, Virginia
+     American: A 1:46.82  3/22/2025 Claire Curzan, Virginia
+      US Open: O 1:46.82  3/22/2025 Claire Curzan, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Curzan, Claire         JR Virginia          1:48.01    1:46.82N  20  
+    r:+0.73  24.89        51.49 (26.60)
+        1:19.03 (27.54)     1:46.82 (27.79)
+  2 Sims, Bella            SO Florida           1:49.09    1:47.11   17  
+    r:+0.66  24.64        51.48 (26.84)
+        1:19.40 (27.92)     1:47.11 (27.71)
+  3 Bacon, Phoebe          5Y Wisconsin         1:49.61    1:47.60   16  
+    r:+0.66  25.28        52.43 (27.15)
+        1:19.99 (27.56)     1:47.60 (27.61)
+  4 Shackley, Leah         FR NC State          1:49.58    1:48.52   15  
+    r:+0.59  25.23        52.53 (27.30)
+        1:20.38 (27.85)     1:48.52 (28.14)
+  5 Weiler Sastre, Carmen  JR VT                1:50.22    1:49.22   14  
+    r:+0.68  25.88        53.08 (27.20)
+        1:20.86 (27.78)     1:49.22 (28.36)
+  6 Fuller, Josephine      SR Tennessee         1:50.02    1:49.73   13  
+    r:+0.66  25.32        52.70 (27.38)
+        1:21.35 (28.65)     1:49.73 (28.38)
+  7 Pelaez, Erika          FR NC State          1:50.55    1:49.81   12  
+    r:+0.75  25.75        53.70 (27.95)
+        1:21.78 (28.08)     1:49.81 (28.03)
+  8 Stadden, Isabelle      5Y California        1:50.51    1:51.41   11  
+    r:+0.75  25.62        53.25 (27.63)
+        1:22.05 (28.80)     1:51.41 (29.36)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Grana, Miranda         SO Indiana           1:50.62    1:48.73    9  
+    r:+0.67  26.02        53.21 (27.19)
+        1:20.71 (27.50)     1:48.73 (28.02)
+ 10 Choate, Catie          SO Florida           1:51.55    1:51.25    7  
+    r:+0.71  25.98        54.48 (28.50)
+        1:23.24 (28.76)     1:51.25 (28.01)
+ 11 Wilson, Charlotte      FR Virginia          1:51.51    1:51.28    6  
+    r:+0.70  26.43        54.86 (28.43)
+        1:23.14 (28.28)     1:51.28 (28.14)
+ 12 Rathwell, Regan        JR Tennessee         1:51.75    1:51.29    5  
+    r:+0.72  26.56        54.88 (28.32)
+        1:23.08 (28.20)     1:51.29 (28.21)
+ 13 Wanezek, Maggie        FR Wisconsin         1:51.47    1:51.33    4  
+    r:+0.63  26.23        54.30 (28.07)
+        1:22.77 (28.47)     1:51.33 (28.56)
+ 14 Marlin, Krista         JR OSU               1:51.73    1:51.49    3  
+    r:+0.69  26.53        54.85 (28.32)
+        1:23.16 (28.31)     1:51.49 (28.33)
+ 15 Riordan, Amy           JR South Carolina    1:51.23    1:51.65    2  
+    r:+0.67  26.13        54.33 (28.20)
+        1:22.96 (28.63)     1:51.65 (28.69)
+ 16 Frei, Sophia           SO UNC               1:51.69    1:53.59    1  
+    r:+0.61  26.03        54.14 (28.11)
+        1:23.55 (29.41)     1:53.59 (30.04)
+ 
+                Women - Team Rankings - Through Event 16                 
+ 
+  1. Virginia                          418   2. Texas                             315
+  3. Stanford                          309   4. Indiana                           234
+  5. Tennessee                         213   6. Florida                           210
+  7. California                      164.5   8. Louisville                      160.5
+  9. NC State                          152  10. Wisconsin                         122
+ 11. Michigan                          121  12. Southern California                90
+ 13. Miami (Fl)                       75.5  14. Georgia                            53
+ 15. Ohio St                            52  16. UNC                                51
+ 17. Arizona St                       41.5  18. Alabama                            41
+ 19. Virginia Tech                      31  20. Purdue                             25
+ 20. Kansas                             25  22. Pittsburgh                         21
+ 23. Arizona                            20  24. Duke                               18
+ 25. South Carolina                     17  26. Lsu                                15
+ 26. Cincinnati                         15  26. Siu                                15
+ 29. Nebraska                           13  29. Houston                            13
+ 31. Brigham Young                      12  32. Texas A&M                          11
+ 33. Princeton                           6  33. Auburn                              6
+ 35. Minnesota                           5  36. Arkansas                            4
+ 37. Florida St                          2  37. Akron                               2
+ 39. Washington St.                      1                                           
+
+
+
+

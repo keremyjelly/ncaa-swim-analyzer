@@ -1,0 +1,90 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet                      3/18/2023 - 9:08 PM
+                       2023 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 9  Women 100 Yard Butterfly
+=========================================================================
+         NCAA: N 48.46  3/17/2023 Kate Douglass, Virginia
+         Meet: M 48.46  3/17/2023 Kate Douglass, Virginia
+     American: A 48.46  3/17/2023 Kate Douglass, Virginia
+      US Open: O 48.46  3/17/2023 Kate Douglass, Virginia
+         Pool: P 48.46  3/17/2023 Kate Douglass, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Douglass, Kate         SR Virginia            50.11      48.46N  20  
+    r:+0.59  22.48        48.46 (25.98)
+  2 MacNeil, Maggie        5Y LSU                 50.51      48.51   17  
+    r:+0.65  22.56        48.51 (25.95)
+  3 Huske, Torri           SO Stanford            49.77      48.96   16  
+    r:+0.62  22.75        48.96 (26.21)
+  4 Curzan, Claire         FR Stanford            50.45      50.09   15  
+    r:+0.61  23.45        50.09 (26.64)
+  5 Sticklen, Emma         JR Texas               50.00      50.15   13.5
+    r:+0.67  23.51        50.15 (26.64)
+  5 Albiero, Gabi          JR Louisville          50.46      50.15   13.5
+    r:+0.61  23.69        50.15 (26.46)
+  7 Alons, Kylee           5Y NC State            50.85      50.44   12  
+    r:+0.63  23.24        50.44 (27.20)
+  8 Zenick, Katherine      JR Ohio St             50.84      51.11   11  
+    r:+0.65  23.80        51.11 (27.31)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Arens, Abby            JR NC State            50.86      50.60    9  
+    r:+0.62  23.71        50.60 (26.89)
+ 10 Guevara, Miriam        5Y Northwestern        51.24      50.91    7  
+    r:+0.50  23.52        50.91 (27.39)
+ 11 Ulett, Tristen         JR Louisville          51.50      51.18    6  
+    r:+0.74  24.09        51.18 (27.09)
+ 12 Lee, Meghan            JR Auburn              51.20      51.20    5  
+    r:+0.59  24.30        51.20 (26.90)
+ 13 Regenauer, Christiana  SR Louisville          51.35      51.26    4  
+    r:+0.70  23.89        51.26 (27.37)
+ 14 Cuomo, Lexi            SR Virginia            51.18      51.28    3  
+    r:+0.73  23.71        51.28 (27.57)
+ 15 Kragh, Mia             SO California          51.38      51.58    2  
+    r:+0.69  23.90        51.58 (27.68)
+ 16 Peoples, Olivia        SO Florida             51.62      52.04    1  
+    r:+0.63  24.32        52.04 (27.72)
+ 
+                 Women - Team Rankings - Through Event 9                 
+ 
+  1. Virginia                        268.5   2. Texas                           175.5
+  3. Stanford                          154   4. Louisville                      147.5
+  5. Florida                           114   6. Ohio St                           108
+  7. NC State                          101   8. Indiana                            84
+  9. Lsu                                79   9. California                         79
+ 11. UNC                                73  12. Georgia                          66.5
+ 13. Tennessee                          61  14. Alabama                            56
+ 15. Wisconsin                          49  16. Kentucky                           37
+ 16. Southern California                37  18. Minnesota                          24
+ 19. Virginia Tech                      18  20. Arizona                            17
+ 21. Miami (Fl)                         16  22. Duke                               13
+ 23. Arkansas                           12  24. Michigan                           10
+ 25. Miami (Ohio)                        9  25. South Carolina                      9
+ 25. Northwestern                        9  28. Auburn                              7
+ 28. Texas A&M                           7  28. Florida St                          7
+ 31. UCLA                                6  32. Arizona St                          4
+ 33. Utah                                2                                           
+
+
+
+

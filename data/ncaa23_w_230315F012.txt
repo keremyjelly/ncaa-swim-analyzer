@@ -1,0 +1,91 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet                      3/18/2023 - 9:08 PM
+                       2023 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 12  Women 100 Yard Backstroke
+=========================================================================
+         NCAA: N 48.26  3/17/2023 Gretchen Walsh, Virginia
+         Meet: M 48.26  3/17/2023 Gretchen Walsh, Virginia
+     American: A 48.26  3/17/2023 Gretchen Walsh, Virginia
+      US Open: O 48.26  3/17/2023 Gretchen Walsh, Virginia
+         Pool: P 48.26  3/17/2023 Gretchen Walsh, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Gretchen        SO Virginia            49.12      48.26N  20  
+    r:+0.69  23.02        48.26 (25.24)
+  2 Berkoff, Katharine     SR NC State            50.14      49.13   17  
+    r:+0.55  23.53        49.13 (25.60)
+  3 Curzan, Claire         FR Stanford            50.19      50.08   16  
+    r:+0.65  24.29        50.08 (25.79)
+  4 Bacon, Phoebe          JR Wisconsin           50.47      50.54   15  
+    r:+0.68  24.62        50.54 (25.92)
+  5 Bray, Olivia           JR Texas               50.85      50.61   14  
+    r:+0.69  24.48        50.61 (26.13)
+  6 Stadden, Isabelle      JR California          50.73      51.03   13  
+    r:+0.69  24.55        51.03 (26.48)
+  7 Fuller, Josephine      SO Tennessee           51.00      51.18   12  
+    r:+0.68  24.90        51.18 (26.28)
+  8 White, Rhyan           5Y Alabama             51.15      51.26   11  
+    r:+0.65  24.35        51.26 (26.91)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Countie, Grace         SR UNC                 51.16      50.81    9  
+    r:+0.91  24.35        50.81 (26.46)
+ 10 Muzzy, Emma            5Y NC State            51.26      51.27    7  
+    r:+0.79  25.30        51.27 (25.97)
+ 11 Noble, Kennedy         FR NC State            51.48      51.32    6  
+    r:+0.61  25.02        51.32 (26.30)
+ 12 Tiltmann, Reilly       SO Virginia            51.29      51.46    5  
+    r:+0.68  24.82        51.46 (26.64)
+ 13 Runnels, Aris          SO Florida             51.57      51.76    4  
+    r:+0.78  24.94        51.76 (26.82)
+ 14 McCarty, Eboni         SO Georgia             51.36      51.89    3  
+    r:+0.74  25.09        51.89 (26.80)
+ 15 Nordmann, Lucie        SR Stanford            51.60      51.95    2  
+    r:+0.74  24.86        51.95 (27.09)
+ 16 Gatrall, Maddy         JR Akron               51.59      52.16    1  
+    r:+0.69  25.11        52.16 (27.05)
+ 
+                Women - Team Rankings - Through Event 12                 
+ 
+  1. Virginia                        334.5   2. Texas                           231.5
+  3. Stanford                          209   4. Louisville                      158.5
+  5. NC State                          156   6. Ohio St                           138
+  7. Florida                           122   8. Tennessee                         107
+  9. Indiana                           101  10. California                         93
+ 11. UNC                                87  12. Lsu                                79
+ 13. Georgia                          69.5  14. Wisconsin                          67
+ 14. Alabama                            67  16. Southern California                55
+ 17. Kentucky                           37  18. Virginia Tech                      25
+ 19. Minnesota                          24  20. Miami (Fl)                         22
+ 21. Duke                               20  22. Texas A&M                          19
+ 22. Michigan                           19  24. Arizona                            17
+ 25. Arkansas                           12  26. Northwestern                        9
+ 26. Miami (Ohio)                        9  26. South Carolina                      9
+ 29. Auburn                              7  29. Florida St                          7
+ 31. UCLA                                6  32. Arizona St                          4
+ 33. Utah                                2  34. Florida Int'l                       1
+ 34. Akron                               1                                           
+
+
+
+

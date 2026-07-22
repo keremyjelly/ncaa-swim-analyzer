@@ -1,0 +1,194 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet^ 
+                        2026 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 6  Men 200 Yard Freestyle
+=========================================================================
+         NCAA: N 1:28.33  3/28/2025 Luke Hobson, Texas
+         Meet: M 1:28.33  3/28/2025 Luke Hobson, Texas
+     American: A 1:28.33  3/28/2025 Luke Hobson, Texas
+   U. S. Open: O 1:28.33  3/28/2025 Luke Hobson, Texas
+         Pool: P 1:29.79  3/25/2026 Koby Bujak-Upton, Tennessee
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Williamson, Maximus    FR Virginia          1:31.17    1:30.03   20  
+    r:+0.59  20.57        43.37 (22.80)
+        1:06.39 (23.02)     1:30.03 (23.64)
+  2 Bujak-Upton, Koby      FR Tennessee         1:30.67    1:30.11   17  
+    r:+0.64  20.74        43.25 (22.51)
+        1:06.67 (23.42)     1:30.11 (23.44)
+  3 McFadden, Henry        JR Stanford          1:30.81    1:30.13   16  
+    r:+0.65  21.25        44.00 (22.75)
+        1:07.14 (23.14)     1:30.13 (22.99)
+  4 Navikonis, Tomas       SR OSU               1:30.77    1:30.78   15  
+    r:+0.67  21.05        43.75 (22.70)
+        1:07.36 (23.61)     1:30.78 (23.42)
+  5 Fabiani, Remi          5Y ASU               1:31.07    1:30.81   14  
+    r:+0.62  20.88        43.69 (22.81)
+        1:07.21 (23.52)     1:30.81 (23.60)
+  6 Winkler, Kaii          SO NC State          1:30.83    1:30.93   13  
+    r:+0.66  20.82        43.95 (23.13)
+        1:07.43 (23.48)     1:30.93 (23.50)
+  7 Jones, Keaton          JR California        1:30.99    1:31.08   12  
+    r:+0.70  21.43        44.69 (23.26)
+        1:08.06 (23.37)     1:31.08 (23.02)
+  8 Schott, Mitchell       SR Princeton         1:31.15    1:32.01   11  
+    r:+0.68  21.34        44.64 (23.30)
+        1:08.32 (23.68)     1:32.01 (23.69)
+ 
+                          === Preliminaries ===                          
+ 
+  9 King, David            SO Virginia          1:31.17               9  
+     r:0.68  21.48        44.69 (23.21)
+        1:08.00 (23.31)     1:31.17 (23.17)
+ 10 Hribar, Jere           JR LSU               1:31.30               7  
+     r:0.71  20.74        43.95 (23.21)
+        1:07.44 (23.49)     1:31.30 (23.86)
+ 11 Brooks, Guy            SR Louisville        1:31.48               6  
+     r:0.67  20.96        43.88 (22.92)
+        1:07.46 (23.58)     1:31.48 (24.02)
+ 12 Whitfield, Brendan     JR VT                1:31.49               5  
+     r:0.71  20.98        43.50 (22.52)
+        1:07.41 (23.91)     1:31.49 (24.08)
+ 13 Blackman, Nikoli       JR Tennessee         1:31.55               4  
+     r:0.63  20.12        42.86 (22.74)
+        1:06.97 (24.11)     1:31.55 (24.58)
+ 14 Robinson, Logan        SO FSU               1:31.56               3  
+     r:0.62  21.22        44.23 (23.01)
+        1:07.79 (23.56)     1:31.56 (23.77)
+ 15 Fente-Damers, Rafael   FR Texas             1:31.62               1.5
+             20.95        44.24 (23.29)
+        1:08.03 (23.79)     1:31.62 (23.59)
+ 15 Koski, Tomas           JR Georgia           1:31.62               1.5
+     r:0.62  21.10        44.11 (23.01)
+        1:07.52 (23.41)     1:31.62 (24.10)
+ 17 Shackell, Aaron        JR Indiana           1:31.76             
+     r:0.67  21.10        43.97 (22.87)
+        1:07.65 (23.68)     1:31.76 (24.11)
+ 18 Brennan, Francis       FR SMU               1:31.94             
+     r:0.65  21.67        44.70 (23.03)
+        1:08.16 (23.46)     1:31.94 (23.78)
+ 19 McDonald, Owen         SR Indiana           1:32.05             
+     r:0.62  20.89        44.19 (23.30)
+        1:08.06 (23.87)     1:32.05 (23.99)
+ 20 Taylor, Camden         JR Texas             1:32.06             
+     r:0.73  21.06        44.03 (22.97)
+        1:07.91 (23.88)     1:32.06 (24.15)
+ 20 Krichevsky, Daniel     FR Auburn            1:32.06             
+     r:0.71  21.04        44.20 (23.16)
+        1:07.87 (23.67)     1:32.06 (24.19)
+ 22 Solitario, Enzo        FR Wisconsin         1:32.07             
+     r:0.69  21.58        44.55 (22.97)
+        1:08.25 (23.70)     1:32.07 (23.82)
+ 23 Sogaard-Andersen, Oli  SO USC               1:32.09             
+             20.74        44.12 (23.38)
+        1:08.00 (23.88)     1:32.09 (24.09)
+ 24 Lukminas, Tomas        SO Arizona           1:32.30             
+             21.29        44.51 (23.22)
+        1:08.21 (23.70)     1:32.30 (24.09)
+ 25 Jahn, Cornelius        SO OSU               1:32.47             
+     r:0.72  21.69        45.13 (23.44)
+        1:09.07 (23.94)     1:32.47 (23.40)
+ 26 Glivinskiy, Alexey     FR Texas             1:32.49             
+     r:0.64  21.25        44.11 (22.86)
+        1:07.87 (23.76)     1:32.49 (24.62)
+ 27 Painter, Alexander     SO Florida           1:32.69             
+     r:0.65  21.12        44.54 (23.42)
+        1:08.50 (23.96)     1:32.69 (24.19)
+ 28 Wimberly, Jacob        SO Texas             1:32.70             
+     r:0.62  21.11        44.03 (22.92)
+        1:07.86 (23.83)     1:32.70 (24.84)
+ 29 Vilchez, Jordi         SO OSU               1:32.72             
+     r:0.69  22.11        45.68 (23.57)
+        1:09.38 (23.70)     1:32.72 (23.34)
+ 30 Ben-Shitrit, Eitan     SR Michigan          1:32.79             
+     r:0.62  21.61        44.68 (23.07)
+        1:08.32 (23.64)     1:32.79 (24.47)
+ 31 Felt, Dylan            SR Davidson          1:32.94             
+     r:0.60  21.65        45.19 (23.54)
+        1:08.81 (23.62)     1:32.94 (24.13)
+ 32 Romano, Yoav           SO Wisconsin         1:32.95             
+     r:0.62  21.86        45.26 (23.40)
+        1:09.01 (23.75)     1:32.95 (23.94)
+ 33 Vainio, Luukas         JR Wisconsin         1:32.96             
+     r:0.62  21.66        45.47 (23.81)
+        1:09.47 (24.00)     1:32.96 (23.49)
+ 34 Diehl, Daniel          JR NC State          1:33.00             
+     r:0.64  21.52        44.97 (23.45)
+        1:08.85 (23.88)     1:33.00 (24.15)
+ 35 Hagar, Tommy           JR Alabama           1:33.12             
+     r:0.66  21.77        45.39 (23.62)
+        1:09.25 (23.86)     1:33.12 (23.87)
+ 36 Norman, Aiden          SO Florida           1:33.46             
+     r:0.70  21.40        44.69 (23.29)
+        1:08.77 (24.08)     1:33.46 (24.69)
+ 37 Oliveira de Moraes, E  5Y California        1:33.49             
+     r:0.68  22.46        45.97 (23.51)
+        1:09.52 (23.55)     1:33.49 (23.97)
+ 38 Kos, Oliver            SO Northwestern      1:33.69             
+     r:0.67  21.44        45.57 (24.13)
+        1:09.54 (23.97)     1:33.69 (24.15)
+ 39 Casey, Simon           JR Wyoming           1:33.70             
+     r:0.65  21.74        45.27 (23.53)
+        1:09.17 (23.90)     1:33.70 (24.53)
+ 40 Jones, Dean            SO U.S. Navy         1:33.79             
+     r:0.67  21.60        45.08 (23.48)
+        1:09.34 (24.26)     1:33.79 (24.45)
+ 41 Largeron, Pierre       JR South Carolina    1:33.90             
+     r:0.64  21.61        45.49 (23.88)
+        1:09.56 (24.07)     1:33.90 (24.34)
+ 42 Ewing, JT              JR ASU               1:34.13             
+     r:0.61  21.89        45.59 (23.70)
+        1:09.72 (24.13)     1:34.13 (24.41)
+ 43 Chmielewski, Krzyszto  JR USC               1:34.25             
+     r:0.60  21.69        45.41 (23.72)
+        1:09.85 (24.44)     1:34.25 (24.40)
+ 44 Chirafisi, Nick        JR Utah              1:34.35             
+     r:0.67  21.75        45.47 (23.72)
+        1:09.81 (24.34)     1:34.35 (24.54)
+ 45 Laureyssens, Daniel    SR Fla Atlantic      1:34.49             
+     r:0.65  21.03        44.39 (23.36)
+        1:09.32 (24.93)     1:34.49 (25.17)
+ -- Dupont Cabrera, Andre  SR Stanford             DFS              
+ -- Dinu, Patrick          SO Princeton            DFS              
+ -- Seider, Quin           SO ASU                  DFS              
+ -- Alcantara, Leonardo    JR Alabama              DFS              
+ 
+                  Men - Team Rankings - Through Event 6                  
+ 
+  1. Texas                           141.5   2. Florida                           128
+  3. Indiana                           105   4. Arizona St                         92
+  5. NC State                           90   6. Michigan                           77
+  7. Virginia                           74   8. California                         71
+  9. Stanford                           68  10. Ohio St                            63
+ 11. Kentucky                           49  12. Tennessee                          47
+ 13. Auburn                             27  13. Louisville                         27
+ 15. Princeton                          25  16. Lsu                                21
+ 17. Wisconsin                          19  18. Georgia                          17.5
+ 19. Pittsburgh                         17  20. Southern California                15
+ 21. Virginia Tech                      13  21. Northwestern                       13
+ 23. Yale                               10  24. Harvard                             9
+ 25. Alabama                             8  26. Florida St                          7
+ 27. Smu                                 4  28. UNC                                 2
+
+
+
+

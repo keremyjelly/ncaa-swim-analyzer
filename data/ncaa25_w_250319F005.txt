@@ -1,0 +1,83 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2025 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 5  Women 50 Yard Freestyle
+=========================================================================
+         NCAA: N 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+         Meet: M 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+     American: A 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+      US Open: O 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Gretchen        SR Virginia            20.44      20.49   20  
+    r:+0.71  10.04        20.49 (10.45)
+  2 Curzan, Claire         JR Virginia            21.44      21.11   17  
+    r:+0.65  10.22        21.11 (10.89)
+  3 Dennis, Julia          JR Louisville          21.25      21.20   16  
+    r:+0.63  10.23        21.20 (10.97)
+  4 Spink, Camille         SO Tennessee           21.34      21.27   15  
+    r:+0.67  10.26        21.27 (11.01)
+  5 Yendell, Sophie        5Y Pittsburgh          21.54      21.66   14  
+    r:+0.69  10.39        21.66 (11.27)
+  6 Parker, Maxine         5Y Virginia            21.63      21.77   13  
+    r:+0.69  10.63        21.77 (11.14)
+  7 Albiero, Gabi          5Y Louisville          21.63      21.78   12  
+    r:+0.65  10.53        21.78 (11.25)
+  8 Vincent, Cadence       SO Alabama             21.57      21.83   11  
+    r:+0.66  10.60        21.83 (11.23)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Kendall, Brady         JR Michigan            21.64      21.53    9  
+    r:+0.59  10.34        21.53 (11.19)
+ 10 Paegle, Kristina       JR Indiana             21.72      21.56    7  
+    r:+0.70  10.45        21.56 (11.11)
+ 11 Bentz, Caroline        5Y ASU                 21.89      21.65    5.5
+    r:+0.61  10.58        21.65 (11.07)
+ 11 Carvalho, Giulia       SR Miami (FL)          21.69      21.65    5.5
+    r:+0.57  10.44        21.65 (11.21)
+ 13 Flynn, Lindsay         SR Michigan            21.78      21.71    4  
+    r:+0.65  10.56        21.71 (11.15)
+ 14 Larsen, Caroline       FR Louisville          21.78      21.85    2.5
+    r:+0.68  10.49        21.85 (11.36)
+ 14 Moluh, Mary-Ambre      FR California          21.69      21.85    2.5
+    r:+0.68  10.59        21.85 (11.26)
+ 16 Christianson, Lily     FR NC State            21.86      21.91    1  
+    r:+0.65  10.56        21.91 (11.35)
+ 
+                 Women - Team Rankings - Through Event 5                 
+ 
+  1. Virginia                          179   2. Stanford                          146
+  3. Texas                              99   4. Tennessee                          75
+  5. Louisville                       72.5   6. Florida                            71
+  6. Indiana                            71   8. California                       65.5
+  9. Michigan                           62  10. Wisconsin                          45
+ 11. Southern California                35  12. Georgia                            28
+ 12. NC State                           28  14. Arizona St                       27.5
+ 15. Ohio St                            21  15. Alabama                            21
+ 17. Pittsburgh                         14  18. Virginia Tech                       6
+ 18. Texas A&M                           6  20. Miami (Fl)                        5.5
+ 21. Lsu                                 4  22. UNC                                 3
+
+
+
+

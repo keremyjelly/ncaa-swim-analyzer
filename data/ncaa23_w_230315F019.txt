@@ -1,0 +1,109 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet                      3/18/2023 - 9:08 PM
+                       2023 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 19  Women 200 Yard Butterfly
+=========================================================================
+         NCAA: N 1:49.51  2/24/2018 Ella Eastin, Stanford
+         Meet: M 1:49.95  3/18/2023 Emma Sticklen, Texas
+     American: A 1:49.51  2/24/2018 Ella Eastin, Stanford
+      US Open: O 1:49.51  2/24/2018 Ella Eastin, Stanford
+         Pool: P 1:49.95  3/18/2023 Emma Sticklen, Texas
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Sticklen, Emma         JR Texas             1:51.71    1:49.95M  20  
+    r:+0.65  24.18        52.53 (28.35)
+        1:21.16 (28.63)     1:49.95 (28.79)
+  2 Walsh, Alex            JR Virginia          1:52.05    1:50.23   17  
+    r:+0.75  24.18        50.57 (26.39)
+        1:19.83 (29.26)     1:50.23 (30.40)
+  3 Pash, Kelly            SR Texas             1:52.73    1:51.89   16  
+    r:+0.66  25.21        53.45 (28.24)
+        1:22.09 (28.64)     1:51.89 (29.80)
+  4 Looney, Lindsay        SR ASU               1:53.19    1:52.25   15  
+    r:+0.67  25.25        53.50 (28.25)
+        1:22.64 (29.14)     1:52.25 (29.61)
+  5 Luther, Dakota         5Y Texas             1:51.91    1:52.27   14  
+    r:+0.70  24.94        53.05 (28.11)
+        1:22.07 (29.02)     1:52.27 (30.20)
+  6 Hook, Charlotte        FR Stanford          1:53.86    1:53.17   13  
+    r:+0.65  25.87        54.58 (28.71)
+        1:23.68 (29.10)     1:53.17 (29.49)
+  7 Harter, Abby           JR Virginia          1:53.28    1:53.56   12  
+    r:+0.74  25.29        54.06 (28.77)
+        1:23.37 (29.31)     1:53.56 (30.19)
+  8 Hay, Abby              SR Louisville        1:53.21    1:53.90   11  
+    r:+0.68  25.67        54.53 (28.86)
+        1:24.09 (29.56)     1:53.90 (29.81)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Nordmann, Lillie       SO Stanford          1:54.29    1:53.90    9  
+    r:+0.68  25.63        54.41 (28.78)
+        1:23.54 (29.13)     1:53.90 (30.36)
+ 10 Stotler, Sara          SO Tennessee         1:54.71    1:53.94    7  
+    r:+0.69  25.39        53.98 (28.59)
+        1:23.60 (29.62)     1:53.94 (30.34)
+ 11 Klinker, Rachel        SR California        1:54.16    1:54.03    6  
+    r:+0.70  25.80        54.14 (28.34)
+        1:23.44 (29.30)     1:54.03 (30.59)
+ 12 VanNote, Ellie         SR UNC               1:54.84    1:55.04    5  
+    r:+0.71  25.52        54.30 (28.78)
+        1:23.82 (29.52)     1:55.04 (31.22)
+ 13 Jernstedt, Edith       SO FSU               1:54.64    1:55.15    4  
+    r:+0.72  25.66        54.92 (29.26)
+        1:24.51 (29.59)     1:55.15 (30.64)
+ 14 Arens, Abby            JR NC State          1:54.45    1:55.80    3  
+    r:+0.57  25.20        54.20 (29.00)
+        1:24.41 (30.21)     1:55.80 (31.39)
+ 15 Guevara, Miriam        5Y Northwestern      1:55.18    1:56.14    2  
+    r:+0.51  25.11        54.24 (29.13)
+        1:24.54 (30.30)     1:56.14 (31.60)
+ 16 Dickinson, Callie      5Y Georgia           1:54.83    1:56.25    1  
+    r:+0.63  25.40        54.46 (29.06)
+        1:25.18 (30.72)     1:56.25 (31.07)
+ 
+                Women - Team Rankings - Through Event 19                 
+ 
+  1. Virginia                        501.5   2. Texas                           371.5
+  3. Stanford                          299   4. Louisville                        245
+  5. NC State                          233   6. Tennessee                         200
+  7. Ohio St                           195   8. Indiana                           178
+  9. Florida                           157  10. UNC                               137
+ 11. California                        127  12. Alabama                           111
+ 13. Wisconsin                         100  14. Southern California                99
+ 15. Lsu                                95  16. Georgia                          90.5
+ 17. Kentucky                           49  18. Duke                               42
+ 19. Minnesota                          37  20. Miami (Fl)                         36
+ 21. Arizona                            32  22. Michigan                           29
+ 23. Virginia Tech                      28  24. Texas A&M                          26
+ 25. South Carolina                     25  26. Arizona St                         19
+ 27. Northwestern                       15  28. Auburn                             14
+ 29. Arkansas                           12  30. Hawaii                           11.5
+ 31. Florida St                         11  32. Miami (Ohio)                        9
+ 33. Purdue                              7  33. Penn                                7
+ 35. UCLA                                6  36. Akron                               5
+ 37. Georgia Tech                        2  37. Utah                                2
+ 39. Florida Int'l                       1                                           
+
+
+
+

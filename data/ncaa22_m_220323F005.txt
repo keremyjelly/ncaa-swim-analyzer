@@ -1,0 +1,85 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                        2022 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 5  Men 50 Yard Freestyle
+=========================================================================
+         NCAA: N 17.63  3/22/2018 Caeleb Dressel, Florida
+         Meet: M 17.63  3/22/2018 Caeleb Dressel, Florida
+     American: A 17.63  3/22/2018 Caeleb Dressel, Florida
+   U. S. Open: O 17.63  3/22/2018 Caeleb Dressel, Florida
+         Pool: P 18.20  3/24/2016 Caeleb Dressel, Florida
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Curry, Brooks          JR LSU                 18.85      18.56   20  
+     r:+0.60  8.86         18.56 (9.70)
+  2 Seeliger, Bjorn        SO California          18.45      18.59   17  
+     r:+0.63  8.89         18.59 (9.70)
+  3 Brownstead, Matt       SO Virginia            18.85      18.60   15.5
+     r:+0.60  8.81         18.60 (9.79)
+  3 Crooks, Jordan         FR Tennessee           18.60      18.60   15.5
+     r:+0.61  8.98         18.60 (9.62)
+  5 Korstanje, Nyls        JR NCSU                18.94      18.66   14  
+     r:+0.60  8.84         18.66 (9.82)
+  6 Kibler, Drew           SR Texas               18.60      18.87   13  
+     r:+0.57  8.98         18.87 (9.89)
+  7 Ramadan, Youssef       SO VT                  18.79      19.04   12  
+     r:+0.57  9.15         19.04 (9.89)
+ -- Auchinachie, Cameron   5Y Texas               18.63         DQ  
+     r:+0.68  8.96            DQ (9.74)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Chaney, Adam           SO Florida             19.00      18.75    9  
+     r:+0.61  8.91         18.75 (9.84)
+ 10 Henderson, Noah        JR NCSU                19.00      18.80    7  
+     r:+0.58  8.95         18.80 (9.85)
+ 11 Davis, Will            SR Florida             19.10      18.99    6  
+     r:+0.57  9.08         18.99 (9.91)
+ 12 King, Matt             SO Virginia            19.08      19.02    5  
+     r:+0.63  9.17         19.02 (9.85)
+ 13 Blaskovic, Bruno       5Y Indiana             18.98      19.14    4  
+     r:+0.52  9.19         19.14 (9.95)
+ 14 Dolan, Jack            JR ASU                 19.16      19.18    3  
+     r:+0.63  9.21         19.18 (9.97)
+ 15 Curtiss, David         FR NCSU                19.12      19.22    2  
+     r:+0.61  9.34         19.22 (9.88)
+ 16 Downing, Dillon        JR Georgia             19.06      19.25    1  
+     r:+0.63  9.32         19.25 (9.93)
+ 
+                  Men - Team Rankings - Through Event 5                  
+ 
+  1. Texas                             148   2. California                        124
+  3. Florida                           119   4. NC State                           94
+  5. Georgia                            88   6. Arizona St                         85
+  7. Stanford                           77   8. Virginia Tech                      55
+  9. Louisville                         46  10. Virginia                         42.5
+ 11. Alabama                            30  12. Arizona                            26
+ 12. Indiana                            26  14. Harvard                            22
+ 15. Michigan                           20  15. Lsu                                20
+ 17. Ohio St                            18  18. Tennessee                        15.5
+ 19. Auburn                              6  20. Princeton                           5
+ 21. Minnesota                           4  22. Utah                                2
+ 23. Georgia Tech                        1                                           
+
+
+
+

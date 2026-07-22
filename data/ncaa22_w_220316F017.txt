@@ -1,0 +1,92 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2022 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 17  Women 100 Yard Freestyle
+=========================================================================
+         NCAA: N 45.56  3/18/2017 Simone Manuel, Stanford
+         Meet: M 45.56  3/17/2017 Simone Manuel, Stanford
+     American: A 45.56  3/18/2017 Simone Manuel, Stanford
+      US Open: O 45.56  3/18/2017 Simone Manuel, Stanford
+         Pool: P 46.05  3/19/2022 Gretchen Walsh, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Gretchen        FR Virginia            46.78      46.05P  20  
+    r:+0.75  22.10        46.05 (23.95)
+  2 Scott, Morgan          SR Alabama             47.27      46.78   17  
+    r:+0.65  22.08        46.78 (24.70)
+  3 Berkoff, Katharine     JR NCSU                46.89      46.95   16  
+    r:+0.67  22.41        46.95 (24.54)
+  4 Dupre, Cora            JR Alabama             47.51      47.08   15  
+    r:+0.60  22.54        47.08 (24.54)
+  5 Henig, Iszac           JR Yale                47.55      47.32   13.5
+    r:+0.60  22.65        47.32 (24.67)
+  5 Albiero, Gabi          SO Louisville          47.45      47.32   13.5
+    r:+0.60  22.90        47.32 (24.42)
+  7 Countie, Grace         SR UNC                 47.50      47.36   12  
+    r:+0.73  22.67        47.36 (24.69)
+  8 Thomas, Lia            5Y Penn                47.37      48.18   11  
+    r:+0.73  23.19        48.18 (24.99)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Huske, Torri           FR Stanford            48.12      46.98    9  
+    r:+0.60  22.32        46.98 (24.66)
+ 10 MacNeil, Maggie        SR Michigan            47.77      47.42    7  
+    r:+0.63  22.65        47.42 (24.77)
+ 11 Flynn, Lindsay         FR Michigan            47.94      47.67    6  
+    r:+0.66  22.88        47.67 (24.79)
+ 12 Alons, Kylee           SR NCSU                48.02      47.68    5  
+    r:+0.64  22.77        47.68 (24.91)
+ 13 Ivey, Isabel           SR California          47.61      47.71    4  
+    r:+0.70  22.76        47.71 (24.95)
+ 14 Zenick, Katherine      SO Ohio St             47.91      47.85    3  
+    r:+0.61  22.88        47.85 (24.97)
+ 15 Antoniou, Kalia        SR Alabama             47.84      47.93    2  
+    r:+0.67  23.16        47.93 (24.77)
+ 16 Bates, Talia           JR Florida             48.14      47.95    1  
+    r:+0.70  23.13        47.95 (24.82)
+ 
+                Women - Team Rankings - Through Event 17                 
+ 
+  1. Virginia                        433.5   2. Stanford                          327
+  3. Texas                             292   4. Alabama                           243
+  5. NC State                          233   6. California                        155
+  7. Louisville                      153.5   8. Ohio St                           143
+  9. Michigan                          139  10. Tennessee                         118
+ 11. UNC                               103  12. Florida                            91
+ 13. Southern California                89  14. Wisconsin                          86
+ 15. Georgia                          85.5  16. Kentucky                         82.5
+ 17. Indiana                            82  18. Northwestern                       68
+ 19. Penn                             44.5  20. Minnesota                          43
+ 21. Miami (Florida)                  41.5  22. Arizona                          35.5
+ 23. Virginia Tech                      31  24. Duke                               27
+ 25. Missouri                           25  26. Arizona St                         22
+ 27. Yale                             14.5  28. Arkansas                           11
+ 29. South Carolina                      9  30. Rutgers                             6
+ 30. Notre Dame                          6  32. UCLA                                4
+ 32. Lsu                                 4  34. Wyoming                             2
+ 34. San Diego St                        2  34. Harvard                             2
+ 37. Texas A&M                           1                                           
+
+
+
+

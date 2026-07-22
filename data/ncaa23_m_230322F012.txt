@@ -1,0 +1,91 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet                      3/25/2023 - 9:08 PM
+                        2023 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 12  Men 100 Yard Backstroke
+=========================================================================
+         NCAA: N 43.35  3/25/2022 Luca Urlando, Georgia
+         Meet: M 43.35  3/25/2022 Luca Urlando, Georgia
+     American: A 43.35  3/25/2022 Luca Urlando, Georgia
+   U. S. Open: O 43.35  3/25/2022 Luca Urlando, Georgia
+         Pool: P 43.61  3/24/2023 Brendan Burns, Indiana
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Burns, Brendan         SR Indiana             44.28      43.61P  20  
+    r:+0.70  21.26        43.61 (22.35)
+  2 Stokowski, Kacper      SR NC State            44.02      43.86   17  
+    r:+0.71  20.97        43.86 (22.89)
+  3 Lasco, Destin          JR California          43.93      43.94   16  
+    r:+0.66  21.21        43.94 (22.73)
+  4 Chaney, Adam           JR Florida             44.28      44.42   15  
+    r:+0.73  21.05        44.42 (23.37)
+  5 Ungur, Andrei          SR Utah                45.05      44.58   14  
+    r:+0.70  21.57        44.58 (23.01)
+  6 McDonald, Owen         FR ASU                 44.97      44.85   13  
+    r:+0.55  21.54        44.85 (23.31)
+  7 Dolan, Jack            SR ASU                 44.78      44.93   12  
+    r:+0.55  21.57        44.93 (23.36)
+  8 Stoffle, Nate          SO Auburn              44.93      45.38   11  
+    r:+0.67  22.09        45.38 (23.29)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Van Renen, Ruard       FR SIUC                45.17      44.67    9  
+    r:+0.67  21.58        44.67 (23.09)
+ 10 Seeliger, Bjorn        JR California          45.33      45.00    7  
+    r:+0.83  21.29        45.00 (23.71)
+ 11 Izzo, Giovanni         5Y NC State            45.20      45.03    6  
+    r:+0.81  21.58        45.03 (23.45)
+ 12 Stoffle, Aidan         SR Auburn              45.22      45.09    5  
+    r:+0.69  21.75        45.09 (23.34)
+ 13 Dunham, Bradley        SR Georgia             45.13      45.22    4  
+    r:+0.75  21.71        45.22 (23.51)
+ 14 Janton, Tommy          FR Notre Dame          45.54      45.43    3  
+    r:+0.72  21.66        45.43 (23.77)
+ 15 Simons, Nick           FR Tennessee           45.50      45.45    2  
+    r:+0.66  21.92        45.45 (23.53)
+ 16 Samuels, Brady         SO Purdue              45.17      45.50    1  
+    r:+0.77  21.73        45.50 (23.77)
+ 
+                 Men - Team Rankings - Through Event 12                  
+ 
+  1. California                        287   2. Arizona St                        270
+  3. Texas                             250   4. NC State                        216.5
+  5. Florida                           211   6. Indiana                           174
+  7. Tennessee                         105   8. Stanford                        100.5
+  9. Auburn                             80  10. Virginia Tech                      72
+ 11. Louisville                         71  12. Georgia                            53
+ 12. Texas A&M                          53  12. Virginia                           53
+ 15. Alabama                            38  16. Lsu                                37
+ 17. Ohio St                          34.5  18. Notre Dame                         34
+ 19. Missouri                         32.5  20. Wisconsin                          23
+ 21. Minnesota                          20  22. Michigan                           18
+ 22. UNC                                18  24. Utah                               14
+ 24. Southern California                14  26. Arizona                            10
+ 27. Siuc                                9  27. Miami                               9
+ 29. Princeton                           4  29. Penn St                             4
+ 31. Georgia Tech                        3  32. Pittsburgh                          2
+ 32. Air Force                           2  32. Towson                              2
+ 35. Purdue                              1                                           
+
+
+
+

@@ -1,0 +1,255 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2021 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 4  Women 200 Yard IM
+=========================================================================
+         NCAA: N 1:50.67  3/15/2018 Ella Eastin, Stanford
+         Meet: M 1:50.67  3/15/2018 Ella Eastin, Stanford
+     American: A 1:50.67  3/15/2018 Ella Eastin, Stanford
+      US Open: O 1:50.67  3/15/2018 Ella Eastin, Stanford
+         Pool: P 1:51.36  2/20/2020 Kate Douglass, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Alex            FR Virginia          1:54.62    1:51.87   20  
+    r:+0.74  24.73        52.31 (27.58)
+        1:24.85 (32.54)     1:51.87 (27.02)
+  2 Hartman, Zoie          SO Georgia           1:55.03    1:53.34   17  
+    r:+0.81  25.38        53.59 (28.21)
+        1:25.92 (32.33)     1:53.34 (27.42)
+  3 Wilson, Alicia         JR California        1:54.97    1:54.51   16  
+    r:+0.67  24.37        52.94 (28.57)
+        1:26.36 (33.42)     1:54.51 (28.15)
+  4 Bacon, Phoebe          FR Wisconsin         1:55.58    1:54.55   15  
+    r:+0.68  24.50        52.60 (28.10)
+        1:27.16 (34.56)     1:54.55 (27.39)
+  5 Nelson, Ella           SO Virginia          1:55.00    1:54.74   14  
+    r:+0.67  25.45        54.56 (29.11)
+        1:27.29 (32.73)     1:54.74 (27.45)
+  6 Poole, Julia           SR NC State          1:55.70    1:55.60   13  
+    r:+0.68  25.49        54.53 (29.04)
+        1:27.64 (33.11)     1:55.60 (27.96)
+  7 Pash, Kelly            SO Texas             1:55.55    1:55.72   12  
+    r:+0.68  24.99        53.53 (28.54)
+        1:27.96 (34.43)     1:55.72 (27.76)
+  8 Romano, Kristen        SR Ohio St           1:56.12    1:56.07   11  
+    r:+0.73  24.93        53.57 (28.64)
+        1:27.86 (34.29)     1:56.07 (28.21)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Hay, Abby              SO Louisville        1:56.53    1:56.02    9  
+    r:+0.71  24.83        53.80 (28.97)
+        1:27.52 (33.72)     1:56.02 (28.50)
+ 10 Pearl, Vanessa         JR Florida           1:56.47    1:56.30    7  
+    r:+0.68  25.62        54.86 (29.24)
+        1:28.30 (33.44)     1:56.30 (28.00)
+ 11 Poole, Lauren          SO Kentucky          1:57.11    1:56.75    6  
+    r:+0.72  25.15        54.26 (29.11)
+        1:28.27 (34.01)     1:56.75 (28.48)
+ 12 Sorenson, Sophie       JR Kentucky          1:57.13    1:57.00    5  
+    r:+0.73  25.61        54.14 (28.53)
+        1:29.41 (35.27)     1:57.00 (27.59)
+ 13 Golding, Kathleen      SO Florida           1:56.91    1:57.36    4  
+    r:+0.68  25.31        54.52 (29.21)
+        1:29.25 (34.73)     1:57.36 (28.11)
+ 14 Watson, Sarah          JR Akron             1:56.85    1:57.43    3  
+    r:+0.67  24.49        55.40 (30.91)
+        1:29.35 (33.95)     1:57.43 (28.08)
+ 15 Yager, Alexis          SR Tennessee         1:56.73    1:57.65    2  
+    r:+0.72  25.62        55.41 (29.79)
+        1:29.09 (33.68)     1:57.65 (28.56)
+ 16 Sacha, Ioanna          SR Houston           1:56.79    1:57.92    1  
+    r:+0.73  26.12        54.88 (28.76)
+        1:29.33 (34.45)     1:57.92 (28.59)
+ 
+                          === Preliminaries ===                          
+ 
+ 17 Bonnett, Bailey        SR Kentucky          1:57.14             
+     r:0.65  25.38        56.00 (30.62)
+        1:28.40 (32.40)     1:57.14 (28.74)
+ 18 Petkova, Diana         FR Alabama           1:57.19             
+     r:0.73  25.50        55.33 (29.83)
+        1:29.49 (34.16)     1:57.19 (27.70)
+ 19 Rothrock, Trude        JR Tennessee         1:57.20             
+     r:0.65  24.75        54.33 (29.58)
+        1:29.03 (34.70)     1:57.20 (28.17)
+ 20 Stadden, Isabelle      FR California        1:57.25             
+     r:0.62  25.07        53.26 (28.19)
+        1:29.09 (35.83)     1:57.25 (28.16)
+ 21 Rice, Anna Havens      FR Kentucky          1:57.48             
+     r:0.73  25.60        55.05 (29.45)
+        1:29.07 (34.02)     1:57.48 (28.41)
+ 21 Dellatorre, Danielle   SR Georgia           1:57.48             
+     r:0.69  26.22        56.49 (30.27)
+        1:29.76 (33.27)     1:57.48 (27.72)
+ 23 Muzzy, Emma            JR NC State          1:57.59             
+     r:0.81  25.62        54.14 (28.52)
+        1:29.62 (35.48)     1:57.59 (27.97)
+ 24 Quah, Jing             SR Texas A&M         1:57.77             
+     r:0.63  25.36        54.89 (29.53)
+        1:29.84 (34.95)     1:57.77 (27.93)
+ 25 Gati, Izzy             JR Kentucky          1:57.81             
+     r:0.67  25.50        54.45 (28.95)
+        1:30.07 (35.62)     1:57.81 (27.74)
+ 26 Looze, Mackenzie       JR Indiana           1:57.93             
+     r:0.68  26.04        56.33 (30.29)
+        1:29.91 (33.58)     1:57.93 (28.02)
+ 27 Trace, Katie           SR Ohio St           1:58.07             
+     r:0.71  25.57        55.21 (29.64)
+        1:30.88 (35.67)     1:58.07 (27.19)
+ 28 Theil, Caroline        JR Texas A&M         1:58.17             
+     r:0.81  25.56        55.67 (30.11)
+        1:30.11 (34.44)     1:58.17 (28.06)
+ 29 Harter, Abby           FR Virginia          1:58.23             
+     r:0.73  24.93        55.09 (30.16)
+        1:29.68 (34.59)     1:58.23 (28.55)
+ 30 Peplowski, Noelle      JR Indiana           1:58.25             
+     r:0.74  26.57        56.60 (30.03)
+        1:29.80 (33.20)     1:58.25 (28.45)
+ 31 Dickinson, Callie      JR Georgia           1:58.39             
+     r:0.67  25.47        55.63 (30.16)
+        1:30.56 (34.93)     1:58.39 (27.83)
+ 32 Odgers, Isabelle       JR USC               1:58.42             
+     r:0.77  25.27        55.24 (29.97)
+        1:29.46 (34.22)     1:58.42 (28.96)
+ 33 Vavrinova, Adela       SO Arkansas          1:58.47             
+     r:0.76  25.59        55.43 (29.84)
+        1:30.14 (34.71)     1:58.47 (28.33)
+ 34 Wright, Cat            JR Alabama           1:58.49             
+     r:0.65  26.03        56.24 (30.21)
+        1:29.65 (33.41)     1:58.49 (28.84)
+ 35 Kwan, Victoria         JR Michigan          1:58.50             
+     r:0.72  25.59        55.84 (30.25)
+        1:30.34 (34.50)     1:58.50 (28.16)
+ 36 Luther, Dakota         JR Georgia           1:58.62             
+     r:0.71  25.25        55.19 (29.94)
+        1:30.52 (35.33)     1:58.62 (28.10)
+ 37 Lagrand, Susan         JR Oakland           1:58.63             
+     r:0.69  26.28        55.10 (28.82)
+        1:30.51 (35.41)     1:58.63 (28.12)
+ 38 Foley, Sally           FR Duke              1:58.64             
+     r:0.69  25.79        56.13 (30.34)
+        1:29.63 (33.50)     1:58.64 (29.01)
+ 39 Ownbey, Hannah         FR Auburn            1:58.68             
+     r:0.65  26.22        55.77 (29.55)
+        1:30.06 (34.29)     1:58.68 (28.62)
+ 40 Pintar, Tjasa          SR Tennessee         1:58.69             
+     r:0.64  25.73        57.14 (31.41)
+        1:31.60 (34.46)     1:58.69 (27.09)
+ 41 Rudolph, Janelle       FR Stanford          1:58.73             
+     r:0.66  25.88        55.89 (30.01)
+        1:30.96 (35.07)     1:58.73 (27.77)
+ 42 Gresser, Hanna         SR Ohio St           1:59.25             
+     r:0.72  25.79        56.87 (31.08)
+        1:30.93 (34.06)     1:59.25 (28.32)
+ 43 Jump, Mallory          SO Iowa              1:59.32             
+     r:0.75  25.21        54.76 (29.55)
+        1:30.15 (35.39)     1:59.32 (29.17)
+ 44 Kirschke, Ella         JR UCLA              1:59.35             
+     r:0.69  26.22        55.45 (29.23)
+        1:31.09 (35.64)     1:59.35 (28.26)
+ 45 Arens, Abby            FR NC State          1:59.40             
+     r:0.66  25.00        54.83 (29.83)
+        1:29.66 (34.83)     1:59.40 (29.74)
+ 46 Kovac, Bailey          SR Indiana           1:59.54             
+     r:0.69  26.13        55.12 (28.99)
+        1:30.12 (35.00)     1:59.54 (29.42)
+ 47 Halmai, Petra          SR FGCU              1:59.59             
+     r:0.73  25.49        55.84 (30.35)
+        1:29.51 (33.67)     1:59.59 (30.08)
+ 48 Felner, Gracie         FR Alabama           1:59.75             
+     r:0.64  25.83        55.85 (30.02)
+        1:30.97 (35.12)     1:59.75 (28.78)
+ 49 Kukurugya, Hannah      SR Stanford          1:59.94             
+     r:0.71  25.90        55.47 (29.57)
+        1:30.75 (35.28)     1:59.94 (29.19)
+ 50 Bentz, Caroline        FR Virginia Tech     2:00.01             
+     r:0.60  25.52        55.40 (29.88)
+        1:31.06 (35.66)     2:00.01 (28.95)
+ 50 Stanfield, Summer      SO LSU               2:00.01             
+     r:0.68  25.77        55.43 (29.66)
+        1:31.67 (36.24)     2:00.01 (28.34)
+ 52 Weiss, Emily           SO Indiana           2:00.06             
+     r:0.65  26.31        56.37 (30.06)
+        1:30.48 (34.11)     2:00.06 (29.58)
+ 53 Burchill, Sammie       SR Georgia           2:00.39             
+     r:0.73  26.38        55.68 (29.30)
+        1:31.88 (36.20)     2:00.39 (28.51)
+ 54 Brown, Portia          JR Georgia           2:00.43             
+     r:0.72  26.19        55.30 (29.11)
+        1:31.38 (36.08)     2:00.43 (29.05)
+ 55 Menkhaus, Julia        JR Virginia          2:00.51             
+     r:0.68  25.85        55.02 (29.17)
+        1:31.77 (36.75)     2:00.51 (28.74)
+ 56 Bartel, Zoe            JR Stanford          2:00.55             
+     r:0.68  26.56        56.83 (30.27)
+        1:31.23 (34.40)     2:00.55 (29.32)
+ 57 Liberto, Morgan        JR Alabama           2:00.73             
+     r:0.67  25.64        54.55 (28.91)
+        1:31.32 (36.77)     2:00.73 (29.41)
+ 58 Cummings, Carly        SR Auburn            2:00.81             
+     r:0.69  26.14        57.11 (30.97)
+        1:31.36 (34.25)     2:00.81 (29.45)
+ 59 Smith, Amanda          SR Missouri          2:01.00             
+     r:0.68  26.65        56.18 (29.53)
+        1:32.51 (36.33)     2:01.00 (28.49)
+ 59 Metzler, Anna          JR New Hampshire     2:01.00             
+     r:0.73  26.83        57.52 (30.69)
+        1:32.70 (35.18)     2:01.00 (28.30)
+ 61 Higgs, Lilly           JR UNC               2:01.22             
+     r:0.73  26.87        57.69 (30.82)
+        1:31.38 (33.69)     2:01.22 (29.84)
+ 62 Brathwaite, Katrina    SO Missouri          2:01.47             
+     r:0.67  26.21        56.75 (30.54)
+        1:31.05 (34.30)     2:01.47 (30.42)
+ 63 McBratney, Katie       SO Brigham Young     2:01.54             
+     r:0.71  25.98        56.67 (30.69)
+        1:31.42 (34.75)     2:01.54 (30.12)
+ 64 Baron, Sam             FR UCLA              2:01.93             
+     r:0.68  25.61        57.20 (31.59)
+        1:32.83 (35.63)     2:01.93 (29.10)
+ 65 Kinsey, Hallie         JR USC               2:03.96             
+     r:0.67  25.32        57.02 (31.70)
+        1:33.78 (36.76)     2:03.96 (30.18)
+ -- Larson, Ally           SO Northwestern         DFS              
+ -- Brunzell, Hannah       SO Northwestern         DFS              
+ -- Keating, Anna          FR Virginia             DFS              
+ -- Popov, Nikol           SR Tennessee            DFS              
+ 
+                 Women - Team Rankings - Through Event 4                 
+ 
+  1. Virginia                          130   2. California                        107
+  3. Ohio St                            75   4. Texas                              73
+  5. Georgia                            68   6. Alabama                            59
+  7. NC State                           58   7. Stanford                           58
+  9. Kentucky                           45  10. Florida                            43
+ 11. Louisville                         33  12. Michigan                           31
+ 13. Missouri                           30  14. UNC                                24
+ 15. Tennessee                          23  15. Wisconsin                          23
+ 17. Indiana                            12  18. Virginia Tech                      11
+ 19. Texas A&M                          10  20. Northwestern                        6
+ 21. Southern California                 4  22. Nebraska                            3
+ 22. Akron                               3  24. Houston                             1
+
+
+
+

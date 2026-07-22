@@ -1,0 +1,91 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2022 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 11  Women 100 Yard Breaststroke
+=========================================================================
+         NCAA: N 55.73  3/22/2019 Lilly King, Indiana
+         Meet: M 55.73  3/22/2019 Lilly King, Indiana
+     American: A 55.73  3/22/2019 Lilly King, Indiana
+      US Open: O 55.73  3/22/2019 Lilly King, Indiana
+         Pool: P 56.72  2/18/2022 Sophie Hansson, NCSU
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Dobler, Kaitlyn        SO USC                 57.55      56.93   20  
+    r:+0.61  26.80        56.93 (30.13)
+  2 Wenger, Alexis         SR Virginia            57.67      56.97   17  
+    r:+0.58  26.66        56.97 (30.31)
+  3 Hansson, Sophie        SR NCSU                57.71      57.01   16  
+    r:+0.72  26.83        57.01 (30.18)
+  4 McSharry, Mona         SO Tennessee           57.87      57.18   15  
+    r:+0.65  26.94        57.18 (30.24)
+  5 Elendt, Anna           SO Texas               56.88      57.24   14  
+    r:+0.69  26.87        57.24 (30.37)
+  6 Bach, Hannah           JR Ohio St             57.89      57.32   13  
+    r:+0.60  26.92        57.32 (30.40)
+  7 Angus, Sophie          SR Northwestern        58.19      58.00   12  
+    r:+0.67  27.51        58.00 (30.49)
+  8 Vovk, Tara             SR Northwestern        58.01      58.31   11  
+    r:+0.68  27.27        58.31 (31.04)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Wiseman, Avery         FR Alabama             58.52      58.19    9  
+    r:+0.65  27.40        58.19 (30.79)
+ 10 Sim, Letitia           FR Michigan            59.29      58.34    7  
+    r:+0.62  27.44        58.34 (30.90)
+ 11 Podmanikova, Andrea    SR NCSU                58.69      58.93    6  
+    r:+0.68  27.83        58.93 (31.10)
+ 12 Herrmann, Vanessa      SR Arkansas            59.27      58.96    5  
+    r:+0.64  27.70        58.96 (31.26)
+ 13 Hartman, Zoie          JR Georgia             59.05      59.05    3.5
+    r:+0.76  27.85        59.05 (31.20)
+ 13 Keating, Anna          SO Virginia            59.05      59.05    3.5
+    r:+0.67  27.90        59.05 (31.15)
+ 15 Thormalm, Klara        SR San Diego St        58.99      59.57    2  
+    r:+0.74  27.55        59.57 (32.02)
+ 16 Peplowski, Noelle      SR Indiana             59.27      59.71    1  
+    r:+0.69  27.89        59.71 (31.82)
+ 
+                Women - Team Rankings - Through Event 11                 
+ 
+  1. Virginia                        315.5   2. Stanford                          203
+  3. Texas                             185   4. Alabama                           136
+  5. NC State                          135   6. Louisville                        118
+  7. California                        114   8. Ohio St                           109
+  9. Michigan                           98  10. Tennessee                          93
+ 11. Florida                            80  12. Georgia                          69.5
+ 13. Kentucky                         64.5  14. Southern California                59
+ 15. UNC                                54  16. Indiana                            42
+ 17. Northwestern                       38  18. Wisconsin                          34
+ 19. Penn                             33.5  20. Miami (Florida)                    27
+ 21. Duke                               26  22. Missouri                           24
+ 23. Minnesota                          23  24. Arizona St                         21
+ 25. Arizona                            16  26. Virginia Tech                      15
+ 27. Arkansas                           11  28. South Carolina                      9
+ 29. UCLA                                4  29. Lsu                                 4
+ 31. Notre Dame                          3  32. San Diego St                        2
+ 32. Harvard                             2  34. Texas A&M                           1
+ 34. Yale                                1                                           
+
+
+
+

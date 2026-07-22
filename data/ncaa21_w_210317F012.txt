@@ -1,0 +1,171 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2021 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 12  Women 100 Yard Backstroke
+=========================================================================
+         NCAA: N 49.18  3/22/2019 Beata Nelson, Wisconsin
+         Meet: M 49.18  3/22/2019 Beata Nelson, Wisconsin
+     American: A 49.16  3/14/2021 Regan Smith, Riptide
+      US Open: O 49.16  3/14/2021 Regan Smith, Riptide
+         Pool: P 49.76  3/18/2021 Maggie MacNeil, Michigan
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Berkoff, Katharine     SO NC State            50.16      49.74P  20  
+    r:+0.54  24.07        49.74 (25.67)
+  2 White, Rhyan           JR Alabama             50.16      50.21   17  
+             23.99        50.21 (26.22)
+  3 Bacon, Phoebe          FR Wisconsin           50.58      50.39   16  
+    r:+0.59  24.38        50.39 (26.01)
+  4 Ivey, Isabel           JR California          51.09      50.85   15  
+    r:+0.73  24.56        50.85 (26.29)
+  5 Stadden, Isabelle      FR California          51.18      50.87   14  
+    r:+0.60  24.57        50.87 (26.30)
+  6 Cook, Julia            JR Texas               51.19      51.32   13  
+    r:+0.66  24.64        51.32 (26.68)
+  7 Countie, Grace         JR UNC                 51.42      51.55   12  
+    r:+0.74  24.67        51.55 (26.88)
+  8 Gmelich, Caroline      SR Virginia            51.43      51.78   11  
+    r:+0.61  24.90        51.78 (26.88)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Tiltmann, Reilly       FR Virginia            52.08      51.33    9  
+    r:+0.73  24.98        51.33 (26.35)
+ 10 Thompson, Sarah        SR Missouri            51.72      51.41    7  
+             24.51        51.41 (26.90)
+ 11 Atkinson, Emma         FR Virginia Tech       51.84      51.65    6  
+    r:+0.76  24.81        51.65 (26.84)
+ 12 Crane, Emily           JR Ohio St             52.25      51.91    5  
+    r:+0.69  24.97        51.91 (26.94)
+ 13 Lindner, Sophie        JR UNC                 51.56      51.95    4  
+    r:+0.67  25.07        51.95 (26.88)
+ 14 Rees, Meredith         SO Missouri            52.25      52.00    3  
+    r:+0.76  25.13        52.00 (26.87)
+ 15 Shuppert, Emma         SO Duke                51.89      52.38    2  
+    r:+0.64  25.09        52.38 (27.29)
+ 16 Bray, Olivia           FR Texas               52.26      52.64    1  
+    r:+0.74  25.37        52.64 (27.27)
+ 
+                          === Preliminaries ===                          
+ 
+ 17 Brooks, Caitlin        SO Kentucky            52.32             
+     r:0.54  25.11        52.32 (27.21)
+ 18 Quaglieri, Tania       SO Florida St          52.45             
+     r:0.52  25.19        52.45 (27.26)
+ 19 Newman, Mara           JR Wisconsin           52.46             
+     r:0.74  25.55        52.46 (26.91)
+ 20 Manning, Manon         SR Kansas              52.61             
+     r:0.64  25.37        52.61 (27.24)
+ 21 Platts, Daisy          JR Bowling Green       52.65             
+     r:0.58  25.41        52.65 (27.24)
+ 22 Schobel, Marie         JR Penn St             52.66             
+     r:0.66  25.16        52.66 (27.50)
+ 23 Rudolph, Janelle       FR Stanford            52.67             
+     r:0.67  25.67        52.67 (27.00)
+ 24 Sorenson, Sophie       JR Kentucky            52.78             
+     r:0.80  25.54        52.78 (27.24)
+ 25 Crisera, Alex          SO Stanford            52.94             
+     r:0.65  25.79        52.94 (27.15)
+ 26 Terebo, Emma           SR Florida St          52.97             
+     r:0.66  25.60        52.97 (27.37)
+ 27 Bernal, Aria           JR Arizona             52.98             
+     r:0.67  25.43        52.98 (27.55)
+ 27 Broome, Emma           SR Utah                52.98             
+     r:0.79  25.60        52.98 (27.38)
+ 29 Melton, Kobie          JR Arkansas            52.99             
+     r:0.68  25.31        52.99 (27.68)
+ 30 Laughlin, Tea          FR California          53.09             
+     r:0.58  25.78        53.09 (27.31)
+ 31 Liberto, Morgan        JR Alabama             53.15             
+     r:0.71  25.75        53.15 (27.40)
+ 32 Stewart, Bayley        JR Notre Dame          53.18             
+     r:0.81  25.80        53.18 (27.38)
+ 33 Lepisova, Emma         SO Northwestern        53.19             
+     r:0.73  25.76        53.19 (27.43)
+ 33 Sansores De La Fuent,  JR Arkansas            53.19             
+     r:0.74  25.42        53.19 (27.77)
+ 35 Sacha, Ioanna          SR Houston             53.30             
+     r:0.71  26.09        53.30 (27.21)
+ 36 Lewicki, Katey         FR NC State            53.31             
+             25.59        53.31 (27.72)
+ 37 Ulett, Tristen         FR Louisville          53.32             
+             26.04        53.32 (27.28)
+ 38 Eisenmann, Kara        SR Texas A&M           53.33             
+     r:0.70  26.12        53.33 (27.21)
+ 39 Harty, Kaitlin         SR Tennessee           53.37             
+     r:0.67  26.15        53.37 (27.22)
+ 40 Herren, Parker         JR Kentucky            53.47             
+     r:0.62  25.97        53.47 (27.50)
+ 41 Minnich, Katie         JR Florida             53.49             
+     r:0.56  25.98        53.49 (27.51)
+ 42 Hollander, Shayna      JR Duke                53.53             
+     r:0.76  25.49        53.53 (28.04)
+ 43 Salcutan, Tatiana      FR Louisville          53.56             
+     r:0.81  26.48        53.56 (27.08)
+ 44 Harper, Olivia         FR Tennessee           53.63             
+     r:0.62  25.99        53.63 (27.64)
+ 45 Lagrand, Susan         JR Oakland             53.65             
+             25.95        53.65 (27.70)
+ 46 Brown, Portia          JR Georgia             53.79             
+     r:0.70  26.13        53.79 (27.66)
+ 47 Venter, Mariella       SO Michigan            53.81             
+             26.03        53.81 (27.78)
+ 48 Janvier, Aela          SO USC                 53.87             
+     r:0.75  26.18        53.87 (27.69)
+ 48 Kovac, Bailey          SR Indiana             53.87             
+     r:0.62  25.94        53.87 (27.93)
+ 48 Huizinga, Danika       SR NC State            53.87             
+     r:0.82  26.17        53.87 (27.70)
+ 51 Reimer, Audrey         JR Utah                53.92             
+     r:0.65  26.15        53.92 (27.77)
+ 52 Hetrick, Paige         FR Louisville          53.94             
+     r:0.72  26.32        53.94 (27.62)
+ 53 Bentz, Caroline        FR Virginia Tech       54.10             
+     r:0.70  26.21        54.10 (27.89)
+ 54 Keiner, Payton         SR Liberty             54.42             
+     r:0.72  26.22        54.42 (28.20)
+ -- Fa'Amausili, Gabi      SR Georgia              DFS              
+ -- Grinter, Bailey        SR Tennessee            DFS              
+ -- Guevara, Miriam        JR Northwestern         DFS              
+ 
+                Women - Team Rankings - Through Event 12                 
+ 
+  1. Virginia                          310   2. NC State                          201
+  3. Texas                             186   4. California                        180
+  5. Ohio St                         142.5   6. Alabama                           129
+  7. Michigan                        125.5   8. Kentucky                          114
+  9. Stanford                          112  10. Georgia                           109
+ 11. UNC                                77  12. Louisville                         71
+ 13. Florida                          70.5  14. Tennessee                          70
+ 15. Missouri                           65  16. Northwestern                       52
+ 16. Texas A&M                          52  18. Indiana                            47
+ 19. Wisconsin                          39  20. Southern California                38
+ 21. Virginia Tech                      28  22. Miami                              20
+ 22. Minnesota                          20  24. Arizona                          17.5
+ 25. Arkansas                           16  26. Nebraska                           11
+ 27. San Diego St                        6  27. Houston                             6
+ 29. Duke                                4  30. Akron                               3
+ 30. Notre Dame                          3                                           
+
+
+
+

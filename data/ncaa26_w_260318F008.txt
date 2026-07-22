@@ -1,0 +1,198 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet^ 
+                       2026 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 8  Women 100 Yard Breaststroke
+=========================================================================
+         NCAA: N 55.73  3/22/2019 Lilly King, Indiana
+         Meet: M 55.73  3/22/2019 Lilly King, Indiana
+     American: A 55.73  3/22/2019 Lilly King, Indiana
+      US Open: O 55.73  3/22/2019 Lilly King, Indiana
+         Pool: P 56.30  3/19/2026 Eneli Jefimova, NC State
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Jefimova, Eneli        FR NC State            57.41      56.30P  20  
+    r:+0.66  12.04        26.67 (14.63)
+          41.36 (14.69)       56.30 (14.94)
+  2 Siroky, McKenzie       SO Tennessee           56.93      57.00   16.5
+    r:+0.63  12.01        26.63 (14.62)
+          41.46 (14.83)       57.00 (15.54)
+  2 Bottazzo, Anita        SO Florida             57.34      57.00   16.5
+    r:+0.65  12.15        26.52 (14.37)
+          41.50 (14.98)       57.00 (15.50)
+  4 Gorbenko, Anastasia    SO Louisville          57.52      57.56   15  
+    r:+0.67  12.72        27.24 (14.52)
+          42.40 (15.16)       57.56 (15.16)
+  5 Enge, Piper            SO Texas               57.92      57.76   14  
+    r:+0.60  12.52        27.23 (14.71)
+          42.45 (15.22)       57.76 (15.31)
+  6 Ramos Najji, Maria     SO OSU                 57.95      57.99   13  
+    r:+0.66  12.33        27.09 (14.76)
+          42.24 (15.15)       57.99 (15.75)
+  7 Weber, Emma            SR Virginia            57.76      58.21   12  
+    r:+0.70  12.48        27.26 (14.78)
+          42.38 (15.12)       58.21 (15.83)
+  8 Crye, Joleigh          SR Cincinnati          57.90      58.59   11  
+    r:+0.73  12.41        27.42 (15.01)
+          42.74 (15.32)       58.59 (15.85)
+ 
+                          === Preliminaries ===                          
+ 
+  9 Gridley, Kaelyn        SR Duke                58.22               9  
+     r:0.68  12.62        27.39 (14.77)
+          42.56 (15.17)       58.22 (15.66)
+ 10 Sim, Letitia           SR Michigan            58.35               7  
+     r:0.65  12.31        27.10 (14.79)
+          42.46 (15.36)       58.35 (15.89)
+ 11 Thomas, Lucy           JR Stanford            58.49               6  
+     r:0.63  12.27        27.20 (14.93)
+          42.45 (15.25)       58.49 (16.04)
+ 12 Gewalt, Eleni          SR Arizona             58.53               5  
+     r:0.66  12.54        27.50 (14.96)
+          42.82 (15.32)       58.53 (15.71)
+ 13 Skirboll, Zoe          SR Virginia            58.57               4  
+     r:0.64  12.58        27.66 (15.08)
+          42.73 (15.07)       58.57 (15.84)
+ 14 Cheatwood, Mia         SR Louisville          58.79               3  
+     r:0.68  12.79        27.89 (15.10)
+          43.30 (15.41)       58.79 (15.49)
+ 15 Lung, Mackenzie        SR Fresno State        58.89               2  
+     r:0.67  12.50        27.33 (14.83)
+          42.87 (15.54)       58.89 (16.02)
+ 16 Braun, Chloe           SR UCSD                58.98               1  
+     r:0.62  12.75        27.71 (14.96)
+          42.94 (15.23)       58.98 (16.04)
+ 17 Bank, Lina             SR Missouri            59.01             
+     r:0.68  12.49        27.48 (14.99)
+          42.93 (15.45)       59.01 (16.08)
+ 18 Scott, Elle            FR California          59.08             
+     r:0.69  12.82        27.87 (15.05)
+          43.04 (15.17)       59.08 (16.04)
+ 19 Moll, Simone           SO Tennessee           59.09             
+     r:0.67  12.82        27.86 (15.04)
+          43.19 (15.33)       59.09 (15.90)
+ 20 Slyngstadli, Silje     FR California          59.21             
+     r:0.63  12.37        27.33 (14.96)
+          42.81 (15.48)       59.21 (16.40)
+ 21 Armand, Samantha       JR UNC                 59.26             
+     r:0.64  12.94        28.02 (15.08)
+          43.38 (15.36)       59.26 (15.88)
+ 21 Worrell, Lindi         JR Cincinnati          59.26             
+     r:0.70  12.62        27.63 (15.01)
+          43.01 (15.38)       59.26 (16.25)
+ 23 Corrigan, Brooke       FR Wisconsin           59.38             
+     r:0.69  12.94        28.15 (15.21)
+          43.47 (15.32)       59.38 (15.91)
+ 24 Herron, Olivia         SR SIU                 59.49             
+     r:0.76  13.08        28.32 (15.24)
+          43.61 (15.29)       59.49 (15.88)
+ 25 Bukvic, Martina        FR LSU                 59.69             
+     r:0.68  12.95        28.05 (15.10)
+          43.82 (15.77)       59.69 (15.87)
+ 26 Mayne, Molly           JR Florida             59.81             
+     r:0.66  12.57        27.60 (15.03)
+          43.29 (15.69)       59.81 (16.52)
+ 27 Lundgren, Emily        SR Washington St.      59.83             
+     r:0.73  12.82        28.13 (15.31)
+          43.52 (15.39)       59.83 (16.31)
+ 28 Brito, Bella           FR USC                 59.87             
+     r:0.67  12.87        28.25 (15.38)
+          43.91 (15.66)       59.87 (15.96)
+ 29 Kalmar, Aliz           SR Fresno State        59.88             
+     r:0.69  12.90        28.23 (15.33)
+          43.94 (15.71)       59.88 (15.94)
+ 30 McQuinn, Ella          SO TAMU                59.91             
+     r:0.67  12.55        27.96 (15.41)
+          43.64 (15.68)       59.91 (16.27)
+ 31 Bennetts, Sarah        JR UCLA                59.94             
+     r:0.64  12.75        28.13 (15.38)
+          43.56 (15.43)       59.94 (16.38)
+ 31 Bergdahl, Moa          SR San Diego St        59.94             
+     r:0.66  12.78        28.07 (15.29)
+          43.59 (15.52)       59.94 (16.35)
+ 33 Fast, Emelie           JR Tennessee           59.99             
+     r:0.65  12.60        27.77 (15.17)
+          43.59 (15.82)       59.99 (16.40)
+ 34 Bozzuto, Aly           SO Liberty           1:00.04             
+     r:0.60  12.43        27.37 (14.94)
+          43.37 (16.00)     1:00.04 (16.67)
+ 35 Erokhina, Maria        SR Northern Colo     1:00.18             
+     r:0.65  12.96        28.20 (15.24)
+          43.73 (15.53)     1:00.18 (16.45)
+ 36 Robillard, Adalene     FR Stanford          1:00.24             
+     r:0.65  13.21        28.71 (15.50)
+          44.27 (15.56)     1:00.24 (15.97)
+ 37 Zallen, Zara           JR Missouri          1:00.38             
+     r:0.69  12.96        28.10 (15.14)
+          43.87 (15.77)     1:00.38 (16.51)
+ 38 Ozkan, Hazal           SR Wisconsin         1:00.39             
+     r:0.67  12.89        28.21 (15.32)
+          44.11 (15.90)     1:00.39 (16.28)
+ 39 Zeller, Zoey           JR Auburn            1:00.40             
+     r:0.69  12.91        28.49 (15.58)
+          44.02 (15.53)     1:00.40 (16.38)
+ 40 Gilmore, Catriona      SR Army              1:00.57             
+     r:0.62  12.92        28.24 (15.32)
+          44.14 (15.90)     1:00.57 (16.43)
+ 41 Cox, Claire            JR Akron             1:00.62             
+     r:0.69  12.72        28.13 (15.41)
+          44.28 (16.15)     1:00.62 (16.34)
+ 41 Loebersli, Frida       SO FIU               1:00.62             
+     r:0.73  12.86        27.99 (15.13)
+          43.86 (15.87)     1:00.62 (16.76)
+ 43 Dibetta, Casadie       SR Ohio              1:00.67             
+     r:0.67  13.21        28.50 (15.29)
+          44.34 (15.84)     1:00.67 (16.33)
+ 44 Vadovicova, Nina       JR TCU               1:00.85             
+     r:0.71  13.30        28.71 (15.41)
+          44.62 (15.91)     1:00.85 (16.23)
+ 45 Nawrocki, Elizabeth    FR Georgia           1:01.38             
+     r:0.71  13.12        29.06 (15.94)
+          44.91 (15.85)     1:01.38 (16.47)
+ 46 Walsh, Lauren          SR U.S. Navy         1:02.10             
+     r:0.74  12.90        28.96 (16.06)
+          45.26 (16.30)     1:02.10 (16.84)
+ 
+                 Women - Team Rankings - Through Event 8                 
+ 
+  1. Virginia                          209   2. Texas                             159
+  3. Stanford                          139   4. Tennessee                       132.5
+  5. California                        105   6. Michigan                          102
+  7. Indiana                            96   8. Louisville                         79
+  9. Florida                          62.5  10. NC State                           54
+ 11. Ohio St                            53  12. Southern California                49
+ 13. Georgia                            38  14. Miami (Fl)                         33
+ 15. Alabama                            29  16. Minnesota                          22
+ 17. South Carolina                     21  18. Wisconsin                          16
+ 18. UCLA                               16  20. Nebraska                           15
+ 21. Lsu                                14  22. Pittsburgh                         11
+ 22. Cincinnati                         11  22. Duke                               11
+ 22. University of Kansas               11  26. Akron                               9
+ 26. Purdue                              9  28. Arkansas                            7
+ 29. Virginia Tech                       6  29. Arizona St                          6
+ 29. Penn                                6  32. UNC                                 5
+ 32. Arizona                             5  34. Indiana State                       2
+ 34. Fresno State                        2  34. Notre Dame                          2
+ 34. Texas A&M                           2  38. Ucsd                                1
+
+
+
+

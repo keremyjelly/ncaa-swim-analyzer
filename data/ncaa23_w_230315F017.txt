@@ -1,0 +1,93 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet                      3/18/2023 - 9:08 PM
+                       2023 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 17  Women 100 Yard Freestyle
+=========================================================================
+         NCAA: N 45.56  3/18/2017 Simone Manuel, Stanford
+         Meet: M 45.56  3/18/2017 Simone Manuel, Stanford
+     American: A 45.56  3/18/2017 Simone Manuel, Stanford
+      US Open: O 45.56  3/18/2017 Simone Manuel, Stanford
+         Pool: P 45.61  3/18/2023 Gretchen Walsh, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Gretchen        SO Virginia            46.66      45.61P  20  
+    r:+0.74  21.72        45.61 (23.89)
+  2 Huske, Torri           SO Stanford            47.19      46.46   17  
+    r:+0.61  22.27        46.46 (24.19)
+  3 MacNeil, Maggie        5Y LSU                 46.90      46.58   16  
+    r:+0.63  22.30        46.58 (24.28)
+  4 Albiero, Gabi          JR Louisville          46.88      46.80   15  
+    r:+0.61  22.41        46.80 (24.39)
+  5 Berkoff, Katharine     SR NC State            46.91      46.87   14  
+    r:+0.66  22.44        46.87 (24.43)
+  6 Zenick, Katherine      JR Ohio St             47.34      47.27   13  
+    r:+0.64  22.50        47.27 (24.77)
+  7 Regenauer, Christiana  SR Louisville          47.33      47.50   11.5
+    r:+0.68  22.85        47.50 (24.65)
+  7 Transom, Laticia-Leig  5Y Hawaii              47.39      47.50   11.5
+    r:+0.59  22.99        47.50 (24.51)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Fulmer, Amy            SR Ohio St             47.62      47.39    9  
+    r:+0.66  22.95        47.39 (24.44)
+ 10 Parker, Maxine         JR Virginia            47.42      47.72    7  
+    r:+0.73  22.90        47.72 (24.82)
+ 11 Antoniou, Kalia        5Y Alabama             47.55      47.89    6  
+    r:+0.69  22.82        47.89 (25.07)
+ 12 Paegle, Kristina       FR Indiana             47.99      47.99    5  
+    r:+0.68  22.99        47.99 (25.00)
+ 13 Stepanek, Chloe        JR TAMU                47.97      48.06    4  
+    r:+0.68  22.94        48.06 (25.12)
+ 14 Canny, Aimee           FR Virginia            47.98      48.10    3  
+    r:+0.75  23.18        48.10 (24.92)
+ 15 Countie, Grace         SR UNC                 47.70      48.14    2  
+    r:+0.71  22.96        48.14 (25.18)
+ 16 Cuomo, Lexi            SR Virginia            47.89      48.31    1  
+    r:+0.71  22.93        48.31 (25.38)
+ 
+                Women - Team Rankings - Through Event 17                 
+ 
+  1. Virginia                        424.5   2. Texas                           298.5
+  3. Stanford                          277   4. Louisville                        234
+  5. NC State                          229   6. Ohio St                           195
+  7. Tennessee                         178   8. Indiana                           164
+  9. Florida                           150  10. UNC                               132
+ 11. California                        121  12. Alabama                           107
+ 13. Wisconsin                         100  14. Lsu                                95
+ 15. Georgia                          86.5  16. Southern California                86
+ 17. Kentucky                           44  18. Minnesota                          37
+ 19. Miami (Fl)                         36  20. Arizona                            32
+ 21. Michigan                           29  22. Virginia Tech                      28
+ 23. Texas A&M                          26  24. South Carolina                     25
+ 25. Duke                               20  26. Auburn                             14
+ 27. Northwestern                       13  28. Arkansas                           12
+ 29. Hawaii                           11.5  30. Miami (Ohio)                        9
+ 31. Florida St                          7  31. Penn                                7
+ 31. Purdue                              7  34. UCLA                                6
+ 35. Akron                               5  36. Arizona St                          4
+ 37. Georgia Tech                        2  37. Utah                                2
+ 39. Florida Int'l                       1                                           
+
+
+
+

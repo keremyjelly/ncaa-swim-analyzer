@@ -1,0 +1,85 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet                      3/18/2023 - 9:08 PM
+                       2023 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 5  Women 50 Yard Freestyle
+=========================================================================
+         NCAA: N 20.79  3/16/2023 Maggie MacNeil, LSU
+         Meet: M 20.79  3/16/2023 Maggie MacNeil, LSU
+     American: A 20.83  2/15/2023 Gretchen Walsh, Virginia
+      US Open: O 20.79  3/16/2023 Maggie MacNeil, LSU
+         Pool: P 20.79  3/16/2023 Maggie MacNeil, LSU
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 MacNeil, Maggie        5Y LSU                 21.38      20.79N  20  
+    r:+0.64  10.11        20.79 (10.68)
+  2 Walsh, Gretchen        SO Virginia            21.00      20.85   17  
+    r:+0.74  10.18        20.85 (10.67)
+  3 Albiero, Gabi          JR Louisville          21.46      21.30   16  
+    r:+0.61  10.31        21.30 (10.99)
+  4 Ivan, Teresa           SO Ohio St             21.71      21.46   15  
+    r:+0.64  10.50        21.46 (10.96)
+  5 Berkoff, Katharine     SR NC State            21.68      21.54   14  
+    r:+0.66  10.52        21.54 (11.02)
+  6 Countie, Grace         SR UNC                 21.51      21.67   13  
+    r:+0.68  10.50        21.67 (11.17)
+  7 Regenauer, Christiana  SR Louisville          21.68      21.68   12  
+    r:+0.73  10.62        21.68 (11.06)
+  8 Cuomo, Lexi            SR Virginia            21.61      21.71   11  
+    r:+0.70  10.45        21.71 (11.26)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Fulmer, Amy            SR Ohio St             21.87      21.74    9  
+    r:+0.67  10.70        21.74 (11.04)
+ 10 Turak, Ashley          SR Indiana             21.90      21.81    7  
+    r:+0.62  10.60        21.81 (11.21)
+ 11 Antoniou, Kalia        5Y Alabama             21.82      21.85    6  
+    r:+0.72  10.60        21.85 (11.25)
+ 12 Dennis, Julia          FR Louisville          21.73      21.87    5  
+    r:+0.64  10.50        21.87 (11.37)
+ 13 Paegle, Kristina       FR Indiana             21.98      21.99    4  
+    r:+0.70  10.66        21.99 (11.33)
+ 14 Parker, Maxine         JR Virginia            21.92      22.01    2.5
+    r:+0.73  10.74        22.01 (11.27)
+ 14 McCarty, Eboni         SO Georgia             21.86      22.01    2.5
+    r:+0.67  10.66        22.01 (11.35)
+ 16 McSharry, Mona         JR Tennessee           21.89      22.02    1  
+    r:+0.67  10.53        22.02 (11.49)
+ 
+                 Women - Team Rankings - Through Event 5                 
+ 
+  1. Virginia                        168.5   2. Texas                             115
+  3. Louisville                         85   4. Stanford                           72
+  5. Georgia                          66.5   6. NC State                           66
+  7. Ohio St                            62   8. Indiana                            61
+  8. Tennessee                          61  10. California                         60
+ 11. Alabama                            50  12. Wisconsin                          49
+ 13. Florida                            47  14. UNC                                35
+ 15. Lsu                                20  16. Southern California                14
+ 16. Kentucky                           14  18. Duke                               13
+ 19. Virginia Tech                       6  19. Michigan                            6
+ 21. UCLA                                4  21. Arkansas                            4
+ 21. Arizona St                          4  24. Auburn                              2
+
+
+
+

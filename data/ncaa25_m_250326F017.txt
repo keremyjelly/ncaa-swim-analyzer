@@ -1,0 +1,107 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                        2025 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 17  Men 100 Yard Freestyle
+=========================================================================
+         NCAA: N 39.83  3/29/2025 Jordan Crooks, Tennessee
+         Meet: M 39.83  3/29/2025 Jordan Crooks, Tennessee
+     American: A 39.90  3/24/2018 Caeleb Dressel, Florida
+   U. S. Open: O 39.83  3/29/2025 Jordan Crooks, Tennessee
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Liendo, Josh           JR Florida             40.28      39.99   20  
+     r:+0.64  8.88        18.94 (10.06)
+          29.51 (10.57)       39.99 (10.48)
+  2 Crooks, Jordan         SR Tennessee           39.83      40.06   17  
+     r:+0.61  8.94         18.76 (9.82)
+          29.24 (10.48)       40.06 (10.82)
+  3 Caribe, Guilherme      JR Tennessee           40.51      40.15   16  
+     r:+0.59  8.93        19.15 (10.22)
+          29.73 (10.58)       40.15 (10.42)
+  4 Alexy, Jack            SR California          40.45      40.36   15  
+     r:+0.66  8.99        19.11 (10.12)
+          29.62 (10.51)       40.36 (10.74)
+  5 Guiliano, Chris        SR Texas               40.70      40.53   14  
+     r:+0.58  8.93        19.03 (10.10)
+          29.68 (10.65)       40.53 (10.85)
+  6 Kulow, Jonny           JR ASU                 40.83      40.84   13  
+     r:+0.62  9.16        19.46 (10.30)
+          30.11 (10.65)       40.84 (10.73)
+  7 Hribar, Jere           SO LSU                 40.94      41.20   12  
+     r:+0.70  9.38        19.80 (10.42)
+          30.48 (10.68)       41.20 (10.72)
+  8 King, Matthew          JR Indiana             41.14      41.28   11  
+     r:+0.60  9.24        19.55 (10.31)
+          30.35 (10.80)       41.28 (10.93)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Taylor, Lamar          5Y Tennessee           41.51      41.31    8  
+     r:+0.62  9.32        19.67 (10.35)
+          30.46 (10.79)       41.31 (10.85)
+  9 Hobson, Luke           SR Texas               41.45      41.31    8  
+     r:+0.70  9.45        19.76 (10.31)
+          30.56 (10.80)       41.31 (10.75)
+ 11 Sammon, Patrick        SR ASU                 41.17      41.36    6  
+     r:+0.60  9.23        19.59 (10.36)
+          30.52 (10.93)       41.36 (10.84)
+ 12 Ramadan, Youssef       5Y VT                  41.50      41.53    5  
+     r:+0.59  9.47        19.97 (10.50)
+          30.66 (10.69)       41.53 (10.87)
+ 13 Fabiani, Remi          JR Cal Baptist         41.52      41.65    4  
+     r:+0.61  9.29        19.80 (10.51)
+          30.80 (11.00)       41.65 (10.85)
+ 14 Seeliger, Bjorn        5Y California          41.41      41.66    3  
+     r:+0.66  9.23        19.83 (10.60)
+          30.74 (10.91)       41.66 (10.92)
+ 15 Whitfield, Brendan     SO VT                  41.62      41.69    1.5
+     r:+0.64  9.47        20.02 (10.55)
+          30.99 (10.97)       41.69 (10.70)
+ 15 Jensen, Matthew        5Y California          41.61      41.69    1.5
+     r:+0.64  9.41        19.88 (10.47)
+          30.75 (10.87)       41.69 (10.94)
+ 
+                 Men - Team Rankings - Through Event 17                  
+ 
+  1. Texas                             450   2. California                        409
+  3. Indiana                           355   4. Florida                           276
+  5. Tennessee                       203.5   6. Arizona St                        198
+  7. Georgia                         194.5   8. Stanford                          166
+  9. NC State                          152  10. Michigan                           83
+ 11. Alabama                            73  12. Ohio St                            70
+ 13. Virginia Tech                    69.5  14. Texas A&M                        57.5
+ 15. Southern Cal                       55  16. Louisville                         53
+ 17. Florida St                         48  18. Lsu                                38
+ 19. Purdue                             33  20. Kentucky                           30
+ 20. Yale                               30  22. Wisconsin                          28
+ 23. Georgia Tech                       24  24. UNC                                21
+ 25. Army                               15  25. University of Utah                 15
+ 27. Auburn                             14  28. Pittsburgh                         13
+ 29. Virginia                           12  29. Smu                                12
+ 31. Brown                              11  31. Miami (Fl)                         11
+ 33. Cornell                             6  33. Minnesota                           6
+ 33. Missouri                            6  36. Cal Baptist                         4
+ 37. Arizona                             1                                           
+
+
+
+

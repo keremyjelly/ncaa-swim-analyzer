@@ -1,0 +1,106 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+ NCAA Division I Championship Meet 
+                        2024 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 16  Men 200 Yard Backstroke
+=========================================================================
+         NCAA: N 1:35.37  3/30/2024 Destin Lasco, California
+         Meet: M 1:35.37  3/30/2024 Destin Lasco, California
+     American: A 1:35.37  3/30/2024 Destin Lasco, California
+   U. S. Open: O 1:35.37  3/30/2024 Destin Lasco, California
+         Pool: P 1:35.37  3/30/2024 Destin Lasco, California
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Lasco, Destin          SR California        1:36.05    1:35.37N  20  
+    r:+0.66  22.83        47.47 (24.64)
+        1:11.36 (23.89)     1:35.37 (24.01)
+  2 Kos, Hubert            SO ASU               1:37.03    1:35.90   17  
+    r:+0.71  22.50        47.36 (24.86)
+        1:11.72 (24.36)     1:35.90 (24.18)
+  3 McDonald, Owen         SO ASU               1:38.21    1:36.63   16  
+    r:+0.63  22.81        47.29 (24.48)
+        1:12.21 (24.92)     1:36.63 (24.42)
+  4 Marshall, Jonny        FR Florida           1:37.84    1:37.04   15  
+    r:+0.76  22.21        46.79 (24.58)
+        1:11.35 (24.56)     1:37.04 (25.69)
+  5 Stokowski, Kacper      5Y NC State          1:37.90    1:38.15   14  
+    r:+0.54  22.38        47.34 (24.96)
+        1:13.10 (25.76)     1:38.15 (25.05)
+  6 Dunham, Bradley        5Y Georgia           1:37.58    1:38.43   13  
+    r:+0.64  22.86        47.48 (24.62)
+        1:12.91 (25.43)     1:38.43 (25.52)
+  7 Burns, Brendan         5Y Indiana           1:38.18    1:38.62   12  
+    r:+0.61  23.37        47.79 (24.42)
+        1:12.92 (25.13)     1:38.62 (25.70)
+  8 Janton, Tommy          SO Notre Dame        1:38.36    1:40.25   11  
+    r:+0.62  23.23        48.44 (25.21)
+        1:14.35 (25.91)     1:40.25 (25.90)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Stoffle, Aidan         5Y Auburn            1:38.78    1:38.36    9  
+    r:+0.62  23.18        48.27 (25.09)
+        1:13.04 (24.77)     1:38.36 (25.32)
+ 10 Jones, Keaton          FR California        1:38.60    1:38.46    7  
+    r:+0.76  23.41        48.28 (24.87)
+        1:13.67 (25.39)     1:38.46 (24.79)
+ 11 Filion, Tanner         5Y Notre Dame        1:39.62    1:39.16    6  
+    r:+0.76  23.22        48.51 (25.29)
+        1:14.28 (25.77)     1:39.16 (24.88)
+ 12 Grum, Ian              5Y Georgia           1:39.92    1:39.70    5  
+    r:+0.68  23.19        48.14 (24.95)
+        1:13.81 (25.67)     1:39.70 (25.89)
+ 13 Van Westering, Kai     SO Indiana           1:39.27    1:39.76    4  
+    r:+0.58  23.44        48.75 (25.31)
+        1:14.45 (25.70)     1:39.76 (25.31)
+ 14 Mefford, Colby         5Y California        1:39.20    1:39.91    3  
+    r:+0.59  23.28        48.36 (25.08)
+        1:13.65 (25.29)     1:39.91 (26.26)
+ 15 Diehl, Daniel          FR NC State          1:39.01    1:40.20    2  
+    r:+0.72  23.56        48.80 (25.24)
+        1:14.51 (25.71)     1:40.20 (25.69)
+ 16 Modglin, Will          FR Texas             1:38.85    1:40.27    1  
+    r:+0.66  23.00        48.12 (25.12)
+        1:14.05 (25.93)     1:40.27 (26.22)
+ 
+                 Men - Team Rankings - Through Event 16                  
+ 
+  1. Arizona St                        402   2. Florida                           321
+  3. California                      316.5   4. Indiana                           263
+  5. NC State                          242   6. Texas                             166
+  7. Tennessee                         147   8. Stanford                          144
+  9. Virginia Tech                     116  10. Georgia                           106
+ 11. Notre Dame                         96  12. Auburn                             88
+ 13. Louisville                         80  14. Ohio St                            79
+ 15. Michigan                         68.5  16. Texas A&M                          65
+ 17. Smu                                54  18. Alabama                            50
+ 19. Virginia                           41  20. Minnesota                          40
+ 21. Florida St                         34  22. Southern California                24
+ 23. Miami (Fl)                         21  24. Missouri                           19
+ 24. Arizona                            19  26. Towson                             17
+ 27. Wisconsin                          16  28. Pittsburgh                         15
+ 29. Lsu                                11  30. UNC                                 9
+ 31. Penn St                             8  32. Brigham Young                       7
+ 33. Utah                                6  34. Purdue                              5
+ 35. GW                                  3  36. Northwestern                        1
+
+
+
+

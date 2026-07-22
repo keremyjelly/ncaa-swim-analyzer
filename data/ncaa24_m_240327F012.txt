@@ -1,0 +1,105 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+ NCAA Division I Championship Meet 
+                        2024 NCAA Division I Men's                         
+                      Swimming & Diving Championships                      
+ 
+ Event 12  Men 100 Yard Backstroke
+=========================================================================
+         NCAA: N 43.35  3/25/2022 Luca Urlando, Georgia
+         Meet: M 43.35  3/25/2022 Luca Urlando, Georgia
+     American: A 43.35  3/25/2022 Luca Urlando, Georgia
+   U. S. Open: O 43.35  3/25/2022 Luca Urlando, Georgia
+         Pool: P 43.86  3/29/2024 Brendan Burns, Indiana
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Burns, Brendan         5Y Indiana             44.51      43.86P  20  
+    r:+0.61  10.28        21.26 (10.98)
+          32.57 (11.31)       43.86 (11.29)
+  2 Stokowski, Kacper      5Y NC State            44.08      43.89   17  
+    r:+0.67  10.32        21.40 (11.08)
+          32.67 (11.27)       43.89 (11.22)
+  3 Chaney, Adam           SR Florida             44.24      43.99   16  
+    r:+0.67  10.15        21.09 (10.94)
+          32.32 (11.23)       43.99 (11.67)
+  4 Kos, Hubert            SO ASU                 44.39      44.13   15  
+    r:+0.56  10.36        21.20 (10.84)
+          32.63 (11.43)       44.13 (11.50)
+  5 Lasco, Destin          SR California          44.00      44.22   14  
+    r:+0.65  10.42        21.48 (11.06)
+          32.84 (11.36)       44.22 (11.38)
+  6 McDonald, Owen         SO ASU                 44.25      44.46   13  
+    r:+0.52  10.36        21.48 (11.12)
+          33.03 (11.55)       44.46 (11.43)
+  7 Van Renen, Ruard       SO Georgia             44.21      44.75   12  
+    r:+0.61  10.37        21.52 (11.15)
+          32.91 (11.39)       44.75 (11.84)
+  8 Marshall, Jonny        FR Florida             44.52      44.86   11  
+    r:+0.65  10.36        21.42 (11.06)
+          33.05 (11.63)       44.86 (11.81)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Modglin, Will          FR Texas               44.58      44.20    9  
+    r:+0.66  10.27        21.18 (10.91)
+          32.71 (11.53)       44.20 (11.49)
+ 10 Hayes, Aiden           JR NC State            45.11      44.55    7  
+    r:+0.53  10.30        21.60 (11.30)
+          33.27 (11.67)       44.55 (11.28)
+ 11 Janton, Tommy          SO Notre Dame          44.91      44.75    6  
+    r:+0.61  10.39        21.35 (10.96)
+          32.97 (11.62)       44.75 (11.78)
+ 12 Dolan, Jack            5Y ASU                 44.86      44.79    5  
+    r:+0.67  10.48        21.62 (11.14)
+          33.14 (11.52)       44.79 (11.65)
+ 13 Seeliger, Bjorn        SR California          44.80      44.81    4  
+    r:+0.81  10.22        21.13 (10.91)
+          32.94 (11.81)       44.81 (11.87)
+ 14 Morley, Cooper         SO Penn St             45.12      45.28    3  
+    r:+0.63  10.67        21.82 (11.15)
+          33.59 (11.77)       45.28 (11.69)
+ 15 Stoffle, Aidan         5Y Auburn              45.01      45.30    2  
+    r:+0.55  10.41        21.43 (11.02)
+          33.11 (11.68)       45.30 (12.19)
+ 16 Buff, Scotty           FR Florida             45.20      45.33    1  
+    r:+0.59  10.53        21.72 (11.19)
+          33.35 (11.63)       45.33 (11.98)
+ 
+                 Men - Team Rankings - Through Event 12                  
+ 
+  1. Arizona St                        303   2. Florida                           272
+  3. California                      252.5   4. Indiana                           178
+  5. NC State                          174   6. Texas                             136
+  7. Tennessee                         106   8. Stanford                          101
+  9. Virginia Tech                      92  10. Georgia                            88
+ 11. Auburn                             72  12. Notre Dame                         61
+ 13. Michigan                         60.5  14. Louisville                         57
+ 15. Ohio St                            53  16. Alabama                            50
+ 17. Texas A&M                          43  18. Smu                                41
+ 19. Virginia                           27  20. Florida St                         24
+ 21. Missouri                           19  22. Towson                             17
+ 22. Minnesota                          17  24. Wisconsin                          16
+ 25. Arizona                            15  25. Miami (Fl)                         15
+ 27. Brigham Young                       7  28. Utah                                6
+ 28. Lsu                                 6  28. Penn St                             6
+ 31. Purdue                              5  32. GW                                  3
+ 33. UNC                                 2                                           
+
+
+
+

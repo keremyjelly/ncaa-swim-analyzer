@@ -1,0 +1,106 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2025 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 11  Women 100 Yard Breaststroke
+=========================================================================
+         NCAA: N 55.73  3/22/2019 Lilly King, Indiana
+         Meet: M 55.73  3/22/2019 Lilly King, Indiana
+     American: A 55.73  3/22/2019 Lilly King, Indiana
+      US Open: O 55.73  3/22/2019 Lilly King, Indiana
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Alex            5Y Virginia            57.54      56.49   20  
+    r:+0.73  12.55        26.65 (14.10)
+          41.47 (14.82)       56.49 (15.02)
+  2 McSharry, Mona         5Y Tennessee           57.56      57.40   17  
+    r:+0.70  12.46        27.07 (14.61)
+          42.04 (14.97)       57.40 (15.36)
+  3 Siroky, McKenzie       FR Tennessee           57.83      57.41   16  
+    r:+0.62  12.26        27.06 (14.80)
+          41.98 (14.92)       57.41 (15.43)
+  4 Crye, Joleigh          JR Cincinnati          58.15      58.11   15  
+    r:+0.75  12.36        27.16 (14.80)
+          42.38 (15.22)       58.11 (15.73)
+  5 Enge, Piper            FR Texas               58.17      58.19   14  
+    r:+0.60  12.23        27.15 (14.92)
+          42.33 (15.18)       58.19 (15.86)
+  6 Fangli, Henrietta      SR Houston             58.06      58.29   13  
+    r:+0.66  12.48        27.35 (14.87)
+          42.64 (15.29)       58.29 (15.65)
+  7 Miller, Mackenzie      JR Brigham Young       58.14      58.39   12  
+    r:+0.72  12.47        27.30 (14.83)
+          42.52 (15.22)       58.39 (15.87)
+  8 Gridley, Kaelyn        JR Duke                58.30      58.72   11  
+    r:+0.69  12.76        27.76 (15.00)
+          42.94 (15.18)       58.72 (15.78)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Bottazzo, Anita        FR Florida             58.44      57.84    9  
+    r:+0.65  12.39        27.06 (14.67)
+          42.27 (15.21)       57.84 (15.57)
+ 10 Dobler, Kaitlyn        5Y USC                 58.53      58.01    7  
+    r:+0.68  12.45        27.23 (14.78)
+          42.44 (15.21)       58.01 (15.57)
+ 11 Weber, Emma            JR Virginia            58.46      58.35    6  
+    r:+0.71  12.71        27.61 (14.90)
+          42.72 (15.11)       58.35 (15.63)
+ 12 Thomas, Lucy           SO Stanford            58.50      58.48    5  
+    r:+0.62  12.45        27.41 (14.96)
+          42.54 (15.13)       58.48 (15.94)
+ 13 Sim, Letitia           JR Michigan            58.80      58.56    4  
+    r:+0.65  12.58        27.61 (15.03)
+          42.86 (15.25)       58.56 (15.70)
+ 14 DeAngelis, Ava         SR OSU                 58.93      58.74    3  
+    r:+0.69  12.91        28.06 (15.15)
+          43.27 (15.21)       58.74 (15.47)
+ 15 Smith, Skyler          SR UNC                 58.60      59.08    2  
+    r:+0.66  12.33        27.38 (15.05)
+          42.95 (15.57)       59.08 (16.13)
+ 16 Lundgren, Emily        JR Washington St.      58.83      59.17    1  
+    r:+0.75  12.95        27.99 (15.04)
+          43.42 (15.43)       59.17 (15.75)
+ 
+                Women - Team Rankings - Through Event 11                 
+ 
+  1. Virginia                          323   2. Stanford                          266
+  3. Texas                             221   4. Tennessee                         152
+  5. Louisville                      138.5   6. Indiana                           137
+  7. Florida                           128   8. Michigan                          112
+  9. California                      108.5  10. NC State                           72
+ 11. Wisconsin                          65  12. Southern California                64
+ 13. Miami (Fl)                       43.5  14. Georgia                            38
+ 15. Ohio St                            37  16. UNC                                36
+ 17. Alabama                            33  18. Arizona St                       31.5
+ 19. Pittsburgh                         20  20. Duke                               18
+ 21. Cincinnati                         15  21. Arizona                            15
+ 21. Lsu                                15  24. Houston                            13
+ 25. Brigham Young                      12  25. Kansas                             12
+ 27. South Carolina                      9  28. Texas A&M                           7
+ 29. Virginia Tech                       6  29. Auburn                              6
+ 29. Princeton                           6  32. Purdue                              5
+ 33. Minnesota                           2  33. Akron                               2
+ 35. Washington St.                      1                                           
+
+
+
+

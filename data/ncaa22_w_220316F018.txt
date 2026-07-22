@@ -1,0 +1,108 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                       2022 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 18  Women 200 Yard Breaststroke
+=========================================================================
+         NCAA: N 2:02.19  3/19/2022 Kate Douglass, Virginia
+         Meet: M 2:02.19  3/19/2022 Kate Douglass, Virginia
+     American: A 2:02.19  3/19/2022 Kate Douglass, Virginia
+      US Open: O 2:02.19  3/19/2022 Kate Douglass, Virginia
+         Pool: P 2:02.19  3/19/2022 Kate Douglass, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Douglass, Kate         JR Virginia          2:03.67    2:02.19N  20  
+    r:+0.66  27.84        58.98 (31.14)
+        1:30.54 (31.56)     2:02.19 (31.65)
+  2 Elendt, Anna           SO Texas             2:04.92    2:04.31   17  
+    r:+0.69  27.65        59.07 (31.42)
+        1:31.51 (32.44)     2:04.31 (32.80)
+  3 Hansson, Sophie        SR NCSU              2:06.12    2:04.76   16  
+    r:+0.72  28.13        59.70 (31.57)
+        1:31.84 (32.14)     2:04.76 (32.92)
+  4 Nelson, Ella           JR Virginia          2:06.21    2:05.51   15  
+    r:+0.64  29.00      1:00.66 (31.66)
+        1:32.88 (32.22)     2:05.51 (32.63)
+  5 Davey, Gillian         JR Kentucky          2:06.68    2:06.03   14  
+    r:+0.69  28.80      1:00.60 (31.80)
+        1:33.01 (32.41)     2:06.03 (33.02)
+  6 Wiseman, Avery         FR Alabama           2:06.76    2:06.57   13  
+    r:+0.64  28.27        59.97 (31.70)
+        1:32.67 (32.70)     2:06.57 (33.90)
+  7 Forde, Brooke          5Y Stanford          2:07.05    2:06.98   12  
+    r:+0.70  29.12      1:01.26 (32.14)
+        1:33.97 (32.71)     2:06.98 (33.01)
+  8 Keating, Anna          SO Virginia          2:06.89    2:07.10   11  
+    r:+0.68  28.34      1:00.04 (31.70)
+        1:32.91 (32.87)     2:07.10 (34.19)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Foley, Sally           SO Duke              2:07.55    2:05.78    9  
+    r:+0.65  28.60      1:00.61 (32.01)
+        1:33.20 (32.59)     2:05.78 (32.58)
+ 10 Poole, Lauren          JR Kentucky          2:07.42    2:06.52    7  
+    r:+0.69  28.90      1:00.78 (31.88)
+        1:33.42 (32.64)     2:06.52 (33.10)
+ 11 Wenger, Alexis         SR Virginia          2:07.34    2:06.53    6  
+    r:+0.60  28.24      1:00.18 (31.94)
+        1:32.87 (32.69)     2:06.53 (33.66)
+ 12 Looze, Mackenzie       SR Indiana           2:08.14    2:07.04    5  
+    r:+0.72  29.19      1:01.11 (31.92)
+        1:33.78 (32.67)     2:07.04 (33.26)
+ 13 Bonnett, Bailey        5Y Kentucky          2:07.46    2:08.15    4  
+    r:+0.67  29.48      1:01.88 (32.40)
+        1:34.87 (32.99)     2:08.15 (33.28)
+ 14 Chue, Christie         FR FIU               2:07.99    2:08.27    3  
+    r:+0.64  28.74      1:01.04 (32.30)
+        1:34.40 (33.36)     2:08.27 (33.87)
+ 15 Hartman, Zoie          JR Georgia           2:07.71    2:08.55    2  
+    r:+0.74  28.76      1:01.37 (32.61)
+        1:34.53 (33.16)     2:08.55 (34.02)
+ 16 Raab, Allie            SR Stanford          2:07.86    2:08.89    1  
+    r:+0.69  29.74      1:01.95 (32.21)
+        1:34.93 (32.98)     2:08.89 (33.96)
+ 
+                Women - Team Rankings - Through Event 18                 
+ 
+  1. Virginia                        485.5   2. Stanford                          340
+  3. Texas                             309   4. Alabama                           256
+  5. NC State                          249   6. California                        155
+  7. Louisville                      153.5   8. Ohio St                           143
+  9. Michigan                          139  10. Tennessee                         118
+ 11. Kentucky                        107.5  12. UNC                               103
+ 13. Florida                            91  14. Southern California                89
+ 15. Georgia                          87.5  16. Indiana                            87
+ 17. Wisconsin                          86  18. Northwestern                       68
+ 19. Penn                             44.5  20. Minnesota                          43
+ 21. Miami (Florida)                  41.5  22. Duke                               36
+ 23. Arizona                          35.5  24. Virginia Tech                      31
+ 25. Missouri                           25  26. Arizona St                         22
+ 27. Yale                             14.5  28. Arkansas                           11
+ 29. South Carolina                      9  30. Rutgers                             6
+ 30. Notre Dame                          6  32. UCLA                                4
+ 32. Lsu                                 4  34. Florida Int'l                       3
+ 35. San Diego St                        2  35. Wyoming                             2
+ 35. Harvard                             2  38. Texas A&M                           1
+
+
+
+

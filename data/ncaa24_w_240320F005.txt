@@ -1,0 +1,84 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+ NCAA Division I Championship Meet                      3/23/2024 - 8:08 PM
+                       2024 NCAA Division I Women's                        
+                      Swimming & Diving Championships                      
+ 
+ Event 5  Women 50 Yard Freestyle
+=========================================================================
+         NCAA: N 20.37  3/21/2024 Gretchen Walsh, Virginia
+         Meet: M 20.37  3/21/2024 Gretchen Walsh, Virginia
+     American: A 20.37  3/21/2024 Gretchen Walsh, Virginia
+      US Open: O 20.37  3/21/2024 Gretchen Walsh, Virginia
+         Pool: P 20.37  3/21/2024 Gretchen Walsh, Virginia
+    Name                 Year School            Prelims     Finals Points 
+=========================================================================
+                       === Championship Final ===                        
+ 
+  1 Walsh, Gretchen        JR Virginia            20.41      20.37N  20  
+     r:+0.75  9.88        20.37 (10.49)
+  2 Berkoff, Katharine     5Y NC State            21.23      21.09   17  
+    r:+0.69  10.24        21.09 (10.85)
+  3 Nocentini, Jasmine     SR Virginia            21.29      21.10   16  
+    r:+0.61  10.02        21.10 (11.08)
+  4 Regenauer, Christiana  5Y Louisville          21.37      21.48   15  
+    r:+0.66  10.40        21.48 (11.08)
+  5 Dennis, Julia          SO Louisville          21.71      21.60   14  
+    r:+0.61  10.26        21.60 (11.34)
+  6 Albiero, Gabi          SR Louisville          21.54      21.67   13  
+    r:+0.63  10.42        21.67 (11.25)
+  7 Parker, Maxine         SR Virginia            21.71      21.74   11.5
+    r:+0.70  10.52        21.74 (11.22)
+  7 Kendall, Brady         SO Michigan            21.69      21.74   11.5
+    r:+0.65  10.46        21.74 (11.28)
+ 
+                        === Consolation Final ===                        
+ 
+  9 Cooper, Grace          SR Texas               21.71      21.71    9  
+    r:+0.64  10.37        21.71 (11.34)
+ 10 Turak, Ashley          5Y Indiana             21.91      21.73    7  
+    r:+0.66  10.47        21.73 (11.26)
+ 11 Famous, Caroline       SR USC                 21.78      21.77    6  
+    r:+0.68  10.55        21.77 (11.22)
+ 12 Paegle, Kristina       SO Indiana             21.83      21.86    5  
+    r:+0.68  10.48        21.86 (11.38)
+ 13 Ivan, Teresa           JR OSU                 21.85      21.87    4  
+    r:+0.63  10.54        21.87 (11.33)
+ 14 Fulmer, Amy            5Y OSU                 21.80      21.88    3  
+    r:+0.68  10.75        21.88 (11.13)
+ 15 Tang, Amy              JR Stanford            21.75      21.90    2  
+    r:+0.64  10.48        21.90 (11.42)
+ 16 Riley, Eloise          5Y California          21.93      22.03    1  
+    r:+0.67  10.69        22.03 (11.34)
+ 
+                 Women - Team Rankings - Through Event 5                 
+ 
+  1. Virginia                        163.5   2. Florida                           137
+  3. Stanford                           93   4. Texas                              78
+  4. Tennessee                          78   6. Georgia                            67
+  7. Louisville                         65   8. Indiana                            64
+  9. California                         59  10. Michigan                         52.5
+ 11. Southern California                48  12. Ohio St                            43
+ 13. Wisconsin                          36  14. NC State                           26
+ 15. Duke                               22  16. UNC                                14
+ 17. Texas A&M                          11  17. Arizona St                         11
+ 19. Virginia Tech                       6  20. Auburn                              4
+ 20. Northwestern                        4  22. Alabama                             2
+ 23. Akron                               1                                           
+
+
+
+
