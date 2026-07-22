@@ -57,3 +57,18 @@ def event_trend(event: str = Query(..., description="Exact EVENT_NAME, e.g. 'Men
     if event not in valid:
         raise HTTPException(status_code=404, detail=f"Unknown event: {event!r}")
     return db.get_event_trend(event)
+
+
+@app.get("/api/swimmers")
+def swimmers():
+    """All individual swimmers (name-keyed) for the picker."""
+    return {"swimmers": db.get_swimmers()}
+
+
+@app.get("/api/swimmers/trend")
+def swimmer_trend(name: str = Query(..., description="Exact swimmer NAME, e.g. 'Lasco, Destin'")):
+    """One swimmer's fastest time per event per year, across meets."""
+    valid = {s["name"] for s in db.get_swimmers()}
+    if name not in valid:
+        raise HTTPException(status_code=404, detail=f"Unknown swimmer: {name!r}")
+    return db.get_swimmer_trend(name)

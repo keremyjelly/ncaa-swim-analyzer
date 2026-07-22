@@ -117,3 +117,107 @@ def get_event_trend(event_name: str) -> dict:
             )
 
     return {"event": event_name, "points": points}
+
+
+# ---------------------------------------------------------------------------
+# Individual swimmers
+#
+# Identity is keyed on NAME. The name strings in this dataset are clean and
+# consistent across years (no case/spacing variants), so an exact NAME match
+# reliably links a swimmer's results across meets. Deliberately NOT keying on
+# name+school, because genuine transfers (e.g. Notre Dame -> SMU) would then
+# split one athlete into two. A swimmer's school(s) are surfaced separately so
+# transfers are visible rather than fragmenting.
+# ---------------------------------------------------------------------------
+
+
+def get_swimmers() -> list[dict]:
+    """One entry per swimmer (individual events only), for the picker."""
+    with _connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT NAME AS name,
+                   COUNT(*)                 AS swims,
+                   COUNT(DISTINCT MEET_YEAR) AS years,
+                   MIN(MEET_YEAR)           AS first_year,
+                   MAX(MEET_YEAR)           AS last_year,
+                   GROUP_CONCAT(DISTINCT SCHOOL) AS schools
+            FROM results
+            WHERE IS_RELAY = 0 AND NAME IS NOT NULL
+            GROUP BY NAME
+            ORDER BY NAME COLLATE NOCASE
+            """
+        ).fetchall()
+    return [
+        {
+            "name": r["name"],
+            "swims": r["swims"],
+            "years": r["years"],
+            "first_year": r["first_year"],
+            "last_year": r["last_year"],
+            "schools": sorted((r["schools"] or "").split(",")),
+        }
+        for r in rows
+    ]
+
+
+def get_swimmer_trend(name: str) -> dict:
+    """
+    A swimmer's championship trajectory, grouped by event.
+
+    For each (event, year) we keep the swimmer's *fastest* timed swim that year
+    (min final time across prelims/finals), so the series reflects their best
+    performance per season. Returns:
+      {"name": ..., "schools": [...],
+       "events": [ {"event": ..., "points": [ {year, time_sec, place, section}, ... ]}, ... ]}
+    """
+    with _connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT MEET_YEAR, EVENT_NAME, SECTION, PLACE, SCHOOL,
+                   FINAL_TIME_SEC, POINTS, REACTION, SPLITS_50
+            FROM results
+            WHERE NAME = ? AND IS_RELAY = 0 AND FINAL_TIME_SEC IS NOT NULL
+            ORDER BY EVENT_NAME, MEET_YEAR
+            """,
+            (name,),
+        ).fetchall()
+
+    schools = sorted({r["SCHOOL"] for r in rows if r["SCHOOL"]})
+
+    def parse_splits(raw):
+        """'21.36|44.92|...' -> [21.36, 44.92, ...]; skip non-numeric bits."""
+        out = []
+        for piece in (raw or "").split("|"):
+            piece = piece.strip()
+            if not piece:
+                continue
+            try:
+                out.append(round(float(piece), 2))
+            except ValueError:
+                pass
+        return out
+
+    # event -> year -> best row (lowest FINAL_TIME_SEC)
+    events: dict[str, dict[int, dict]] = {}
+    for r in rows:
+        best = events.setdefault(r["EVENT_NAME"], {})
+        cur = best.get(r["MEET_YEAR"])
+        if cur is None or r["FINAL_TIME_SEC"] < cur["time_sec"]:
+            best[r["MEET_YEAR"]] = {
+                "year": int(r["MEET_YEAR"]),
+                "time_sec": round(r["FINAL_TIME_SEC"], 2),
+                "place": int(r["PLACE"]) if r["PLACE"] is not None else None,
+                "section": r["SECTION"],
+                "points": r["POINTS"],
+                "reaction": r["REACTION"],
+                "school": r["SCHOOL"],
+                "splits": parse_splits(r["SPLITS_50"]),
+            }
+
+    event_list = [
+        {"event": event, "points": [by_year[y] for y in sorted(by_year)]}
+        for event, by_year in sorted(events.items())
+    ]
+
+    return {"name": name, "schools": schools, "events": event_list}

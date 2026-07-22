@@ -62,15 +62,25 @@ The database path defaults to `swim.db` at the repo root; override with the
 | `GET /api/meta` | `{ years: [...] }` |
 | `GET /api/events` | all events with metadata (individual events first) |
 | `GET /api/events/trend?event=<EVENT_NAME>` | winner + top-16 avg final time per year |
+| `GET /api/swimmers` | all individual swimmers (name-keyed) with schools + year span |
+| `GET /api/swimmers/trend?name=<NAME>` | one swimmer's fastest time per event per year |
+
+## Swimmer identity
+
+Individual trends key on the swimmer's **`NAME`**, which is clean and consistent
+across years in this dataset. Identity deliberately does **not** include school,
+so genuine transfers (e.g. Notre Dame → SMU) stay one athlete rather than
+splitting in two; a swimmer's school(s) are surfaced separately so transfers are
+visible. Exact-name matching is a v1 assumption — a future identity layer could
+add fuzzy matching and collision handling for same-named swimmers.
 
 ## Next steps (natural extensions)
 
-- **Individual trends** — the hard-but-high-value one. Needs a swimmer-identity
-  layer so `Foster, Carson` resolves to one athlete across years; then an
-  `/api/swimmers/{id}/trend` endpoint + a swimmer page.
-- **Port the 5 existing analyses** (200 pacing, 100 split correlation, reaction
-  time, 400 IM legs) from `analyze.py` into API endpoints + interactive charts.
-- **Women's results** — extend the data pipeline, then everything above works
-  for both genders via the existing `EVENT_GENDER` column.
+- **Percentage-improvement view** — swimmer events sit at different time scales
+  (a 44s 100 vs a 15-min 1650), so an indexed/% option would make trajectories
+  directly comparable.
+- **Port the analyses** (200 pacing, 100 split correlation, reaction time, 400 IM
+  legs) into API endpoints + interactive charts.
+- **Women's results** — extend the data pipeline, then everything works for both
+  genders via the existing `EVENT_GENDER` column.
 - **Deploy** — build the frontend (`npm run build`) and serve it; host the API.
-```

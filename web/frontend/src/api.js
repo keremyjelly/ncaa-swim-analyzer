@@ -11,6 +11,12 @@ async function get(path, params) {
 
 export const fetchEvents = () => get("/api/events").then((d) => d.events);
 export const fetchTrend = (event) => get("/api/events/trend", { event });
+export const fetchSwimmers = () => get("/api/swimmers").then((d) => d.swimmers);
+export const fetchSwimmerTrend = (name) => get("/api/swimmers/trend", { name });
+
+// "Men 200 Yard Backstroke" -> "200 Backstroke" for compact chart labels.
+export const shortEvent = (name) =>
+  name.replace(/^(Men|Women)\s+/, "").replace(/\s+Yard\s+/, " ");
 
 // Seconds -> "m:ss.xx" (or "ss.xx" for sub-minute swims), for axis + tooltips.
 export function formatTime(sec) {
