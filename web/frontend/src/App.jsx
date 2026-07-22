@@ -1,10 +1,12 @@
 import { useState } from "react";
 import RaceTrends from "./RaceTrends";
 import SwimmerTrends from "./SwimmerTrends";
+import RaceAnalysis from "./RaceAnalysis";
 
 const TABS = [
   { id: "race", label: "Race Trends" },
   { id: "swimmer", label: "Swimmer Trends" },
+  { id: "analysis", label: "Race Analysis" },
 ];
 
 export default function App() {
@@ -29,7 +31,9 @@ export default function App() {
         ))}
       </nav>
 
-      {tab === "race" ? <RaceTrends /> : <SwimmerTrends />}
+      {tab === "race" && <RaceTrends />}
+      {tab === "swimmer" && <SwimmerTrends />}
+      {tab === "analysis" && <RaceAnalysis />}
 
       <footer>Data: swim.db via FastAPI.</footer>
     </div>

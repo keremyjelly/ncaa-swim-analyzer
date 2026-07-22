@@ -64,6 +64,15 @@ The database path defaults to `swim.db` at the repo root; override with the
 | `GET /api/events/trend?event=<EVENT_NAME>` | winner + top-16 avg final time per year |
 | `GET /api/swimmers` | all individual swimmers (name-keyed) with schools + year span |
 | `GET /api/swimmers/trend?name=<NAME>` | one swimmer's fastest time per event per year |
+| `GET /api/analysis/split-distribution?event=` | pacing shape of one event, year over year (% vs the year's avg split) |
+| `GET /api/analysis/split-place?event=` | correlation of each split with place, per year, for one event |
+| `GET /api/analysis/reaction` | reaction ↔ place correlation, year × freestyle event matrix |
+
+The analysis endpoints live in `web/backend/analysis.py`, computed with
+pure-python stats (no numpy), finals swims only. Splits are indexed by
+**cumulative distance** (yards), not raw position — this lines up the 100s
+across years, since 2021–2023 recorded two 50-yard splits and 2024–2026 four
+25-yard splits.
 
 ## Swimmer identity
 

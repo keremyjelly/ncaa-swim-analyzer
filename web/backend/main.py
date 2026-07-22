@@ -14,6 +14,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 import db
+import analysis
 
 app = FastAPI(
     title="NCAA Swim Analyzer API",
@@ -72,3 +73,30 @@ def swimmer_trend(name: str = Query(..., description="Exact swimmer NAME, e.g. '
     if name not in valid:
         raise HTTPException(status_code=404, detail=f"Unknown swimmer: {name!r}")
     return db.get_swimmer_trend(name)
+
+
+# --- race analyses -----------------------------------------------------------
+
+def _check_event(event: str) -> None:
+    if event not in {e["name"] for e in db.get_events()}:
+        raise HTTPException(status_code=404, detail=f"Unknown event: {event!r}")
+
+
+@app.get("/api/analysis/split-distribution")
+def analysis_split_distribution(event: str = Query(..., description="Exact EVENT_NAME")):
+    """Pacing shape of one event, year over year (% vs the year's avg split)."""
+    _check_event(event)
+    return analysis.split_distribution(event)
+
+
+@app.get("/api/analysis/split-place")
+def analysis_split_place(event: str = Query(..., description="Exact EVENT_NAME")):
+    """Correlation of each split with final place, per year, for one event."""
+    _check_event(event)
+    return analysis.split_place(event)
+
+
+@app.get("/api/analysis/reaction")
+def analysis_reaction():
+    """Reaction-time vs place correlation for every year x freestyle event."""
+    return analysis.reaction()
