@@ -16,9 +16,16 @@ import sys
 import os
 import subprocess
 
-def get_txt_files(data_dir):
-    """Return a sorted list of full file paths for every .txt/.rtf in data_dir."""
-    return sorted([os.path.join(data_dir, file) for file in os.listdir(data_dir) if file.endswith(('.txt', '.rtf'))])
+def get_txt_files(data_dir, year=None):
+    """Return a sorted list of full file paths for every .txt/.rtf in data_dir.
+
+    If year is given (e.g. '21'), only files named 'ncaa<year>_...' are returned.
+    """
+    prefix = f'ncaa{year}_' if year else ''
+    return sorted([
+        os.path.join(data_dir, file) for file in os.listdir(data_dir)
+        if file.endswith(('.txt', '.rtf')) and file.startswith(prefix)
+    ])
 
 def read_file(filepath):
     if filepath.endswith('.rtf'):
@@ -257,20 +264,27 @@ def parse_event_name(event_name):
 
 def main():
     # parse cmdline args
-    data_dir = None
+    data_dir = 'data'
+    year = None
+    out_path = 'ncaa_2026_results.csv'
     if len(sys.argv) > 2:
         print('Error: Too Many Arguments!')
-        print(f'Usage: python3 create_csv.py <data directory>')
+        print('Usage: python3 create_csv.py [<2-digit year, e.g. 21-26>]')
         sys.exit(1)
-    elif len(sys.argv) == 1:
-        data_dir = 'data'
-    else:
-        if not os.path.exists(sys.argv[1]):
-            print('Error: Invalid Data Path')
+    elif len(sys.argv) == 2:
+        year = sys.argv[1]
+        if not re.match(r'^\d{2}$', year):
+            print('Error: Invalid Year')
+            print('Usage: python3 create_csv.py [<2-digit year, e.g. 21-26>]')
             sys.exit(1)
-        data_dir = sys.argv[1]
-            
-    txt_files = get_txt_files(data_dir)
+        out_dir = 'raw'
+        os.makedirs(out_dir, exist_ok=True)
+        out_path = os.path.join(out_dir, f'ncaa{year}.csv')
+
+    txt_files = get_txt_files(data_dir, year)
+    if not txt_files:
+        print(f"Error: no data files found for year '{year}' in {data_dir}")
+        sys.exit(1)
     all_swimmers = []
     for filepath in txt_files:
         lines = read_file(filepath)
@@ -305,8 +319,8 @@ def main():
     if all_swimmers:
         df = pd.DataFrame(all_swimmers)
         df['SPLITS_50'] = df['SPLITS_50'].apply(lambda x: '|'.join(str(s) for s in x))
-        df.to_csv('ncaa_2026_results.csv', index=False)
-        print(f"Saved {len(all_swimmers)} swimmer results to ncaa_2026_results.csv")
+        df.to_csv(out_path, index=False)
+        print(f"Saved {len(all_swimmers)} swimmer results to {out_path}")
 
 if __name__ == "__main__":
      main()

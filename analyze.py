@@ -21,6 +21,9 @@ import os
 # remove any letters associated
 def parse_time(time_str):
     time_str = re.sub(r'[^0-9:.]','',str(time_str))
+    # non-numeric results (e.g. 'DQ', 'SCR') strip down to an empty string
+    if not time_str:
+        return None
     total_time = 0.0
 
     # if colon has a colon in it

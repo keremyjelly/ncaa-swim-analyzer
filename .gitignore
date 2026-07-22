@@ -4,3 +4,9 @@ __pycache__/
 saveimages/
 ncaa_2026_results.csv
 results_data.csv
+raw/
+.venv/
+swim.db
+.ipynb_checkpoints/
+.claude/
+notebooks/
