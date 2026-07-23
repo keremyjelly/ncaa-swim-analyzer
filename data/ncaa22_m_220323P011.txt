@@ -1,0 +1,120 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                     2022 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 11  Men 100 Yard Breaststroke
+==================================================================
+         NCAA: N 49.69  3/23/2018 Ian Finnerty, Indiana
+         Meet: M 49.69  3/23/2018 Ian Finnerty, Indiana
+     American: A 49.69  3/23/2018 Ian Finnerty, Indiana
+   U. S. Open: O 49.69  3/23/2018 Ian Finnerty, Indiana
+         Pool: P 49.90  3/25/2022 Max McHugh, Minnesota
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 McHugh, Max            SR Minnesota                      49.95  
+    r:+0.68  23.50        49.95 (26.45)
+  2 Bell, Liam             JR California                     50.66  
+    r:+0.63  23.43        50.66 (27.23)
+  3 Corbeau, Caspar        JR Texas                          50.77  
+    r:+0.63  23.77        50.77 (27.00)
+  4 Whitley, Reece         SR California                     50.87  
+    r:+0.71  23.84        50.87 (27.03)
+  5 Maas, Derek            JR Alabama                        51.15  
+    r:+0.69  23.97        51.15 (27.18)
+  6 Hillis, Dillon         SR Florida                        51.27  
+    r:+0.65  24.04        51.27 (27.23)
+  7 Pellini, Trent         5Y USC                            51.33  
+    r:+0.69  23.75        51.33 (27.58)
+  8 Dillard, Jarel         SR Tennessee                      51.40  
+    r:+0.61  23.91        51.40 (27.49)
+ -----------------------------------------------------------------
+  9 Benzing, Brian         SO Towson                         51.47  
+    r:+0.61  23.97        51.47 (27.50)
+ 10 Fallon, Matt           FR Penn                           51.51  
+    r:+0.64  24.38        51.51 (27.13)
+ 11 Somov, Evgenii         5Y Louisville                     51.52  
+    r:+0.68  24.15        51.52 (27.37)
+ 12 Houseman, Kevin        JR Northwestern                   51.69  
+    r:+0.58  23.94        51.69 (27.75)
+ 12 Mikuta, Reid           SO Auburn                         51.69  
+    r:+0.63  24.12        51.69 (27.57)
+ 14 Pumputis, Caio         5Y GT                             51.70  
+    r:+0.65  24.10        51.70 (27.60)
+ 15 Bottelberghe, Josh     SR Notre Dame                     51.74  
+    r:+0.69  24.05        51.74 (27.69)
+ 16 Pouch, AJ              JR VT                             51.92  
+    r:+0.66  24.53        51.92 (27.39)
+ -----------------------------------------------------------------
+ 17 Petrashov, Denis       JR Louisville                     51.92  
+    r:+0.74  24.44        51.92 (27.48)
+ 18 Raisanen, Daniel       JR Penn St                        51.96  
+    r:+0.66  24.31        51.96 (27.65)
+ -----------------------------------------------------------------
+ 19 Chan, Will             SR Michigan                       52.00  
+    r:+0.66  23.89        52.00 (28.11)
+ 19 Nichols, Noah          SO Virginia                       52.00  
+    r:+0.67  24.11        52.00 (27.89)
+ 21 Puente Bustamante, An  JR TAMU                           52.02  
+    r:+0.68  24.18        52.02 (27.84)
+ 22 Patton, Ben            JR Missouri                       52.03  
+    r:+0.62  24.00        52.03 (28.03)
+ 23 Van Der Laan, Cooper   SR Pittsburgh                     52.14  
+    r:+0.63  24.57        52.14 (27.57)
+ 24 Heaphy, John           JR ASU                            52.21  
+    r:+0.67  24.28        52.21 (27.93)
+ 25 Myhre, Will            JR Wisconsin                      52.26  
+    r:+0.66  24.36        52.26 (27.90)
+ 26 O'Grady, Chris         FR USC                            52.33  
+    r:+0.69  24.47        52.33 (27.86)
+ 27 Fouts, Eli             SR Wisconsin                      52.38  
+    r:+0.63  24.23        52.38 (28.15)
+ 28 Roy, Daniel            SR Stanford                       52.45  
+    r:+0.58  24.69        52.45 (27.76)
+ 29 Matheny, Josh          FR Indiana                        52.56  
+    r:+0.66  24.69        52.56 (27.87)
+ 30 Houlie, Michael        SR Tennessee                      52.61  
+    r:+0.60  24.10        52.61 (28.51)
+ 31 McDaniel, Hudson       SR Ohio St                        52.67  
+    r:+0.64  24.28        52.67 (28.39)
+ 32 Rhodenbaugh, Caleb     5Y SMU                            52.69  
+    r:+0.64  25.09        52.69 (27.60)
+ 32 Demir, Demirkan        FR Columbia                       52.69  
+    r:+0.59  24.75        52.69 (27.94)
+ 34 Kusto, Rafal           SR NCSU                           52.83  
+    r:+0.61  24.35        52.83 (28.48)
+ 35 Silins, Janis          JR TCU                            53.15  
+    r:+0.68  24.87        53.15 (28.28)
+ 36 Dillard, Ben           SO USC                            53.22  
+    r:+0.76  24.74        53.22 (28.48)
+ 37 Epitropov, Lyubomir    SR Tennessee                      53.28  
+    r:+0.66  24.93        53.28 (28.35)
+ 38 Ribeiro, Vincent       SO TAMU                           53.34  
+    r:+0.59  24.96        53.34 (28.38)
+ 39 Morikawa, Connor       SO Northwestern                   53.37  
+    r:+0.63  25.23        53.37 (28.14)
+ 39 Christianson, Tyler    SO Notre Dame                     53.37  
+    r:+0.60  25.24        53.37 (28.13)
+ 41 Lamb, August           JR Virginia                       53.77  
+    r:+0.60  25.44        53.77 (28.33)
+
+
+
+

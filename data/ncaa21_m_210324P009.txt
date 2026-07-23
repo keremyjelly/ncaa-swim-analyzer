@@ -1,0 +1,127 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                     2021 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 9  Men 100 Yard Butterfly
+==================================================================
+         NCAA: N 42.80  3/23/2018 Caeleb Dressel, Florida
+         Meet: M 42.80  3/23/2018 Caeleb Dressel, Florida
+     American: A 42.80  3/23/2018 Caeleb Dressel, Florida
+   U. S. Open: O 42.80  3/23/2018 Caeleb Dressel, Florida
+         Pool: P 44.24  3/26/2021 Ryan Hoffer, California
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Hoffer, Ryan           SR California          45.22      44.24P 
+    r:+0.64  20.66        44.24 (23.58)
+  2 Ivanov, Antani         JR VT                  45.21      44.54  
+    r:+0.65  20.76        44.54 (23.78)
+  3 Murphy, Camden         SR Georgia             44.77      44.69  
+    r:+0.62  21.16        44.69 (23.53)
+  4 Albiero, Nicolas       SR Louisville          44.67      44.82  
+    r:+0.62  21.03        44.82 (23.79)
+  5 Jiang, Alvin           SR Texas               44.91      44.85  
+    r:+0.68  21.09        44.85 (23.76)
+  6 Friese, Eric           SO Florida             45.65      44.98  
+    r:+0.66  20.78        44.98 (24.20)
+  7 Kovac, Danny           JR Missouri            44.84      45.00  
+    r:+0.61  20.79        45.00 (24.21)
+  8 Urlando, Luca          FR Georgia             44.97      45.10  
+    r:+0.67  21.15        45.10 (23.95)
+ -----------------------------------------------------------------
+  9 Frankel, Tomer         FR Indiana             44.91      45.20  
+    r:+0.61  21.45        45.20 (23.75)
+ 10 Burns, Brendan         SO Indiana             45.26      45.39  
+    r:+0.64  21.32        45.39 (24.07)
+ 11 Pomajevich, Sam        SR Texas               45.65      45.41  
+    r:+0.66  21.14        45.41 (24.27)
+ 12 Mota, Kayky            SR Tennessee           45.42      45.50  
+    r:+0.65  21.13        45.50 (24.37)
+ 13 Ferraro, Christian     SR GT                  45.81      45.56  
+    r:+0.62  21.31        45.56 (24.25)
+ 14 Hu, Ethan              FR Stanford            45.47      45.58  
+    r:+0.72  21.52        45.58 (24.06)
+ 15 Miljenic, Nikola       SR USC                 45.33      45.64  
+    r:+0.65  21.38        45.64 (24.26)
+ 15 Wright, River          SO Michigan            45.24      45.64  
+    r:+0.63  21.23        45.64 (24.41)
+ -----------------------------------------------------------------
+ 17 Manoff, Blake          JR VT                  45.50      45.66  
+    r:+0.64  21.14        45.66 (24.52)
+ 18 Henderson, Noah        SO NC State            46.31      45.83  
+    r:+0.63  21.38        45.83 (24.45)
+ -----------------------------------------------------------------
+ 19 Reid, Noah             SR Arizona             45.67      46.04  
+    r:+0.69  21.55        46.04 (24.49)
+ 20 McCusker, Max          JR Florida St          45.97      46.06  
+    r:+0.61  21.41        46.06 (24.65)
+ 21 Eichberg, Dylan        JR VT                  46.40      46.15  
+    r:+0.61  21.36        46.15 (24.79)
+ 22 Lowe, Dalton           FR Louisville          45.76      46.18  
+    r:+0.66  21.21        46.18 (24.97)
+ 23 Poelke, Boyd           FR UNC                 45.98      46.33  
+    r:+0.69  21.65        46.33 (24.68)
+ 24 Edwards, Max           SO Virginia            46.29      46.35  
+    r:+0.67  21.46        46.35 (24.89)
+ 25 Vera, Blaise           SR Pittsburgh          45.29      46.42  
+    r:+0.63  21.23        46.42 (25.19)
+ 26 Jekel, Wes             SO Wisconsin           45.96      46.47  
+    r:+0.67  21.64        46.47 (24.83)
+ 27 Affeld, Jonny          FR Stanford            46.17      46.48  
+    r:+0.61  21.63        46.48 (24.85)
+ 28 Sobolewski, Luke       SR NC State            46.07      46.56  
+    r:+0.64  21.46        46.56 (25.10)
+ 29 Gambardella, Corey     SR Indiana             46.65      46.61  
+    r:+0.71  21.69        46.61 (24.92)
+ 30 Eberly, Nik            SO Auburn              47.16      46.63  
+    r:+0.55  21.12        46.63 (25.51)
+ 31 Wilson, Daniel         FR Missouri            45.98      46.68  
+    r:+0.70  21.42        46.68 (25.26)
+ 32 Dixon, David           SR West Virginia       46.65      46.72  
+    r:+0.73  21.96        46.72 (24.76)
+ 33 Brown, Zach            JR NC State            46.75      46.79  
+    r:+0.67  22.09        46.79 (24.70)
+ 34 Deryk, Cooper          JR Utah                46.00      46.83  
+    r:+0.67  21.16        46.83 (25.67)
+ 34 Smith, Zachary         JR Notre Dame          46.84      46.83  
+    r:+0.65  21.72        46.83 (25.11)
+ 36 Rose, Dare             FR California          47.33      46.85  
+    r:+0.63  21.73        46.85 (25.12)
+ 37 Whelan, Matthew        JR Duke                47.07      46.91  
+    r:+0.63  21.69        46.91 (25.22)
+ 38 Mathias, Van           JR Indiana             46.22      47.03  
+    r:+0.72  21.65        47.03 (25.38)
+ 39 Houck, Jake            FR Penn St             47.24      47.23  
+    r:+0.64  21.82        47.23 (25.41)
+ 40 Messenger, Jack        SR UNC                 46.28      47.24  
+    r:+0.69  21.88        47.24 (25.36)
+ 41 Taner, Brooks          SO Arizona             47.10      47.35  
+    r:+0.67  22.27        47.35 (25.08)
+ -- Ramadan, Youssef       FR VT                  44.32         DQ  
+      False start
+    r:+0.66  20.76           DQ (24.78)
+ -- Sameh, Haridi          SO Louisville          45.82        DFS  
+      Declared false start
+ -- King, Matt             FR Alabama             47.21        DFS  
+      Declared false start
+
+
+
+

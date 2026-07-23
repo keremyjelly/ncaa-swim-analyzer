@@ -1,0 +1,168 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet               3/18/2023 - 9:08 PM
+                    2023 NCAA Division I Women's                    
+                  Swimming & Diving Championships                   
+ 
+ Event 17  Women 100 Yard Freestyle
+==================================================================
+         NCAA: N 45.56  3/18/2017 Simone Manuel, Stanford
+         Meet: M 45.56  3/18/2017 Simone Manuel, Stanford
+     American: A 45.56  3/18/2017 Simone Manuel, Stanford
+      US Open: O 45.56  3/18/2017 Simone Manuel, Stanford
+         Pool: P 45.61  3/18/2023 Gretchen Walsh, Virginia
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Walsh, Gretchen        SO Virginia            46.32      46.66  
+    r:+0.78  22.22        46.66 (24.44)
+  2 Albiero, Gabi          JR Louisville          46.95      46.88  
+    r:+0.60  22.47        46.88 (24.41)
+  3 MacNeil, Maggie        5Y LSU                 46.27      46.90  
+    r:+0.64  22.40        46.90 (24.50)
+  4 Berkoff, Katharine     SR NC State            47.02      46.91  
+    r:+0.69  22.70        46.91 (24.21)
+  5 Huske, Torri           SO Stanford            46.85      47.19  
+    r:+0.62  22.55        47.19 (24.64)
+  6 Regenauer, Christiana  SR Louisville          47.47      47.33  
+    r:+0.67  22.88        47.33 (24.45)
+  7 Zenick, Katherine      JR Ohio St             47.37      47.34  
+    r:+0.61  22.55        47.34 (24.79)
+  8 Transom, Laticia-Leig  5Y Hawaii              47.86      47.39  
+    r:+0.72  22.95        47.39 (24.44)
+ -----------------------------------------------------------------
+  9 Parker, Maxine         JR Virginia            48.29      47.42  
+    r:+0.70  22.70        47.42 (24.72)
+ 10 Antoniou, Kalia        5Y Alabama             47.46      47.55  
+    r:+0.69  22.75        47.55 (24.80)
+ 11 Fulmer, Amy            SR Ohio St             47.02      47.62  
+    r:+0.69  22.68        47.62 (24.94)
+ 12 Countie, Grace         SR UNC                 48.21      47.70  
+    r:+0.70  22.66        47.70 (25.04)
+ 13 Cuomo, Lexi            SR Virginia            47.71      47.89  
+    r:+0.69  22.70        47.89 (25.19)
+ 14 Stepanek, Chloe        JR TAMU                47.67      47.97  
+    r:+0.65  22.98        47.97 (24.99)
+ 15 Canny, Aimee           FR Virginia            48.05      47.98  
+    r:+0.71  22.97        47.98 (25.01)
+ 16 Paegle, Kristina       FR Indiana             48.15      47.99  
+    r:+0.66  22.92        47.99 (25.07)
+ -----------------------------------------------------------------
+ 17 Welch, Ella            FR Louisville          47.99      48.00  
+    r:+0.63  22.97        48.00 (25.03)
+ 18 Ivan, Teresa           SO Ohio St             48.23      48.08  
+    r:+0.63  22.78        48.08 (25.30)
+ -----------------------------------------------------------------
+ 19 Douthwright, Brooklyn  SO Tennessee           48.08      48.11  
+    r:+0.60  23.32        48.11 (24.79)
+ 19 Ruck, Taylor           SR Stanford            47.44      48.11  
+    r:+0.68  22.86        48.11 (25.25)
+ 21 Flynn, Lindsay         SO Michigan            47.50      48.23  
+    r:+0.65  23.19        48.23 (25.04)
+ 22 Shackelford, Sarah     SR VT                  48.28      48.25  
+    r:+0.68  22.83        48.25 (25.42)
+ 23 Tang, Amy              SO Stanford            47.89      48.28  
+    r:+0.62  23.36        48.28 (24.92)
+ 24 Nikonova, Ekaterina    SO Florida             47.86      48.30  
+    r:+0.65  23.27        48.30 (25.03)
+ 25 Dennis, Julia          FR Louisville          47.93      48.32  
+    r:+0.62  23.09        48.32 (25.23)
+ 26 Davidson, Emma         SR California          48.27      48.33  
+    r:+0.70  23.54        48.33 (24.79)
+ 27 Alons, Kylee           5Y NC State            48.74      48.36  
+    r:+0.64  22.87        48.36 (25.49)
+ 28 Cronk, Micayla         SO Florida             47.99      48.42  
+    r:+0.67  23.20        48.42 (25.22)
+ 28 Maier, Nicole          JR Miami (Ohio)        48.15      48.42  
+    r:+0.71  23.64        48.42 (24.78)
+ 30 Cooper, Grace          JR Texas               48.51      48.43  
+    r:+0.59  22.85        48.43 (25.58)
+ 31 Naccarella, Toni       5Y Buffalo             48.28      48.47  
+    r:+0.65  23.45        48.47 (25.02)
+ 32 Melton, Kobie          5Y Arkansas            48.75      48.51  
+    r:+0.64  23.41        48.51 (25.10)
+ 32 Webb, Abbey            JR NC State            48.05      48.51  
+    r:+0.67  23.53        48.51 (24.98)
+ 34 Smith, Janie           SR South Carolina      48.32      48.55  
+    r:+0.54  23.14        48.55 (25.41)
+ 35 Turak, Ashley          SR Indiana             48.66      48.59  
+    r:+0.57  23.42        48.59 (25.17)
+ 36 Pattison, Greer        SO UNC                 48.55      48.69  
+    r:+0.71  23.32        48.69 (25.37)
+ 37 Venema, Nikki          SR Princeton           48.33      48.70  
+    r:+0.72  23.40        48.70 (25.30)
+ 38 Bates, Talia           SR Florida             47.75      48.72  
+    r:+0.68  23.34        48.72 (25.38)
+ 39 Wilson, Kayla          FR Stanford            48.21      48.80  
+    r:+0.63  23.66        48.80 (25.14)
+ 40 Batchelor, Molly       JR ASU                 48.84      48.83  
+    r:+0.72  23.65        48.83 (25.18)
+ 41 Semenuk, Bridget       SR Texas               48.77      48.85  
+    r:+0.66  22.96        48.85 (25.89)
+ 42 Henderson, Hanna       JR USC                 48.43      48.87  
+    r:+0.64  23.37        48.87 (25.50)
+ 43 Grover, Claire         5Y UCLA                48.48      48.91  
+    r:+0.67  23.33        48.91 (25.58)
+ 44 Nel, Olivia            SO UNC                 48.42      48.95  
+    r:+0.70  23.31        48.95 (25.64)
+ 45 Longi, Ava             JR Texas               48.47      48.96  
+    r:+0.67  23.21        48.96 (25.75)
+ 46 Delgado, Anicka        JR USC                 48.26      49.06  
+    r:+0.64  23.42        49.06 (25.64)
+ 47 McCarty, Eboni         SO Georgia             48.30      49.09  
+    r:+0.70  23.52        49.09 (25.57)
+ 48 Stevenson, Katie       SR William & Mary      48.37      49.10  
+    r:+0.71  23.39        49.10 (25.71)
+ 49 Kan, Natalie           SO Michigan            49.07      49.11  
+    r:+0.66  23.68        49.11 (25.43)
+ 50 Barnes, Megan          FR LSU                 48.96      49.17  
+    r:+0.58  23.83        49.17 (25.34)
+ 51 Mack, Katie            SR Florida             48.53      49.19  
+    r:+0.64  23.48        49.19 (25.71)
+ 52 Wheeler, Kaitlynn      SR Kentucky            49.00      49.20  
+    r:+0.61  23.61        49.20 (25.59)
+ 53 Russo, Catherine       JR Ohio St             48.69      49.24  
+    r:+0.60  23.53        49.24 (25.71)
+ 54 Carlson, Abby          SO Wisconsin           48.56      49.28  
+    r:+0.67  23.87        49.28 (25.41)
+ 55 Mrozinski, Julia       SO Tennessee           48.94      49.30  
+    r:+0.62  23.84        49.30 (25.46)
+ 55 Crush, Annabel         SO NC State            49.01      49.30  
+    r:+0.72  23.63        49.30 (25.67)
+ 57 Rhee, Rachel           SR UCLA                48.00      49.34  
+    r:+0.66  23.66        49.34 (25.68)
+ 58 Kennett, Bobbi         JR TAMU                48.72      49.44  
+    r:+0.65  23.61        49.44 (25.83)
+ 59 Nevmovenko, Polina     SO Auburn              48.55      49.48  
+    r:+0.64  23.84        49.48 (25.64)
+ 60 Carlton, Delaney       SR UNC Asheville       49.43      49.58  
+    r:+0.60  23.38        49.58 (26.20)
+ 61 Petkova, Diana         JR Alabama             48.86      49.61  
+    r:+0.74  24.35        49.61 (25.26)
+ 62 Yendell, Sophie        JR Pittsburgh          49.07      49.70  
+    r:+0.65  23.29        49.70 (26.41)
+ 63 Burt, Maddy            SR Arizona             48.77      50.46  
+    r:+0.66  24.05        50.46 (26.41)
+ -- Funderburke, Nyah      SO Ohio St             49.25         DQ  
+    r:+0.65  23.89           DQ (25.99)
+ -- Strouse, Ashley        SO Northwestern        48.70        DFS  
+ -- Leibel, Kyla           SR Texas               48.68        DFS  
+
+
+
+

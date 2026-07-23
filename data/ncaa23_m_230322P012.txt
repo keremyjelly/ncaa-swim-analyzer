@@ -1,0 +1,124 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet               3/25/2023 - 9:08 PM
+                     2023 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 12  Men 100 Yard Backstroke
+==================================================================
+         NCAA: N 43.35  3/25/2022 Luca Urlando, Georgia
+         Meet: M 43.35  3/25/2022 Luca Urlando, Georgia
+     American: A 43.35  3/25/2022 Luca Urlando, Georgia
+   U. S. Open: O 43.35  3/25/2022 Luca Urlando, Georgia
+         Pool: P 43.61  3/24/2023 Brendan Burns, Indiana
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Lasco, Destin          JR California          44.57      43.93  
+    r:+0.67  21.68        43.93 (22.25)
+  2 Stokowski, Kacper      SR NC State            44.47      44.02  
+    r:+0.64  21.51        44.02 (22.51)
+  3 Burns, Brendan         SR Indiana             44.65      44.28  
+    r:+0.67  21.52        44.28 (22.76)
+  3 Chaney, Adam           JR Florida             44.17      44.28  
+    r:+0.68  21.62        44.28 (22.66)
+  5 Dolan, Jack            SR ASU                 44.78      44.78  
+    r:+0.62  21.46        44.78 (23.32)
+  6 Stoffle, Nate          SO Auburn              44.89      44.93  
+    r:+0.76  21.88        44.93 (23.05)
+  7 McDonald, Owen         FR ASU                 45.00      44.97  
+    r:+0.68  21.61        44.97 (23.36)
+  8 Ungur, Andrei          SR Utah                45.00      45.05  
+    r:+0.74  21.70        45.05 (23.35)
+ -----------------------------------------------------------------
+  9 Dunham, Bradley        SR Georgia             45.23      45.13  
+    r:+0.81  21.75        45.13 (23.38)
+ 10 Van Renen, Ruard       FR SIUC                44.89      45.17  
+    r:+0.70  21.72        45.17 (23.45)
+ 10 Samuels, Brady         SO Purdue              45.86      45.17  
+    r:+0.78  21.60        45.17 (23.57)
+ 12 Izzo, Giovanni         5Y NC State            45.41      45.20  
+    r:+0.61  21.69        45.20 (23.51)
+ 13 Stoffle, Aidan         SR Auburn              45.27      45.22  
+    r:+0.65  21.64        45.22 (23.58)
+ 14 Seeliger, Bjorn        JR California          45.23      45.33  
+    r:+0.86  21.31        45.33 (24.02)
+ 15 Simons, Nick           FR Tennessee           45.63      45.50  
+    r:+0.57  22.01        45.50 (23.49)
+ 16 Janton, Tommy          FR Notre Dame          45.61      45.54  
+    r:+0.72  21.48        45.54 (24.06)
+ -----------------------------------------------------------------
+ 17 MacAlister, Leon       SR Stanford            45.58      45.54  
+    r:+0.62  22.02        45.54 (23.52)
+ 18 Sequeira, Aaron        SO Stanford            45.44      45.56  
+    r:+0.68  22.06        45.56 (23.50)
+ -----------------------------------------------------------------
+ 19 Menke, Matt            SR Alabama             45.51      45.56  
+    r:+0.68  22.06        45.56 (23.50)
+ 20 Alexy, Jack            SO California          46.14      45.62  
+    r:+0.75  21.50        45.62 (24.12)
+ 21 Brownstead, Matt       JR Virginia            45.35      45.67  
+    r:+0.74  21.71        45.67 (23.96)
+ 22 Lowe, Dalton           JR Louisville          46.10      45.80  
+    r:+0.76  22.07        45.80 (23.73)
+ 23 Jekel, Wes             SR Wisconsin           45.70      45.87  
+    r:+0.78  21.73        45.87 (24.14)
+ 23 Davis, Wyatt           JR Michigan            45.20      45.87  
+    r:+0.76  21.66        45.87 (24.21)
+ 25 Secchi, Clement        5Y Missouri            45.37      45.93  
+    r:+0.64  22.02        45.93 (23.91)
+ 26 Mefford, Colby         SR California          47.32      45.94  
+    r:+0.63  22.06        45.94 (23.88)
+ 27 Gogulski, Ethan        SR TAMU                45.64      45.98  
+    r:+0.79  22.12        45.98 (23.86)
+ 28 Tapp, Hunter           SR NC State            45.85      46.05  
+    r:+0.74  22.15        46.05 (23.90)
+ 29 Radziszewski, Krzyszt  SO Pittsburgh          45.49      46.08  
+    r:+0.78  21.86        46.08 (24.22)
+ 29 Ng, Wesley             JR Georgia             45.27      46.08  
+    r:+0.50  22.19        46.08 (23.89)
+ 31 Laitarovsky, Michael   SO South Carolina      45.27      46.09  
+    r:+0.55  21.61        46.09 (24.48)
+ 32 Aikins, Jack           SO Virginia            45.68      46.21  
+    r:+0.76  22.30        46.21 (23.91)
+ 33 Kammann, Bjoern        SO Tennessee           46.18      46.42  
+    r:+0.77  22.53        46.42 (23.89)
+ 34 Goraj, Marcin          JR Pittsburgh          46.91      46.50  
+    r:+0.64  22.37        46.50 (24.13)
+ 35 Somerset, Sebastian    SR California          46.32      46.59  
+    r:+0.80  22.44        46.59 (24.15)
+ 36 Fabiani, Remi          SO Cal Baptist         47.14      46.61  
+    r:+0.55  22.45        46.61 (24.16)
+ 37 O'Connor, Christopher  JR Texas               46.31      46.62  
+    r:+0.76  22.25        46.62 (24.37)
+ 38 Lierz, Harrison        JR Tennessee           45.70      46.63  
+    r:+0.69  22.34        46.63 (24.29)
+ 39 Pavlidi, Arijus        SO FSU                 46.44      46.91  
+    r:+0.82  22.55        46.91 (24.36)
+ 40 Saka, Berke            SO GT                  45.60      47.09  
+    r:+0.74  22.21        47.09 (24.88)
+ 41 Norton, Mitchell       SO Georgia             46.35      47.17  
+    r:+0.63  22.38        47.17 (24.79)
+ 42 Zuchowski, Josh        FR Stanford            46.41      47.32  
+    r:+0.70  22.92        47.32 (24.40)
+ -- Makinen, Kalle         FR Auburn              46.57        DFS  
+      Declared false start
+
+
+
+

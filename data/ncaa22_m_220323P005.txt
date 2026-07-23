@@ -1,0 +1,146 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                     2022 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 5  Men 50 Yard Freestyle
+==================================================================
+         NCAA: N 17.63  3/22/2018 Caeleb Dressel, Florida
+         Meet: M 17.63  3/22/2018 Caeleb Dressel, Florida
+     American: A 17.63  3/22/2018 Caeleb Dressel, Florida
+   U. S. Open: O 17.63  3/22/2018 Caeleb Dressel, Florida
+         Pool: P 18.20  3/24/2016 Caeleb Dressel, Florida
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Seeliger, Bjorn        SO California                     18.45  
+     r:+0.65  8.84         18.45 (9.61)
+  2 Kibler, Drew           SR Texas                          18.60  
+     r:+0.57  8.91         18.60 (9.69)
+  2 Crooks, Jordan         FR Tennessee                      18.60  
+     r:+0.57  8.85         18.60 (9.75)
+  4 Auchinachie, Cameron   5Y Texas                          18.63  
+     r:+0.61  8.89         18.63 (9.74)
+  5 Ramadan, Youssef       SO VT                             18.79  
+     r:+0.56  9.09         18.79 (9.70)
+  6 Brownstead, Matt       SO Virginia                       18.85  
+     r:+0.59  8.90         18.85 (9.95)
+  6 Curry, Brooks          JR LSU                            18.85  
+     r:+0.61  9.01         18.85 (9.84)
+  8 Korstanje, Nyls        JR NCSU                           18.94  
+     r:+0.59  9.00         18.94 (9.94)
+ -----------------------------------------------------------------
+  9 Blaskovic, Bruno       5Y Indiana                        18.98  
+     r:+0.55  9.14         18.98 (9.84)
+ 10 Chaney, Adam           SO Florida                        19.00  
+     r:+0.61  8.99        19.00 (10.01)
+ 11 Henderson, Noah        JR NCSU                           19.00  
+     r:+0.60  8.97        19.00 (10.03)
+ 12 Downing, Dillon        JR Georgia                        19.06  
+     r:+0.64  9.19         19.06 (9.87)
+ 13 King, Matt             SO Virginia                       19.08  
+     r:+0.66  9.30         19.08 (9.78)
+ 14 Davis, Will            SR Florida                        19.10  
+     r:+0.59  9.06        19.10 (10.04)
+ 15 Curtiss, David         FR NCSU                           19.12  
+     r:+0.61  9.33         19.12 (9.79)
+ 16 Dolan, Jack            JR ASU                            19.16  
+     r:+0.63  9.24         19.16 (9.92)
+ -----------------------------------------------------------------
+ 17 Boyle, Connor          FR Virginia                       19.18  
+     r:+0.59  9.25         19.18 (9.93)
+ 18 Krueger, Danny         SR Texas                          19.20  
+     r:+0.69  9.29         19.20 (9.91)
+ -----------------------------------------------------------------
+ 19 Andreis, Sem           SR Ohio St                        19.21  
+     r:+0.61  9.31         19.21 (9.90)
+ 20 Bybee, Cody            SR ASU                            19.23  
+     r:+0.63  9.12        19.23 (10.11)
+ 21 Guiliano, Chris        FR Notre Dame                     19.25  
+     r:+0.61  9.22        19.25 (10.03)
+ 21 Lamb, August           JR Virginia                       19.25  
+     r:+0.58  9.35         19.25 (9.90)
+ 23 Alexy, Jack            FR California                     19.27  
+     r:+0.66  9.23        19.27 (10.04)
+ 24 Jiang, Alvin           5Y Texas                          19.28  
+     r:+0.64  9.23        19.28 (10.05)
+ 25 Hayes, Aiden           FR NCSU                           19.29  
+     r:+0.60  9.15        19.29 (10.14)
+ 26 Baganha, Victor        FR Penn St                        19.31  
+     r:+0.58  9.40         19.31 (9.91)
+ 27 Lowe, Dalton           SO Louisville                     19.32  
+     r:+0.59  9.20        19.32 (10.12)
+ 28 Miroslaw, Rafael       FR Indiana                        19.33  
+     r:+0.60  9.38         19.33 (9.95)
+ 29 Friese, Eric           JR Florida                        19.36  
+     r:+0.65  9.14        19.36 (10.22)
+ 30 Grimm, Anthony         FR Texas                          19.37  
+     r:+0.63  9.26        19.37 (10.11)
+ 31 McDuff, Macguire       FR Florida                        19.42  
+     r:+0.62  9.40        19.42 (10.02)
+ 32 Miljenic, Nikola       5Y USC                            19.44  
+     r:+0.63  9.34        19.44 (10.10)
+ 32 Ferraro, Christian     5Y GT                             19.44  
+     r:+0.61  9.44        19.44 (10.00)
+ 34 Selin, Artem           FR USC                            19.47  
+     r:+0.62  9.24        19.47 (10.23)
+ 34 Aikins, Jack           FR Virginia                       19.47  
+     r:+0.65  9.42        19.47 (10.05)
+ 36 Bell, Liam             JR California                     19.48  
+     r:+0.62  9.42        19.48 (10.06)
+ 37 Piszczorowicz, Bartos  JR NCSU                           19.49  
+     r:+0.61  9.38        19.49 (10.11)
+ 38 Maurer, Luke           SO Stanford                       19.50  
+     r:+0.60  9.49        19.50 (10.01)
+ 39 Gures, Umitcan         JR Harvard                        19.52  
+     r:+0.59  9.36        19.52 (10.16)
+ 40 Acin, Nikola           SR Purdue                         19.54  
+     r:+0.67  9.51        19.54 (10.03)
+ 41 Hanson, Robin          FR California                     19.57  
+     r:+0.64  9.43        19.57 (10.14)
+ 42 Gaziev, Ruslan         SO Ohio St                        19.61  
+     r:+0.62  9.35        19.61 (10.26)
+ 43 Namir, Daniel          5Y Arizona                        19.63  
+     r:+0.60  9.50        19.63 (10.13)
+ 43 Van Zandt, Zac         SO Texas                          19.63  
+     r:+0.63  9.44        19.63 (10.19)
+ 45 Sungalia, Tomas        SR UNC                            19.64  
+     r:+0.66  9.59        19.64 (10.05)
+ 46 Swift, Carter          5Y ASU                            19.67  
+     r:+0.58  9.30        19.67 (10.37)
+ 47 MacAlister, Leon       JR Stanford                       19.69  
+     r:+0.66  9.51        19.69 (10.18)
+ 48 Rose, Dare             SO California                     19.76  
+     r:+0.66  9.61        19.76 (10.15)
+ 49 Matic, Djurdje         SO GWU                            19.79  
+     r:+0.60  9.60        19.79 (10.19)
+ 50 McCusker, Max          SR FSU                            19.85  
+     r:+0.57  9.41        19.85 (10.44)
+ 51 Burdisso, Federico     JR Northwestern                   20.01  
+     r:+0.64  9.69        20.01 (10.32)
+ 52 Hawk, Dylan            SO California                     20.08  
+     r:+0.81  9.76        20.08 (10.32)
+ -- Tapp, Hunter           JR NCSU                             DFS  
+ -- Sammon, Patrick        FR ASU                              DFS  
+ -- Chan, Will             SR Michigan                         DFS  
+ -- Stoffle, Nathaniel     FR Auburn                           DFS  
+
+
+
+

@@ -1,0 +1,163 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+ NCAA Division I Championship Meet               3/23/2024 - 8:08 PM
+                    2024 NCAA Division I Women's                    
+                  Swimming & Diving Championships                   
+ 
+ Event 5  Women 50 Yard Freestyle
+==================================================================
+         NCAA: N 20.37  3/21/2024 Gretchen Walsh, Virginia
+         Meet: M 20.37  3/21/2024 Gretchen Walsh, Virginia
+     American: A 20.37  3/21/2024 Gretchen Walsh, Virginia
+      US Open: O 20.37  3/21/2024 Gretchen Walsh, Virginia
+         Pool: P 20.37  3/21/2024 Gretchen Walsh, Virginia
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Walsh, Gretchen        JR Virginia            20.57      20.41  
+     r:+0.76  9.99        20.41 (10.42)
+  2 Berkoff, Katharine     5Y NC State            21.14      21.23  
+    r:+0.69  10.36        21.23 (10.87)
+  3 Nocentini, Jasmine     SR Virginia            21.13      21.29  
+    r:+0.62  10.12        21.29 (11.17)
+  4 Regenauer, Christiana  5Y Louisville          21.46      21.37  
+    r:+0.66  10.32        21.37 (11.05)
+  5 Albiero, Gabi          SR Louisville          21.61      21.54  
+    r:+0.64  10.37        21.54 (11.17)
+  6 Kendall, Brady         SO Michigan            21.84      21.69  
+    r:+0.62  10.44        21.69 (11.25)
+  7 Parker, Maxine         SR Virginia            21.75      21.71  
+    r:+0.70  10.61        21.71 (11.10)
+  8 Dennis, Julia          SO Louisville          21.68      21.71  
+    r:+0.63  10.32        21.71 (11.39)
+ -----------------------------------------------------------------
+  9 Cooper, Grace          SR Texas               21.66      21.71  
+    r:+0.62  10.41        21.71 (11.30)
+ 10 Tang, Amy              JR Stanford            22.15      21.75  
+    r:+0.63  10.42        21.75 (11.33)
+ 11 Famous, Caroline       SR USC                 22.16      21.78  
+    r:+0.68  10.55        21.78 (11.23)
+ 12 Fulmer, Amy            5Y OSU                 21.79      21.80  
+    r:+0.72  10.78        21.80 (11.02)
+ 13 Paegle, Kristina       SO Indiana             21.76      21.83  
+    r:+0.68  10.53        21.83 (11.30)
+ 14 Ivan, Teresa           JR OSU                 21.74      21.85  
+    r:+0.64  10.48        21.85 (11.37)
+ 15 Turak, Ashley          5Y Indiana             21.89      21.91  
+    r:+0.65  10.72        21.91 (11.19)
+ 16 Riley, Eloise          5Y California          22.09      21.93  
+    r:+0.67  10.57        21.93 (11.36)
+ -----------------------------------------------------------------
+ 17 Longi, Ava             SR Texas               22.01      21.94  
+    r:+0.64  10.58        21.94 (11.36)
+ 18 Arens, Abby            SR NC State            22.18      21.94  
+    r:+0.64  10.59        21.94 (11.35)
+ -----------------------------------------------------------------
+ 19 Maksimova, Sofia       5Y Cal Baptist         21.79      21.94  
+    r:+0.65  10.42        21.94 (11.52)
+ 20 Yendell, Sophie        SR Pittsburgh          21.83      21.95  
+    r:+0.69  10.49        21.95 (11.46)
+ 21 Tierney, Hailey        FR Wisconsin           22.06      21.98  
+    r:+0.60  10.55        21.98 (11.43)
+ 22 McSharry, Mona         SR Tennessee           21.97      21.99  
+    r:+0.69  10.46        21.99 (11.53)
+ 22 Carvalho, Giulia       JR Miami (FL)          22.27      21.99  
+    r:+0.58  10.51        21.99 (11.48)
+ 24 Spink, Camille         FR Tennessee           21.74      22.00  
+    r:+0.69  10.61        22.00 (11.39)
+ 25 Flynn, Lindsay         JR Michigan            21.94      22.03  
+    r:+0.68  10.70        22.03 (11.33)
+ 26 Akakabota, Stephanie   JR California          22.02      22.04  
+    r:+0.62  10.50        22.04 (11.54)
+ 27 Stepanek, Chloe        SR TAMU                22.06      22.06  
+    r:+0.65  10.68        22.06 (11.38)
+ 28 Johnson, Gigi          SO Stanford            22.21      22.07  
+    r:+0.70  10.66        22.07 (11.41)
+ 29 Cothern, Bella         SR Arkansas            22.04      22.09  
+    r:+0.60  10.61        22.09 (11.48)
+ 30 Stone, Mckenna         JR California          22.11      22.10  
+    r:+0.62  10.51        22.10 (11.59)
+ 31 Vincent, Cadence       FR Alabama             22.10      22.11  
+    r:+0.67  10.73        22.11 (11.38)
+ 31 Wall, Tatum            SO Duke                22.09      22.11  
+    r:+0.66  10.70        22.11 (11.41)
+ 31 Delgado, Anicka        SR USC                 21.95      22.11  
+    r:+0.63  10.65        22.11 (11.46)
+ 34 Bentz, Caroline        SR VT                  21.99      22.12  
+    r:+0.62  10.77        22.12 (11.35)
+ 35 Funderburke, Nyah      JR OSU                 22.30      22.14  
+    r:+0.66  10.62        22.14 (11.52)
+ 36 Brophy, Morgan         JR California          22.47      22.17  
+    r:+0.62  10.58        22.17 (11.59)
+ 37 Cronk, Micayla         JR Florida             21.85      22.20  
+    r:+0.66  10.86        22.20 (11.34)
+ 37 Mehraban, Lucy         FR Louisville          22.20      22.20  
+    r:+0.75  10.78        22.20 (11.42)
+ 39 Balduccini, Stephanie  FR Michigan            22.23      22.22  
+    r:+0.66  10.85        22.22 (11.37)
+ 40 Stadden, Isabelle      SR California          22.24      22.23  
+    r:+0.62  10.75        22.23 (11.48)
+ 40 McCarty, Eboni         JR Georgia             22.10      22.23  
+    r:+0.64  10.68        22.23 (11.55)
+ 40 Newman, Claire         SR Michigan            22.10      22.23  
+    r:+0.59  10.76        22.23 (11.47)
+ 43 Carlton, Delaney       5Y UNC                 22.11      22.29  
+    r:+0.64  10.65        22.29 (11.64)
+ 44 Weiler Sastre, Carmen  SO VT                  22.35      22.32  
+    r:+0.70  10.83        22.32 (11.49)
+ 45 Welch, Ella            SO Louisville          22.03      22.35  
+    r:+0.61  10.75        22.35 (11.60)
+ 45 Johnston, Sabrina      SO Princeton           22.07      22.35  
+             10.87        22.35 (11.48)
+ 47 Barrett, Karoline      SO Louisville          22.15      22.38  
+    r:+0.60  10.67        22.38 (11.71)
+ 48 Davidson, Emma         5Y Texas               22.31      22.42  
+    r:+0.71  10.79        22.42 (11.63)
+ 48 Szoke, Zita            FR Ohio                22.60      22.42  
+    r:+0.67  10.92        22.42 (11.50)
+ 50 Buinaia, Vasilissa     5Y USC                 21.95      22.45  
+    r:+0.64  10.85        22.45 (11.60)
+ 51 Pattison, Greer        JR UNC                 22.61      22.50  
+    r:+0.68  10.97        22.50 (11.53)
+ 52 McKenna, Kacey         JR Indiana             22.48      22.51  
+    r:+0.64  11.01        22.51 (11.50)
+ 53 Heimstead, Julia       SR Arizona             22.41      22.52  
+    r:+0.58  11.00        22.52 (11.52)
+ 53 Thomas, Lucy           FR Stanford            22.36      22.52  
+    r:+0.65  10.98        22.52 (11.54)
+ 53 Jones, Helena          FR Georgia             22.28      22.52  
+    r:+0.71  10.95        22.52 (11.57)
+ 56 Owens, Kaitlyn         JR TAMU                22.64      22.54  
+    r:+0.60  10.87        22.54 (11.67)
+ 57 Sheehan, Miriam        FR NC State            22.26      22.55  
+    r:+0.64  10.83        22.55 (11.72)
+ 58 Smith, Skyler          JR UNC                 22.48      22.59  
+    r:+0.65  10.89        22.59 (11.70)
+ 59 Pfaff, Ali             FR Duke                22.63      22.61  
+    r:+0.66  10.93        22.61 (11.68)
+ 60 Theall, Olivia         SR TAMU                22.43      22.64  
+    r:+0.62  10.87        22.64 (11.77)
+ 61 Kern, Emma             FR Texas               22.55      22.93  
+    r:+0.63  10.93        22.93 (12.00)
+ -- Dobler, Kaitlyn        SR USC                 22.27        DFS  
+      Declared false start
+ -- Nevmovenko, Polina     JR Auburn              22.53        DFS  
+      Declared false start
+
+
+
+

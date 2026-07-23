@@ -1,0 +1,148 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet               3/25/2023 - 9:08 PM
+                     2023 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 5  Men 50 Yard Freestyle
+==================================================================
+         NCAA: N 17.63  3/22/2018 Caeleb Dressel, Florida
+         Meet: M 17.63  3/22/2018 Caeleb Dressel, Florida
+     American: A 17.63  3/22/2018 Caeleb Dressel, Florida
+   U. S. Open: O 17.63  3/22/2018 Caeleb Dressel, Florida
+         Pool: P 17.63  3/22/2018 Caeleb Dressel, Florida
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Crooks, Jordan         SO Tennessee           17.93      18.25  
+     r:+0.62  8.81         18.25 (9.44)
+  2 Seeliger, Bjorn        JR California          18.87      18.46  
+     r:+0.65  8.80         18.46 (9.66)
+  3 Liendo, Josh           FR Florida             18.35      18.54  
+     r:+0.60  8.93         18.54 (9.61)
+  4 Curry, Brooks          SR LSU                 18.94      18.72  
+     r:+0.61  8.93         18.72 (9.79)
+  5 Alexy, Jack            SO California          19.13      18.77  
+     r:+0.62  9.03         18.77 (9.74)
+  6 Santos, Guilherme      FR Tennessee           18.79      18.81  
+     r:+0.61  9.04         18.81 (9.77)
+  7 Ramadan, Youssef       JR VT                  18.82      18.87  
+     r:+0.56  9.17         18.87 (9.70)
+  7 Dolan, Jack            SR ASU                 18.86      18.87  
+     r:+0.66  9.08         18.87 (9.79)
+ -----------------------------------------------------------------
+  9 Henderson, Noah        SR NC State            19.09      18.89  
+     r:+0.58  9.00         18.89 (9.89)
+ 10 Mathias, Van           5Y Indiana             19.00      18.89  
+     r:+0.66  9.07         18.89 (9.82)
+ 11 Curtiss, David         SO NC State            18.95      18.93  
+     r:+0.60  9.14         18.93 (9.79)
+ 12 Korstanje, Nyls        SR NC State            19.12      18.94  
+     r:+0.61  8.96         18.94 (9.98)
+ 13 Elaraby, Abdelrahman   SR Louisville          18.79      18.96  
+     r:+0.65  9.17         18.96 (9.79)
+ 14 Gaziev, Ruslan         JR Ohio St             19.09      19.00  
+     r:+0.65  8.96        19.00 (10.04)
+ 15 Brownstead, Matt       JR Virginia            19.14      19.03  
+     r:+0.60  9.16         19.03 (9.87)
+ 16 Bell, Liam             SR California          19.41      19.04  
+     r:+0.62  9.20         19.04 (9.84)
+ -----------------------------------------------------------------
+ 17 Kulow, Jonny           FR ASU                 19.09      19.05  
+     r:+0.61  9.11         19.05 (9.94)
+ 18 McDuff, Macguire       SO Florida             18.95      19.05  
+     r:+0.64  9.18         19.05 (9.87)
+ -----------------------------------------------------------------
+ 19 Mestre, Alberto        5Y Florida             19.21      19.10  
+     r:+0.64  9.12         19.10 (9.98)
+ 19 Chaney, Adam           JR Florida             18.71      19.10  
+     r:+0.62  9.24         19.10 (9.86)
+ 19 Baganha, Victor        SO Penn St             19.33      19.10  
+     r:+0.56  9.21         19.10 (9.89)
+ 22 Downing, Dillon        SR Georgia             19.09      19.15  
+     r:+0.64  9.17         19.15 (9.98)
+ 23 Guiliano, Chris        SO Notre Dame          18.88      19.17  
+     r:+0.64  9.25         19.17 (9.92)
+ 24 Szabados, Bence        JR Michigan            19.05      19.21  
+     r:+0.62  9.14        19.21 (10.07)
+ 25 Fabiani, Remi          SO Cal Baptist         19.09      19.24  
+     r:+0.62  9.25         19.24 (9.99)
+ 26 Hayes, Aiden           SO NC State            19.09      19.25  
+     r:+0.58  9.12        19.25 (10.13)
+ 27 Salls, Drew            FR NC State            19.14      19.26  
+     r:+0.63  9.23        19.26 (10.03)
+ 28 Maurer, Luke           JR Stanford            19.46      19.28  
+     r:+0.63  9.36         19.28 (9.92)
+ 29 Makinen, Kalle         FR Auburn              19.20      19.29  
+     r:+0.69  9.35         19.29 (9.94)
+ 30 Miller, Luke           JR NC State            19.59      19.31  
+     r:+0.59  9.24        19.31 (10.07)
+ 31 Krueger, Danny         5Y Texas               19.40      19.32  
+     r:+0.66  9.35         19.32 (9.97)
+ 32 Selin, Artem           SO USC                 19.16      19.35  
+     r:+0.58  9.07        19.35 (10.28)
+ 32 Larson, Peter          SR Texas               19.41      19.35  
+     r:+0.60  9.13        19.35 (10.22)
+ 34 Brooks, Finn           SO Indiana             19.39      19.36  
+     r:+0.59  9.23        19.36 (10.13)
+ 34 Lamb, August           SR Virginia            19.21      19.36  
+     r:+0.59  9.51         19.36 (9.85)
+ 36 Lowe, Dalton           JR Louisville          19.48      19.40  
+     r:+0.64  9.29        19.40 (10.11)
+ 37 McCusker, Max          5Y ASU                 19.14      19.42  
+     r:+0.59  9.27        19.42 (10.15)
+ 38 Tirheimer, Logan       JR Auburn              19.05      19.44  
+     r:+0.62  9.31        19.44 (10.13)
+ 38 Miroslaw, Rafael       SO Indiana             19.46      19.44  
+     r:+0.61  9.42        19.44 (10.02)
+ 40 Samuels, Brady         SO Purdue              19.58      19.46  
+     r:+0.65  9.14        19.46 (10.32)
+ 41 Aikins, Jack           SO Virginia            19.32      19.50  
+     r:+0.63  9.41        19.50 (10.09)
+ 42 Sammon, Patrick        SO ASU                 19.33      19.56  
+     r:+0.66  9.42        19.56 (10.14)
+ 42 Rose, Dare             JR California          19.65      19.56  
+     r:+0.63  9.57         19.56 (9.99)
+ 44 Foote, Connor          FR TAMU                19.53      19.59  
+     r:+0.64  9.57        19.59 (10.02)
+ 45 Bybee, Cody            5Y ASU                 19.51      19.60  
+     r:+0.63  9.38        19.60 (10.22)
+ 46 Hawk, Dylan            JR California          19.55      19.66  
+     r:+0.65  9.51        19.66 (10.15)
+ 47 Daleiden Ciuferri, Ra  FR Arizona             19.78      19.68  
+     r:+0.61  9.43        19.68 (10.25)
+ 48 Gures, Umitcan         SR Harvard             19.36      19.74  
+     r:+0.62  9.62        19.74 (10.12)
+ 48 Gu, Rafael             FR Stanford            19.53      19.74  
+     r:+0.63  9.46        19.74 (10.28)
+ 50 Dupont Cabrera, Andre  FR Stanford            19.79      19.83  
+     r:+0.59  9.65        19.83 (10.18)
+ 51 Ungur, Andrei          SR Utah                19.80      19.98  
+     r:+0.56  9.57        19.98 (10.41)
+ 52 Zhang, Wen             SR Air Force           19.63      19.99  
+     r:+0.62  9.67        19.99 (10.32)
+ 53 Pavlidi, Arijus        SO FSU                 19.77      20.07  
+     r:+0.66  9.62        20.07 (10.45)
+ -- Chan, Will             5Y Texas               19.68        DFS  
+      Declared false start
+ -- Berg, Max              JR Kentucky            19.36        DFS  
+      Declared false start
+
+
+
+

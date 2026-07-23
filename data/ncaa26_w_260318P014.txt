@@ -1,0 +1,140 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet^ 
+                    2026 NCAA Division I Women's                    
+                  Swimming & Diving Championships                   
+ 
+ Event 14  Women 50 Yard Freestyle
+==================================================================
+         NCAA: N 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+         Meet: M 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+     American: A 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+      US Open: O 20.37  3/21/2024 Gretchen Walsh - Also 3/20/25, Virginia
+         Pool: P 20.66  3/20/2026 Torri Huske, Stanford
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Curtis, Sara           FR Virginia            21.09      20.93  
+    r:+0.67  10.04        20.93 (10.89)
+  2 Spink, Camille         JR Tennessee           20.87      21.04  
+    r:+0.65  10.11        21.04 (10.93)
+  3 Dennis, Julia          SR Louisville          21.21      21.13  
+    r:+0.65  10.10        21.13 (11.03)
+  4 Huske, Torri           SR Stanford            21.01      21.14  
+    r:+0.61  10.15        21.14 (10.99)
+  5 Okaro, Eva             FR Texas               21.26      21.27  
+    r:+0.68  10.22        21.27 (11.05)
+  6 Moesch, Anna           SO Virginia            21.22      21.35  
+    r:+0.67  10.35        21.35 (11.00)
+  7 Clark, Liberty         FR Indiana             21.47      21.39  
+    r:+0.59  10.36        21.39 (11.03)
+  8 Kendall, Brady         SR Michigan            21.09      21.44  
+    r:+0.58  10.18        21.44 (11.26)
+ -----------------------------------------------------------------
+  9 Greenwaldt, Bryn       SR Virginia            21.51      21.50  
+    r:+0.62  10.40        21.50 (11.10)
+ 10 Paegle, Kristina       SR Indiana             21.56      21.51  
+    r:+0.66  10.36        21.51 (11.15)
+ -----------------------------------------------------------------
+ 11 Christianson, Lily     SO NC State            21.71      21.56  
+    r:+0.62  10.44        21.56 (11.12)
+ 12 Moluh, Mary-Ambre      SO California          21.67      21.59  
+    r:+0.70  10.55        21.59 (11.04)
+ 12 Olasewere, Annam       FR Stanford            21.46      21.59  
+    r:+0.65  10.49        21.59 (11.10)
+ 14 Nwakalor, Melissa      JR Virginia            21.79      21.66  
+    r:+0.63  10.26        21.66 (11.40)
+ 14 Vincent, Cadence       JR Alabama             21.58      21.66  
+    r:+0.65  10.50        21.66 (11.16)
+ 16 Wall, Tatum            SR Duke                21.47      21.75  
+    r:+0.66  10.51        21.75 (11.24)
+ 16 Rogers, Harriet        JR Arkansas            21.78      21.75  
+    r:+0.64  10.49        21.75 (11.26)
+ 18 Jazy, Nina Sandrine    FR Virginia            21.74      21.76  
+    r:+0.68  10.48        21.76 (11.28)
+ 18 De Villiers, Michaela  SR LSU                 21.59      21.76  
+    r:+0.63  10.46        21.76 (11.30)
+ 20 Larsen, Caroline       SO Louisville          21.62      21.77  
+    r:+0.70  10.53        21.77 (11.24)
+ 21 Nel, Olivia            SR NC State            21.88      21.80  
+    r:+0.67  10.57        21.80 (11.23)
+ 22 Revitt, Darcy          SO Washington St.      21.83      21.81  
+    r:+0.62  10.63        21.81 (11.18)
+ 23 Klevanovich, Elizavet  5Y Auburn              21.55      21.82  
+    r:+0.74  10.76        21.82 (11.06)
+ 24 Mishler, Julie         FR Louisville          21.76      21.83  
+    r:+0.63  10.47        21.83 (11.36)
+ 25 Botton, Riley          SR Arizona             21.90      21.84  
+    r:+0.59  10.49        21.84 (11.35)
+ 26 Greenhawt, Lexi        JR Michigan            21.53      21.89  
+    r:+0.61  10.52        21.89 (11.37)
+ 27 Cachot, Albane         FR ASU                 21.80      21.98  
+    r:+0.65  10.56        21.98 (11.42)
+ 28 Balduccini, Stephanie  JR Michigan            21.97      22.02  
+    r:+0.63  10.73        22.02 (11.29)
+ 29 Bockrath, Rachel       SO OSU                 21.78      22.05  
+    r:+0.73  10.78        22.05 (11.27)
+ 30 Moses, Casaundra       SR NC State            21.83      22.06  
+    r:+0.59  10.48        22.06 (11.58)
+ 31 Maier, Nicole          5Y USC                 21.92      22.10  
+    r:+0.65  10.74        22.10 (11.36)
+ 32 Furbee, Carrie         FR OSU                 21.92      22.16  
+    r:+0.65  10.75        22.16 (11.41)
+ 33 Kelly, Payton          SR Ball State          21.88      22.18  
+    r:+0.69  10.85        22.18 (11.33)
+ 34 Fack, Leila            SO Michigan            21.96      22.20  
+    r:+0.65  10.67        22.20 (11.53)
+ 35 Littlefield, Avery     SO LSU                 21.93      22.24  
+    r:+0.62  10.74        22.24 (11.50)
+ 36 Johnston, Sabrina      SR Princeton           22.07      22.27  
+    r:+0.65  10.79        22.27 (11.48)
+ 37 Hoeper, Grace          FR Indiana             21.96      22.31  
+    r:+0.71  10.70        22.31 (11.61)
+ 38 Duncan, Jada           FR UCLA                21.85      22.33  
+    r:+0.59  10.80        22.33 (11.53)
+ 39 Tanko, Beatrix         JR Nebraska            22.17      22.36  
+    r:+0.66  10.81        22.36 (11.55)
+ 40 Tierney, Hailey        JR Wisconsin           21.85      22.37  
+    r:+0.60  10.75        22.37 (11.62)
+ 41 Cannings, Kamryn       JR Liberty             22.28      22.38  
+    r:+0.62  10.89        22.38 (11.49)
+ 41 Nelson, Holly          SR Hawaii              22.28      22.38  
+    r:+0.67  10.57        22.38 (11.81)
+ 43 Crooks, Jillian        SO Tennessee           21.87      22.39  
+    r:+0.59  10.73        22.39 (11.66)
+ 44 Brito, Bella           FR USC                 22.25      22.42  
+    r:+0.66  10.80        22.42 (11.62)
+ 45 Thomas, Lucy           JR Stanford            22.07      22.48  
+    r:+0.62  10.83        22.48 (11.65)
+ 46 Welch, Ella            SR Louisville          22.02      22.50  
+    r:+0.64  10.78        22.50 (11.72)
+ 47 Mostek, Anya           SR Harvard             22.18      22.53  
+    r:+0.72  11.01        22.53 (11.52)
+ 48 Gutshall, Ashley       JR UMBC                22.25      22.54  
+    r:+0.70  11.08        22.54 (11.46)
+ 49 Szoke, Zita            JR Ohio                22.10      22.64  
+    r:+0.71  10.93        22.64 (11.71)
+ 50 Bozzuto, Aly           SO Liberty             22.26      22.81  
+    r:+0.60  10.90        22.81 (11.91)
+ -- Giele, Tessa           SR Alabama             21.91        DFS  
+ -- Bezerra, Beatriz       FR Florida             22.25        DFS  
+ -- Komoroczy, Lora        SO Auburn              22.22         NS  
+
+
+
+

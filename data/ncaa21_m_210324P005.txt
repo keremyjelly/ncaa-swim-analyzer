@@ -1,0 +1,141 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                     2021 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 5  Men 50 Yard Freestyle
+==================================================================
+         NCAA: N 17.63  3/22/2018 Caeleb Dressel, Florida
+         Meet: M 17.63  3/22/2018 Caeleb Dressel, Florida
+     American: A 17.63  3/22/2018 Caeleb Dressel, Florida
+   U. S. Open: O 17.63  3/22/2018 Caeleb Dressel, Florida
+         Pool: P 18.33  3/25/2021 Ryan Hoffer, California
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Hoffer, Ryan           SR California          18.81      18.43  
+     r:+0.65  9.00         18.43 (9.43)
+  2 Downing, Dillon        SO Georgia             18.90      18.88  
+     r:+0.63  9.11         18.88 (9.77)
+  3 Seeliger, Bjorn        FR California          18.84      18.91  
+     r:+0.64  9.10         18.91 (9.81)
+  4 Chaney, Adam           FR Florida             18.76      18.98  
+     r:+0.64  9.06         18.98 (9.92)
+  5 Ramadan, Youssef       FR VT                  19.15      19.08  
+     r:+0.57  9.42         19.08 (9.66)
+  6 Borges, Gus            SR Michigan            19.31      19.12  
+     r:+0.68  9.06        19.12 (10.06)
+  7 Krueger, Daniel        JR Texas               19.10      19.13  
+     r:+0.70  9.19         19.13 (9.94)
+  8 Vera, Blaise           SR Pittsburgh          19.03      19.17  
+     r:+0.66  9.31         19.17 (9.86)
+ -----------------------------------------------------------------
+  9 Curry, Brooks          SO LSU                 18.97      19.19  
+     r:+0.55  9.31         19.19 (9.88)
+ 10 Friese, Eric           SO Florida             19.31      19.20  
+     r:+0.64  9.23         19.20 (9.97)
+ 11 Brownstead, Matt       FR Virginia            18.88      19.21  
+     r:+0.63  9.19        19.21 (10.02)
+ 11 Franzman, Jack         JR Indiana             19.14      19.21  
+     r:+0.61  9.23         19.21 (9.98)
+ 13 Peel, Cam              SO Michigan            19.30      19.34  
+     r:+0.64  9.23        19.34 (10.11)
+ 14 Deryk, Cooper          JR Utah                19.46      19.37  
+     r:+0.66  9.30        19.37 (10.07)
+ 15 Varjasi, Peter         SO Florida St          19.54      19.38  
+     r:+0.69  9.22        19.38 (10.16)
+ 16 Izzo, Giovanni         JR NC State            19.47      19.39  
+     r:+0.65  9.38        19.39 (10.01)
+ -----------------------------------------------------------------
+ 17 Berneburg, Jonathan    JR Alabama             19.60      19.40  
+     r:+0.67  9.34        19.40 (10.06)
+ 18 Henderson, Noah        SO NC State            19.27      19.41  
+     r:+0.58  9.19        19.41 (10.22)
+ -----------------------------------------------------------------
+ 19 Acin, Nikola           JR Purdue              19.38      19.43  
+     r:+0.67  9.50         19.43 (9.93)
+ 20 Ercegovic, Marin       JR Arizona             19.22      19.44  
+     r:+0.72  9.47         19.44 (9.97)
+ 21 Armstrong, Hunter      SO Ohio St             19.17      19.45  
+     r:+0.63  9.50         19.45 (9.95)
+ 21 Andreis, Sem           JR Ohio St             19.05      19.45  
+     r:+0.65  9.43        19.45 (10.02)
+ 23 Benson, Andrew         FR Wisconsin           19.25      19.47  
+     r:+0.63  9.41        19.47 (10.06)
+ 24 Eberly, Nik            SO Auburn              19.38      19.48  
+     r:+0.54  9.23        19.48 (10.25)
+ 24 Roberson, Will         SR Penn St             19.17      19.48  
+     r:+0.66  9.53         19.48 (9.95)
+ 26 Sameh, Haridi          SO Louisville          19.14      19.50  
+     r:+0.65  9.33        19.50 (10.17)
+ 26 Castano, Gabe          SR Penn St             19.36      19.50  
+     r:+0.63  9.54         19.50 (9.96)
+ 28 Deliyiannis, Mihalis   SR Louisville          19.44      19.51  
+     r:+0.67  9.34        19.51 (10.17)
+ 29 Miljenic, Nikola       SR USC                 19.47      19.54  
+     r:+0.64  9.43        19.54 (10.11)
+ 30 Hallock, Thomas        SR VT                  19.41      19.55  
+     r:+0.65  9.23        19.55 (10.32)
+ 31 Houck, Jake            FR Penn St             19.29      19.56  
+     r:+0.61  9.41        19.56 (10.15)
+ 32 Messenger, Jack        SR UNC                 19.64      19.63  
+     r:+0.65  9.52        19.63 (10.11)
+ 32 Olson, Tanner          SR TAMU                19.39      19.63  
+     r:+0.61  9.52        19.63 (10.11)
+ 32 Disette, Sam           SR Alabama             19.35      19.63  
+     r:+0.62  9.31        19.63 (10.32)
+ 35 Cummings, Tanner       JR Louisville          19.45      19.70  
+     r:+0.58  9.47        19.70 (10.23)
+ 36 Wright, River          SO Michigan            19.31      19.73  
+     r:+0.68  9.58        19.73 (10.15)
+ 37 Lowe, Dalton           FR Louisville          19.72      19.76  
+     r:+0.62  9.63        19.76 (10.13)
+ 38 Bailey, Seth           JR Tennessee           19.74      19.80  
+     r:+0.58  9.61        19.80 (10.19)
+ 39 Ferraro, Christian     SR GT                  19.56      19.81  
+     r:+0.60  9.74        19.81 (10.07)
+ 40 Davis, Will            JR Florida             19.37      19.82  
+     r:+0.63  9.37        19.82 (10.45)
+ 41 Sannem, Jake           SR Texas               19.87      19.84  
+     r:+0.69  9.62        19.84 (10.22)
+ 41 Sungalia, Tomas        JR UNC                 19.84      19.84  
+     r:+0.75  9.71        19.84 (10.13)
+ 43 Tapp, Hunter           SO NC State            19.60      19.85  
+     r:+0.76  9.70        19.85 (10.15)
+ 44 Maurer, Luke           FR Stanford            19.79      19.93  
+     r:+0.60  9.66        19.93 (10.27)
+ 45 McCusker, Max          JR Florida St          19.68      20.00  
+     r:+0.61  9.53        20.00 (10.47)
+ 46 Chan, Will             JR Michigan            19.57      20.05  
+     r:+0.65  9.50        20.05 (10.55)
+ 47 Whelan, Matthew        JR Duke                19.96      20.08  
+     r:+0.62  9.73        20.08 (10.35)
+ 48 Barone, Kyle           JR GT                  19.77      20.16  
+     r:+0.67  9.82        20.16 (10.34)
+ 49 McDermott, Colin       SR Ohio St             19.94      20.23  
+     r:+0.74  9.82        20.23 (10.41)
+ 50 Houlie, Michael        JR Tennessee           19.96      20.34  
+     r:+0.62  9.86        20.34 (10.48)
+ -- King, Matt             FR Alabama             18.96         DQ  
+      False start
+     r:+0.52  9.19            DQ (9.83)
+
+
+
+

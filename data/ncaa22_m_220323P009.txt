@@ -1,0 +1,125 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                     2022 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 9  Men 100 Yard Butterfly
+==================================================================
+         NCAA: N 42.80  3/23/2018 Caeleb Dressel, Florida
+         Meet: M 42.80  3/23/2018 Caeleb Dressel, Florida
+     American: A 42.80  3/23/2018 Caeleb Dressel, Florida
+   U. S. Open: O 42.80  3/23/2018 Caeleb Dressel, Florida
+         Pool: P 43.71  3/25/2022 Andrei Minakov, Stanford
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Minakov, Andrei        SO Stanford                       43.77  
+    r:+0.62  20.23        43.77 (23.54)
+  2 Ramadan, Youssef       SO VT                             44.21  
+    r:+0.58  20.55        44.21 (23.66)
+  3 Urlando, Luca          SO Georgia                        44.24  
+    r:+0.64  20.45        44.24 (23.79)
+  4 Frankel, Tomer         SO Indiana                        44.38  
+    r:+0.58  20.68        44.38 (23.70)
+  5 Korstanje, Nyls        JR NCSU                           44.43  
+    r:+0.61  20.38        44.43 (24.05)
+  6 Albiero, Nicolas       5Y Louisville                     44.61  
+    r:+0.62  20.97        44.61 (23.64)
+  7 Gures, Umitcan         JR Harvard                        44.63  
+    r:+0.60  21.07        44.63 (23.56)
+  8 Hayes, Aiden           FR NCSU                           44.78  
+    r:+0.60  20.78        44.78 (24.00)
+ -----------------------------------------------------------------
+  9 Burns, Brendan         JR Indiana                        44.81  
+    r:+0.60  21.04        44.81 (23.77)
+ 10 Quach, Alex            FR Ohio St                        44.93  
+    r:+0.59  21.11        44.93 (23.82)
+ 11 Cohen Groumi, Gal      FR Michigan                       44.96  
+    r:+0.58  20.96        44.96 (24.00)
+ 12 Ivanov, Antani         SR VT                             44.98  
+    r:+0.67  20.95        44.98 (24.03)
+ 13 Jiang, Alvin           5Y Texas                          45.00  
+    r:+0.64  20.97        45.00 (24.03)
+ 14 Kovac, Danny           SR Missouri                       45.05  
+    r:+0.59  21.08        45.05 (23.97)
+ 15 Van Zandt, Zac         SO Texas                          45.07  
+    r:+0.61  20.95        45.07 (24.12)
+ 16 Rose, Dare             SO California                     45.16  
+    r:+0.62  20.75        45.16 (24.41)
+ -----------------------------------------------------------------
+ 17 Baganha, Victor        FR Penn St                        45.18  
+    r:+0.61  20.90        45.18 (24.28)
+ 18 Ferraro, Christian     5Y GT                             45.24  
+    r:+0.63  21.30        45.24 (23.94)
+ -----------------------------------------------------------------
+ 19 Blaskovic, Bruno       5Y Indiana                        45.25  
+    r:+0.58  20.84        45.25 (24.41)
+ 20 Fantoni, Gabriel       5Y Indiana                        45.33  
+    r:+0.66  21.05        45.33 (24.28)
+ 21 Affeld, Jonny          SO Stanford                       45.45  
+    r:+0.64  21.46        45.45 (23.99)
+ 22 Matic, Djurdje         SO GWU                            45.52  
+    r:+0.63  21.38        45.52 (24.14)
+ 22 Colson, Alexander      JR ASU                            45.52  
+    r:+0.63  21.18        45.52 (24.34)
+ 22 Henderson, Noah        JR NCSU                           45.52  
+    r:+0.61  20.66        45.52 (24.86)
+ 25 Bybee, Cody            SR ASU                            45.53  
+    r:+0.62  21.06        45.53 (24.47)
+ 26 Crooks, Jordan         FR Tennessee                      45.54  
+    r:+0.63  20.85        45.54 (24.69)
+ 27 Miljenic, Nikola       5Y USC                            45.56  
+    r:+0.67  21.32        45.56 (24.24)
+ 28 Sequeira, Aaron        FR Stanford                       45.57  
+    r:+0.59  21.14        45.57 (24.43)
+ 29 Lowe, Dalton           SO Louisville                     45.58  
+    r:+0.64  20.83        45.58 (24.75)
+ 30 Friese, Eric           JR Florida                        45.60  
+    r:+0.64  20.54        45.60 (25.06)
+ 31 Kammann, Bjoern        FR Tennessee                      45.71  
+    r:+0.70  20.99        45.71 (24.72)
+ 32 Burdisso, Federico     JR Northwestern                   45.78  
+    r:+0.65  21.59        45.78 (24.19)
+ 33 Gustafson, Chachi      JR Ohio St                        45.90  
+    r:+0.66  21.45        45.90 (24.45)
+ 34 Molla Yanes, Mario     FR VT                             45.97  
+    r:+0.63  21.18        45.97 (24.79)
+ 35 Crawford, Jace         SO Florida                        46.10  
+    r:+0.62  21.70        46.10 (24.40)
+ 36 Fong, Josh             JR Virginia                       46.48  
+    r:+0.61  22.20        46.48 (24.28)
+ 37 Poelke, Boyd           SO UNC                            46.53  
+    r:+0.64  21.49        46.53 (25.04)
+ 38 Johnson, Jake          SR Harvard                        46.76  
+    r:+0.62  21.75        46.76 (25.01)
+ 39 Gambardella, Corey     5Y Indiana                        46.77  
+    r:+0.73  21.77        46.77 (25.00)
+ 40 Dixon, David           5Y West Virginia                  46.83  
+    r:+0.71  21.82        46.83 (25.01)
+ 41 Giraudeau, Joel        JR Tennessee                      46.96  
+    r:+0.58  22.06        46.96 (24.90)
+ 42 McCusker, Max          SR FSU                            47.02  
+    r:+0.58  21.12        47.02 (25.90)
+ -- Stoffle, Aidan         JR Auburn                           DFS  
+ -- Whyte, Mitchell        SR Louisville                       DFS  
+ -- King, Matt             SO Virginia                         DFS  
+
+
+
+

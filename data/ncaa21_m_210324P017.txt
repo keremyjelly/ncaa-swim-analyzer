@@ -1,0 +1,146 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                     2021 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 17  Men 100 Yard Freestyle
+==================================================================
+         NCAA: N 39.90  3/24/2018 Caeleb Dressel, Florida
+         Meet: M 39.90  3/24/2018 Caeleb Dressel, Florida
+     American: A 39.90  3/24/2018 Caeleb Dressel, Florida
+   U. S. Open: O 39.90  3/24/2018 Caeleb Dressel, Florida
+         Pool: P 40.90  3/27/2021 Ryan Hoffer, California
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Hoffer, Ryan           SR California          41.57      40.90P 
+    r:+0.63  19.64        40.90 (21.26)
+  2 Kibler, Drew           JR Texas               41.92      41.45  
+    r:+0.61  19.79        41.45 (21.66)
+  3 Krueger, Daniel        JR Texas               41.33      41.48  
+    r:+0.74  19.76        41.48 (21.72)
+  4 Seeliger, Bjorn        FR California          43.02      41.65  
+    r:+0.65  19.63        41.65 (22.02)
+  5 Curry, Brooks          SO LSU                 41.80      41.77  
+    r:+0.62  19.88        41.77 (21.89)
+  6 Smith, Kieran          JR Florida             41.94      41.79  
+    r:+0.72  20.19        41.79 (21.60)
+  7 Acin, Nikola           JR Purdue              42.27      41.81  
+    r:+0.68  20.08        41.81 (21.73)
+  8 King, Matt             FR Alabama             41.66      41.83  
+    r:+0.66  19.96        41.83 (21.87)
+ -----------------------------------------------------------------
+  9 Ramadan, Youssef       FR VT                  42.27      42.09  
+    r:+0.62  19.91        42.09 (22.18)
+ 10 Brownstead, Matt       FR Virginia            41.87      42.20  
+    r:+0.62  20.18        42.20 (22.02)
+ 11 Staka, Chris           SR Texas               42.36      42.37  
+    r:+0.66  20.11        42.37 (22.26)
+ 12 Theall, Mark           SR TAMU                43.16      42.43  
+    r:+0.70  20.35        42.43 (22.08)
+ 13 Downing, Dillon        SO Georgia             42.46      42.45  
+    r:+0.65  20.18        42.45 (22.27)
+ 13 Friese, Eric           SO Florida             42.68      42.45  
+    r:+0.66  20.19        42.45 (22.26)
+ 15 Wright, River          SO Michigan            42.06      42.47  
+    r:+0.63  20.52        42.47 (21.95)
+ 15 Vera, Blaise           SR Pittsburgh          42.21      42.47  
+    r:+0.64  20.02        42.47 (22.45)
+ -----------------------------------------------------------------
+ 17 Sameh, Haridi          SO Louisville          42.03      42.48  
+    r:+0.63  20.16        42.48 (22.32)
+ 18 Sannem, Jake           SR Texas               43.38      42.50  
+    r:+0.70  20.43        42.50 (22.07)
+ -----------------------------------------------------------------
+ 19 Andreis, Sem           JR Ohio St             42.23      42.51  
+    r:+0.66  20.22        42.51 (22.29)
+ 20 Berneburg, Jonathan    JR Alabama             42.79      42.58  
+    r:+0.65  20.28        42.58 (22.30)
+ 21 Tapp, Hunter           SO NC State            42.51      42.66  
+    r:+0.76  20.46        42.66 (22.20)
+ 22 Borges, Gus            SR Michigan            42.50      42.68  
+    r:+0.66  20.36        42.68 (22.32)
+ 22 Bratanov, Koko         JR TAMU                42.55      42.68  
+    r:+0.66  20.56        42.68 (22.12)
+ 24 Izzo, Giovanni         JR NC State            42.74      42.71  
+    r:+0.64  20.07        42.71 (22.64)
+ 25 Chaney, Adam           FR Florida             42.20      42.72  
+    r:+0.63  20.11        42.72 (22.61)
+ 25 Paulson, Colton        JR Louisville          43.01      42.72  
+    r:+0.65  20.48        42.72 (22.24)
+ 27 Unlu, Baturalp         FR GT                  42.93      42.77  
+    r:+0.64  20.58        42.77 (22.19)
+ 28 Hils, Zach             SO Georgia             42.85      42.80  
+    r:+0.65  20.51        42.80 (22.29)
+ 29 Varjasi, Peter         SO Florida St          42.65      42.82  
+    r:+0.68  20.40        42.82 (22.42)
+ 30 Ercegovic, Marin       JR Arizona             42.43      42.90  
+    r:+0.73  20.45        42.90 (22.45)
+ 31 Roberson, Will         SR Penn St             42.90      43.05  
+    r:+0.67  20.55        43.05 (22.50)
+ 32 Maurer, Luke           FR Stanford            42.61      43.08  
+    r:+0.64  20.75        43.08 (22.33)
+ 33 Benson, Andrew         FR Wisconsin           42.93      43.10  
+    r:+0.66  20.76        43.10 (22.34)
+ 33 Sungalia, Tomas        JR UNC                 43.39      43.10  
+    r:+0.74  20.77        43.10 (22.33)
+ 35 Disette, Sam           SR Alabama             43.15      43.14  
+    r:+0.64  20.24        43.14 (22.90)
+ 36 Bailey, Seth           JR Tennessee           43.37      43.19  
+    r:+0.55  20.60        43.19 (22.59)
+ 37 Peel, Cam              SO Michigan            42.88      43.22  
+    r:+0.66  20.43        43.22 (22.79)
+ 37 Miljenic, Nikola       SR USC                 42.74      43.22  
+    r:+0.64  20.65        43.22 (22.57)
+ 39 Miller, Luke           FR NC State            42.52      43.27  
+    r:+0.59  20.60        43.27 (22.67)
+ 40 Cummings, Tanner       JR Louisville          42.94      43.28  
+    r:+0.61  20.98        43.28 (22.30)
+ 41 Sztolcman, Christian   JR Auburn              43.12      43.51  
+    r:+0.67  20.73        43.51 (22.78)
+ 42 Hallock, Thomas        SR VT                  43.54      43.60  
+    r:+0.67  20.48        43.60 (23.12)
+ 42 Callan, Patrick        JR Michigan            43.77      43.60  
+    r:+0.65  20.86        43.60 (22.74)
+ 44 Sherman, Nick          JR Purdue              42.88      43.61  
+    r:+0.68  20.76        43.61 (22.85)
+ 45 Gwin, Isaac            JR Air Force           43.40      43.63  
+    r:+0.63  20.87        43.63 (22.76)
+ 45 Freeman, Trey          SO Florida             43.25      43.63  
+    r:+0.66  20.82        43.63 (22.81)
+ 47 Messenger, Jack        SR UNC                 43.63      43.65  
+    r:+0.66  20.45        43.65 (23.20)
+ 48 Wilson, Daniel         FR Missouri            42.87      43.81  
+    r:+0.73  20.84        43.81 (22.97)
+ 49 McCusker, Max          JR Florida St          42.88      43.96  
+    r:+0.60  20.53        43.96 (23.43)
+ 50 Yanchev, Yordan        FR Florida St          43.75      44.18  
+    r:+0.66  21.30        44.18 (22.88)
+ 51 Deryk, Cooper          JR Utah                43.31      44.42  
+    r:+0.68  20.90        44.42 (23.52)
+ -- Reid, Noah             SR Arizona             43.09        DFS  
+      Declared false start
+ -- Deliyiannis, Mihalis   SR Louisville          43.54        DFS  
+      Declared false start
+ -- Franzman, Jack         JR Indiana             42.60        DFS  
+      Declared false start
+
+
+
+

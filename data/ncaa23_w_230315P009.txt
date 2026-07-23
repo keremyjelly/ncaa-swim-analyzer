@@ -1,0 +1,138 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet               3/18/2023 - 9:08 PM
+                    2023 NCAA Division I Women's                    
+                  Swimming & Diving Championships                   
+ 
+ Event 9  Women 100 Yard Butterfly
+==================================================================
+         NCAA: N 48.46  3/17/2023 Kate Douglass, Virginia
+         Meet: M 48.46  3/17/2023 Kate Douglass, Virginia
+     American: A 48.46  3/17/2023 Kate Douglass, Virginia
+      US Open: O 48.46  3/17/2023 Kate Douglass, Virginia
+         Pool: P 48.46  3/17/2023 Kate Douglass, Virginia
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Huske, Torri           SO Stanford            49.25      49.77  
+    r:+0.65  22.74        49.77 (27.03)
+  2 Sticklen, Emma         JR Texas               49.79      50.00  
+    r:+0.67  23.51        50.00 (26.49)
+  3 Douglass, Kate         SR Virginia            48.84      50.11  
+    r:+0.63  23.61        50.11 (26.50)
+  4 Curzan, Claire         FR Stanford            49.93      50.45  
+    r:+0.63  23.63        50.45 (26.82)
+  5 Albiero, Gabi          JR Louisville          50.04      50.46  
+    r:+0.62  23.58        50.46 (26.88)
+  6 MacNeil, Maggie        5Y LSU                 48.99      50.51  
+    r:+0.69  23.62        50.51 (26.89)
+  7 Zenick, Katherine      JR Ohio St             51.03      50.84  
+    r:+0.64  23.72        50.84 (27.12)
+  8 Alons, Kylee           5Y NC State            50.64      50.85  
+    r:+0.65  23.52        50.85 (27.33)
+ -----------------------------------------------------------------
+  9 Arens, Abby            JR NC State            50.84      50.86  
+    r:+0.63  23.91        50.86 (26.95)
+ 10 Cuomo, Lexi            SR Virginia            51.47      51.18  
+    r:+0.71  23.62        51.18 (27.56)
+ 11 Lee, Meghan            JR Auburn              51.01      51.20  
+    r:+0.58  23.95        51.20 (27.25)
+ 12 Guevara, Miriam        5Y Northwestern        51.59      51.24  
+    r:+0.50  23.73        51.24 (27.51)
+ 13 Regenauer, Christiana  SR Louisville          51.03      51.35  
+    r:+0.71  23.96        51.35 (27.39)
+ 14 Kragh, Mia             SO California          51.63      51.38  
+    r:+0.73  23.95        51.38 (27.43)
+ 15 Ulett, Tristen         JR Louisville          51.59      51.50  
+    r:+0.73  24.11        51.50 (27.39)
+ 16 Peoples, Olivia        SO Florida             51.81      51.62  
+    r:+0.63  24.08        51.62 (27.54)
+ -----------------------------------------------------------------
+ 17 Daniel, Abby           SO Akron               51.65      51.66  
+    r:+0.65  24.27        51.66 (27.39)
+ 18 Harter, Abby           JR Virginia            52.11      51.71  
+    r:+0.71  24.16        51.71 (27.55)
+ -----------------------------------------------------------------
+ 19 VanNote, Ellie         SR UNC                 51.59      51.73  
+    r:+0.64  24.28        51.73 (27.45)
+ 20 Luther, Dakota         5Y Texas               51.90      51.78  
+    r:+0.69  24.25        51.78 (27.53)
+ 21 Stotler, Sara          SO Tennessee           52.07      51.87  
+    r:+0.68  24.42        51.87 (27.45)
+ 22 White, Rhyan           5Y Alabama             51.47      51.95  
+    r:+0.69  24.43        51.95 (27.52)
+ 23 Toh, Nicholle          JR South Carolina      51.89      52.03  
+    r:+0.55  24.36        52.03 (27.67)
+ 24 Sansores De La Fuent,  5Y Arkansas            51.77      52.05  
+    r:+0.68  24.02        52.05 (28.03)
+ 25 Dickinson, Callie      5Y Georgia             52.02      52.07  
+    r:+0.65  24.44        52.07 (27.63)
+ 26 Gillilan, Coleen       SR Notre Dame          51.73      52.10  
+    r:+0.59  24.33        52.10 (27.77)
+ 27 Novelline, Carly       FR Virginia            51.92      52.15  
+    r:+0.64  24.18        52.15 (27.97)
+ 28 Jump, Mallory          SR Wisconsin           52.07      52.31  
+    r:+0.70  24.43        52.31 (27.88)
+ 29 McConagha, Mackenzie   SO Wisconsin           52.59      52.33  
+    r:+0.65  24.22        52.33 (28.11)
+ 30 Alonso, Luana          SO SMU                 52.08      52.34  
+    r:+0.66  24.39        52.34 (27.95)
+ 31 Kraus, Morgan          SR Ohio St             51.58      52.38  
+    r:+0.71  24.43        52.38 (27.95)
+ 31 Cook, Lizzy            SO California          52.34      52.38  
+    r:+0.63  24.71        52.38 (27.67)
+ 33 Russo, Catherine       JR Ohio St             51.60      52.40  
+    r:+0.60  24.51        52.40 (27.89)
+ 34 Longi, Ava             JR Texas               52.01      52.47  
+    r:+0.66  24.03        52.47 (28.44)
+ 35 Kan, Natalie           SO Michigan            51.84      52.57  
+    r:+0.67  24.37        52.57 (28.20)
+ 36 Theall, Olivia         JR TAMU                51.25      52.60  
+    r:+0.63  24.37        52.60 (28.23)
+ 37 Harrison, Tristan      JR Ohio St             52.31      52.70  
+    r:+0.71  24.55        52.70 (28.15)
+ 38 Jernstedt, Edith       SO FSU                 52.54      52.73  
+    r:+0.72  24.67        52.73 (28.06)
+ 39 Hayon, Arielle         SO Rice                52.01      52.78  
+    r:+0.69  25.00        52.78 (27.78)
+ 40 Yendell, Sophie        JR Pittsburgh          52.62      52.79  
+    r:+0.69  24.03        52.79 (28.76)
+ 41 Delgado, Anicka        JR USC                 52.03      52.88  
+    r:+0.66  24.45        52.88 (28.43)
+ 42 Bokros, Blanka         JR UNLV                52.96      52.93  
+    r:+0.68  24.62        52.93 (28.31)
+ 43 Klinker, Rachel        SR California          52.45      52.99  
+    r:+0.73  25.13        52.99 (27.86)
+ 44 Pelzek, Greta          SO South Carolina      52.43      53.15  
+    r:+0.62  25.13        53.15 (28.02)
+ 45 Dang, Gabby            SR UCLA                51.85      53.21  
+    r:+0.64  24.51        53.21 (28.70)
+ 46 Bridges, Jenna         SO LSU                 53.14      53.42  
+    r:+0.73  24.98        53.42 (28.44)
+ 47 Burt, Maddy            SR Arizona             52.20      53.50  
+    r:+0.69  24.42        53.50 (29.08)
+ 48 Arky, Natalie          SR Denver              53.44      53.69  
+    r:+0.51  25.16        53.69 (28.53)
+ -- Baron, Sam             JR Virginia            52.33         DQ  
+    r:+0.66  24.93           DQ (27.88)
+ -- Waldrep, Ellie         SO Auburn              52.65        DFS  
+ -- Runnels, Aris          SO Florida             52.10        DFS  
+
+
+
+

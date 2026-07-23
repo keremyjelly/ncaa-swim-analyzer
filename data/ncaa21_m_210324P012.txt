@@ -1,0 +1,124 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                     2021 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 12  Men 100 Yard Backstroke
+==================================================================
+         NCAA: N 43.49  3/25/2016 Ryan Murphy, California
+         Meet: M 43.49  3/25/2016 Ryan Murphy, California
+     American: A 43.49  3/25/2016 Ryan Murphy, California
+   U. S. Open: O 43.49  3/25/2016 Ryan Murphy, California
+         Pool: P 44.04  2/28/2020 Coleman Stewart, NC State
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Casas, Shaine          JR TAMU                43.87      44.41  
+    r:+0.67  21.28        44.41 (23.13)
+  2 Lasco, Destin          FR California          45.21      44.55  
+    r:+0.66  21.74        44.55 (22.81)
+  3 Stokowski, Kacper      SO NC State            44.82      44.70  
+    r:+0.63  22.10        44.70 (22.60)
+  4 Albiero, Nicolas       SR Louisville          44.85      44.85  
+    r:+0.66  21.72        44.85 (23.13)
+  5 Burns, Brendan         SO Indiana             47.17      44.87  
+    r:+0.89  21.90        44.87 (22.97)
+  6 Acevedo, Javi          SR Georgia             44.96      44.95  
+    r:+0.56  22.10        44.95 (22.85)
+  7 Jiang, Alvin           SR Texas               45.09      44.97  
+    r:+0.72  21.87        44.97 (23.10)
+  8 Mefford, Bryce         SR California          45.38      45.04  
+    r:+0.66  21.78        45.04 (23.26)
+ -----------------------------------------------------------------
+  9 Armstrong, Hunter      SO Ohio St             44.92      45.15  
+    r:+0.66  21.69        45.15 (23.46)
+ 10 Chaney, Adam           FR Florida             44.99      45.24  
+    r:+0.65  21.69        45.24 (23.55)
+ 11 Katz, Austin           SR Texas               46.39      45.27  
+    r:+0.60  21.95        45.27 (23.32)
+ 12 Staka, Chris           SR Texas               45.12      45.35  
+    r:+0.68  21.99        45.35 (23.36)
+ 13 Menke, Matthew         SO Alabama             45.18      45.39  
+    r:+0.69  21.87        45.39 (23.52)
+ 14 Steele, Jacob          SR Indiana             45.39      45.48  
+    r:+0.63  21.96        45.48 (23.52)
+ 15 Fantoni, Gabriel       SR Indiana             45.26      45.51  
+    r:+0.80  21.86        45.51 (23.65)
+ 16 Carr, Daniel           SR California          45.35      45.53  
+    r:+0.60  21.77        45.53 (23.76)
+ -----------------------------------------------------------------
+ 17 Barone, Kyle           JR GT                  45.30      46.00  
+    r:+0.65  21.98        46.00 (24.02)
+ 18 Gwin, Isaac            JR Air Force           46.36      46.07  
+    r:+0.71  21.91        46.07 (24.16)
+ -----------------------------------------------------------------
+ 19 Whyte, Mitchell        JR Louisville          45.13      46.27  
+    r:+0.72  22.58        46.27 (23.69)
+ 20 McDermott, Colin       SR Ohio St             46.19      46.30  
+    r:+0.75  22.22        46.30 (24.08)
+ 21 Tornqvist, Sam         SR VT                  46.72      46.31  
+    r:+0.60  22.33        46.31 (23.98)
+ 22 Grender, Justin        JR Virginia            46.35      46.33  
+    r:+0.61  22.34        46.33 (23.99)
+ 23 Sofianidis, Nikos      SR Louisville          46.22      46.43  
+    r:+0.80  22.06        46.43 (24.37)
+ 24 Beach, Clark           SR Florida             46.26      46.44  
+    r:+0.56  22.34        46.44 (24.10)
+ 25 Herbet, Mason          FR Florida St          45.93      46.50  
+    r:+0.68  22.32        46.50 (24.18)
+ 26 Maric, Ogi             SO Arizona             45.90      46.56  
+    r:+0.58  22.63        46.56 (23.93)
+ 27 Blinkman, Shane        SO Stanford            46.64      46.59  
+    r:+0.72  22.59        46.59 (24.00)
+ 28 Hanna, Blake           SR Cincinnati          46.32      46.63  
+    r:+0.64  22.52        46.63 (24.11)
+ 29 Somerset, Sebastian    SO California          47.20      46.64  
+    r:+0.53  22.46        46.64 (24.18)
+ 30 Mauldin, Caleb         JR U.S. Navy           46.16      46.71  
+    r:+0.64  22.32        46.71 (24.39)
+ 31 Cole, Will             FR Virginia            46.45      46.72  
+    r:+0.73  22.36        46.72 (24.36)
+ 32 Stelmar, Eric          FR Alabama             47.63      46.94  
+    r:+0.68  22.26        46.94 (24.68)
+ 33 Dunham, Bradley        SO Georgia             46.48      47.13  
+    r:+0.74  22.55        47.13 (24.58)
+ 34 Ungur, Andrei          JR Utah                46.37      47.28  
+    r:+0.68  22.83        47.28 (24.45)
+ 34 Davis, Wyatt           FR Michigan            45.68      47.28  
+    r:+0.61  22.77        47.28 (24.51)
+ 36 Storms, Eric           JR Michigan            46.37      47.36  
+    r:+0.61  22.43        47.36 (24.93)
+ 37 Watkins, Thomas        SO Ohio St             46.91      47.40  
+    r:+0.73  22.87        47.40 (24.53)
+ 38 Walsh, Keegan          JR Georgia             47.71      47.56  
+    r:+0.78  23.06        47.56 (24.50)
+ 39 Lowe, Dalton           FR Louisville          46.89      47.62  
+    r:+0.70  22.86        47.62 (24.76)
+ 40 Marcum, Jake           SO Alabama             46.49      47.98  
+    r:+0.74  23.11        47.98 (24.87)
+ -- Edwards, Max           SO Virginia            46.70        DFS  
+      Declared false start
+ -- Jekel, Wes             SO Wisconsin           46.27        DFS  
+      Declared false start
+ -- Izzo, Giovanni         JR NC State            46.42        DFS  
+      Declared false start
+
+
+
+

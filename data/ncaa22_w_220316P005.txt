@@ -1,0 +1,173 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet 
+                    2022 NCAA Division I Women's                    
+                  Swimming & Diving Championships                   
+ 
+ Event 5  Women 50 Yard Freestyle
+==================================================================
+         NCAA: N 20.84  3/17/2022 Kate Douglass, Virginia
+         Meet: M 20.84  3/17/2022 Kate Douglass, Virginia
+     American: A 20.84  3/17/2022 Kate Douglass, Virginia
+      US Open: O 20.84  3/17/2022 Kate Douglass, Virginia
+         Pool: P 20.84  3/17/2022 Kate Douglass, Virginia
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Douglass, Kate         JR Virginia                       20.87  
+    r:+0.63  10.04        20.87 (10.83)
+  2 Walsh, Gretchen        FR Virginia                       21.09  
+    r:+0.70  10.18        21.09 (10.91)
+  3 Dupre, Cora            JR Alabama                        21.47  
+    r:+0.58  10.43        21.47 (11.04)
+  4 Countie, Grace         SR UNC                            21.53  
+    r:+0.70  10.39        21.53 (11.14)
+  4 MacNeil, Maggie        SR Michigan                       21.53  
+    r:+0.62  10.41        21.53 (11.12)
+  6 Berkoff, Katharine     JR NCSU                           21.56  
+    r:+0.66  10.53        21.56 (11.03)
+  7 Alons, Kylee           SR NCSU                           21.62  
+    r:+0.63  10.38        21.62 (11.24)
+  8 Scott, Morgan          SR Alabama                        21.72  
+    r:+0.65  10.47        21.72 (11.25)
+ -----------------------------------------------------------------
+  9 Cuomo, Lexi            JR Virginia                       21.80  
+    r:+0.67  10.50        21.80 (11.30)
+ 10 Albiero, Gabi          SO Louisville                     21.81  
+    r:+0.59  10.48        21.81 (11.33)
+ 11 Grover, Claire         SR UCLA                           21.82  
+    r:+0.63  10.32        21.82 (11.50)
+ 11 Kutsch, AJ             JR Tennessee                      21.82  
+    r:+0.66  10.55        21.82 (11.27)
+ 13 Fulmer, Amy            JR Ohio St                        21.88  
+    r:+0.71  10.76        21.88 (11.12)
+ 14 Antoniou, Kalia        SR Alabama                        21.90  
+    r:+0.65  10.69        21.90 (11.21)
+ 15 Henig, Iszac           JR Yale                           21.94  
+    r:+0.62  10.54        21.94 (11.40)
+ 16 Keil, Megan            SR Missouri                       21.99  
+    r:+0.64  10.67        21.99 (11.32)
+ -----------------------------------------------------------------
+ 17 McSharry, Mona         SO Tennessee                      22.01  
+    r:+0.64  10.47        22.01 (11.54)
+ 18 Cundiff, Missy         SR William & Mary                 22.05  
+    r:+0.63  10.77        22.05 (11.28)
+ -----------------------------------------------------------------
+ 19 Landon, Anna           SR VT                             22.05  
+    r:+0.64  10.61        22.05 (11.44)
+ 20 Parker, Maxine         SO Georgia                        22.09  
+    r:+0.69  10.80        22.09 (11.29)
+ 20 Delgado, Anicka        SO USC                            22.09  
+    r:+0.64  10.78        22.09 (11.31)
+ 22 Thompson, Sarah        5Y Missouri                       22.10  
+    r:+0.67  10.50        22.10 (11.60)
+ 23 Barclay, Emily         SR Arkansas                       22.11  
+    r:+0.62  10.75        22.11 (11.36)
+ 23 Smith, Maddie          5Y Northwestern                   22.11  
+    r:+0.61  10.59        22.11 (11.52)
+ 25 Wheal, Emma            JR Stanford                       22.12  
+    r:+0.65  10.62        22.12 (11.50)
+ 25 Flynn, Lindsay         FR Michigan                       22.12  
+    r:+0.66  10.73        22.12 (11.39)
+ 27 Regenauer, Christiana  JR Louisville                     22.15  
+    r:+0.67  10.69        22.15 (11.46)
+ 28 McCarty, Eboni         FR Georgia                        22.18  
+    r:+0.69  10.74        22.18 (11.44)
+ 29 Rumley, Jasmine        FR Tennessee                      22.20  
+    r:+0.59  10.63        22.20 (11.57)
+ 30 Nikonova, Ekaterina    FR Florida                        22.21  
+    r:+0.67  10.70        22.21 (11.51)
+ 31 Hosack, Lillie         SR Wisconsin                      22.22  
+    r:+0.69  10.88        22.22 (11.34)
+ 32 Sticklen, Emma         SO Texas                          22.26  
+    r:+0.62  10.58        22.26 (11.68)
+ 33 Bates, Talia           JR Florida                        22.27  
+    r:+0.66  10.72        22.27 (11.55)
+ 33 Shackelford, Sarah     JR VT                             22.27  
+    r:+0.69  10.84        22.27 (11.43)
+ 35 Miller, Anna           5Y Missouri St                    22.29  
+    r:+0.62  10.83        22.29 (11.46)
+ 36 Nogaj, Paulina         5Y Akron                          22.32  
+    r:+0.65  10.87        22.32 (11.45)
+ 37 Mulvihill, Lexie       FR Auburn                         22.35  
+    r:+0.63  10.82        22.35 (11.53)
+ 37 Thormalm, Klara        SR San Diego St                   22.35  
+    r:+0.67  10.69        22.35 (11.66)
+ 39 Fiske, Sophie          FR Wisconsin                      22.36  
+    r:+0.70  10.80        22.36 (11.56)
+ 39 Cornish, Hannah        FR Minnesota                      22.36  
+    r:+0.67  10.87        22.36 (11.49)
+ 41 Funderburke, Nyah      FR Ohio St                        22.40  
+    r:+0.67  10.87        22.40 (11.53)
+ 42 Shaw, Anna             FR Stanford                       22.41  
+    r:+0.67  10.70        22.41 (11.71)
+ 43 Melton, Kobie          SR Arkansas                       22.43  
+    r:+0.62  10.80        22.43 (11.63)
+ 43 Wenger, Alexis         SR Virginia                       22.43  
+    r:+0.59  10.91        22.43 (11.52)
+ 45 Dobler, Kaitlyn        SO USC                            22.45  
+    r:+0.62  10.83        22.45 (11.62)
+ 46 Newman, Claire         SO Michigan                       22.48  
+    r:+0.57  10.83        22.48 (11.65)
+ 47 Fa'Amausili, Gabi      5Y Georgia                        22.51  
+    r:+0.63  10.77        22.51 (11.74)
+ 47 Henderson, Hanna       SO USC                            22.51  
+    r:+0.65  10.95        22.51 (11.56)
+ 49 Larson, Chloe          5Y Washington St.                 22.53  
+    r:+0.68  10.86        22.53 (11.67)
+ 50 Sansores De La Fuent,  SR Arkansas                       22.55  
+    r:+0.64  10.94        22.55 (11.61)
+ 51 Openysheva, Arina      SR Louisville                     22.56  
+    r:+0.63  10.81        22.56 (11.75)
+ 52 Harper, Olivia         SO Tennessee                      22.59  
+    r:+0.67  10.86        22.59 (11.73)
+ 53 Transom, Laticia-Leig  SR USC                            22.62  
+    r:+0.73  11.00        22.62 (11.62)
+ 54 Webb, Abbey            SO NCSU                           22.67  
+    r:+0.70  11.07        22.67 (11.60)
+ 55 Milutinovich, Katarin  JR LSU                            22.69  
+    r:+0.64  10.94        22.69 (11.75)
+ 55 Russo, Catherine       SO Ohio St                        22.69  
+    r:+0.60  10.98        22.69 (11.71)
+ 55 Nava, Jessica          SR Virginia                       22.69  
+    r:+0.64  10.92        22.69 (11.77)
+ 58 Pattison, Greer        FR UNC                            22.70  
+    r:+0.71  10.99        22.70 (11.71)
+ 59 Quaglieri, Tania       JR FSU                            22.72  
+    r:+0.62  11.05        22.72 (11.67)
+ 60 Pintar, Tjasa          5Y Tennessee                      22.74  
+    r:+0.65  11.10        22.74 (11.64)
+ 61 Leehy, Mykenzie        5Y Auburn                         22.75  
+    r:+0.72  11.06        22.75 (11.69)
+ 62 Maccausland, Heather   JR NCSU                           22.80  
+    r:+0.63  10.91        22.80 (11.89)
+ 63 Harrington, Sydney     SR U.S. Navy                      22.83  
+    r:+0.65  11.01        22.83 (11.82)
+ 64 Rees, Meredith         JR Missouri                       22.92  
+    r:+0.68  11.12        22.92 (11.80)
+ 65 Dang, Gabby            JR UCLA                           22.95  
+    r:+0.64  11.12        22.95 (11.83)
+ 66 Douthwright, Brooklyn  FR Tennessee                      23.13  
+    r:+0.64  11.32        23.13 (11.81)
+ -- Goeders, Anya          SR Stanford                          DQ  
+    r:+0.69  10.60           DQ (11.46)
+ -- Crane, Emily           SR Ohio St                          DFS  
+
+
+
+

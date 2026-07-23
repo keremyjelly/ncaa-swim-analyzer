@@ -1,0 +1,131 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet               3/25/2023 - 9:08 PM
+                     2023 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 11  Men 100 Yard Breaststroke
+==================================================================
+         NCAA: N 49.69  3/23/2018 Ian Finnerty, Indiana
+         Meet: M 49.69  3/23/2018 Ian Finnerty, Indiana
+     American: A 49.69  3/23/2018 Ian Finnerty, Indiana
+   U. S. Open: O 49.69  3/23/2018 Ian Finnerty, Indiana
+         Pool: P 49.69  3/24/2018 Ian Finnerty, Indiana
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 McHugh, Max            5Y Minnesota           50.80      50.26  
+    r:+0.67  23.35        50.26 (26.91)
+  2 Mathias, Van           5Y Indiana             51.32      50.57  
+    r:+0.67  23.45        50.57 (27.12)
+  3 Bell, Liam             SR California          51.58      50.76  
+    r:+0.61  23.64        50.76 (27.12)
+  4 Corbeau, Caspar        SR Texas               51.30      50.82  
+    r:+0.66  23.56        50.82 (27.26)
+  5 Hillis, Dillon         5Y Florida             50.90      50.88  
+    r:+0.65  23.77        50.88 (27.11)
+  6 Whitley, Reece         5Y California          51.12      51.00  
+    r:+0.71  23.73        51.00 (27.27)
+  7 Maas, Derek            SR Alabama             51.74      51.05  
+    r:+0.62  23.98        51.05 (27.07)
+  8 Petrashov, Denis       SR Louisville          51.26      51.12  
+    r:+0.69  24.01        51.12 (27.11)
+ -----------------------------------------------------------------
+  9 Polonsky, Ron          SO Stanford            51.77      51.14  
+    r:+0.65  23.97        51.14 (27.17)
+ 10 Savickas, Aleksas      FR Florida             50.73      51.14  
+    r:+0.67  23.85        51.14 (27.29)
+ 11 Matheny, Josh          SO Indiana             51.50      51.17  
+    r:+0.61  24.20        51.17 (26.97)
+ 12 Benzing, Brian         JR Towson              51.25      51.30  
+    r:+0.63  23.61        51.30 (27.69)
+ 13 Van Der Laan, Cooper   SR Pittsburgh          51.26      51.32  
+    r:+0.60  24.14        51.32 (27.18)
+ 14 Smith, Julian          SO Florida             51.52      51.34  
+    r:+0.64  24.21        51.34 (27.13)
+ 15 Patton, Ben            SR Missouri            51.53      51.43  
+    r:+0.62  23.81        51.43 (27.62)
+ 16 Mikuta, Reid           JR Auburn              51.14      51.66  
+    r:+0.63  24.02        51.66 (27.64)
+ -----------------------------------------------------------------
+ 17 Nichols, Noah          JR Virginia            50.82      51.67  
+    r:+0.71  24.29        51.67 (27.38)
+ 18 Coll Marti, Carles     JR VT                  51.50      51.71  
+    r:+0.62  23.84        51.71 (27.87)
+ -----------------------------------------------------------------
+ 19 Epitropov, Lyubomir    5Y Tennessee           52.10      51.88  
+    r:+0.67  24.58        51.88 (27.30)
+ 19 Hunter, Mason          5Y NC State            51.57      51.88  
+    r:+0.67  24.06        51.88 (27.82)
+ 21 Yep, Jassen            JR Indiana             52.05      52.00  
+    r:+0.59  24.33        52.00 (27.67)
+ 22 Puente Bustamante, An  SR TAMU                51.96      52.06  
+    r:+0.61  24.32        52.06 (27.74)
+ 23 Bethel, Henry          SO Auburn              51.87      52.13  
+    r:+0.58  24.05        52.13 (28.08)
+ 23 Demir, Demirkan        SO Columbia            52.03      52.13  
+    r:+0.56  24.32        52.13 (27.81)
+ 25 Myhre, Will            SR Wisconsin           51.84      52.17  
+    r:+0.89  24.18        52.17 (27.99)
+ 25 Jensen, Matthew        JR California          51.42      52.17  
+    r:+0.66  24.35        52.17 (27.82)
+ 27 Crisci, Flynn          SR Pittsburgh          51.87      52.18  
+    r:+0.56  23.77        52.18 (28.41)
+ 28 Houseman, Kevin        SR Northwestern        51.83      52.23  
+    r:+0.62  24.50        52.23 (27.73)
+ 29 Chan, Will             5Y Texas               51.65      52.25  
+    r:+0.70  24.04        52.25 (28.21)
+ 30 Dillard, Jarel         5Y Tennessee           52.10      52.33  
+    r:+0.64  24.25        52.33 (28.08)
+ 31 Kelly, Jack            SO Brown               52.08      52.45  
+    r:+0.66  24.50        52.45 (27.95)
+ 32 Reich, Maxwell         JR Indiana             52.84      52.46  
+    r:+0.71  24.36        52.46 (28.10)
+ 33 Houlie, Michael        5Y Tennessee           51.90      52.47  
+    r:+0.61  23.88        52.47 (28.59)
+ 34 O'Grady, Chris         SO USC                 52.09      52.52  
+    r:+0.69  24.54        52.52 (27.98)
+ 35 Sanchez, Alex          JR TAMU                51.90      52.54  
+    r:+0.64  24.67        52.54 (27.87)
+ 36 Al-Wir, Amro           JR Florida             52.53      52.55  
+    r:+0.65  24.86        52.55 (27.69)
+ 37 Wuilliez, Jadon        SO TCU                 51.70      52.59  
+    r:+0.62  24.47        52.59 (28.12)
+ 38 Horner, Jaek           SR Utah                51.78      52.65  
+    r:+0.65  24.61        52.65 (28.04)
+ 39 Soderlund, Jacob       SO California          51.90      52.68  
+    r:+0.65  24.64        52.68 (28.04)
+ 40 Barr, Luke             SO Indiana             52.68      52.73  
+    r:+0.62  24.39        52.73 (28.34)
+ 41 Goodwin, Will          SR Missouri            52.71      52.78  
+    r:+0.61  24.79        52.78 (27.99)
+ 42 Pouch, AJ              SR VT                  52.55      52.84  
+    r:+0.67  24.83        52.84 (28.01)
+ 43 Prolo, Brad            SR Brigham Young       52.67      52.85  
+    r:+0.58  24.91        52.85 (27.94)
+ 44 Lamb, August           SR Virginia            52.91      53.25  
+    r:+0.62  25.26        53.25 (27.99)
+ -- Kelly, Logan           SO IUPUI               51.94         DQ  
+      Butterfly kick
+    r:+0.64  24.47           DQ (27.65)
+ -- Izzo, Giovanni         5Y NC State            52.39        DFS  
+      Declared false start
+
+
+
+

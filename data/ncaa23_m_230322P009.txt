@@ -1,0 +1,130 @@
+
+
+
+function myprint() {
+window.parent.main.focus();
+window.print();
+}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+ NCAA Division I Championship Meet               3/25/2023 - 9:08 PM
+                     2023 NCAA Division I Men's                     
+                  Swimming & Diving Championships                   
+ 
+ Event 9  Men 100 Yard Butterfly
+==================================================================
+         NCAA: N 42.80  3/23/2018 Caeleb Dressel, Florida
+         Meet: M 42.80  3/23/2018 Caeleb Dressel, Florida
+     American: A 42.80  3/23/2018 Caeleb Dressel, Florida
+   U. S. Open: O 42.80  3/23/2018 Caeleb Dressel, Florida
+         Pool: P 42.80  3/23/2018 Caeleb Dressel, Florida
+    Name                 Year School               Seed    Prelims        
+==================================================================
+                      === Preliminaries ===                       
+ 
+  1 Liendo, Josh           FR Florida             44.11      43.80  
+    r:+0.64  20.36        43.80 (23.44)
+  2 Ramadan, Youssef       JR VT                  43.93      44.00  
+    r:+0.59  20.55        44.00 (23.45)
+  3 Minakov, Andrei        JR Stanford            44.34      44.17  
+    r:+0.64  20.46        44.17 (23.71)
+  4 Frankel, Tomer         JR Indiana             44.66      44.26  
+    r:+0.62  20.53        44.26 (23.73)
+  5 Hayes, Aiden           SO NC State            44.66      44.40  
+    r:+0.64  20.78        44.40 (23.62)
+  6 Crooks, Jordan         SO Tennessee           44.04      44.52  
+    r:+0.62  20.55        44.52 (23.97)
+  7 Korstanje, Nyls        SR NC State            44.70      44.56  
+    r:+0.62  20.30        44.56 (24.26)
+  8 Stokowski, Kacper      SR NC State            44.68      44.65  
+    r:+0.62  20.70        44.65 (23.95)
+ -----------------------------------------------------------------
+  9 Baganha, Victor        SO Penn St             45.22      44.75  
+    r:+0.56  20.69        44.75 (24.06)
+ 10 Burns, Brendan         SR Indiana             45.81      44.79  
+    r:+0.66  21.12        44.79 (23.67)
+ 11 Cohen Groumi, Gal      SO Michigan            44.50      44.80  
+    r:+0.60  20.91        44.80 (23.89)
+ 12 Rose, Dare             JR California          45.30      44.86  
+    r:+0.61  20.52        44.86 (24.34)
+ 13 Sequeira, Aaron        SO Stanford            45.01      44.87  
+    r:+0.62  20.95        44.87 (23.92)
+ 14 Secchi, Clement        5Y Missouri            45.08      44.96  
+    r:+0.57  20.78        44.96 (24.18)
+ 15 Foote, Connor          FR TAMU                45.22      45.21  
+    r:+0.53  21.10        45.21 (24.11)
+ 16 Bustos, Arsenio        SO NC State            44.97      45.24  
+    r:+0.63  21.06        45.24 (24.18)
+ -----------------------------------------------------------------
+ 17 Gures, Umitcan         SR Harvard             44.91      45.32  
+    r:+0.62  21.24        45.32 (24.08)
+ 18 Quach, Alex            SO Ohio St             45.08      45.33  
+    r:+0.61  21.12        45.33 (24.21)
+ -----------------------------------------------------------------
+ 19 Gu, Rafael             FR Stanford            45.10      45.35  
+    r:+0.60  21.10        45.35 (24.25)
+ 20 Henderson, Noah        SR NC State            45.57      45.38  
+    r:+0.61  20.54        45.38 (24.84)
+ 20 Lowe, Dalton           JR Louisville          45.28      45.38  
+    r:+0.62  20.73        45.38 (24.65)
+ 22 Brooks, Finn           SO Indiana             45.40      45.45  
+    r:+0.58  20.72        45.45 (24.73)
+ 23 Colson, Alexander      SR ASU                 45.38      45.48  
+    r:+0.62  21.17        45.48 (24.31)
+ 24 Lee, Connor            JR Yale                45.52      45.53  
+    r:+0.60  20.99        45.53 (24.54)
+ 25 Connery, Tim           SO Virginia            45.21      45.60  
+    r:+0.63  21.41        45.60 (24.19)
+ 26 McCusker, Max          5Y ASU                 45.01      45.63  
+    r:+0.59  20.90        45.63 (24.73)
+ 27 Jensen, Matthew        JR California          45.57      45.66  
+    r:+0.65  21.41        45.66 (24.25)
+ 28 Kammann, Bjoern        SO Tennessee           45.32      45.84  
+    r:+0.70  21.11        45.84 (24.73)
+ 28 Crane, Sterling        SR Texas               45.61      45.84  
+    r:+0.51  21.19        45.84 (24.65)
+ 30 Bybee, Cody            5Y ASU                 45.51      45.93  
+    r:+0.63  21.35        45.93 (24.58)
+ 31 Poelke, Boyd           JR UNC                 45.11      45.95  
+    r:+0.69  21.58        45.95 (24.37)
+ 32 Artmann, Sam           SR Texas               46.18      45.97  
+    r:+0.60  21.51        45.97 (24.46)
+ 33 Neverman, Kaiser       JR Minnesota           46.40      46.02  
+    r:+0.57  21.28        46.02 (24.74)
+ 34 Gentry, Landon         FR VT                  46.35      46.07  
+    r:+0.71  21.29        46.07 (24.78)
+ 35 Fong, Josh             SR Virginia            46.37      46.32  
+    r:+0.62  22.12        46.32 (24.20)
+ 36 Gustafson, Chachi      SR Ohio St             46.54      46.34  
+    r:+0.66  21.62        46.34 (24.72)
+ 37 Lim, Nicholas          JR Princeton           45.87      46.36  
+    r:+0.64  21.49        46.36 (24.87)
+ 38 Miceli, Mateo          SO Alabama             45.95      46.53  
+    r:+0.64  21.71        46.53 (24.82)
+ 39 Mahler, Adam           SR Pittsburgh          47.13      46.81  
+    r:+0.65  21.99        46.81 (24.82)
+ 40 Miller, Ben            SR Northwestern        46.94      46.98  
+    r:+0.59  21.93        46.98 (25.05)
+ 41 Espernberger, Martin   FR Tennessee           47.17      47.27  
+    r:+0.58  21.96        47.27 (25.31)
+ 42 Molla Yanes, Mario     SO VT                  45.44      47.66  
+    r:+0.64  21.45        47.66 (26.21)
+ -- Tirheimer, Logan       JR Auburn              46.33        DFS  
+      Declared false start
+ -- Stoffle, Aidan         SR Auburn              45.68        DFS  
+      Declared false start
+ -- Stoffle, Nate          SO Auburn              46.17        DFS  
+      Declared false start
+ -- Lierz, Harrison        JR Tennessee           46.01        DFS  
+      Declared false start
+
+
+
+
