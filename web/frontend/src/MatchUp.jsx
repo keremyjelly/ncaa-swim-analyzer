@@ -4,6 +4,7 @@ import {
   XAxis, YAxis, CartesianGrid, Tooltip, ReferenceLine, Legend,
 } from "recharts";
 import { fetchEvents, fetchRoster, fetchMatchup, shortEvent, formatTime } from "./api";
+import SwimmerSearch from "./SwimmerSearch";
 
 const A_COLOR = "#DC143C";
 const B_COLOR = "#4169E1";
@@ -121,10 +122,16 @@ function SwimmerPicker({ label, color, roster, name, swim, onName, onSwim }) {
   return (
     <div className="matchup-side" style={{ borderTopColor: color }}>
       <div className="matchup-side-h" style={{ color }}>{label}</div>
-      <select value={name ?? ""} onChange={(e) => onName(e.target.value)}>
-        {roster.map((s) => <option key={s.name} value={s.name}>{s.name}</option>)}
-      </select>
-      <select value={swim ? `${swim.year}|${swim.section}` : ""}
+      <SwimmerSearch
+        items={roster}
+        value={name}
+        onChange={onName}
+        placeholder="Type a name or team…"
+        renderMeta={(s) =>
+          `${(s.schools ?? []).join(" / ")}${s.best != null ? ` · ${formatTime(s.best)}` : ""}`
+        }
+      />
+      <select className="ctl" value={swim ? `${swim.year}|${swim.section}` : ""}
         onChange={(e) => { const [y, sec] = e.target.value.split("|"); onSwim({ year: +y, section: sec }); }}>
         {swims.map((s) => (
           <option key={`${s.year}|${s.section}`} value={`${s.year}|${s.section}`}>

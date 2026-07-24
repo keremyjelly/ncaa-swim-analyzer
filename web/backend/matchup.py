@@ -17,15 +17,22 @@ The swum time and splits come from FINAL_TIME_SEC / SPLITS_50 (see db/compare fo
 the note on why the swum time lives in FINAL_TIME_SEC for both sessions).
 """
 
-from db import _connect
+from db import _connect  # also puts the repo root on sys.path for `names`
+from names import aka_names
 from analysis import _splits, _marks, _event_distance
 
 
 def roster(event):
-    """Every swimmer in the event with their individual swims, for the pickers."""
+    """Every swimmer in the event with their individual swims, for the pickers.
+
+    `schools` and `best` are included so the picker can filter by team and show
+    a swimmer's fastest swim without a second request. A swimmer who transferred
+    has more than one school here — identity stays keyed on name, so their swims
+    across programs stay together.
+    """
     with _connect() as conn:
         rows = conn.execute(
-            "SELECT NAME, MEET_YEAR, SECTION, PLACE, FINAL_TIME_SEC "
+            "SELECT NAME, SCHOOL, MEET_YEAR, SECTION, PLACE, FINAL_TIME_SEC "
             "FROM results "
             "WHERE EVENT_NAME = ? AND IS_RELAY = 0 AND FINAL_TIME_SEC IS NOT NULL "
             "ORDER BY NAME COLLATE NOCASE, MEET_YEAR, SECTION",
@@ -34,14 +41,23 @@ def roster(event):
 
     swimmers = {}
     for r in rows:
-        s = swimmers.setdefault(r["NAME"], {"name": r["NAME"], "swims": []})
+        s = swimmers.setdefault(r["NAME"], {"name": r["NAME"], "swims": [], "_schools": set()})
+        if r["SCHOOL"]:
+            s["_schools"].add(r["SCHOOL"])
         s["swims"].append({
             "year": int(r["MEET_YEAR"]),
             "section": "prelim" if r["SECTION"] == "prelims" else "final",
             "time_sec": round(r["FINAL_TIME_SEC"], 2),
             "place": int(r["PLACE"]) if r["PLACE"] is not None else None,
         })
-    return {"event": event, "swimmers": list(swimmers.values())}
+
+    out = []
+    for s in swimmers.values():
+        s["schools"] = sorted(s.pop("_schools"))
+        s["best"] = min(x["time_sec"] for x in s["swims"])
+        s["also_known_as"] = aka_names(s["name"])
+        out.append(s)
+    return {"event": event, "swimmers": out}
 
 
 def _load_swim(conn, event, name, year, section, distance):

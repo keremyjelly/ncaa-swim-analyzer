@@ -3,6 +3,7 @@ import {
   ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from "recharts";
 import { fetchSwimmers, fetchSwimmerTrend, formatTime, shortEvent } from "./api";
+import SwimmerSearch from "./SwimmerSearch";
 
 const FINAL_COLOR = "#DC143C";
 const PRELIM_COLOR = "#4169E1";
@@ -22,8 +23,12 @@ const fmtDrop = (v) =>
 // Swimmer trends: pick a swimmer, then one event at a time. Prelim and final are
 // drawn as two lines; click any swim (a table cell or chart point) for its splits.
 export default function SwimmerTrends({ gender }) {
-  const [swimmers, setSwimmers] = useState([]);
-  const [query, setQuery] = useState("");
+  // The loaded list is stored WITH the gender it belongs to. Both effects below
+  // re-run when gender flips, and the trend effect would otherwise fire first
+  // with the previous gender's swimmer still in state — asking the API for a
+  // men's swimmer under Women, which 404s. Pairing the list with its gender
+  // gives the trend effect a way to tell "not loaded yet" from "ready".
+  const [list, setList] = useState({ gender: null, swimmers: [] });
   const [name, setName] = useState(null);
   const [trend, setTrend] = useState(null);
   const [error, setError] = useState(null);
@@ -31,31 +36,40 @@ export default function SwimmerTrends({ gender }) {
   const [eventName, setEventName] = useState(null);
   const [swim, setSwim] = useState(null); // selected swim object for the detail panel
 
+  const swimmers = list.gender === gender ? list.swimmers : [];
+
   // Reload the swimmer list when gender changes, and pick a busy default swimmer.
   useEffect(() => {
-    setName(null); setQuery(""); setTrend(null);
+    let cancelled = false;
+    setName(null); setTrend(null);
+    setList({ gender: null, swimmers: [] });
     fetchSwimmers(gender)
       .then((sw) => {
-        setSwimmers(sw);
+        if (cancelled) return; // a faster gender flip already superseded this
+        setList({ gender, swimmers: sw });
         const featured = [...sw].sort((a, b) => b.years - a.years || b.swims - a.swims)[0];
-        if (featured) { setName(featured.name); setQuery(featured.name); }
+        if (featured) setName(featured.name);
       })
-      .catch((e) => setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`));
+      .catch((e) => {
+        if (!cancelled) setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`);
+      });
+    return () => { cancelled = true; };
   }, [gender]);
 
   useEffect(() => {
-    if (!name) return;
+    // Only ask for a trend once the list for THIS gender has arrived and the
+    // selected swimmer is actually in it.
+    if (!name || list.gender !== gender) return;
+    if (!list.swimmers.some((s) => s.name === name)) return;
+    let cancelled = false;
     setTrend(null);
     setEventName(null);
     setSwim(null);
-    fetchSwimmerTrend(name, gender).then(setTrend).catch((e) => setError(e.message));
-  }, [name, gender]);
-
-  const known = useMemo(() => new Set(swimmers.map((s) => s.name)), [swimmers]);
-  function onQueryChange(v) {
-    setQuery(v);
-    if (known.has(v)) setName(v);
-  }
+    fetchSwimmerTrend(name, gender)
+      .then((t) => { if (!cancelled) setTrend(t); })
+      .catch((e) => { if (!cancelled) setError(e.message); });
+    return () => { cancelled = true; };
+  }, [name, gender, list]);
 
   const events = trend?.events ?? [];
 
@@ -113,16 +127,15 @@ export default function SwimmerTrends({ gender }) {
 
       <div className="controls">
         <div className="field">
-          <label htmlFor="swimmer">Swimmer</label>
-          <input id="swimmer" list="swimmer-list" value={query}
-            placeholder="Type a name…" onChange={(e) => onQueryChange(e.target.value)} />
-          <datalist id="swimmer-list">
-            {swimmers.map((s) => (
-              <option key={s.name} value={s.name}>
-                {`${s.first_year}–${s.last_year} · ${s.schools.join("/")}`}
-              </option>
-            ))}
-          </datalist>
+          <SwimmerSearch
+            id="swimmer"
+            label="Swimmer"
+            items={swimmers}
+            value={name}
+            onChange={setName}
+            placeholder="Type a name or team…"
+            renderMeta={(s) => `${s.first_year}–${s.last_year} · ${s.schools.join(" / ")}`}
+          />
         </div>
 
         {events.length > 0 && (

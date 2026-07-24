@@ -239,21 +239,40 @@ function EventScatter({ yd, model }) {
   );
 }
 
-// Whole-meet scatter: every finalist across all events, one year, on log-log axes
-// so the 50 and the 500 sit comparably along the y=x diagonal.
+// Whole-meet scatter: every finalist across all events, one year.
+//
+// This used to plot final time against prelim time on log-log axes. Both swims
+// are nearly identical, so ~190 points collapsed onto the y=x diagonal and the
+// only thing worth seeing — the gap between the two swims — was squeezed into a
+// couple of pixels perpendicular to it.
+//
+// Plotting the DIFFERENCE against the prelim time instead frees the whole
+// vertical axis for the signal (a Bland-Altman/MA-plot style transform). The
+// diagonal becomes a flat zero line, and a 0.4% drop is now a visible distance
+// rather than a hairline offset. As a share of prelim time the y-axis stays
+// comparable across events, so the 50 and the 500 still sit together.
 const LOG_TICKS = [15, 18, 20, 25, 30, 45, 60, 90, 120, 180, 240, 300, 480, 600];
 
 function MeetScatter({ meet, gender, year }) {
+  const [hoverEvent, setHoverEvent] = useState(null);
+
   if (!meet || meet.gender !== gender) return <div className="loading">Loading whole meet…</div>;
   const yd = meet.payload.years.find((y) => y.year === year);
   if (!yd || !yd.swims.length) return <Empty />;
 
-  const times = yd.swims.flatMap((s) => [s.prelim_sec, s.final_sec]);
+  const times = yd.swims.map((s) => s.prelim_sec);
   const lo = Math.min(...times), hi = Math.max(...times);
   const dom = [+(lo * 0.9).toFixed(2), +(hi * 1.1).toFixed(2)];
   const ticks = LOG_TICKS.filter((t) => t >= dom[0] && t <= dom[1]);
-  const improved = yd.swims.filter((s) => s.pct > 0);
-  const slower = yd.swims.filter((s) => s.pct <= 0);
+
+  // Symmetric y-domain so the zero line sits centred and green/red read evenly.
+  const maxAbs = Math.max(0.6, ...yd.swims.map((s) => Math.abs(s.pct))) * 1.08;
+
+  const events = [...new Set(yd.swims.map((s) => s.event))].sort();
+  const shown = hoverEvent ? yd.swims.filter((s) => s.event === hoverEvent) : yd.swims;
+  const improved = shown.filter((s) => s.pct > 0);
+  const slower = shown.filter((s) => s.pct <= 0);
+  const median = [...yd.swims.map((s) => s.pct)].sort((a, b) => a - b)[Math.floor(yd.n / 2)];
 
   return (
     <>
@@ -262,25 +281,40 @@ function MeetScatter({ meet, gender, year }) {
         <span className="stat-label">of {yd.n} finalist swims across the meet were faster in the final ({year})</span>
       </div>
 
+      <div className="evt-filter">
+        <button className={hoverEvent ? "chipbtn" : "chipbtn active"} onClick={() => setHoverEvent(null)}>
+          All events
+        </button>
+        {events.map((e) => (
+          <button key={e} className={hoverEvent === e ? "chipbtn active" : "chipbtn"}
+            onClick={() => setHoverEvent(hoverEvent === e ? null : e)}>
+            {shortEvent(e)}
+          </button>
+        ))}
+      </div>
+
       <ResponsiveContainer width="100%" height={400}>
         <ScatterChart margin={{ top: 10, right: 24, bottom: 26, left: 14 }}>
           <CartesianGrid stroke="#eee" />
           <XAxis type="number" dataKey="prelim_sec" scale="log" domain={dom} ticks={ticks}
             tickFormatter={formatTime} allowDataOverflow name="Prelim"
             label={{ value: "prelim time (log)", position: "insideBottom", offset: -2, fill: "#888", fontSize: 12 }} />
-          <YAxis type="number" dataKey="final_sec" scale="log" domain={dom} ticks={ticks}
-            tickFormatter={formatTime} allowDataOverflow width={64} name="Final"
-            label={{ value: "final time (log)", angle: -90, position: "insideLeft", fill: "#888", fontSize: 12 }} />
-          <ReferenceLine segment={[{ x: dom[0], y: dom[0] }, { x: dom[1], y: dom[1] }]}
-            stroke="#9ca3af" strokeDasharray="5 5" ifOverflow="hidden" />
+          <YAxis type="number" dataKey="pct" domain={[-maxAbs, maxAbs]} width={64}
+            tickFormatter={(v) => `${v > 0 ? "+" : ""}${v.toFixed(1)}%`} name="Change"
+            label={{ value: "faster in final (%)", angle: -90, position: "insideLeft", fill: "#888", fontSize: 12 }} />
+          <ReferenceLine y={0} stroke="#6b7280"
+            label={{ value: "same as prelims", fill: "#888", fontSize: 11, position: "insideBottomRight" }} />
+          <ReferenceLine y={median} stroke="#4169E1" strokeDasharray="5 5"
+            label={{ value: `median ${median > 0 ? "+" : ""}${median.toFixed(2)}%`, fill: "#4169E1", fontSize: 11, position: "insideTopRight" }} />
           <Tooltip content={<MeetTip />} cursor={{ strokeDasharray: "3 3" }} />
-          <Scatter data={improved} fill={GOOD} fillOpacity={0.7} />
-          <Scatter data={slower} fill={BAD} fillOpacity={0.7} />
+          <Scatter data={improved} fill={GOOD} fillOpacity={0.65} />
+          <Scatter data={slower} fill={BAD} fillOpacity={0.65} />
         </ScatterChart>
       </ResponsiveContainer>
       <p className="note">
-        Every finalist in every individual event ({year}). Log-log axes line all events up along the diagonal;
-        points below it swam faster in the final. Green improved, red added time.
+        Every finalist in every individual event ({year}). Height is how much faster the final was than the
+        morning swim, as a share of the prelim time — above the line improved, below it added time. Faster
+        events sit left, distance events right. Click an event above to isolate it.
       </p>
     </>
   );

@@ -42,16 +42,56 @@ header h1 {
 }
 .field { display: flex; align-items: center; gap: 10px; }
 .controls label { font-weight: 600; font-size: 14px; white-space: nowrap; }
+.controls .meta { color: #6b7280; font-size: 13px; }
+
+/* --- shared form controls -------------------------------------------------
+   One look for every select and text input in the app. Native selects render
+   differently on every OS, so appearance:none plus a drawn chevron keeps them
+   consistent with the swimmer search box next to them. */
+.ctl,
 .controls select,
-.controls input {
+.controls input,
+.swsearch-input,
+.swsearch-team {
   padding: 8px 12px;
-  font-size: 15px;
-  border: 1px solid #d1d5db;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #1a1a2e;
+  border: 1px solid #d7dae0;
   border-radius: 8px;
   background: #fff;
-  min-width: 280px;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
 }
-.controls .meta { color: #6b7280; font-size: 13px; }
+.ctl:hover,
+.controls select:hover,
+.swsearch-input:hover,
+.swsearch-team:hover { border-color: #c7cbd1; }
+
+.ctl:focus,
+.controls select:focus,
+.controls input:focus,
+.swsearch-input:focus,
+.swsearch-team:focus {
+  outline: none;
+  border-color: #1a1a2e;
+  box-shadow: 0 0 0 3px rgba(26, 26, 46, 0.08);
+}
+
+select.ctl,
+.controls select,
+.swsearch-team {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 32px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%236b7280' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' d='M1 1.5 6 6.5l5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  cursor: pointer;
+}
+
+.controls select,
+.controls input { min-width: 280px; }
 #swimmer-event { min-width: 0; }
 
 .tabs {
@@ -75,6 +115,68 @@ header h1 {
 .tab.active { color: #DC143C; border-bottom-color: #DC143C; }
 
 .note { margin-top: 14px; color: #9ca3af; font-size: 12px; }
+
+/* --- searchable swimmer picker ------------------------------------------- */
+.swsearch { position: relative; display: flex; flex-direction: column; gap: 4px; }
+.swsearch > label { font-weight: 600; font-size: 14px; }
+.swsearch-row { display: flex; gap: 6px; align-items: stretch; }
+
+.swsearch-input { flex: 1 1 auto; min-width: 0; }
+/* Placeholder doubles as the current selection when closed, so it needs full
+   contrast until the field is focused for typing. */
+.swsearch-input::placeholder { color: #1a1a2e; opacity: 1; }
+.swsearch-input:focus::placeholder { color: #9ca3af; }
+
+.swsearch-team { flex: 0 0 auto; max-width: 160px; color: #4b5563; }
+
+.swsearch-pop {
+  position: absolute;
+  z-index: 40;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(16, 24, 40, 0.14);
+  overflow: hidden;
+}
+.swsearch-count {
+  padding: 6px 10px;
+  font-size: 11px;
+  color: #9ca3af;
+  border-bottom: 1px solid #f3f4f6;
+  background: #fafbfc;
+}
+.swsearch-list {
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+.swsearch-opt {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.swsearch-opt.active { background: #1a1a2e; color: #fff; }
+.swsearch-name { font-weight: 500; white-space: nowrap; }
+.swsearch-aka { font-weight: 400; font-size: 11px; color: #9ca3af; font-style: italic; }
+.swsearch-opt.active .swsearch-aka { color: #c7cbd1; }
+.swsearch-meta {
+  color: #9ca3af;
+  font-size: 11px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.swsearch-opt.active .swsearch-meta { color: #c7cbd1; }
 
 .subtabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 4px; }
 .subtab {
@@ -107,13 +209,58 @@ header h1 {
   margin: 2px 8px;
 }
 
-.toggle { display: flex; gap: 6px; margin-bottom: 14px; }
-.toggle button {
-  padding: 5px 13px; font-size: 13px; font-weight: 600;
-  border: 1px solid #e5e7eb; background: #fff; border-radius: 7px;
-  cursor: pointer; color: #4b5563;
+/* Segmented control: one connected group rather than loose pill buttons, so a
+   year strip or a Line/Heatmap pair reads as a single control. */
+.toggle {
+  display: inline-flex;
+  margin-bottom: 14px;
+  border: 1px solid #d7dae0;
+  border-radius: 8px;
+  background: #f6f7f9;
+  padding: 3px;
+  gap: 2px;
 }
-.toggle button.active { background: #4169E1; color: #fff; border-color: #4169E1; }
+.toggle button {
+  padding: 5px 13px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #6b7280;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.toggle button:hover { color: #1a1a2e; }
+.toggle button.active {
+  background: #fff;
+  color: #1a1a2e;
+  border-color: #e2e5ea;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+}
+.toggle button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26, 26, 46, 0.12);
+}
+
+/* Event isolation chips above the whole-meet scatter. */
+.evt-filter { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 12px; }
+.chipbtn {
+  padding: 3px 9px;
+  font: inherit;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #6b7280;
+  background: #fff;
+  border: 1px solid #e2e5ea;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+.chipbtn:hover { border-color: #c7cbd1; color: #1a1a2e; }
+.chipbtn.active { background: #1a1a2e; border-color: #1a1a2e; color: #fff; }
+.chipbtn:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(26, 26, 46, 0.12); }
 
 .heatmap-wrap { overflow-x: auto; }
 table.heatmap { border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
@@ -291,9 +438,10 @@ td.bad { color: #DC143C; }
   border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px;
 }
 .matchup-side-h { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
-.matchup-side select {
-  padding: 7px 10px; font-size: 14px; border: 1px solid #d1d5db; border-radius: 8px; background: #fff;
-}
+/* No `.matchup-side select` override here on purpose: it used to reset
+   `background`, which wiped the drawn chevron and beat the shared .ctl and
+   .swsearch-team rules, leaving these two dropdowns looking native while
+   everything around them didn't. */
 .matchup-title { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
 
 table.compare { width: 100%; border-collapse: collapse; margin-top: 18px; font-size: 14px; font-variant-numeric: tabular-nums; }

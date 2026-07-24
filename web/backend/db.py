@@ -9,15 +9,21 @@ FastAPI serializes to JSON for free.
 
 import os
 import sqlite3
+import sys
 from functools import lru_cache
 
 # swim.db lives at the repo root, two directories above this file.
 # Override with the SWIM_DB_PATH env var if you move it.
-_DEFAULT_DB = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-    "swim.db",
-)
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+_DEFAULT_DB = os.path.join(_REPO_ROOT, "swim.db")
 DB_PATH = os.environ.get("SWIM_DB_PATH", _DEFAULT_DB)
+
+# names.py lives at the repo root next to create_csv.py (it's shared by the
+# ingest pipeline), so the backend needs the root on sys.path to import it.
+if _REPO_ROOT not in sys.path:
+    sys.path.insert(0, _REPO_ROOT)
+
+from names import aka_names  # noqa: E402  (import needs the sys.path line above)
 
 
 def _connect() -> sqlite3.Connection:
@@ -122,12 +128,17 @@ def get_event_trend(event_name: str) -> dict:
 # ---------------------------------------------------------------------------
 # Individual swimmers
 #
-# Identity is keyed on NAME. The name strings in this dataset are clean and
-# consistent across years (no case/spacing variants), so an exact NAME match
-# reliably links a swimmer's results across meets. Deliberately NOT keying on
-# name+school, because genuine transfers (e.g. Notre Dame -> SMU) would then
-# split one athlete into two. A swimmer's school(s) are surfaced separately so
-# transfers are visible rather than fragmenting.
+# Identity is keyed on NAME. Deliberately NOT on name+school, because genuine
+# transfers (e.g. Notre Dame -> SMU) would then split one athlete into two. A
+# swimmer's school(s) are surfaced separately so transfers are visible rather
+# than fragmenting.
+#
+# The name strings are NOT inherently consistent across years — a school may
+# enter the same athlete as "Fallon, Matt" one season and "Fallon, Matthew" the
+# next, which would fragment a career just as badly. That's corrected at ingest
+# by names.canonical_name(); the superseded spellings are surfaced here as
+# `also_known_as` so search can still match what someone was previously listed
+# under. See names.py for the evidence behind each merge.
 # ---------------------------------------------------------------------------
 
 
@@ -166,6 +177,7 @@ def get_swimmers(gender: str | None = None) -> list[dict]:
             "first_year": r["first_year"],
             "last_year": r["last_year"],
             "schools": sorted((r["schools"] or "").split(",")),
+            "also_known_as": aka_names(r["name"]),
         }
         for r in rows
     ]

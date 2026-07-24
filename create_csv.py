@@ -16,6 +16,9 @@ import sys
 import os
 import subprocess
 
+from schools import canonical
+from names import canonical_name
+
 def get_txt_files(data_dir, year=None):
     """Return a sorted list of full file paths for every .txt/.rtf in data_dir.
 
@@ -168,9 +171,15 @@ def parse_swimmers(lines, session=None):
                 continue
             # extract all the fields from the match
             place = int(m.group(1)) if m.group(1) != '--' else None
-            name = m.group(2).strip()
+            # Swimmer identity is keyed on NAME, so a school listing the same
+            # athlete as "Matt" one year and "Matthew" the next would split
+            # their career in two. See names.py for the evidence per merge.
+            name = canonical_name(m.group(2))
             year = m.group(3)
-            school = m.group(4)
+            # Normalize here so a program spelled two ways across meets (NCSU /
+            # NC State, OSU / Ohio St) doesn't split when results are grouped
+            # by school. See schools.py for the evidence behind each merge.
+            school = canonical(m.group(4))
             prelim_time = m.group(5)
             final_time = m.group(6) if m.group(6) else ''
             points = float(m.group(7)) if m.group(7) else 0
@@ -233,7 +242,7 @@ def parse_relay_teams(lines, session=None):
                 i += 1
                 continue
             place = int(m.group(1)) if m.group(1) != '--' else None
-            school = m.group(2).strip()
+            school = canonical(m.group(2))  # relay rows are keyed on school too
             prelim_time = m.group(3)
             final_time = m.group(4) if m.group(4) else ''
             points = float(m.group(5)) if m.group(5) else 0
