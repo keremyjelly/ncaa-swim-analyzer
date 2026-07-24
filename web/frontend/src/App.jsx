@@ -2,11 +2,13 @@ import { useState } from "react";
 import RaceTrends from "./RaceTrends";
 import SwimmerTrends from "./SwimmerTrends";
 import RaceAnalysis from "./RaceAnalysis";
+import PrelimFinals from "./PrelimFinals";
 
 const TABS = [
   { id: "race", label: "Race Trends" },
   { id: "swimmer", label: "Swimmer Trends" },
   { id: "analysis", label: "Race Analysis" },
+  { id: "compare", label: "Prelims → Finals" },
 ];
 
 const GENDERS = ["Men", "Women"];
@@ -46,6 +48,7 @@ export default function App() {
       {tab === "race" && <RaceTrends gender={gender} />}
       {tab === "swimmer" && <SwimmerTrends gender={gender} />}
       {tab === "analysis" && <RaceAnalysis gender={gender} />}
+      {tab === "compare" && <PrelimFinals gender={gender} />}
 
       <footer>Data: swim.db via FastAPI.</footer>
     </div>

@@ -50,6 +50,15 @@ def parse_filename(filepath):
           return None
       return int(parts[1][1:])
 
+def parse_session(filepath):
+      """Return the session type ('P' for prelims, 'F' for finals) from a filename
+      like 'ncaa26_w_260318P004.txt', or None for legacy/ad-hoc names that don't
+      encode it (those are treated as finals). This is the source of truth for
+      whether a swim is a prelim or final: it does not depend on in-file section
+      markers, which some prelim pages omit."""
+      m = re.search(r'\d{6}([FP])\d{3}', os.path.basename(filepath))
+      return m.group(1) if m else None
+
 def parse_year(lines):
     """Return the meet year from the file header lines."""
     for line in lines:
@@ -125,18 +134,23 @@ def _extract_reaction_and_splits(split_lines):
 
     return reaction, splits_50
 
-def parse_swimmers(lines):
+def parse_swimmers(lines, session=None):
         """Return (results, skipped_count, deduped_count) of individual swimmer info dicts
         from the file lines. Some source files have been observed to have an entire results
         block pasted in twice (copy-paste error at data-collection time); deduped_count
         tracks how many exact-repeat rows (same section/place/name/school/final time) were
-        dropped as a result."""
+        dropped as a result.
+
+        `session` ('P'/'F'/None) sets the baseline section: a prelims page ('P') is all
+        prelims, a finals page ('F', or an unlabeled legacy file) defaults to finals and
+        flips to prelims at the '=== Preliminaries ===' block (the non-qualifiers HY-TEK
+        lists at the bottom of a finals page)."""
         results = []
         skipped = 0
         deduped = 0
         seen = set()
         i = 0
-        section = 'finals'
+        section = 'prelims' if session == 'P' else 'finals'
         while i < len(lines):
 
             if '=== Preliminaries ===' in lines[i]:
@@ -193,15 +207,17 @@ def parse_swimmers(lines):
 
         return results, skipped, deduped
 
-def parse_relay_teams(lines):
+def parse_relay_teams(lines, session=None):
         """Return (results, skipped_count, deduped_count) of relay team info dicts from the
-        file lines. See parse_swimmers() for why deduped_count exists."""
+        file lines. See parse_swimmers() for why deduped_count exists, and for the meaning
+        of `session`. (Relays are timed finals with no prelim session, so 'P' is not
+        expected here, but the argument is threaded through for consistency.)"""
         results = []
         skipped = 0
         deduped = 0
         seen = set()
         i = 0
-        section = 'finals'
+        section = 'prelims' if session == 'P' else 'finals'
         while i < len(lines):
 
             if '=== Preliminaries ===' in lines[i]:
@@ -294,13 +310,14 @@ def main():
         if header_event_num is not None and filename_event_num is not None and header_event_num != filename_event_num:
             print(f"Warning: {filepath} is named event {filename_event_num} but its header says Event {header_event_num}; using {header_event_num}")
         meet_year = parse_year(lines)
+        session = parse_session(filepath)
         # relay events are detected from the event name itself (the header text),
         # not the filename, since filenames aren't consistent (e.g. "..._mr_m.txt")
         is_relay = bool(event_name) and 'relay' in event_name.lower()
         if is_relay:
-            swimmers, skipped, deduped = parse_relay_teams(lines)
+            swimmers, skipped, deduped = parse_relay_teams(lines, session)
         else:
-            swimmers, skipped, deduped = parse_swimmers(lines)
+            swimmers, skipped, deduped = parse_swimmers(lines, session)
         if skipped:
             print(f"Warning: skipped {skipped} unrecognized result line(s) in {filepath}")
         if deduped:
@@ -315,7 +332,56 @@ def main():
             s['EVENT_STROKE'] = event_stroke
             s['IS_RELAY'] = is_relay
             s['MEET_YEAR'] = meet_year
+            s['SESSION_FILE'] = session
             all_swimmers.append(s)
+
+    # Cross-source prelim dedup: a swimmer's prelim swim can appear both on the
+    # dedicated prelims page ('P') and in the '=== Preliminaries ===' block of the
+    # finals page ('F'). The P page is authoritative (it carries prelim splits and
+    # reaction times for the championship finalists too, which the F page omits),
+    # so where both exist for the same swimmer/event, drop the F-page copy. This
+    # leaves exactly one prelim swim and one final swim per swimmer per event.
+    p_prelim_keys = {
+        (s['EVENT_GENDER'], s['EVENT_NUM'], s['MEET_YEAR'], s['NAME'], s['SCHOOL'])
+        for s in all_swimmers
+        if s['SECTION'] == 'prelims' and s['SESSION_FILE'] == 'P'
+    }
+    before = len(all_swimmers)
+    all_swimmers = [
+        s for s in all_swimmers
+        if not (
+            s['SECTION'] == 'prelims'
+            and s['SESSION_FILE'] == 'F'
+            and (s['EVENT_GENDER'], s['EVENT_NUM'], s['MEET_YEAR'], s['NAME'], s['SCHOOL'])
+            in p_prelim_keys
+        )
+    ]
+    dropped = before - len(all_swimmers)
+    if dropped:
+        print(f"Deduped {dropped} finals-page prelim row(s) superseded by prelims-page data")
+
+    # Blank-seed prelim fix: a prelims page has 'Seed' and 'Prelims' columns. When a
+    # swimmer has no seed entered, HY-TEK prints only the Prelims (swum) time, which
+    # the result-line parser captures as the first/seed time (PRELIM_TIME) and leaves
+    # FINAL_TIME empty. For a ranked prelim swim (PLACE present) that lone time IS the
+    # swum result, so move it into FINAL_TIME - the field build_db turns into
+    # FINAL_TIME_SEC - and clear the unknown seed. Rows with both a seed and a swum
+    # time (FINAL_TIME already set) and scratched/DQ'd rows ('--' -> PLACE is None)
+    # are left untouched.
+    _time_re = re.compile(r'^[\d:]*\d+\.\d{2,}$')
+    normalized = 0
+    for s in all_swimmers:
+        if (s['SECTION'] == 'prelims' and s['SESSION_FILE'] == 'P'
+                and s['PLACE'] is not None
+                and not s['FINAL_TIME']
+                and _time_re.match(str(s['PRELIM_TIME']).strip())):
+            s['FINAL_TIME'] = s['PRELIM_TIME']
+            s['PRELIM_TIME'] = ''
+            normalized += 1
+    if normalized:
+        print(f"Normalized {normalized} prelim row(s) with blank seed "
+              f"(moved swum time into FINAL_TIME)")
+
     if all_swimmers:
         df = pd.DataFrame(all_swimmers)
         df['SPLITS_50'] = df['SPLITS_50'].apply(lambda x: '|'.join(str(s) for s in x))

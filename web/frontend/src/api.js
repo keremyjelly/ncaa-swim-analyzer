@@ -16,12 +16,16 @@ export const fetchSwimmerTrend = (name, gender) => get("/api/swimmers/trend", ge
 export const fetchMeta = () => get("/api/meta");
 export const fetchAnalysisEvent = (kind, event) => get(`/api/analysis/${kind}`, { event });
 export const fetchReaction = (gender) => get("/api/analysis/reaction", gender ? { gender } : undefined);
+// Prelims -> finals comparisons: kind in {time-drop, rank-movement, pacing}.
+export const fetchCompare = (kind, event) => get(`/api/compare/${kind}`, { event });
+// Whole-meet prelim->final scatter (all events, one gender).
+export const fetchMeetDrop = (gender) => get("/api/compare/meet-drop", gender ? { gender } : undefined);
 
-// "Men 200 Yard Backstroke" -> "200 Backstroke" for compact chart labels.
+// Condense chart labels
 export const shortEvent = (name) =>
   name.replace(/^(Men|Women)\s+/, "").replace(/\s+Yard\s+/, " ");
 
-// Seconds -> "m:ss.xx" (or "ss.xx" for sub-minute swims), for axis + tooltips.
+// Seconds -> "m:ss.xx" (or "ss.xx" for sub-minute swims), for axis + tooltips
 export function formatTime(sec) {
   if (sec == null) return "";
   const m = Math.floor(sec / 60);

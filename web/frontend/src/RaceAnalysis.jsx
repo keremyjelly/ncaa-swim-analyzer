@@ -5,7 +5,7 @@ import {
 } from "recharts";
 import { fetchEvents, fetchAnalysisEvent, fetchReaction, shortEvent } from "./api";
 
-// Higher-contrast, ordered palette for the year lines.
+// Ordered palette for the year lines.
 const YEAR_COLORS = ["#4E79A7", "#F28E2B", "#59A14F", "#E15759", "#B07AA1", "#1F2937"];
 
 // Shared diverging color for correlation-style heatmaps (red = positive, blue = inverse).
@@ -18,11 +18,11 @@ const divergeColor = (v, maxAbs = 1) => {
 
 const ANALYSES = [
   { kind: "split-distribution", label: "Split Distribution", control: "event",
-    blurb: "One event's pacing shape, year by year. Each split is shown as % above/below that year's own average split — 0 = even pace, negative = faster (like the dive), positive = slower. Split marks are cumulative yards." },
+    blurb: "One event's average pacing shape across 2021-2026. Each split is shown as % above/below that year's own average split. Thus 0 indicates average pace, negative indicates faster than pace (like the dive), and positive indicates slower than pace. Split marks are cumulative yards." },
   { kind: "split-place", label: "Split → Place", control: "event",
-    blurb: "How strongly each split correlates with final place, year by year. Higher bar = that split separated the field more that year." },
+    blurb: "How strongly each split correlates with final place, year by year. Higher bar suggests that the split separated the field more that year." },
   { kind: "reaction", label: "Reaction Time", control: "none",
-    blurb: "Reaction-time vs final-place correlation for every year and freestyle event (−1…1). Red = a slow start went with a worse place (reaction mattered); blue = the inverse; pale = little relationship." },
+    blurb: "Reaction-time vs final-place correlation for every year and freestyle event (−1…1). Red = a slow start correlated to a worse place (reaction mattered); blue = the inverse; pale = little to no correlation." },
 ];
 
 const fmtPct = (v) => (v == null ? "—" : `${v > 0 ? "+" : ""}${v.toFixed(1)}%`);

@@ -175,11 +175,19 @@ def get_swimmer_trend(name: str, gender: str | None = None) -> dict:
     """
     A swimmer's championship trajectory, grouped by event.
 
-    For each (event, year) we keep the swimmer's *fastest* timed swim that year
-    (min final time across prelims/finals), so the series reflects their best
-    performance per season. Returns:
+    For each (event, year) we keep *both* swims the swimmer recorded: the prelim
+    and the final, each as its own object (or null if they didn't swim that
+    session — e.g. a non-qualifier has only a prelim; a timed-final event like the
+    1650 has only a final). This lets the UI draw prelim and final as two lines and
+    show how much a swimmer dropped from morning to night. Returns:
       {"name": ..., "schools": [...],
-       "events": [ {"event": ..., "points": [ {year, time_sec, place, section}, ... ]}, ... ]}
+       "events": [ {"event": ...,
+                    "points": [ {year, prelim: {...}|null, final: {...}|null}, ... ]}, ... ]}
+    where each swim object is {year, time_sec, place, section, points, reaction, school, splits}.
+
+    Note: the swum time for either session is FINAL_TIME_SEC (the last time column
+    HY-TEK prints), so on a prelims row it is the prelim swim, on a finals row the
+    final swim.
     """
     where = "WHERE NAME = ? AND IS_RELAY = 0 AND FINAL_TIME_SEC IS NOT NULL"
     params: list = [name]
@@ -213,22 +221,29 @@ def get_swimmer_trend(name: str, gender: str | None = None) -> dict:
                 pass
         return out
 
-    # event -> year -> best row (lowest FINAL_TIME_SEC)
+    def swim_obj(r):
+        return {
+            "year": int(r["MEET_YEAR"]),
+            "time_sec": round(r["FINAL_TIME_SEC"], 2),
+            "place": int(r["PLACE"]) if r["PLACE"] is not None else None,
+            "section": r["SECTION"],
+            "points": r["POINTS"],
+            "reaction": r["REACTION"],
+            "school": r["SCHOOL"],
+            "splits": parse_splits(r["SPLITS_50"]),
+        }
+
+    # event -> year -> {"year", "prelim": obj|None, "final": obj|None}
     events: dict[str, dict[int, dict]] = {}
     for r in rows:
-        best = events.setdefault(r["EVENT_NAME"], {})
-        cur = best.get(r["MEET_YEAR"])
-        if cur is None or r["FINAL_TIME_SEC"] < cur["time_sec"]:
-            best[r["MEET_YEAR"]] = {
-                "year": int(r["MEET_YEAR"]),
-                "time_sec": round(r["FINAL_TIME_SEC"], 2),
-                "place": int(r["PLACE"]) if r["PLACE"] is not None else None,
-                "section": r["SECTION"],
-                "points": r["POINTS"],
-                "reaction": r["REACTION"],
-                "school": r["SCHOOL"],
-                "splits": parse_splits(r["SPLITS_50"]),
-            }
+        by_year = events.setdefault(r["EVENT_NAME"], {})
+        year = int(r["MEET_YEAR"])
+        cell = by_year.setdefault(year, {"year": year, "prelim": None, "final": None})
+        slot = "prelim" if r["SECTION"] == "prelims" else "final"
+        obj = swim_obj(r)
+        # If a session somehow has more than one row, keep the fastest.
+        if cell[slot] is None or obj["time_sec"] < cell[slot]["time_sec"]:
+            cell[slot] = obj
 
     event_list = [
         {"event": event, "points": [by_year[y] for y in sorted(by_year)]}

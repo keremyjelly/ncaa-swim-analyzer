@@ -1,11 +1,26 @@
 import { useEffect, useMemo, useState } from "react";
 import {
-  ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
+  ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from "recharts";
 import { fetchSwimmers, fetchSwimmerTrend, formatTime, shortEvent } from "./api";
 
-// Swimmer trends: pick a swimmer, then one event at a time. Click any swim
-// (chart or table row) to see its splits and race detail.
+const FINAL_COLOR = "#DC143C";
+const PRELIM_COLOR = "#4169E1";
+const GOOD = "#11A046";
+const BAD = "#DC143C";
+
+const TIP = {
+  background: "#fff", border: "1px solid #e5e7eb", borderRadius: 8,
+  boxShadow: "0 4px 14px rgba(16,24,40,.12)", padding: "8px 10px",
+  fontSize: 12, minWidth: 150, fontVariantNumeric: "tabular-nums",
+};
+
+// A signed in-meet drop (prelim - final) in seconds: +0.90s faster in the final.
+const fmtDrop = (v) =>
+  v == null ? "—" : `${v > 0 ? "−" : v < 0 ? "+" : ""}${Math.abs(v).toFixed(2)}s`;
+
+// Swimmer trends: pick a swimmer, then one event at a time. Prelim and final are
+// drawn as two lines; click any swim (a table cell or chart point) for its splits.
 export default function SwimmerTrends({ gender }) {
   const [swimmers, setSwimmers] = useState([]);
   const [query, setQuery] = useState("");
@@ -14,7 +29,7 @@ export default function SwimmerTrends({ gender }) {
   const [error, setError] = useState(null);
 
   const [eventName, setEventName] = useState(null);
-  const [swim, setSwim] = useState(null); // selected point for the detail panel
+  const [swim, setSwim] = useState(null); // selected swim object for the detail panel
 
   // Reload the swimmer list when gender changes, and pick a busy default swimmer.
   useEffect(() => {
@@ -56,24 +71,41 @@ export default function SwimmerTrends({ gender }) {
     [events, eventName]
   );
 
-  // When the event changes, preselect its most recent swim.
+  // Chart rows: one per year, with prelim and final swum times side by side.
+  const chartRows = useMemo(
+    () => (current?.points ?? []).map((p) => ({
+      year: p.year,
+      prelim_sec: p.prelim?.time_sec ?? null,
+      final_sec: p.final?.time_sec ?? null,
+    })),
+    [current]
+  );
+
+  // The swimmer's best swim each year (final if present, else prelim) — for the headline.
+  const bestPerYear = useMemo(
+    () => (current?.points ?? [])
+      .map((p) => {
+        const t = [p.final?.time_sec, p.prelim?.time_sec].filter((v) => v != null);
+        return t.length ? { year: p.year, time_sec: Math.min(...t) } : null;
+      })
+      .filter(Boolean),
+    [current]
+  );
+
+  // When the event changes, preselect its most recent swim (final if there is one).
   useEffect(() => {
-    setSwim(current?.points?.length ? current.points[current.points.length - 1] : null);
-  }, [current]);
-
-  // Percent change in time from the swimmer's first to most recent year in this
-  // event. Negative = faster = improvement.
-  const pctChange = useMemo(() => {
     const pts = current?.points ?? [];
-    if (pts.length < 2) return null;
-    const first = pts[0], last = pts[pts.length - 1];
-    return {
-      first, last,
-      pct: ((last.time_sec - first.time_sec) / first.time_sec) * 100,
-    };
+    const last = pts[pts.length - 1];
+    setSwim(last ? (last.final ?? last.prelim) : null);
   }, [current]);
 
-  const baseSec = current?.points?.[0]?.time_sec ?? null;
+  const pctChange = useMemo(() => {
+    if (bestPerYear.length < 2) return null;
+    const first = bestPerYear[0], last = bestPerYear[bestPerYear.length - 1];
+    return { first, last, pct: ((last.time_sec - first.time_sec) / first.time_sec) * 100 };
+  }, [bestPerYear]);
+
+  const isSel = (s) => s && swim && s.year === swim.year && s.section === swim.section;
 
   return (
     <div>
@@ -114,7 +146,7 @@ export default function SwimmerTrends({ gender }) {
             {pctChange.pct <= 0 ? "▼" : "▲"} {Math.abs(pctChange.pct).toFixed(2)}%
           </span>
           <span className="stat-label">
-            {pctChange.pct <= 0 ? "faster" : "slower"} ({pctChange.first.year}&nbsp;→&nbsp;{pctChange.last.year}):
+            best-time {pctChange.pct <= 0 ? "improvement" : "regression"} ({pctChange.first.year}&nbsp;→&nbsp;{pctChange.last.year}):
             {" "}{formatTime(pctChange.first.time_sec)} → {formatTime(pctChange.last.time_sec)}
           </span>
         </div>
@@ -125,21 +157,23 @@ export default function SwimmerTrends({ gender }) {
           <div className="loading">{trend ? "No timed individual results." : "Loading…"}</div>
         ) : (
           <ResponsiveContainer width="100%" height={380}>
-            <LineChart data={current.points} margin={{ top: 16, right: 24, bottom: 8, left: 8 }}
+            <LineChart data={chartRows} margin={{ top: 16, right: 24, bottom: 8, left: 8 }}
               onClick={(state) => {
-                const p = state?.activePayload?.[0]?.payload;
-                if (p) setSwim(p);
+                const yr = state?.activePayload?.[0]?.payload?.year;
+                const p = current.points.find((x) => x.year === yr);
+                if (p) setSwim(p.final ?? p.prelim);
               }}
               style={{ cursor: "pointer" }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#eee" />
               <XAxis dataKey="year" allowDuplicatedCategory={false} />
               <YAxis domain={["auto", "auto"]} reversed tickFormatter={formatTime} width={70}
                 label={{ value: "Time (faster ↑)", angle: -90, position: "insideLeft", style: { fill: "#888" } }} />
-              <Tooltip formatter={(v) => [formatTime(v), shortEvent(current.event)]}
-                labelFormatter={(y) => `${y} Championships`} />
-              <Line type="monotone" dataKey="time_sec" name={shortEvent(current.event)}
-                stroke="#DC143C" strokeWidth={2.5}
-                dot={{ r: 4 }} activeDot={{ r: 6 }} />
+              <Tooltip content={<TrendTip event={current.event} />} />
+              <Legend wrapperStyle={{ paddingTop: 8 }} />
+              <Line type="monotone" dataKey="final_sec" name="Final" stroke={FINAL_COLOR} strokeWidth={2.5}
+                connectNulls dot={{ r: 4 }} activeDot={{ r: 6 }} />
+              <Line type="monotone" dataKey="prelim_sec" name="Prelim" stroke={PRELIM_COLOR} strokeWidth={2.5}
+                strokeDasharray="5 4" connectNulls dot={{ r: 4 }} activeDot={{ r: 6 }} />
             </LineChart>
           </ResponsiveContainer>
         )}
@@ -149,20 +183,26 @@ export default function SwimmerTrends({ gender }) {
         <div className="split-view">
           <table className="results">
             <thead>
-              <tr><th>Year</th><th>Time</th><th>Place</th><th>Δ%</th></tr>
+              <tr><th>Year</th><th>Prelim</th><th>Final</th><th>Drop</th></tr>
             </thead>
             <tbody>
-              {current.points.map((p, i) => {
-                const pct = baseSec ? ((p.time_sec - baseSec) / baseSec) * 100 : null;
+              {current.points.map((p) => {
+                const drop = p.prelim && p.final ? p.prelim.time_sec - p.final.time_sec : null;
                 return (
-                  <tr key={p.year}
-                      className={swim && swim.year === p.year ? "row-selected" : "row-click"}
-                      onClick={() => setSwim(p)}>
+                  <tr key={p.year}>
                     <td>{p.year}</td>
-                    <td className="mono">{formatTime(p.time_sec)}</td>
-                    <td>{p.place ?? "—"}</td>
-                    <td className={"mono " + (i === 0 ? "" : pct <= 0 ? "good" : "bad")}>
-                      {i === 0 ? "—" : `${pct <= 0 ? "" : "+"}${pct.toFixed(2)}%`}
+                    <td className={"mono" + (isSel(p.prelim) ? " row-selected" : "")}
+                      style={p.prelim ? { cursor: "pointer", color: PRELIM_COLOR } : undefined}
+                      onClick={() => p.prelim && setSwim(p.prelim)}>
+                      {p.prelim ? `${formatTime(p.prelim.time_sec)} (P${p.prelim.place ?? "–"})` : "—"}
+                    </td>
+                    <td className={"mono" + (isSel(p.final) ? " row-selected" : "")}
+                      style={p.final ? { cursor: "pointer", fontWeight: 600 } : undefined}
+                      onClick={() => p.final && setSwim(p.final)}>
+                      {p.final ? `${formatTime(p.final.time_sec)} (P${p.final.place ?? "–"})` : "—"}
+                    </td>
+                    <td className={"mono " + (drop == null ? "" : drop > 0 ? "good" : "bad")}>
+                      {fmtDrop(drop)}
                     </td>
                   </tr>
                 );
@@ -175,8 +215,34 @@ export default function SwimmerTrends({ gender }) {
       )}
 
       <p className="note">
-        One event at a time so each line's slope is meaningful. Δ% is vs the first year shown. Click a point or row for splits.
+        One event at a time. <span style={{ color: FINAL_COLOR }}>Final</span> vs{" "}
+        <span style={{ color: PRELIM_COLOR }}>prelim</span> swum time each year; Drop = how much faster the final
+        was. Click any time (or a chart point) for its splits.
       </p>
+    </div>
+  );
+}
+
+function TrendTip({ active, payload, label, event }) {
+  if (!active || !payload?.length) return null;
+  const row = payload[0].payload;
+  const drop = row.prelim_sec != null && row.final_sec != null ? row.prelim_sec - row.final_sec : null;
+  return (
+    <div style={TIP}>
+      <div style={{ fontWeight: 700, marginBottom: 4 }}>{label} · {shortEvent(event)}</div>
+      <div style={{ display: "flex", gap: 8 }}>
+        <span style={{ width: 9, height: 9, borderRadius: 2, background: PRELIM_COLOR, display: "inline-block", alignSelf: "center" }} />
+        prelim <b style={{ marginLeft: "auto" }}>{row.prelim_sec != null ? formatTime(row.prelim_sec) : "—"}</b>
+      </div>
+      <div style={{ display: "flex", gap: 8 }}>
+        <span style={{ width: 9, height: 9, borderRadius: 2, background: FINAL_COLOR, display: "inline-block", alignSelf: "center" }} />
+        final <b style={{ marginLeft: "auto" }}>{row.final_sec != null ? formatTime(row.final_sec) : "—"}</b>
+      </div>
+      {drop != null && (
+        <div style={{ color: drop > 0 ? GOOD : BAD, marginTop: 2 }}>
+          {fmtDrop(drop)} {drop > 0 ? "faster in final" : "slower in final"}
+        </div>
+      )}
     </div>
   );
 }

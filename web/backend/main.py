@@ -15,6 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import db
 import analysis
+import compare
 
 app = FastAPI(
     title="NCAA Swim Analyzer API",
@@ -103,3 +104,32 @@ def analysis_split_place(event: str = Query(..., description="Exact EVENT_NAME")
 def analysis_reaction(gender: str = "Men"):
     """Reaction-time vs place correlation for every year x event, one gender."""
     return analysis.reaction(gender)
+
+
+# --- prelims -> finals comparisons -------------------------------------------
+
+@app.get("/api/compare/time-drop")
+def compare_time_drop(event: str = Query(..., description="Exact EVENT_NAME")):
+    """Prelim vs final swum time for each finalist, aggregated per year."""
+    _check_event(event)
+    return compare.time_drop(event)
+
+
+@app.get("/api/compare/rank-movement")
+def compare_rank_movement(event: str = Query(..., description="Exact EVENT_NAME")):
+    """Prelim (seed) place vs final place for each finalist, per year."""
+    _check_event(event)
+    return compare.rank_movement(event)
+
+
+@app.get("/api/compare/pacing")
+def compare_pacing(event: str = Query(..., description="Exact EVENT_NAME")):
+    """Per-split average delta (prelim - final) indexed by distance, per year."""
+    _check_event(event)
+    return compare.pacing(event)
+
+
+@app.get("/api/compare/meet-drop")
+def compare_meet_drop(gender: str = "Men"):
+    """Every finalist's prelim vs final swim across all events, per year (one gender)."""
+    return compare.meet_drop(gender)
