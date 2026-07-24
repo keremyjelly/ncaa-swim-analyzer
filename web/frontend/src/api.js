@@ -20,6 +20,14 @@ export const fetchReaction = (gender) => get("/api/analysis/reaction", gender ? 
 export const fetchCompare = (kind, event) => get(`/api/compare/${kind}`, { event });
 // Whole-meet prelim->final scatter (all events, one gender).
 export const fetchMeetDrop = (gender) => get("/api/compare/meet-drop", gender ? { gender } : undefined);
+// Head-to-head matchup: roster for the pickers, then two chosen swims.
+export const fetchRoster = (event) => get("/api/events/roster", { event }).then((d) => d.swimmers);
+export const fetchMatchup = (event, a, b) =>
+  get("/api/matchup", {
+    event,
+    aName: a.name, aYear: a.year, aSection: a.section,
+    bName: b.name, bYear: b.year, bSection: b.section,
+  });
 
 // Condense chart labels
 export const shortEvent = (name) =>

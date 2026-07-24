@@ -236,4 +236,23 @@ td.bad { color: #DC143C; }
   font-size: 14px;
 }
 
+/* head-to-head matchup */
+.matchup-sides { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 18px 0 6px; }
+@media (max-width: 600px) { .matchup-sides { grid-template-columns: 1fr; } }
+.matchup-side {
+  background: #fff; border: 1px solid #eceef3; border-top: 3px solid #ccc;
+  border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px;
+}
+.matchup-side-h { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+.matchup-side select {
+  padding: 7px 10px; font-size: 14px; border: 1px solid #d1d5db; border-radius: 8px; background: #fff;
+}
+.matchup-title { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+
+table.compare { width: 100%; border-collapse: collapse; margin-top: 18px; font-size: 14px; font-variant-numeric: tabular-nums; }
+table.compare th, table.compare td { padding: 7px 12px; border-bottom: 1px solid #f0f1f5; text-align: left; }
+table.compare thead th { color: #6b7280; font-weight: 600; }
+table.compare tbody th { color: #6b7280; font-weight: 600; }
+table.compare td.cmp-win { color: #11A046; font-weight: 700; }
+
 footer { margin-top: 20px; color: #9ca3af; font-size: 12px; }

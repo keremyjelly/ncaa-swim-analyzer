@@ -3,12 +3,14 @@ import RaceTrends from "./RaceTrends";
 import SwimmerTrends from "./SwimmerTrends";
 import RaceAnalysis from "./RaceAnalysis";
 import PrelimFinals from "./PrelimFinals";
+import MatchUp from "./MatchUp";
 
 const TABS = [
   { id: "race", label: "Race Trends" },
   { id: "swimmer", label: "Swimmer Trends" },
   { id: "analysis", label: "Race Analysis" },
   { id: "compare", label: "Prelims → Finals" },
+  { id: "matchup", label: "Head-to-Head" },
 ];
 
 const GENDERS = ["Men", "Women"];
@@ -49,6 +51,7 @@ export default function App() {
       {tab === "swimmer" && <SwimmerTrends gender={gender} />}
       {tab === "analysis" && <RaceAnalysis gender={gender} />}
       {tab === "compare" && <PrelimFinals gender={gender} />}
+      {tab === "matchup" && <MatchUp gender={gender} />}
 
       <footer>Data: swim.db via FastAPI.</footer>
     </div>

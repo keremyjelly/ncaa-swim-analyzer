@@ -16,6 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import db
 import analysis
 import compare
+import matchup as matchup_mod
 
 app = FastAPI(
     title="NCAA Swim Analyzer API",
@@ -133,3 +134,23 @@ def compare_pacing(event: str = Query(..., description="Exact EVENT_NAME")):
 def compare_meet_drop(gender: str = "Men"):
     """Every finalist's prelim vs final swim across all events, per year (one gender)."""
     return compare.meet_drop(gender)
+
+
+# --- head-to-head matchup ----------------------------------------------------
+
+@app.get("/api/events/roster")
+def events_roster(event: str = Query(..., description="Exact EVENT_NAME")):
+    """Swimmers in one event with their individual swims, for the matchup pickers."""
+    _check_event(event)
+    return matchup_mod.roster(event)
+
+
+@app.get("/api/matchup")
+def matchup_endpoint(
+    event: str = Query(..., description="Exact EVENT_NAME"),
+    aName: str = Query(...), aYear: int = Query(...), aSection: str = Query(...),
+    bName: str = Query(...), bYear: int = Query(...), bSection: str = Query(...),
+):
+    """Race data for two chosen swims (swimmer + year + prelim/final each)."""
+    _check_event(event)
+    return matchup_mod.matchup(event, aName, aYear, aSection, bName, bYear, bSection)
