@@ -7,6 +7,10 @@ results_data.csv
 raw/
 .venv/
 swim.db
+# migrate_schools.py / migrate_names.py drop a backup here before writing
+swim.db.bak
+# stray root lockfile: there's no root package.json — the real one is in web/frontend
+/package-lock.json
 .ipynb_checkpoints/
 .claude/
 notebooks/
