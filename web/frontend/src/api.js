@@ -29,6 +29,15 @@ export const fetchMatchup = (event, a, b) =>
     bName: b.name, bYear: b.year, bSection: b.section,
   });
 
+// Seed-adjusted prelim->final step-up: seed curve, programs, classes, years.
+export const fetchStepUp = (gender, minN) =>
+  get("/api/stepup", { ...(gender ? { gender } : {}), ...(minN ? { min_n: minN } : {}) });
+export const fetchStepUpSwims = (gender, school) =>
+  get("/api/stepup/swims", { ...(gender ? { gender } : {}), ...(school ? { school } : {}) });
+// Scoring share by class year per season (the COVID 5th-year bubble).
+export const fetchClassShare = (gender) =>
+  get("/api/cohort/class-share", gender ? { gender } : undefined);
+
 // Condense chart labels
 export const shortEvent = (name) =>
   name.replace(/^(Men|Women)\s+/, "").replace(/\s+Yard\s+/, " ");

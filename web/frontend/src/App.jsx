@@ -1,22 +1,24 @@
 import { useState } from "react";
-import RaceTrends from "./RaceTrends";
 import SwimmerTrends from "./SwimmerTrends";
 import RaceAnalysis from "./RaceAnalysis";
 import PrelimFinals from "./PrelimFinals";
 import MatchUp from "./MatchUp";
+import Eligibility from "./Eligibility";
 
 const TABS = [
-  { id: "race", label: "Race Trends" },
-  { id: "swimmer", label: "Swimmer Trends" },
+  // Umbrella: season trend for one event plus the split/reaction analyses.
   { id: "analysis", label: "Race Analysis" },
+  { id: "swimmer", label: "Swimmer Trends" },
+  // Umbrella: per-event drill-downs plus the meet-wide seed-adjusted step-up views.
   { id: "compare", label: "Prelims → Finals" },
   { id: "matchup", label: "Head-to-Head" },
+  { id: "eligibility", label: "5th-Year Bubble" },
 ];
 
 const GENDERS = ["Men", "Women"];
 
 export default function App() {
-  const [tab, setTab] = useState("race");
+  const [tab, setTab] = useState(TABS[0].id);
   const [gender, setGender] = useState("Men");
 
   return (
@@ -47,11 +49,11 @@ export default function App() {
         ))}
       </nav>
 
-      {tab === "race" && <RaceTrends gender={gender} />}
-      {tab === "swimmer" && <SwimmerTrends gender={gender} />}
       {tab === "analysis" && <RaceAnalysis gender={gender} />}
+      {tab === "swimmer" && <SwimmerTrends gender={gender} />}
       {tab === "compare" && <PrelimFinals gender={gender} />}
       {tab === "matchup" && <MatchUp gender={gender} />}
+      {tab === "eligibility" && <Eligibility gender={gender} />}
 
       <footer>Data: swim.db via FastAPI.</footer>
     </div>

@@ -2,37 +2,27 @@ import { useEffect, useMemo, useState } from "react";
 import {
   ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from "recharts";
-import { fetchEvents, fetchTrend, formatTime } from "./api";
+import { fetchTrend, formatTime } from "./api";
 
-// Race trends: winner + top-16 average final time by year for one event.
-export default function RaceTrends({ gender }) {
-  const [events, setEvents] = useState([]);
-  const [selected, setSelected] = useState(null);
+// Winner + top-16 average final time by year for one event.
+//
+// The event picker lives in the Race Analysis umbrella (this is one of its
+// sub-views), so `event` arrives as a prop and this component only owns the
+// trend fetch for whatever event it's handed.
+export default function RaceTrends({ event }) {
   const [trend, setTrend] = useState(null);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetchEvents()
-      .then(setEvents)
-      .catch((e) => setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`));
-  }, []);
-
-  const genderEvents = useMemo(() => events.filter((e) => e.gender === gender), [events, gender]);
-
-  // Keep the selected event valid for the current gender.
-  useEffect(() => {
-    if (!genderEvents.length) return;
-    if (!genderEvents.some((e) => e.name === selected)) {
-      const pref = genderEvents.find((e) => e.name === `${gender} 100 Yard Freestyle`);
-      setSelected((pref ?? genderEvents[0]).name);
-    }
-  }, [genderEvents, gender, selected]);
-
-  useEffect(() => {
-    if (!selected) return;
+    if (!event) return;
     setTrend(null);
-    fetchTrend(selected).then(setTrend).catch((e) => setError(e.message));
-  }, [selected]);
+    setError(null);
+    fetchTrend(event)
+      .then(setTrend)
+      .catch((e) =>
+        setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`)
+      );
+  }, [event]);
 
   const points = trend?.points ?? [];
 
@@ -43,19 +33,10 @@ export default function RaceTrends({ gender }) {
     return { first, last, drop: first.winner_sec - last.winner_sec };
   }, [points]);
 
+  if (error) return <div className="error">{error}</div>;
+
   return (
     <div>
-      {error && <div className="error">{error}</div>}
-
-      <div className="controls">
-        <label htmlFor="event">Event</label>
-        <select id="event" value={selected ?? ""} onChange={(e) => setSelected(e.target.value)}>
-          {genderEvents.map((ev) => (
-            <option key={ev.name} value={ev.name}>{ev.name}</option>
-          ))}
-        </select>
-      </div>
-
       {delta && (
         <div className="stat">
           <span className="stat-num">{delta.drop >= 0 ? "−" : "+"}{Math.abs(delta.drop).toFixed(2)}s</span>

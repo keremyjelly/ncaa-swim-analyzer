@@ -17,6 +17,8 @@ import db
 import analysis
 import compare
 import matchup as matchup_mod
+import stepup as stepup_mod
+import cohort as cohort_mod
 
 app = FastAPI(
     title="NCAA Swim Analyzer API",
@@ -154,3 +156,29 @@ def matchup_endpoint(
     """Race data for two chosen swims (swimmer + year + prelim/final each)."""
     _check_event(event)
     return matchup_mod.matchup(event, aName, aYear, aSection, bName, bYear, bSection)
+
+
+# --- step-up (seed-adjusted prelim -> final) ---------------------------------
+
+@app.get("/api/stepup")
+def stepup_endpoint(
+    gender: str = "Men",
+    min_n: int = Query(40, ge=1, le=500, description="Min swims for a program to be ranked"),
+):
+    """Seed curve + seed-adjusted step-up by program, class year, and meet year."""
+    return stepup_mod.step_up(gender, min_n)
+
+
+@app.get("/api/stepup/swims")
+def stepup_swims_endpoint(
+    gender: str = "Men",
+    school: str | None = Query(None, description="Optional program filter"),
+):
+    """Individual swims behind the step-up aggregates, best-adjusted first."""
+    return stepup_mod.step_up_swims(gender, school)
+
+
+@app.get("/api/cohort/class-share")
+def cohort_class_share(gender: str = "Men"):
+    """Scoring share by class year per season — traces the COVID 5th-year bubble."""
+    return cohort_mod.class_share(gender)

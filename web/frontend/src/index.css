@@ -90,6 +90,23 @@ header h1 {
 .subtab:hover { border-color: #c7cbd1; }
 .subtab.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
 
+/* Labels separating per-event sub-views from meet-wide ones. */
+.subtab-group {
+  align-self: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-right: 2px;
+}
+.subtab-div {
+  align-self: stretch;
+  width: 1px;
+  background: #e5e7eb;
+  margin: 2px 8px;
+}
+
 .toggle { display: flex; gap: 6px; margin-bottom: 14px; }
 .toggle button {
   padding: 5px 13px; font-size: 13px; font-weight: 600;
@@ -215,6 +232,36 @@ tr.row-selected { background: #fdeef0; }
 
 td.good { color: #11A046; }
 td.bad { color: #DC143C; }
+
+/* Step-Up / Eligibility leaderboards and season tables. */
+.su-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+.su-table th {
+  text-align: left;
+  font-weight: 600;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 6px 10px;
+  white-space: nowrap;
+}
+.su-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid #f3f4f6;
+}
+.su-table th.num,
+.su-table td.num { text-align: right; }
+.su-table tbody tr:last-child td { border-bottom: none; }
+.su-table tbody tr:hover { background: #fafbfc; }
+.su-table code {
+  background: #f3f4f6;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-size: 12px;
+}
 
 .card {
   background: #fff;

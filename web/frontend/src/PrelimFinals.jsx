@@ -4,6 +4,7 @@ import {
   XAxis, YAxis, CartesianGrid, Tooltip, ReferenceLine, Legend,
 } from "recharts";
 import { fetchEvents, fetchCompare, fetchMeetDrop, shortEvent, formatTime } from "./api";
+import StepUp, { STEPUP_VIEWS } from "./StepUp";
 
 // Same ordered palette the Race Analysis tab uses for year lines.
 const YEAR_COLORS = ["#4E79A7", "#F28E2B", "#59A14F", "#E15759", "#B07AA1", "#1F2937"];
@@ -16,7 +17,9 @@ const TIP = {
   fontSize: 12, minWidth: 130, fontVariantNumeric: "tabular-nums",
 };
 
-const VIEWS = [
+// Two families of question live under this tab. EVENT_VIEWS drill into one
+// event and need the event picker; STEPUP_VIEWS pool the whole meet and don't.
+const EVENT_VIEWS = [
   { kind: "time-drop", label: "Time Drop",
     blurb: "Each finalist's prelim time vs their final. Points below the diagonal swam faster in the final — green improved, red added time." },
   { kind: "rank-movement", label: "Rank Movement",
@@ -24,6 +27,9 @@ const VIEWS = [
   { kind: "pacing", label: "Where the Drop Happens",
     blurb: "Average per-segment change from prelims to finals, by cumulative distance. Above 0 = that stretch of the race was faster in the final." },
 ];
+
+const VIEWS = [...EVENT_VIEWS, ...STEPUP_VIEWS];
+const isEventView = (kind) => EVENT_VIEWS.some((v) => v.kind === kind);
 
 // A signed drop in seconds: +0.29s faster, −0.10s slower.
 const fmtSec = (v) =>
@@ -57,6 +63,7 @@ export default function PrelimFinals({ gender }) {
   }, [events, gender, event]);
 
   useEffect(() => {
+    if (!isEventView(kind)) return; // meet-wide views fetch their own data
     setData(null);
     const forKind = kind;
     if (event && event.startsWith(gender)) {
@@ -66,6 +73,7 @@ export default function PrelimFinals({ gender }) {
     }
   }, [kind, event, gender]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  const eventScoped = isEventView(kind);
   const ready = data && data.forKind === kind;
 
   return (
@@ -73,25 +81,40 @@ export default function PrelimFinals({ gender }) {
       {error && <div className="error">{error}</div>}
 
       <nav className="subtabs">
-        {VIEWS.map((v) => (
+        <span className="subtab-group">One event</span>
+        {EVENT_VIEWS.map((v) => (
+          <button key={v.kind} className={v.kind === kind ? "subtab active" : "subtab"}
+            onClick={() => setKind(v.kind)}>{v.label}</button>
+        ))}
+        <span className="subtab-div" aria-hidden="true" />
+        <span className="subtab-group">Across the meet</span>
+        {STEPUP_VIEWS.map((v) => (
           <button key={v.kind} className={v.kind === kind ? "subtab active" : "subtab"}
             onClick={() => setKind(v.kind)}>{v.label}</button>
         ))}
       </nav>
 
-      <div className="controls">
-        <div className="field">
-          <label htmlFor="pf-event">Event</label>
-          <select id="pf-event" value={event ?? ""} onChange={(e) => setEvent(e.target.value)}>
-            {events.map((e) => <option key={e.name} value={e.name}>{shortEvent(e.name)}</option>)}
-          </select>
+      {eventScoped ? (
+        <div className="controls">
+          <div className="field">
+            <label htmlFor="pf-event">Event</label>
+            <select id="pf-event" value={event ?? ""} onChange={(e) => setEvent(e.target.value)}>
+              {events.map((e) => <option key={e.name} value={e.name}>{shortEvent(e.name)}</option>)}
+            </select>
+          </div>
+          <span className="meta">{meta.blurb}</span>
         </div>
-        <span className="meta">{meta.blurb}</span>
-      </div>
+      ) : (
+        <p className="sub">{meta.blurb}</p>
+      )}
 
-      <div className="card">
-        {!ready ? <div className="loading">Loading…</div> : <View kind={kind} data={data.payload} gender={gender} />}
-      </div>
+      {eventScoped ? (
+        <div className="card">
+          {!ready ? <div className="loading">Loading…</div> : <View kind={kind} data={data.payload} gender={gender} />}
+        </div>
+      ) : (
+        <StepUp gender={gender} view={kind} />
+      )}
     </div>
   );
 }

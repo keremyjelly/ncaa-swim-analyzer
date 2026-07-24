@@ -4,6 +4,7 @@ import {
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ReferenceLine, ReferenceArea,
 } from "recharts";
 import { fetchEvents, fetchAnalysisEvent, fetchReaction, shortEvent } from "./api";
+import RaceTrends from "./RaceTrends";
 
 // Ordered palette for the year lines.
 const YEAR_COLORS = ["#4E79A7", "#F28E2B", "#59A14F", "#E15759", "#B07AA1", "#1F2937"];
@@ -16,21 +17,29 @@ const divergeColor = (v, maxAbs = 1) => {
   return t < 0 ? `rgba(65,105,225,${a})` : `rgba(220,20,60,${a})`;
 };
 
+// `scope` picks which events the picker offers:
+//   "all"    — every event, relays included (a season trend needs no splits)
+//   "splits" — individual events of 100 yd or more, the only ones with usable
+//              split data for the pacing/correlation views
 const ANALYSES = [
-  { kind: "split-distribution", label: "Split Distribution", control: "event",
+  { kind: "trend", label: "Season Trend", control: "event", scope: "all", prefer: "100 Yard Freestyle",
+    blurb: "Winning time and top-16 average for one event, 2021-2026. The gap between the two lines is the field's depth: a narrowing gap means the pack is catching the winner." },
+  { kind: "split-distribution", label: "Split Distribution", control: "event", scope: "splits", prefer: "200 Yard Freestyle",
     blurb: "One event's average pacing shape across 2021-2026. Each split is shown as % above/below that year's own average split. Thus 0 indicates average pace, negative indicates faster than pace (like the dive), and positive indicates slower than pace. Split marks are cumulative yards." },
-  { kind: "split-place", label: "Split → Place", control: "event",
+  { kind: "split-place", label: "Split → Place", control: "event", scope: "splits", prefer: "200 Yard Freestyle",
     blurb: "How strongly each split correlates with final place, year by year. Higher bar suggests that the split separated the field more that year." },
-  { kind: "reaction", label: "Reaction Time", control: "none",
+  { kind: "reaction", label: "Reaction Time", control: "none", scope: "splits",
     blurb: "Reaction-time vs final-place correlation for every year and freestyle event (−1…1). Red = a slow start correlated to a worse place (reaction mattered); blue = the inverse; pale = little to no correlation." },
 ];
+
+const inScope = (e, scope) => (scope === "all" ? true : !e.is_relay && e.distance >= 100);
 
 const fmtPct = (v) => (v == null ? "—" : `${v > 0 ? "+" : ""}${v.toFixed(1)}%`);
 
 export default function RaceAnalysis({ gender }) {
   const [allEvents, setAllEvents] = useState([]);
   const [event, setEvent] = useState(null);
-  const [kind, setKind] = useState("split-distribution");
+  const [kind, setKind] = useState("trend");
   const [data, setData] = useState(null); // { forKind, payload }
   const [error, setError] = useState(null);
 
@@ -38,22 +47,28 @@ export default function RaceAnalysis({ gender }) {
 
   useEffect(() => {
     fetchEvents()
-      .then((evs) => setAllEvents(evs.filter((e) => !e.is_relay && e.distance >= 100)))
+      .then(setAllEvents)
       .catch((e) => setError(`Couldn't reach the API (${e.message}). Is the backend running on :8000?`));
   }, []);
 
-  const events = useMemo(() => allEvents.filter((e) => e.gender === gender), [allEvents, gender]);
+  // Events offered for the current gender AND the active view's scope.
+  const events = useMemo(
+    () => allEvents.filter((e) => e.gender === gender && inScope(e, meta.scope)),
+    [allEvents, gender, meta.scope]
+  );
 
-  // Keep the selected event valid for the current gender.
+  // Keep the selection valid as gender or view scope changes. An event that's
+  // legal in both scopes carries over, so switching views keeps your place.
   useEffect(() => {
     if (!events.length) return;
     if (!events.some((e) => e.name === event)) {
-      const pref = events.find((e) => e.name === `${gender} 200 Yard Freestyle`);
+      const pref = meta.prefer && events.find((e) => e.name === `${gender} ${meta.prefer}`);
       setEvent((pref ?? events[0]).name);
     }
-  }, [events, gender, event]);
+  }, [events, gender, event, meta.prefer]);
 
   useEffect(() => {
+    if (kind === "trend") return; // the trend sub-view fetches its own data
     setData(null);
     const forKind = kind;
     const req = meta.control === "event"
@@ -87,9 +102,13 @@ export default function RaceAnalysis({ gender }) {
         <span className="meta">{meta.blurb}</span>
       </div>
 
-      <div className="card">
-        {!ready ? <div className="loading">Loading…</div> : <Chart kind={kind} data={data.payload} />}
-      </div>
+      {kind === "trend" ? (
+        <RaceTrends event={event} />
+      ) : (
+        <div className="card">
+          {!ready ? <div className="loading">Loading…</div> : <Chart kind={kind} data={data.payload} />}
+        </div>
+      )}
 
       {ready && kind === "split-distribution" && data.payload.years?.length > 0 && (
         <FrontBackTable years={data.payload.years} />
